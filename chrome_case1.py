@@ -8,17 +8,16 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-path = '/Users/Shadow/Downloads/Imperial/Individual/selenium/chromedriver'
+path = './chromedriver'
 a = '--load-extension='
-extension_p = '/Users/Shadow/Downloads/Imperial/Individual/selenium/ecap.crx'
+extension_p = './ecap.crx'
 extension_list = 'chrome://extensions-frame'
 extension_option = 'chrome-extension://bjloopkdhkfpllfogfeboofijlenbbie/options.html'
 url = 'http://www.baidu.com'
-ID = 'bjloopkdhkfpllfogfeboofijlenbbie'
+
 download = './'
 prefs = {'profile.default_content_settings.popups': 0, 'download.default_directory': download}
 
-cmd = 'chrome-extension://' + ID + '/command.html?'
 start = 'start'
 stop = 'stop'
 toggle = 'toggle'
@@ -27,6 +26,18 @@ clear = 'clear'
 
 doc = '/Users/Shadow/Downloads/'
 test = 'ECAP_G_2017-06-14T12-39-51.155Z.json'
+
+
+def get_ID(br):
+    br.get('chrome://extensions-frame')
+    names = br.find_elements_by_xpath("//div[@id='extension-settings-list']/div/div/div/div/h2")
+    ID = br.find_elements_by_class_name('extension-list-item-wrapper')
+
+    for ind, name in enumerate(names):
+        print str(name.text), isinstance(str(name.text), str), len(str(name.text))
+        print
+        if cmp(str(name.text), 'listener') == 0:
+            str(ID[ind].get_attribute('id'))
 
 
 def send_cmd(br, command):
@@ -44,7 +55,7 @@ def analyse_json(path):
 
     for package in data:
         if package['type'].count('tab') > 0 or package['type'].count('navigation') > 0 \
-                or package['type'].count('window') > 0:
+                or package['type'].count('window') > 0 or package['type'].count('variable') > 0:
             continue
 
     print data
@@ -58,8 +69,7 @@ def analyse_json(path):
 
 # browser.get(cmd + start)
 
-# search = browser.find_element_by_id("kw")
-# search.send_keys('test')
+
 # click = browser.find_element_by_id("su")
 # click.send_keys(Keys.RETURN)
 # browser.get(extension_list)
@@ -72,12 +82,21 @@ if __name__ == '__main__':
 
     browser = webdriver.Chrome(path, chrome_options=listener)
 
+    print get_ID(browser)
+
+    cmd = 'chrome-extension://' + get_ID(browser) + '/command.html?'
+    cmd = 'chrome-extension://' + get_ID(browser) + '/command.html?'
+
+    # search = browser.find_element_by_id("kw")
+    # search.send_keys('test')
+
+
     # send_cmd(browser, cmd + start)
 
     # case = sys.argv[1]
 
     # analyse_json(path + test)
-    print 'hello world'
+    # print 'hello world'
     # Need modified
     # fd = open('shoes_case1.txt')
     # for i in fd:
