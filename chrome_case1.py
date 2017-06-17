@@ -74,17 +74,17 @@ if __name__ == '__main__':
 
     # send_cmd(browser, cmd + start)
 
-    case = sys.argv[1]
+    # case = sys.argv[1]
 
-    analyse_json(path + test)
-
+    # analyse_json(path + test)
+    print 'hello world'
     # Need modified
-    fd = open('shoes_case1.txt')
-    for i in fd:
-        send_cmd(browser, cmd + clear)
-        browser.get(i)
-        send_cmd(browser, cmd + save)
-        analyse_json(download)
+    # fd = open('shoes_case1.txt')
+    # for i in fd:
+    #     send_cmd(browser, cmd + clear)
+    #     browser.get(i)
+    #     send_cmd(browser, cmd + save)
+    #     analyse_json(download)
 
     # print browser.title
     # print browser.page_source
