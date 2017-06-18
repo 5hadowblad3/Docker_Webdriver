@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 path = './chromedriver'
 a = '--load-extension='
-extension_p = './ecap.crx'
+extension_p = 'ecap.crx'
 extension_list = 'chrome://extensions-frame'
 extension_option = 'chrome-extension://bjloopkdhkfpllfogfeboofijlenbbie/options.html'
 url = 'http://www.baidu.com'
@@ -35,9 +35,8 @@ def get_ID(br):
 
     for ind, name in enumerate(names):
         print str(name.text), isinstance(str(name.text), str), len(str(name.text))
-        print
         if cmp(str(name.text), 'listener') == 0:
-            str(ID[ind].get_attribute('id'))
+            return str(ID[ind].get_attribute('id'))
 
 
 def send_cmd(br, command):
