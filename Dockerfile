@@ -5,7 +5,7 @@ MAINTAINER Shadow
 
 RUN apt-get update && \
 apt-get install -yf unzip libnss3-dev libxi6 libgconf-2-4 \
-libxss1 libappindicator1 libindicator7
+libxss1 libappindicator1 libindicator7 libasound2 libgtk-3-0 libx11-xcb1 libxtst6 fonts-liberation xdg-utils
 
 RUN pip install selenium
 RUN wget https://chromedriver.storage.googleapis.com/2.9/chromedriver_linux64.zip && \
