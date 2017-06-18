@@ -4,7 +4,7 @@ FROM python:2.7.13
 MAINTAINER Shadow
 
 
-RUN apt-get update && apt-get install unzip
+RUN apt-get update && apt-get install unzip libnss3-dev
 RUN pip install selenium==3.0.0b3
 RUN wget https://chromedriver.storage.googleapis.com/2.9/chromedriver_linux64.zip && \
 unzip chromedriver_linux64.zip && rm -rf chromedriver_linux64.zip
