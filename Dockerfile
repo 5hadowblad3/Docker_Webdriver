@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu
 FROM python:2.7.13
 
 MAINTAINER Shadow
