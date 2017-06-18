@@ -76,13 +76,11 @@ def analyse_json(path):
 if __name__ == '__main__':
 
     listener = Options()
-    listener.add_argument('--dns-prefetch-disable')
-    listener.add_argument('--no-sandbox')
     listener.add_extension(extension_p)
     listener.add_experimental_option('prefs', prefs)
 
     browser = webdriver.Chrome(path, chrome_options=listener)
-
+    print 'enter'
     print get_ID(browser)
 
     cmd = 'chrome-extension://' + get_ID(browser) + '/command.html?'
