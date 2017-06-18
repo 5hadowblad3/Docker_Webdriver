@@ -12,7 +12,7 @@ path = './chromedriver'
 a = '--load-extension='
 extension_p = 'ecap.crx'
 extension_list = 'chrome://extensions-frame'
-extension_option = 'chrome-extension://bjloopkdhkfpllfogfeboofijlenbbie/options.html'
+
 url = 'http://www.baidu.com'
 
 download = './'
