@@ -108,4 +108,4 @@ if __name__ == '__main__':
     # print browser.page_source
 
 
-#browser.quit()
+    browser.quit()
