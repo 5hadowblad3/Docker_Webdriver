@@ -13,7 +13,8 @@ COPY chrome_case1.py .
 COPY ecap.crx .
 COPY food_case2.txt .
 
-RUN chromedriver
+RUN ls
+RUN ./chromedriver
 
 RUN python chrome_case1.py
 
