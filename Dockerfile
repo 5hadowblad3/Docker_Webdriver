@@ -13,7 +13,7 @@ COPY chrome_case1.py .
 COPY ecap.crx .
 COPY food_case2.txt .
 
-RUN python chrome_case1.py
+RUN sudo python chrome_case1.py
 
 
 
