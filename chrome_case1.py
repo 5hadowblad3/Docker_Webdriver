@@ -79,7 +79,7 @@ if __name__ == '__main__':
     listener.add_extension(extension_p)
     listener.add_experimental_option('prefs', prefs)
 
-    browser = webdriver.Chrome(path, chrome_options=listener)
+    browser = webdriver.Chrome(chrome_options=listener)
     print 'enter'
     print get_ID(browser)
 
