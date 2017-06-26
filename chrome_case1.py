@@ -131,7 +131,7 @@ def analyse_json(path, location):
             instance.append(0)
 
         # save final marke
-        fd2.write(str(flag))
+        fd2.write(str(flag) + '\n')
         instance.append(flag)
 
         # save marked instance
@@ -163,7 +163,7 @@ if __name__ == '__main__':
     # search = browser.find_element_by_id("kw")
     # search.send_keys('test')
 
-    # send_cmd(browser, cmd + start)
+    send_cmd(browser, cmd + start)
 
     # case = sys.argv[1]
 
@@ -171,14 +171,14 @@ if __name__ == '__main__':
 
     # print 'hello world'
     # Need modified
-    # fd = open('shoes_case1.txt')
-    # for i in fd:
-    #     send_cmd(browser, cmd + clear)
-    #     browser.get(i)
-    #     send_cmd(browser, cmd + save)
-    #     json_file = os.listdir(download_path)[0]
-    #     analyse_json(download_path + json_file)
-    #     shutil.move(download_path + json_file, backup_path + json_file)
+    fd = open('food_case2.txt')
+    for i in fd:
+        send_cmd(browser, cmd + clear)
+        browser.get(i)
+        send_cmd(browser, cmd + save)
+        json_file = os.listdir(download_path)[0]
+        analyse_json(download_path + json_file)
+        shutil.move(download_path + json_file, backup_path + json_file)
 
     # print browser.title
     # print browser.page_source
