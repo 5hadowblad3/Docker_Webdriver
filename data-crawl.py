@@ -4,9 +4,9 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-url = 'http://www.independent.co.uk/extras/indybest/food-drink/the-50-best-food-websites-8665600.html'
+url = 'https://savvybookwriters.wordpress.com/2012/08/01/63-top-websites-to-announce-your-book-for-free/'
 
-f = open('food_case2.txt', 'w')
+f = open('book_case3.txt', 'w')
 
 ind = 0
 
@@ -14,12 +14,15 @@ res = requests.get(url)
 
 
 while ind < len(res.text):
-    start = res.text.find('\" target=\"_blank\" title=', ind)
-    end = res.text.find('>', start)
+    start = res.text.find('<a title=\"', ind)
+    title = res.text.find('')
+    end = res.text.find('\" _target=\"', start)
     # print "sss " + res.text[start:end]
     if start == -1:
         break
-    payload = res.text[start + 25:end - 1]
+    payload = res.text[start + 10:end - 1]
+    print 'lala'
+    print payload
     if payload.count('class') == 0 and len(payload) > 0 and payload.count('.') > 0:
         print payload
         f.write(payload + '\n')
