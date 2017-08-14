@@ -1,0 +1,2046 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703983638
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 96035,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/3a3bd78d-3810-46f2-b627-d129418681f5",
+          "id": 41,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-14T09:46:23.640Z",
+          "state": "in_progress",
+          "totalBytes": 96035,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/3a3bd78d-3810-46f2-b627-d129418681f5"
+        }
+      },
+      "timeStamp": 1502703983641
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 96035,
+          "filename": "ECAP_G_2017-08-14T09-46-23.612Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/3a3bd78d-3810-46f2-b627-d129418681f5",
+          "id": 41,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-14T09:46:23.640Z",
+          "state": "in_progress",
+          "totalBytes": 96035,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/3a3bd78d-3810-46f2-b627-d129418681f5"
+        }
+      },
+      "timeStamp": 1502703983643
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-14T09-46-23.612Z.json",
+            "previous": ""
+          },
+          "id": 41
+        }
+      },
+      "timeStamp": 1502703983648
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-14T09:46:23.650Z"
+          },
+          "id": 41,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1502703983650
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1502703985694,
+      "url": "http://www.wowio.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3907",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.wowio.com/",
+      "id": 4057,
+      "contextId": 328,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703985694,
+      "end": 1502703985695,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3907",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "http://www.studiowdigital.com"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        }
+      ],
+      "statusCode": 301,
+      "statusLine": "HTTP/1.1 301 Moved Permanently",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.wowio.com/",
+      "id": 4057,
+      "contextId": 328,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986101,
+      "end": 1502703986103,
+      "fromCache": false,
+      "ip": "216.21.224.199",
+      "redirectUrl": "http://www.studiowdigital.com/"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3907",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.studiowdigital.com/",
+      "id": 4058,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986103,
+      "end": 1502703986104,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://www.studiowdigital.com/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "www.studiowdigital.com",
+          "url": "http://www.studiowdigital.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703986366
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1502703986367
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 48,
+      "tabId": 2,
+      "timeStamp": 1502703986368,
+      "transitionQualifiers": [
+        "server_redirect"
+      ],
+      "transitionType": "typed",
+      "url": "http://www.studiowdigital.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "72",
+          "lastVisitTime": 1502703986363.488,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://www.wowio.com/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1502703986377
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "73",
+          "lastVisitTime": 1502703986363.488,
+          "title": "",
+          "typedCount": 0,
+          "url": "http://www.studiowdigital.com/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1502703986377
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3908",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700",
+      "id": 4059,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986377,
+      "end": 1502703986378,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.studiowdigital.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3909",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.studiowdigital.com/assets/application-2f7e7f30d812d0f3950918c7562df7e68eeeebd8649bdea2bc3844eb07fc8269.css",
+      "id": 4060,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986378,
+      "end": 1502703986378,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.studiowdigital.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "studiowdigital.com is coming soon"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "studiowdigital.com is coming soon",
+          "url": "http://www.studiowdigital.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703986378
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3908",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Mon, 14 Aug 2017 09:46:26 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 14 Aug 2017 09:46:26 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 14 Aug 2017 09:46:26 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700",
+      "id": 4059,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986387,
+      "end": 1502703986387,
+      "fromCache": false,
+      "ip": "216.58.208.138"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3907",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Status",
+          "value": "200 OK"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"305c5c34cd3bd657f1184546faa4e9df\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "X-Request-Id",
+          "value": "4da07bec-3509-471e-b0e4-a63824395304"
+        },
+        {
+          "name": "X-Runtime",
+          "value": "0.008474"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Phusion Passenger 4.0.53"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:50:28 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "nginx/1.6.2 + Phusion Passenger 4.0.53"
+        },
+        {
+          "name": "P3P",
+          "value": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.studiowdigital.com/",
+      "id": 4058,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986360,
+      "end": 1502703986432,
+      "fromCache": false,
+      "ip": "64.98.145.30"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3910",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.studiowdigital.com/assets/hv_logo_retina-6a2ba8350907d4a17bfc7863c2f1378e38a53bd22b790c69c14143b0f9ce45ca.png",
+      "id": 4061,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986433,
+      "end": 1502703986433,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.studiowdigital.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3909",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx/1.6.2"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:49:57 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2745"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 23 Sep 2016 13:49:21 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "ETag",
+          "value": "\"57e532e1-ab9\""
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 13 Sep 2017 09:49:57 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=2592000"
+        },
+        {
+          "name": "P3P",
+          "value": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.studiowdigital.com/assets/application-2f7e7f30d812d0f3950918c7562df7e68eeeebd8649bdea2bc3844eb07fc8269.css",
+      "id": 4060,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986450,
+      "end": 1502703986450,
+      "fromCache": false,
+      "ip": "64.98.145.30"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3912",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 4063,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986465,
+      "end": 1502703986465,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.studiowdigital.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3912",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "13964"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 09 Aug 2017 20:17:24 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 09 Aug 2018 20:17:24 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 14 Jun 2017 16:46:31 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "393834"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 4063,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986466,
+      "end": 1502703986466,
+      "fromCache": true,
+      "ip": "216.58.208.131"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3913",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 4064,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986475,
+      "end": 1502703986476,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.studiowdigital.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3913",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "14488"
+        },
+        {
+          "name": "date",
+          "value": "Thu, 03 Aug 2017 20:04:27 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 03 Aug 2018 20:04:27 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 14 Jun 2017 16:45:42 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "913011"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 4064,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986476,
+      "end": 1502703986476,
+      "fromCache": true,
+      "ip": "216.58.208.131"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 48,
+      "tabId": 2,
+      "timeStamp": 1502703986497,
+      "url": "http://www.studiowdigital.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3914",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 4065,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986541,
+      "end": 1502703986541,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.studiowdigital.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3914",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "14636"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 09 Aug 2017 18:18:45 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 09 Aug 2018 18:18:45 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 14 Jun 2017 16:46:23 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "400953"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 4065,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986541,
+      "end": 1502703986541,
+      "fromCache": true,
+      "ip": "216.58.208.131"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/analytics.js",
+      "requestId": "3911",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/analytics.js"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google-analytics.com/analytics.js",
+      "id": 4062,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1502703986560
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3911",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 4066,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986560,
+      "end": 1502703986560,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.studiowdigital.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3911",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 14 Aug 2017 08:09:01 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Mon, 14 Aug 2017 10:09:01 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 01 Aug 2017 03:25:32 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "13249"
+        },
+        {
+          "name": "age",
+          "value": "5426"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 4066,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986560,
+      "end": 1502703986561,
+      "fromCache": true,
+      "ip": "216.58.208.142"
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://www.studiowdigital.com/",
+      "timeStamp": 1502703986566,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.studiowdigital.com/",
+      "contextId": 329,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1502703986566,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.studiowdigital.com/",
+      "contextId": 329,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "studiowdigital.com is coming soon",
+      "timeStamp": 1502703986567,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.studiowdigital.com/",
+      "contextId": 329,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "source",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1502703986567,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.studiowdigital.com/",
+      "contextId": 329,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "q",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1502703986567,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.studiowdigital.com/",
+      "contextId": 329,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".studiowdigital.com",
+        "expirationDate": 1565775986,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.1662184038.1502703987"
+      },
+      "removed": false,
+      "timeStamp": 1502703986573
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_ga",
+      "type": "cookie",
+      "value": "GA1.2.1662184038.1502703987",
+      "timeStamp": 1502703986573
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".studiowdigital.com",
+        "expirationDate": 1502790386,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.1966525831.1502703987"
+      },
+      "removed": false,
+      "timeStamp": 1502703986574
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gid",
+      "type": "cookie",
+      "value": "GA1.2.1966525831.1502703987",
+      "timeStamp": 1502703986574
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".studiowdigital.com",
+        "expirationDate": 1502704046,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gat",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1502703986579
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gat",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1502703986579
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3910",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx/1.6.2"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:50:28 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "14922"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 13 Oct 2015 20:32:00 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "ETag",
+          "value": "\"561d6a40-3a4a\""
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 13 Sep 2017 09:50:28 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=2592000"
+        },
+        {
+          "name": "P3P",
+          "value": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.studiowdigital.com/assets/hv_logo_retina-6a2ba8350907d4a17bfc7863c2f1378e38a53bd22b790c69c14143b0f9ce45ca.png",
+      "id": 4061,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986507,
+      "end": 1502703986580,
+      "fromCache": false,
+      "ip": "64.98.145.30"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/r/collect?v=1&_v=j58&a=861980108&t=pageview&_s=1&dl=http%3A%2F%2Fwww.studiowdigital.com%2F&ul=en-gb&de=UTF-8&dt=studiowdigital.com%20is%20coming%20soon&sd=24-bit&sr=1920x1080&vp=935x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1915561308&gjid=525458498&cid=1662184038.1502703987&tid=UA-4171338-43&_gid=1966525831.1502703987&_r=1&z=447712436",
+      "requestId": "3915",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/r/collect?v=1&_v=j58&a=861980108&t=pageview&_s=1&dl=http%3A%2F%2Fwww.studiowdigital.com%2F&ul=en-gb&de=UTF-8&dt=studiowdigital.com%20is%20coming%20soon&sd=24-bit&sr=1920x1080&vp=935x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1915561308&gjid=525458498&cid=1662184038.1502703987&tid=UA-4171338-43&_gid=1966525831.1502703987&_r=1&z=447712436"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.google-analytics.com/r/collect?v=1&_v=j58&a=861980108&t=pageview&_s=1&dl=http%3A%2F%2Fwww.studiowdigital.com%2F&ul=en-gb&de=UTF-8&dt=studiowdigital.com%20is%20coming%20soon&sd=24-bit&sr=1920x1080&vp=935x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1915561308&gjid=525458498&cid=1662184038.1502703987&tid=UA-4171338-43&_gid=1966525831.1502703987&_r=1&z=447712436",
+      "id": 4067,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1502703986582
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3915",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j58&a=861980108&t=pageview&_s=1&dl=http%3A%2F%2Fwww.studiowdigital.com%2F&ul=en-gb&de=UTF-8&dt=studiowdigital.com%20is%20coming%20soon&sd=24-bit&sr=1920x1080&vp=935x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1915561308&gjid=525458498&cid=1662184038.1502703987&tid=UA-4171338-43&_gid=1966525831.1502703987&_r=1&z=447712436",
+      "id": 4068,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986582,
+      "end": 1502703986584,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.studiowdigital.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3915",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 14 Aug 2017 09:46:26 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j58&a=861980108&t=pageview&_s=1&dl=http%3A%2F%2Fwww.studiowdigital.com%2F&ul=en-gb&de=UTF-8&dt=studiowdigital.com%20is%20coming%20soon&sd=24-bit&sr=1920x1080&vp=935x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1915561308&gjid=525458498&cid=1662184038.1502703987&tid=UA-4171338-43&_gid=1966525831.1502703987&_r=1&z=447712436",
+      "id": 4068,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986595,
+      "end": 1502703986596,
+      "fromCache": false,
+      "ip": "216.58.208.142"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 48,
+      "tabId": 2,
+      "timeStamp": 1502703986597,
+      "url": "http://www.studiowdigital.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "studiowdigital.com is coming soon",
+          "url": "http://www.studiowdigital.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703986597
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3916",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.studiowdigital.com/favicon.ico",
+      "id": 4069,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986597,
+      "end": 1502703986597,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.studiowdigital.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1662184038.1502703987; _gid=GA1.2.1966525831.1502703987; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3916",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Status",
+          "value": "200 OK"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"305c5c34cd3bd657f1184546faa4e9df\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "X-Request-Id",
+          "value": "3760f153-efc4-420c-b69c-c982853625f1"
+        },
+        {
+          "name": "X-Runtime",
+          "value": "0.007755"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Phusion Passenger 4.0.53"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:50:28 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "nginx/1.6.2 + Phusion Passenger 4.0.53"
+        },
+        {
+          "name": "P3P",
+          "value": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.studiowdigital.com/favicon.ico",
+      "id": 4069,
+      "contextId": 329,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703986680,
+      "end": 1502703986753,
+      "fromCache": false,
+      "ip": "64.98.145.30"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3917",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 4070,
+      "contextId": 330,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703987640,
+      "end": 1502703987641
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3917",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 4070,
+      "contextId": 330,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703987641,
+      "end": 1502703987647
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703987647
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1502703987647
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1502703987647,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1502703987642.302,
+          "title": "Save",
+          "typedCount": 42,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 42
+        }
+      },
+      "timeStamp": 1502703987648
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703987649
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3918",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 4071,
+      "contextId": 330,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703987649,
+      "end": 1502703987649
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3918",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 4071,
+      "contextId": 330,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703987649,
+      "end": 1502703987649
+    }
+  }
+]

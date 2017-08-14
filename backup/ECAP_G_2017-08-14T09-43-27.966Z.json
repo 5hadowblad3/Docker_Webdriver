@@ -1,0 +1,5040 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703803061
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 631351,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/f524b6ad-80d7-4094-99a7-29077a030f35",
+          "id": 31,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-14T09:43:23.067Z",
+          "state": "in_progress",
+          "totalBytes": 631351,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/f524b6ad-80d7-4094-99a7-29077a030f35"
+        }
+      },
+      "timeStamp": 1502703803067
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 631351,
+          "filename": "ECAP_G_2017-08-14T09-43-23.050Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/f524b6ad-80d7-4094-99a7-29077a030f35",
+          "id": 31,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-14T09:43:23.067Z",
+          "state": "in_progress",
+          "totalBytes": 631351,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/f524b6ad-80d7-4094-99a7-29077a030f35"
+        }
+      },
+      "timeStamp": 1502703803071
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-14T09-43-23.050Z.json",
+            "previous": ""
+          },
+          "id": 31
+        }
+      },
+      "timeStamp": 1502703803083
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-14T09:43:23.092Z"
+          },
+          "id": 31,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1502703803092
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1502703805126,
+      "url": "http://www.snipfiles.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3415",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.snipfiles.com/",
+      "id": 3543,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805126,
+      "end": 1502703805127,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3415",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:43:25 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61807622"
+        },
+        {
+          "name": "Age",
+          "value": "0"
+        },
+        {
+          "name": "X-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.snipfiles.com/",
+      "id": 3543,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805574,
+      "end": 1502703805576,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://www.snipfiles.com/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "www.snipfiles.com",
+          "url": "http://www.snipfiles.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703805581
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1502703805581
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 38,
+      "tabId": 2,
+      "timeStamp": 1502703805582,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://www.snipfiles.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3416",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/style.css",
+      "id": 3544,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805591,
+      "end": 1502703805592,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3417",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.snipfiles.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css_ver=78d971faa2c4c68156382c8313069485",
+      "id": 3545,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805602,
+      "end": 1502703805602,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3418",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.snipfiles.com/wp-includes/js/jquery/jquery.js_ver=78d971faa2c4c68156382c8313069485",
+      "id": 3546,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805602,
+      "end": 1502703805603,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3419",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.snipfiles.com/wp-includes/js/jquery/jquery-migrate.min.js_ver=78d971faa2c4c68156382c8313069485",
+      "id": 3547,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805603,
+      "end": 1502703805603,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3420",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.snipfiles.com/wp-content/plugins/add-to-favourites/atf.js",
+      "id": 3548,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805603,
+      "end": 1502703805603,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3421",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.snipfiles.com/wp-content/plugins/spam-stopper/spam-stopper.css",
+      "id": 3549,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805604,
+      "end": 1502703805604,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3422",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.snipfiles.com/wp-content/plugins/wp-gbcf/wp-gbcf_themes/default.css",
+      "id": 3550,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805604,
+      "end": 1502703805604,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3423",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/js/domtab.js",
+      "id": 3551,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805604,
+      "end": 1502703805604,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "57",
+          "lastVisitTime": 1502703805577.807,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://www.snipfiles.com/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1502703805605
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "FREE EBOOKS & SOFTWARE DOWNLOADS SNIPFILES.COM"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "FREE EBOOKS & SOFTWARE DOWNLOADS SNIPFILES.COM",
+          "url": "http://www.snipfiles.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703805605
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3416",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 06:03:33 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:46 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61421034 57626961"
+        },
+        {
+          "name": "Age",
+          "value": "13192"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "79"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2667"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/style.css",
+      "id": 3544,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805702,
+      "end": 1502703805704,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3417",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:43:25 GMT"
+        },
+        {
+          "name": "Location",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "56880846"
+        },
+        {
+          "name": "Age",
+          "value": "0"
+        },
+        {
+          "name": "X-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 301,
+      "statusLine": "HTTP/1.1 301 Moved Permanently",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.snipfiles.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css_ver=78d971faa2c4c68156382c8313069485",
+      "id": 3545,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805718,
+      "end": 1502703805719,
+      "fromCache": false,
+      "ip": "174.36.119.152",
+      "redirectUrl": "http://www.snipfiles.com/"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3417",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.snipfiles.com/",
+      "id": 3552,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805720,
+      "end": 1502703805720,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3418",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:43:25 GMT"
+        },
+        {
+          "name": "Location",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61807624"
+        },
+        {
+          "name": "Age",
+          "value": "0"
+        },
+        {
+          "name": "X-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 301,
+      "statusLine": "HTTP/1.1 301 Moved Permanently",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.snipfiles.com/wp-includes/js/jquery/jquery.js_ver=78d971faa2c4c68156382c8313069485",
+      "id": 3546,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805720,
+      "end": 1502703805721,
+      "fromCache": false,
+      "ip": "174.36.119.152",
+      "redirectUrl": "http://www.snipfiles.com/"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3418",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.snipfiles.com/",
+      "id": 3553,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805721,
+      "end": 1502703805722,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3422",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 06:41:23 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:48 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "58641630 45789958"
+        },
+        {
+          "name": "Age",
+          "value": "10922"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "62"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1073"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.snipfiles.com/wp-content/plugins/wp-gbcf/wp-gbcf_themes/default.css",
+      "id": 3550,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805814,
+      "end": 1502703805815,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3420",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 05:57:59 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:48 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "56880849 43590738"
+        },
+        {
+          "name": "Age",
+          "value": "13525"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "82"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "280"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.snipfiles.com/wp-content/plugins/add-to-favourites/atf.js",
+      "id": 3548,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805815,
+      "end": 1502703805816,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3419",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:43:25 GMT"
+        },
+        {
+          "name": "Location",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61807627"
+        },
+        {
+          "name": "Age",
+          "value": "0"
+        },
+        {
+          "name": "X-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 301,
+      "statusLine": "HTTP/1.1 301 Moved Permanently",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.snipfiles.com/wp-includes/js/jquery/jquery-migrate.min.js_ver=78d971faa2c4c68156382c8313069485",
+      "id": 3547,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805822,
+      "end": 1502703805823,
+      "fromCache": false,
+      "ip": "174.36.119.152",
+      "redirectUrl": "http://www.snipfiles.com/"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3419",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.snipfiles.com/",
+      "id": 3554,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805823,
+      "end": 1502703805824,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3423",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 05:57:59 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:48 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "62621953 56812958"
+        },
+        {
+          "name": "Age",
+          "value": "13525"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "83"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2235"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/js/domtab.js",
+      "id": 3551,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805830,
+      "end": 1502703805830,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3417",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:43:25 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61421035"
+        },
+        {
+          "name": "Age",
+          "value": "0"
+        },
+        {
+          "name": "X-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.snipfiles.com/",
+      "id": 3552,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805838,
+      "end": 1502703805839,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3418",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:43:25 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61421037"
+        },
+        {
+          "name": "Age",
+          "value": "0"
+        },
+        {
+          "name": "X-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.snipfiles.com/",
+      "id": 3553,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703805956,
+      "end": 1502703805957,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".report-uri.io",
+        "expirationDate": 1534232946,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "visid_incap_1042253",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "NriTMZ0fSGCwG2WfPK1XLbFwkVkAAAAAQUIPAAAAAAAlJdWZ1RBN8eoohgaKg4YO"
+      },
+      "removed": false,
+      "timeStamp": 1502703805975,
+      "tabId": -1,
+      "windowId": -1,
+      "frameId": -1,
+      "contextId": -1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "visid_incap_1042253",
+      "type": "cookie",
+      "value": "NriTMZ0fSGCwG2WfPK1XLbFwkVkAAAAAQUIPAAAAAAAlJdWZ1RBN8eoohgaKg4YO",
+      "timeStamp": 1502703805975,
+      "tabId": -1,
+      "windowId": -1,
+      "frameId": -1,
+      "contextId": -1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".report-uri.io",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "incap_ses_455_1042253",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "egLaNP5SxxdJXHc5vHxQBr1wkVkAAAAAlfmz2TDN5PYyQMBfquvnZw=="
+      },
+      "removed": false,
+      "timeStamp": 1502703805975,
+      "tabId": -1,
+      "windowId": -1,
+      "frameId": -1,
+      "contextId": -1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "incap_ses_455_1042253",
+      "type": "cookie",
+      "value": "egLaNP5SxxdJXHc5vHxQBr1wkVkAAAAAlfmz2TDN5PYyQMBfquvnZw==",
+      "timeStamp": 1502703805975,
+      "tabId": -1,
+      "windowId": -1,
+      "frameId": -1,
+      "contextId": -1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": -1,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "3295",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "429"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 14 Aug 2017 09:43:25 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "set-cookie",
+          "value": "visid_incap_1042253=NriTMZ0fSGCwG2WfPK1XLbFwkVkAAAAAQUIPAAAAAAAlJdWZ1RBN8eoohgaKg4YO; expires=Tue, 14 Aug 2018 07:49:06 GMT; path=/; Domain=.report-uri.io"
+        },
+        {
+          "name": "set-cookie",
+          "value": "incap_ses_455_1042253=egLaNP5SxxdJXHc5vHxQBr1wkVkAAAAAlfmz2TDN5PYyQMBfquvnZw==; path=/; Domain=.report-uri.io"
+        },
+        {
+          "name": "x-iinfo",
+          "value": "9-99582473-99582474 NNNN CT(161 4562 1) RT(1502703794462 0) q(0 0 97 0) r(110 110) U6"
+        },
+        {
+          "name": "x-cdn",
+          "value": "Incapsula"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 429,
+      "statusLine": "HTTP/1.1 429",
+      "tabId": -1,
+      "type": "csp_report",
+      "url": "https://indigo.report-uri.io/r/default/csp/reportOnly",
+      "id": 3413,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1,
+      "start": 1502703805975,
+      "end": 1502703805976,
+      "fromCache": false,
+      "ip": "107.154.141.27"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3419",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:43:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "59094314"
+        },
+        {
+          "name": "Age",
+          "value": "0"
+        },
+        {
+          "name": "X-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.snipfiles.com/",
+      "id": 3554,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806074,
+      "end": 1502703806076,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3424",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/plugins/add-to-favourites/atf.gif",
+      "id": 3555,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806076,
+      "end": 1502703806076,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3421",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 06:41:23 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:52 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "59094316 61447725"
+        },
+        {
+          "name": "Age",
+          "value": "10922"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "63"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "66"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.snipfiles.com/wp-content/plugins/spam-stopper/spam-stopper.css",
+      "id": 3549,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806137,
+      "end": 1502703806138,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3425",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/rss.gif",
+      "id": 3556,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806142,
+      "end": 1502703806143,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3426",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2014/01/lolguid.png",
+      "id": 3557,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806143,
+      "end": 1502703806143,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3427",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/button-full-story.gif",
+      "id": 3558,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806144,
+      "end": 1502703806144,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3428",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2007/11/home-energy-saving-tips.gif",
+      "id": 3559,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806144,
+      "end": 1502703806144,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3429",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/01/soccer-fitness-book.gif",
+      "id": 3560,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806145,
+      "end": 1502703806145,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 38,
+      "tabId": 2,
+      "timeStamp": 1502703806162,
+      "url": "http://www.snipfiles.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3424",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:38:48 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:50 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "49"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61807629 58156852"
+        },
+        {
+          "name": "Age",
+          "value": "277"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/plugins/add-to-favourites/atf.gif",
+      "id": 3555,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806186,
+      "end": 1502703806186,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3430",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2007/12/nice-guys-dating-manual.gif",
+      "id": 3561,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806186,
+      "end": 1502703806187,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3444",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-full-story.png",
+      "id": 3562,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806224,
+      "end": 1502703806224,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3446",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-normal-content.jpg",
+      "id": 3563,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806224,
+      "end": 1502703806224,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3443",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-normal-content-first-row.jpg",
+      "id": 3564,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806224,
+      "end": 1502703806224,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3440",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-header.gif",
+      "id": 3565,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806224,
+      "end": 1502703806224,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3447",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-navigation.gif",
+      "id": 3566,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806224,
+      "end": 1502703806225,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3445",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-comments-link.png",
+      "id": 3567,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806225,
+      "end": 1502703806225,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3441",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-search-s.gif",
+      "id": 3568,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806225,
+      "end": 1502703806225,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3442",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-search-searchsubmit.gif",
+      "id": 3569,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806225,
+      "end": 1502703806225,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3436",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/01/animated_lighthouse.gif",
+      "id": 3570,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806225,
+      "end": 1502703806225,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3434",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/01/sharks-sm.gif",
+      "id": 3571,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806225,
+      "end": 1502703806226,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3431",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/01/free-body-detox-guide.gif",
+      "id": 3572,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806226,
+      "end": 1502703806226,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3433",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/01/ebay-misspelled-auction-hunter-sm.gif",
+      "id": 3573,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806226,
+      "end": 1502703806226,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3437",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2007/11/tips-for-selling-home.gif",
+      "id": 3574,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806226,
+      "end": 1502703806226,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3435",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2007/11/how-to-make-perfume.gif",
+      "id": 3575,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806226,
+      "end": 1502703806226,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3432",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2007/11/body-language-guide.gif",
+      "id": 3576,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806226,
+      "end": 1502703806227,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3439",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/03/online-dating-bliss.gif",
+      "id": 3577,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806227,
+      "end": 1502703806227,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3438",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/01/cats.gif",
+      "id": 3578,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806227,
+      "end": 1502703806227,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://www.snipfiles.com/",
+      "timeStamp": 1502703806244,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.snipfiles.com/",
+      "contextId": 276,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1502703806244,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.snipfiles.com/",
+      "contextId": 276,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "FREE EBOOKS &amp; SOFTWARE DOWNLOADS SNIPFILES.COM",
+      "timeStamp": 1502703806244,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.snipfiles.com/",
+      "contextId": 276,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "s",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1502703806245,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.snipfiles.com/",
+      "contextId": 276,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "searchsubmit",
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1502703806245,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.snipfiles.com/",
+      "contextId": 276,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3425",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 05:58:00 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:50 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1044"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61807630 59718997"
+        },
+        {
+          "name": "Age",
+          "value": "13526"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "75"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/rss.gif",
+      "id": 3556,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806254,
+      "end": 1502703806254,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3427",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:38:49 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:52 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "868"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61421042 58382450"
+        },
+        {
+          "name": "Age",
+          "value": "277"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/button-full-story.gif",
+      "id": 3558,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806254,
+      "end": 1502703806254,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3428",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:38:49 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:54 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "10301"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "40039214 59585711"
+        },
+        {
+          "name": "Age",
+          "value": "277"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2007/11/home-energy-saving-tips.gif",
+      "id": 3559,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806255,
+      "end": 1502703806255,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3429",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 05:58:00 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:54 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7402"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "56605636 60791742"
+        },
+        {
+          "name": "Age",
+          "value": "13525"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "73"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/01/soccer-fitness-book.gif",
+      "id": 3560,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806255,
+      "end": 1502703806256,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3430",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:38:49 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:56 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6675"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "45721787 39711909"
+        },
+        {
+          "name": "Age",
+          "value": "277"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2007/12/nice-guys-dating-manual.gif",
+      "id": 3561,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806296,
+      "end": 1502703806296,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3446",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 06:03:35 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:16 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "369"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61421043 58701568"
+        },
+        {
+          "name": "Age",
+          "value": "13190"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "71"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-normal-content.jpg",
+      "id": 3563,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806365,
+      "end": 1502703806365,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3444",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 06:03:35 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:08 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1509"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "45721788 58701566"
+        },
+        {
+          "name": "Age",
+          "value": "13190"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "71"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-full-story.png",
+      "id": 3562,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806366,
+      "end": 1502703806366,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3443",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 06:03:35 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:08 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "397"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "56605637 38893444"
+        },
+        {
+          "name": "Age",
+          "value": "13190"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "70"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-normal-content-first-row.jpg",
+      "id": 3564,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806367,
+      "end": 1502703806367,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3440",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 07:15:03 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:10 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "284"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "40039215 46112530"
+        },
+        {
+          "name": "Age",
+          "value": "8902"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "36"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-header.gif",
+      "id": 3565,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806367,
+      "end": 1502703806368,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3447",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 06:03:35 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:06 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "262"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61905730 56753125"
+        },
+        {
+          "name": "Age",
+          "value": "13190"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "71"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-navigation.gif",
+      "id": 3566,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806406,
+      "end": 1502703806406,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3426",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:38:49 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:52 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "53084"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "62654857 43854667"
+        },
+        {
+          "name": "Age",
+          "value": "277"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2014/01/lolguid.png",
+      "id": 3557,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806255,
+      "end": 1502703806472,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3445",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 06:03:36 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:08 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1432"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61905731 42283454"
+        },
+        {
+          "name": "Age",
+          "value": "13190"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "71"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-comments-link.png",
+      "id": 3567,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806478,
+      "end": 1502703806478,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3441",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 06:03:35 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:04 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "211"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61421044 58701571"
+        },
+        {
+          "name": "Age",
+          "value": "13190"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "72"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-search-s.gif",
+      "id": 3568,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806479,
+      "end": 1502703806479,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3442",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 06:03:35 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:08 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "165"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "56605638 54208829"
+        },
+        {
+          "name": "Age",
+          "value": "13190"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "72"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-search-searchsubmit.gif",
+      "id": 3569,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806479,
+      "end": 1502703806480,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3436",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:38:49 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:00 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "9391"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "40039216 49732006"
+        },
+        {
+          "name": "Age",
+          "value": "276"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/01/animated_lighthouse.gif",
+      "id": 3570,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806480,
+      "end": 1502703806481,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3434",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:38:49 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:00 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7173"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "45721789 49732008"
+        },
+        {
+          "name": "Age",
+          "value": "276"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/01/sharks-sm.gif",
+      "id": 3571,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806516,
+      "end": 1502703806516,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3431",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:38:49 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:56 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4434"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "40039217 39240779"
+        },
+        {
+          "name": "Age",
+          "value": "276"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/01/free-body-detox-guide.gif",
+      "id": 3572,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806582,
+      "end": 1502703806583,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3433",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:38:49 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:58 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "8268"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "45721790 49732011"
+        },
+        {
+          "name": "Age",
+          "value": "276"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/01/ebay-misspelled-auction-hunter-sm.gif",
+      "id": 3573,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806590,
+      "end": 1502703806593,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3448",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-sidebar-container.gif",
+      "id": 3579,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806593,
+      "end": 1502703806593,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3435",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:38:50 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:00 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "11099"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "56605639 46968507"
+        },
+        {
+          "name": "Age",
+          "value": "276"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2007/11/how-to-make-perfume.gif",
+      "id": 3575,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806591,
+      "end": 1502703806594,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3437",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 07:15:03 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:02 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "12392"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61421045 59287262"
+        },
+        {
+          "name": "Age",
+          "value": "8903"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "36"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2007/11/tips-for-selling-home.gif",
+      "id": 3574,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806591,
+      "end": 1502703806594,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3432",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:38:50 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:50:58 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "9406"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "62654858 49732016"
+        },
+        {
+          "name": "Age",
+          "value": "276"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2007/11/body-language-guide.gif",
+      "id": 3576,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806592,
+      "end": 1502703806594,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3449",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bullet-sidebar-dark.gif",
+      "id": 3580,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806595,
+      "end": 1502703806595,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3439",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:38:50 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:02 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7321"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61905732 49732018"
+        },
+        {
+          "name": "Age",
+          "value": "276"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/03/online-dating-bliss.gif",
+      "id": 3577,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806626,
+      "end": 1502703806627,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3438",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:38:50 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:04 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "11920"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "62654859 59585716"
+        },
+        {
+          "name": "Age",
+          "value": "276"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/uploads/2008/01/cats.gif",
+      "id": 3578,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806693,
+      "end": 1502703806694,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3448",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 06:03:35 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:08 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "47"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "61905733 38893446"
+        },
+        {
+          "name": "Age",
+          "value": "13190"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "71"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bg-sidebar-container.gif",
+      "id": 3579,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806704,
+      "end": 1502703806705,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3449",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 06:03:35 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Mar 2017 07:51:08 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "52"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "56605640 38893448"
+        },
+        {
+          "name": "Age",
+          "value": "13190"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "70"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/wp-content/themes/jello-wala-mello/images/bullet-sidebar-dark.gif",
+      "id": 3580,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806705,
+      "end": 1502703806706,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 38,
+      "tabId": 2,
+      "timeStamp": 1502703806708,
+      "url": "http://www.snipfiles.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "FREE EBOOKS & SOFTWARE DOWNLOADS SNIPFILES.COM",
+          "url": "http://www.snipfiles.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703806709
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3450",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/favicon.ico",
+      "id": 3581,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806709,
+      "end": 1502703806710,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3450",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:33:03 GMT"
+        },
+        {
+          "name": "Location",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "46053297 24724992"
+        },
+        {
+          "name": "Age",
+          "value": "622"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "7"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 301,
+      "statusLine": "HTTP/1.1 301 Moved Permanently",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/favicon.ico",
+      "id": 3581,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806820,
+      "end": 1502703806821,
+      "fromCache": false,
+      "ip": "174.36.119.152",
+      "redirectUrl": "http://www.snipfiles.com/"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3450",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/",
+      "id": 3582,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806821,
+      "end": 1502703806821,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.snipfiles.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3450",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:43:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Varnish",
+          "value": "46053298"
+        },
+        {
+          "name": "Age",
+          "value": "0"
+        },
+        {
+          "name": "X-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.snipfiles.com/",
+      "id": 3582,
+      "contextId": 276,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703806939,
+      "end": 1502703806941,
+      "fromCache": false,
+      "ip": "174.36.119.152"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".report-uri.io",
+        "expirationDate": 1534232946,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "visid_incap_1042253",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "NriTMZ0fSGCwG2WfPK1XLbFwkVkAAAAAQUIPAAAAAAAlJdWZ1RBN8eoohgaKg4YO"
+      },
+      "removed": false,
+      "timeStamp": 1502703807176,
+      "tabId": -1,
+      "windowId": -1,
+      "frameId": -1,
+      "contextId": -1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "visid_incap_1042253",
+      "type": "cookie",
+      "value": "NriTMZ0fSGCwG2WfPK1XLbFwkVkAAAAAQUIPAAAAAAAlJdWZ1RBN8eoohgaKg4YO",
+      "timeStamp": 1502703807176,
+      "tabId": -1,
+      "windowId": -1,
+      "frameId": -1,
+      "contextId": -1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".report-uri.io",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "incap_ses_455_1042253",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "GGHPCnlGAmFJXHc5vHxQBr5wkVkAAAAAzvD36JxwY7fJr8LnjthFwQ=="
+      },
+      "removed": false,
+      "timeStamp": 1502703807176,
+      "tabId": -1,
+      "windowId": -1,
+      "frameId": -1,
+      "contextId": -1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "incap_ses_455_1042253",
+      "type": "cookie",
+      "value": "GGHPCnlGAmFJXHc5vHxQBr5wkVkAAAAAzvD36JxwY7fJr8LnjthFwQ==",
+      "timeStamp": 1502703807176,
+      "tabId": -1,
+      "windowId": -1,
+      "frameId": -1,
+      "contextId": -1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": -1,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "3277",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "201"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 14 Aug 2017 09:43:27 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31104000; includeSubdomains; preload"
+        },
+        {
+          "name": "set-cookie",
+          "value": "visid_incap_1042253=NriTMZ0fSGCwG2WfPK1XLbFwkVkAAAAAQUIPAAAAAAAlJdWZ1RBN8eoohgaKg4YO; expires=Tue, 14 Aug 2018 07:49:06 GMT; path=/; Domain=.report-uri.io"
+        },
+        {
+          "name": "set-cookie",
+          "value": "incap_ses_455_1042253=GGHPCnlGAmFJXHc5vHxQBr5wkVkAAAAAzvD36JxwY7fJr8LnjthFwQ==; path=/; Domain=.report-uri.io"
+        },
+        {
+          "name": "x-iinfo",
+          "value": "9-99582318-99582319 NNNN CT(1151 3071 1) RT(1502703793913 0) q(0 0 92 0) r(127 127) U6"
+        },
+        {
+          "name": "x-cdn",
+          "value": "Incapsula"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 201,
+      "statusLine": "HTTP/1.1 201",
+      "tabId": -1,
+      "type": "csp_report",
+      "url": "https://indigo.report-uri.io/r/default/csp/reportOnly",
+      "id": 3394,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1,
+      "start": 1502703807176,
+      "end": 1502703807177,
+      "fromCache": false,
+      "ip": "107.154.141.27"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3451",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 3583,
+      "contextId": 277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703807955,
+      "end": 1502703807955
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3451",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 3583,
+      "contextId": 277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703807955,
+      "end": 1502703807960
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703807961
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1502703807961
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1502703807961,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1502703807956.42,
+          "title": "Save",
+          "typedCount": 32,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 32
+        }
+      },
+      "timeStamp": 1502703807963
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3452",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 3584,
+      "contextId": 277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703807963,
+      "end": 1502703807963
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3452",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 3584,
+      "contextId": 277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703807963,
+      "end": 1502703807963
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703807966
+    }
+  }
+]

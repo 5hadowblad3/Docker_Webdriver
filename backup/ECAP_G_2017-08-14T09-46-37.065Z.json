@@ -1,0 +1,2350 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703993529
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 362817,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/362b5c57-f7f0-434c-96cd-157a6e586328",
+          "id": 43,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-14T09:46:33.534Z",
+          "state": "in_progress",
+          "totalBytes": 362817,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/362b5c57-f7f0-434c-96cd-157a6e586328"
+        }
+      },
+      "timeStamp": 1502703993535
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 362817,
+          "filename": "ECAP_G_2017-08-14T09-46-33.517Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/362b5c57-f7f0-434c-96cd-157a6e586328",
+          "id": 43,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-14T09:46:33.534Z",
+          "state": "in_progress",
+          "totalBytes": 362817,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/362b5c57-f7f0-434c-96cd-157a6e586328"
+        }
+      },
+      "timeStamp": 1502703993538
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-14T09-46-33.517Z.json",
+            "previous": ""
+          },
+          "id": 43
+        }
+      },
+      "timeStamp": 1502703993540
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-14T09:46:33.554Z"
+          },
+          "id": 43,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1502703993554
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1502703995589,
+      "url": "http://4ebooks.org/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3973",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://4ebooks.org/",
+      "id": 4143,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995590,
+      "end": 1502703995591,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "4ebooks.org",
+        "expirationDate": "150270399675129205",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "tu",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "5e4581f32f18ff2ff0bcd35307dd0203"
+      },
+      "removed": false,
+      "timeStamp": 1502703995675,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 345
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "tu",
+      "type": "cookie",
+      "value": "5e4581f32f18ff2ff0bcd35307dd0203",
+      "timeStamp": 1502703995675,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 345
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "4ebooks.org",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "NSC_tfep-83+63+5+232-91",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "ffffffff516a73d445525d5f4f58455e445a4a423660"
+      },
+      "removed": false,
+      "timeStamp": 1502703995675,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 345
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "NSC_tfep-83+63+5+232-91",
+      "type": "cookie",
+      "value": "ffffffff516a73d445525d5f4f58455e445a4a423660",
+      "timeStamp": 1502703995675,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 345
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".4ebooks.org",
+        "expirationDate": 1577833200.675716,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "tu",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "5e4581f32f18ff2ff0bcd35307dd0203"
+      },
+      "removed": false,
+      "timeStamp": 1502703995677
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "tu",
+      "type": "cookie",
+      "value": "5e4581f32f18ff2ff0bcd35307dd0203",
+      "timeStamp": 1502703995677
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "4ebooks.org",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "NSC_tfep-83+63+5+232-91",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "ffffffff516a73d445525d5f4f58455e445a4a423660"
+      },
+      "removed": false,
+      "timeStamp": 1502703995678
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "NSC_tfep-83+63+5+232-91",
+      "type": "cookie",
+      "value": "ffffffff516a73d445525d5f4f58455e445a4a423660",
+      "timeStamp": 1502703995678
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3973",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:46:35 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.22 (Debian)"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "PHP/5.6.30-1~dotdeb+7.1"
+        },
+        {
+          "name": "Expires",
+          "value": "Mon, 26 Jul 1997 05:00:00 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 14 Aug 2017 09:46:35 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-store, no-cache, must-revalidate"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "post-check=0, pre-check=0"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "tu=5e4581f32f18ff2ff0bcd35307dd0203; expires=Tue, 31-Dec-2019 23:00:00 GMT; Max-Age=75129205; path=/; domain=4ebooks.org; httponly"
+        },
+        {
+          "name": "X-Adblock-Key",
+          "value": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANnylWw2vLY4hUn9w06zQKbhKBfvjFUCsdFlb6TdQhxb9RXWXuI4t31c+o8fYOv/s8q1LGPga3DE1L/tHU4LENMCAwEAAQ==_rcGY8D5tWBmwBhN5Gj2q7VYnZ3ppIzW+3Y1DhuNjqpcuU/VDYptmqwLInjOPFwZ0jfRAczahoYPhOVsgMX90qA=="
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "8561"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "X-Cache",
+          "value": "MISS from 110132"
+        },
+        {
+          "name": "Cneonction",
+          "value": "close"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "NSC_tfep-83+63+5+232-91=ffffffff516a73d445525d5f4f58455e445a4a423660;path=/;httponly"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.0 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://4ebooks.org/",
+      "id": 4143,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995675,
+      "end": 1502703995678,
+      "fromCache": false,
+      "ip": "72.52.4.121"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://4ebooks.org/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "4ebooks.org",
+          "url": "http://4ebooks.org/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703995681
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1502703995681
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 50,
+      "tabId": 2,
+      "timeStamp": 1502703995682,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://4ebooks.org/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "76",
+          "lastVisitTime": 1502703995678.745,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://4ebooks.org/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1502703995697
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3974",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://img.sedoparking.com/js/jquery-1.4.2.min.js",
+      "id": 4144,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995697,
+      "end": 1502703995697,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://4ebooks.org/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3975",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google.com/adsense/domains/caf.js",
+      "id": 4145,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995698,
+      "end": 1502703995698,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://4ebooks.org/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "NID=109=FFJWWy8XbUalWlHXWo5xsBRLLGWn_XmxgD3ip4Rtroa0g_xRSaFhpJWEL9xKPhkRJ5anZtICWweNk_2OAyBtEqWPN3QYOFndWQYXWXZk0WFkKoHSsjwPBCwJqmrn_-F4"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "4ebooks.org - This website is for sale! - 4ebooks Resources and Information."
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "4ebooks.org - This website is for sale! - 4ebooks Resources and Information.",
+          "url": "http://4ebooks.org/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703995698
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3975",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:46:05 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Mon, 14 Aug 2017 09:46:05 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, max-age=3600"
+        },
+        {
+          "name": "ETag",
+          "value": "\"13580376879029761858\""
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google.com/adsense/domains/caf.js",
+      "id": 4145,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995698,
+      "end": 1502703995701,
+      "fromCache": true,
+      "ip": "172.217.23.36"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3976",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://img.sedoparking.com/templates/brick_gfx/common/logo_blue.png",
+      "id": 4146,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995701,
+      "end": 1502703995701,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://4ebooks.org/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3976",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:46:35 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1984"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=604800"
+        },
+        {
+          "name": "Expires",
+          "value": "Mon, 21 Aug 2017 09:46:35 GMT"
+        },
+        {
+          "name": "X-CFHash",
+          "value": "\"7a5f4cd03b2d168432e8e3d3ef4a8475\""
+        },
+        {
+          "name": "X-CFF",
+          "value": "B"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 02 Feb 2017 16:11:55 GMT"
+        },
+        {
+          "name": "X-CF3",
+          "value": "M"
+        },
+        {
+          "name": "CF4Age",
+          "value": "0"
+        },
+        {
+          "name": "CF4ttl",
+          "value": "31536000.000"
+        },
+        {
+          "name": "X-CF2",
+          "value": "H"
+        },
+        {
+          "name": "Server",
+          "value": "CFS 0215"
+        },
+        {
+          "name": "X-CF1",
+          "value": "11696:fF.lon1:cf:cacheN.lon1-01:H"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://img.sedoparking.com/templates/brick_gfx/common/logo_blue.png",
+      "id": 4146,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995733,
+      "end": 1502703995733,
+      "fromCache": false,
+      "ip": "205.234.175.175"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3974",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:46:35 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "X-CFHash",
+          "value": "\"0d658c3f0a7efaa05a6fcee9758231b3\""
+        },
+        {
+          "name": "X-CFF",
+          "value": "B"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 20 Feb 2017 07:40:17 GMT"
+        },
+        {
+          "name": "X-CF3",
+          "value": "M"
+        },
+        {
+          "name": "CF4Age",
+          "value": "0"
+        },
+        {
+          "name": "CF4ttl",
+          "value": "31536000.000"
+        },
+        {
+          "name": "X-CF2",
+          "value": "H"
+        },
+        {
+          "name": "Server",
+          "value": "CFS 0215"
+        },
+        {
+          "name": "X-CF1",
+          "value": "11696:fG.lon1:cf:cacheN.lon1-01:H"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://img.sedoparking.com/js/jquery-1.4.2.min.js",
+      "id": 4144,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995734,
+      "end": 1502703995736,
+      "fromCache": false,
+      "ip": "205.234.175.175"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 300,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1502703995834,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 300,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3977",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "id": 4147,
+      "contextId": 346,
+      "parentContextId": 345,
+      "windowId": 1,
+      "start": 1502703995835,
+      "end": 1502703995835,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://4ebooks.org/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=2297d1461a4c0066||t=1502703571|et=730|cs=002213fd486701f6666d76abc7; IDE=AHWqTUl8oSKFSzoC7YHw95l5tnIeL6j56ft1bakjT6kGU6VNw9l3jscYVQ; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 300,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3977",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        },
+        {
+          "name": "Content-Length",
+          "value": "637"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:29:37 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Mon, 14 Aug 2017 10:29:37 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 01 Jun 2017 13:45:00 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Age",
+          "value": "1018"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "id": 4147,
+      "contextId": 346,
+      "parentContextId": 345,
+      "windowId": 1,
+      "start": 1502703995837,
+      "end": 1502703995838,
+      "fromCache": false,
+      "ip": "216.58.206.98"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 301,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1502703995838,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-sedo85_3ph&channel=tmplt-005%2Cexp-0051%2Cauxa-control-1%2C522358&hl=en&adtest=off&type=3&kw=4ebooks&drid=as-drid-2635459755699616&uiopt=true&oe=UTF-8&ie=UTF-8&jsei=4&format=r10%7Cs&adrep=0&num=0&output=caf&domain_name=4ebooks.org&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1502703995783&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=403&frm=0&uio=uv3cs1sl1sr1-st22sa14lt40-&jsv=13580&rurl=http%3A%2F%2F4ebooks.org%2F#master-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 301,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3978",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-sedo85_3ph&channel=tmplt-005%2Cexp-0051%2Cauxa-control-1%2C522358&hl=en&adtest=off&type=3&kw=4ebooks&drid=as-drid-2635459755699616&uiopt=true&oe=UTF-8&ie=UTF-8&jsei=4&format=r10%7Cs&adrep=0&num=0&output=caf&domain_name=4ebooks.org&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1502703995783&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=403&frm=0&uio=uv3cs1sl1sr1-st22sa14lt40-&jsv=13580&rurl=http%3A%2F%2F4ebooks.org%2F#master-1",
+      "id": 4148,
+      "contextId": 347,
+      "parentContextId": 345,
+      "windowId": 1,
+      "start": 1502703995838,
+      "end": 1502703995838,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://4ebooks.org/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=2297d1461a4c0066||t=1502703571|et=730|cs=002213fd486701f6666d76abc7; IDE=AHWqTUl8oSKFSzoC7YHw95l5tnIeL6j56ft1bakjT6kGU6VNw9l3jscYVQ; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3979",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/async_survey?site=kv4ic6olrzkr6",
+      "id": 4149,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995841,
+      "end": 1502703995841,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://4ebooks.org/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=2297d1461a4c0066||t=1502703571|et=730|cs=002213fd486701f6666d76abc7; IDE=AHWqTUl8oSKFSzoC7YHw95l5tnIeL6j56ft1bakjT6kGU6VNw9l3jscYVQ; DSID=NO_DATA; PAIDCONTENT=dg6f58jy6lagwskim4np"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3980",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.gstatic.com/domainads/tracking/caf.gif?ts=1502703995778&rid=3641548",
+      "id": 4150,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995841,
+      "end": 1502703995841,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://4ebooks.org/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3979",
+      "responseHeaders": [
+        {
+          "name": "Content-Disposition",
+          "value": "attachment; filename=\"f.txt\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=utf-8"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "X-Xss-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:42:18 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=300"
+        },
+        {
+          "name": "Content-Length",
+          "value": "16163"
+        },
+        {
+          "name": "Age",
+          "value": "228"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/async_survey?site=kv4ic6olrzkr6",
+      "id": 4149,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995841,
+      "end": 1502703995842,
+      "fromCache": true,
+      "ip": "172.217.23.49"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3981",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://4ebooks.org/search/tsc.php?200=MjMzMjg4NjMx&21=MTQ2LjE2OS41My4xNTg=&681=MTUwMjcwMzk5NTM3MzYyMzA4MTNmYWIyZTI2OTc4YjIwMDU1MmRhNzE0&crc=21a30f392e3df550df1b3aa70eead46d647a74cb&cv=1",
+      "id": 4151,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995842,
+      "end": 1502703995842,
+      "requestHeaders": [
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Referer",
+          "value": "http://4ebooks.org/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "tu=5e4581f32f18ff2ff0bcd35307dd0203; NSC_tfep-83+63+5+232-91=ffffffff516a73d445525d5f4f58455e445a4a423660"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 50,
+      "tabId": 2,
+      "timeStamp": 1502703995843,
+      "url": "http://4ebooks.org/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3980",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "43"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:46:35 GMT"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache, must-revalidate"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 21 Apr 2016 03:17:22 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.gstatic.com/domainads/tracking/caf.gif?ts=1502703995778&rid=3641548",
+      "id": 4150,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995851,
+      "end": 1502703995851,
+      "fromCache": false,
+      "ip": "172.217.23.35"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 300,
+      "processId": 50,
+      "tabId": 2,
+      "timeStamp": 1502703995860,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 300,
+      "processId": 50,
+      "tabId": 2,
+      "timeStamp": 1502703995863,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 300,
+      "processId": 50,
+      "tabId": 2,
+      "timeStamp": 1502703995867,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3981",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:46:35 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.22 (Debian)"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "PHP/5.6.29-1~dotdeb+7.1"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "20"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "X-Cache",
+          "value": "MISS from 550555"
+        },
+        {
+          "name": "Cneonction",
+          "value": "close"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.0 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://4ebooks.org/search/tsc.php?200=MjMzMjg4NjMx&21=MTQ2LjE2OS41My4xNTg=&681=MTUwMjcwMzk5NTM3MzYyMzA4MTNmYWIyZTI2OTc4YjIwMDU1MmRhNzE0&crc=21a30f392e3df550df1b3aa70eead46d647a74cb&cv=1",
+      "id": 4151,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995867,
+      "end": 1502703995867,
+      "fromCache": false,
+      "ip": "72.52.4.121"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3982",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/insights/consumersurveys/static/403316750500947833/prompt_embed_static.js",
+      "id": 4152,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995869,
+      "end": 1502703995869,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://4ebooks.org/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=2297d1461a4c0066||t=1502703571|et=730|cs=002213fd486701f6666d76abc7; IDE=AHWqTUl8oSKFSzoC7YHw95l5tnIeL6j56ft1bakjT6kGU6VNw9l3jscYVQ; DSID=NO_DATA; PAIDCONTENT=dg6f58jy6lagwskim4np"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3983",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/gk/prompt?t=a&site=kv4ic6olrzkr6&random=1502703995869&ref",
+      "id": 4153,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995871,
+      "end": 1502703995872,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://4ebooks.org/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=2297d1461a4c0066||t=1502703571|et=730|cs=002213fd486701f6666d76abc7; IDE=AHWqTUl8oSKFSzoC7YHw95l5tnIeL6j56ft1bakjT6kGU6VNw9l3jscYVQ; DSID=NO_DATA; PAIDCONTENT=dg6f58jy6lagwskim4np"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3982",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Fri, 11 Aug 2017 18:20:32 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Sun, 10 Sep 2017 18:20:32 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"uSElQw\""
+        },
+        {
+          "name": "X-Cloud-Trace-Context",
+          "value": "ba988df508ec128c61bb1751618804e0"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Server",
+          "value": "Google Frontend"
+        },
+        {
+          "name": "Content-Length",
+          "value": "109883"
+        },
+        {
+          "name": "Age",
+          "value": "228334"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/insights/consumersurveys/static/403316750500947833/prompt_embed_static.js",
+      "id": 4152,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995870,
+      "end": 1502703995873,
+      "fromCache": true,
+      "ip": "172.217.23.49"
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://4ebooks.org/",
+      "timeStamp": 1502703995873,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://4ebooks.org/",
+      "contextId": 345,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1502703995873,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://4ebooks.org/",
+      "contextId": 345,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "4ebooks.org&nbsp;-&nbsp;This website is for sale!&nbsp;-&nbsp;4ebooks Resources and Information.",
+      "timeStamp": 1502703995873,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://4ebooks.org/",
+      "contextId": 345,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "timeStamp": 1502703995878,
+      "tabId": 2,
+      "frameId": 300,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "contextId": 346,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1502703995878,
+      "tabId": 2,
+      "frameId": 300,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "contextId": 346,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3983",
+      "responseHeaders": [
+        {
+          "name": "Content-Disposition",
+          "value": "attachment; filename=\"f.txt\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=utf-8"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "X-Why",
+          "value": "Publisher down sampling."
+        },
+        {
+          "name": "X-Xss-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:46:35 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "23"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/gk/prompt?t=a&site=kv4ic6olrzkr6&random=1502703995869&ref",
+      "id": 4153,
+      "contextId": 345,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703995893,
+      "end": 1502703995894,
+      "fromCache": false,
+      "ip": "172.217.23.49"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 301,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3978",
+      "responseHeaders": [
+        {
+          "name": "P3P",
+          "value": "policyref=\"http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\""
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 09:46:35 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "domainserver"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1654"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-sedo85_3ph&channel=tmplt-005%2Cexp-0051%2Cauxa-control-1%2C522358&hl=en&adtest=off&type=3&kw=4ebooks&drid=as-drid-2635459755699616&uiopt=true&oe=UTF-8&ie=UTF-8&jsei=4&format=r10%7Cs&adrep=0&num=0&output=caf&domain_name=4ebooks.org&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1502703995783&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=403&frm=0&uio=uv3cs1sl1sr1-st22sa14lt40-&jsv=13580&rurl=http%3A%2F%2F4ebooks.org%2F#master-1",
+      "id": 4148,
+      "contextId": 347,
+      "parentContextId": 345,
+      "windowId": 1,
+      "start": 1502703995953,
+      "end": 1502703995955,
+      "fromCache": false,
+      "ip": "216.58.206.98"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 301,
+      "processId": 50,
+      "tabId": 2,
+      "timeStamp": 1502703995960,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-sedo85_3ph&channel=tmplt-005%2Cexp-0051%2Cauxa-control-1%2C522358&hl=en&adtest=off&type=3&kw=4ebooks&drid=as-drid-2635459755699616&uiopt=true&oe=UTF-8&ie=UTF-8&jsei=4&format=r10%7Cs&adrep=0&num=0&output=caf&domain_name=4ebooks.org&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1502703995783&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=403&frm=0&uio=uv3cs1sl1sr1-st22sa14lt40-&jsv=13580&rurl=http%3A%2F%2F4ebooks.org%2F#master-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 301,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3984",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://afs.googleusercontent.com/dp-sedo/bullet_justads.gif",
+      "id": 4154,
+      "contextId": 347,
+      "parentContextId": 345,
+      "windowId": 1,
+      "start": 1502703995996,
+      "end": 1502703995996,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-sedo85_3ph&channel=tmplt-005%2Cexp-0051%2Cauxa-control-1%2C522358&hl=en&adtest=off&type=3&kw=4ebooks&drid=as-drid-2635459755699616&uiopt=true&oe=UTF-8&ie=UTF-8&jsei=4&format=r10%7Cs&adrep=0&num=0&output=caf&domain_name=4ebooks.org&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1502703995783&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=403&frm=0&uio=uv3cs1sl1sr1-st22sa14lt40-&jsv=13580&rurl=http%3A%2F%2F4ebooks.org%2F"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 301,
+      "processId": 50,
+      "tabId": 2,
+      "timeStamp": 1502703995997,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-sedo85_3ph&channel=tmplt-005%2Cexp-0051%2Cauxa-control-1%2C522358&hl=en&adtest=off&type=3&kw=4ebooks&drid=as-drid-2635459755699616&uiopt=true&oe=UTF-8&ie=UTF-8&jsei=4&format=r10%7Cs&adrep=0&num=0&output=caf&domain_name=4ebooks.org&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1502703995783&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=403&frm=0&uio=uv3cs1sl1sr1-st22sa14lt40-&jsv=13580&rurl=http%3A%2F%2F4ebooks.org%2F#master-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 301,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3984",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1411"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 14 Aug 2017 08:53:29 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 15 Aug 2017 07:53:29 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 12 Sep 2013 14:21:06 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Age",
+          "value": "3186"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=82800"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://afs.googleusercontent.com/dp-sedo/bullet_justads.gif",
+      "id": 4154,
+      "contextId": 347,
+      "parentContextId": 345,
+      "windowId": 1,
+      "start": 1502703996001,
+      "end": 1502703996001,
+      "fromCache": false,
+      "ip": "172.217.23.33"
+    }
+  },
+  {
+    "type": "dom.message",
+    "details": {
+      "isTrusted": true,
+      "data": "FSXDC,slave-1-1.hA:0:t,master-1.hA:0:t,s.b:0:f,r.1:0:f",
+      "origin": "http://dp.g.doubleclick.net",
+      "lastEventId": "",
+      "source": "@cross-origin",
+      "ports": [],
+      "type": "message",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1502703996002,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://4ebooks.org/",
+      "contextId": 345,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.message",
+    "details": {
+      "isTrusted": true,
+      "data": "FSXDC,slave-1-1.h:1:20,master-1.h:1:256",
+      "origin": "http://dp.g.doubleclick.net",
+      "lastEventId": "",
+      "source": "@cross-origin",
+      "ports": [],
+      "type": "message",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1502703996004,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://4ebooks.org/",
+      "contextId": 345,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 301,
+      "processId": 50,
+      "tabId": 2,
+      "timeStamp": 1502703996006,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-sedo85_3ph&channel=tmplt-005%2Cexp-0051%2Cauxa-control-1%2C522358&hl=en&adtest=off&type=3&kw=4ebooks&drid=as-drid-2635459755699616&uiopt=true&oe=UTF-8&ie=UTF-8&jsei=4&format=r10%7Cs&adrep=0&num=0&output=caf&domain_name=4ebooks.org&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1502703995783&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=403&frm=0&uio=uv3cs1sl1sr1-st22sa14lt40-&jsv=13580&rurl=http%3A%2F%2F4ebooks.org%2F#master-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 50,
+      "tabId": 2,
+      "timeStamp": 1502703996006,
+      "url": "http://4ebooks.org/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "4ebooks.org - This website is for sale! - 4ebooks Resources and Information.",
+          "url": "http://4ebooks.org/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703996006
+    }
+  },
+  {
+    "type": "dom.resize",
+    "details": {
+      "isTrusted": true,
+      "type": "resize",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1502703996007,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 300,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "contextId": 346,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-sedo85_3ph&channel=tmplt-005%2Cexp-0051%2Cauxa-control-1%2C522358&hl=en&adtest=off&type=3&kw=4ebooks&drid=as-drid-2635459755699616&uiopt=true&oe=UTF-8&ie=UTF-8&jsei=4&format=r10%7Cs&adrep=0&num=0&output=caf&domain_name=4ebooks.org&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1502703995783&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=403&frm=0&uio=uv3cs1sl1sr1-st22sa14lt40-&jsv=13580&rurl=http%3A%2F%2F4ebooks.org%2F#master-1",
+      "timeStamp": 1502703996011,
+      "tabId": 2,
+      "frameId": 301,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-sedo85_3ph&channel=tmplt-005%2Cexp-0051%2Cauxa-control-1%2C522358&hl=en&adtest=off&type=3&kw=4ebooks&drid=as-drid-2635459755699616&uiopt=true&oe=UTF-8&ie=UTF-8&jsei=4&format=r10%7Cs&adrep=0&num=0&output=caf&domain_name=4ebooks.org&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1502703995783&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=403&frm=0&uio=uv3cs1sl1sr1-st22sa14lt40-&jsv=13580&rurl=http%3A%2F%2F4ebooks.org%2F#master-1",
+      "contextId": 347,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1502703996011,
+      "tabId": 2,
+      "frameId": 301,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-sedo85_3ph&channel=tmplt-005%2Cexp-0051%2Cauxa-control-1%2C522358&hl=en&adtest=off&type=3&kw=4ebooks&drid=as-drid-2635459755699616&uiopt=true&oe=UTF-8&ie=UTF-8&jsei=4&format=r10%7Cs&adrep=0&num=0&output=caf&domain_name=4ebooks.org&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1502703995783&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=403&frm=0&uio=uv3cs1sl1sr1-st22sa14lt40-&jsv=13580&rurl=http%3A%2F%2F4ebooks.org%2F#master-1",
+      "contextId": 347,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzRFNEQ3NkJEMjRGMTFFMTk4RjA4NDhFNTEwRTcyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzRFNEQ3NkNEMjRGMTFFMTk4RjA4NDhFNTEwRTcyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNEU0RDc2OUQyNEYxMUUxOThGMDg0OEU1MTBFNzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNEU0RDc2QUQyNEYxMUUxOThGMDg0OEU1MTBFNzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PukMAkAAAAEsUExURcbf8uXx+vb6/eXx+Q5FtN/t+Ofz+rbX7uTr9+Tq9y5fvlh+y7rY7+n0+lJ6yS1evt7l9Sxdvr/b8L3a8BRLtpev31mAy+v0+k13yLLD59Hm9PT5/c3Z8LXG6Oby+pXG5aG54vX3/Git2LvZ79bg8vr8/vP4/Mjh8+Pw+Ofy+sPd8cfj9G2P0cDc783k9Ex2x6DK5xlOuCBUumWJztDm9DZkwLTF6Ojt92yP0s7a8OPq9m6Y1d3l9cHP7OLp9kNvxNPo9Wes2DNhwJSv3uDt+Ovw+cDP6yNVuurv+Nbf8pjI5aDL56G44rTL6h1RuWaJz9bp9tDo9u31+oWi2TZlwMfg8E16yd7t99Hc8Vl+ysri897l9JCq3FB5yPL1++/2/MLQ7HGb1j9sw////2AvJ1QAAADsSURBVHjaRM9ZMwNREAXgnpvLZKOENsQSJrTlIjHEEhQZS2JJxljHmoT+//9B37w4j19Xna4DzKzGDbHKLN+MdZlB4GNJ8fV9AbH1W7ew7g6zn9ORt/uM8wJkBOs7eHai/P05Bnp0S8ynBQz2qk9v0jEbTyjpKWZRI0Z9hqlV29u9ynQmR6PAY7g0NYH+efvzYDHAQ4bExBY0Bi3E7BHDkGkI+MXN7+ncV1pKU1AhIiYbudgvx957c+t2YW2k1ugJUKmqdXs7DGdiN5+yW+hV4K4cVhI37wzGdX4u0skL9FYcRw2ANh74P38CDABMCjqJfzUcfQAAAABJRU5ErkJggg=="
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYxIDY0LjE0MDk0OSwgMjAxMC8xMi8wNy0xMDo1NzowMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNS4xIFdpbmRvd3MiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzRFNEQ3NkJEMjRGMTFFMTk4RjA4NDhFNTEwRTcyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzRFNEQ3NkNEMjRGMTFFMTk4RjA4NDhFNTEwRTcyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNEU0RDc2OUQyNEYxMUUxOThGMDg0OEU1MTBFNzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNEU0RDc2QUQyNEYxMUUxOThGMDg0OEU1MTBFNzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PukMAkAAAAEsUExURcbf8uXx+vb6/eXx+Q5FtN/t+Ofz+rbX7uTr9+Tq9y5fvlh+y7rY7+n0+lJ6yS1evt7l9Sxdvr/b8L3a8BRLtpev31mAy+v0+k13yLLD59Hm9PT5/c3Z8LXG6Oby+pXG5aG54vX3/Git2LvZ79bg8vr8/vP4/Mjh8+Pw+Ofy+sPd8cfj9G2P0cDc783k9Ex2x6DK5xlOuCBUumWJztDm9DZkwLTF6Ojt92yP0s7a8OPq9m6Y1d3l9cHP7OLp9kNvxNPo9Wes2DNhwJSv3uDt+Ovw+cDP6yNVuurv+Nbf8pjI5aDL56G44rTL6h1RuWaJz9bp9tDo9u31+oWi2TZlwMfg8E16yd7t99Hc8Vl+ysri897l9JCq3FB5yPL1++/2/MLQ7HGb1j9sw////2AvJ1QAAADsSURBVHjaRM9ZMwNREAXgnpvLZKOENsQSJrTlIjHEEhQZS2JJxljHmoT+//9B37w4j19Xna4DzKzGDbHKLN+MdZlB4GNJ8fV9AbH1W7ew7g6zn9ORt/uM8wJkBOs7eHai/P05Bnp0S8ynBQz2qk9v0jEbTyjpKWZRI0Z9hqlV29u9ynQmR6PAY7g0NYH+efvzYDHAQ4bExBY0Bi3E7BHDkGkI+MXN7+ncV1pKU1AhIiYbudgvx957c+t2YW2k1ugJUKmqdXs7DGdiN5+yW+hV4K4cVhI37wzGdX4u0skL9FYcRw2ANh74P38CDABMCjqJfzUcfQAAAABJRU5ErkJggg==",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "4ebooks.org - This website is for sale! - 4ebooks Resources and Information.",
+          "url": "http://4ebooks.org/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703996011
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3985",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 4155,
+      "contextId": 348,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703997050,
+      "end": 1502703997050
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3985",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 4155,
+      "contextId": 348,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703997050,
+      "end": 1502703997058
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703997058
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1502703997059
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1502703997059,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3986",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 4156,
+      "contextId": 348,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703997060,
+      "end": 1502703997060
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3986",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 4156,
+      "contextId": 348,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1502703997060,
+      "end": 1502703997060
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1502703997052.33,
+          "title": "Save",
+          "typedCount": 44,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 44
+        }
+      },
+      "timeStamp": 1502703997064
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1502703997065
+    }
+  }
+]
