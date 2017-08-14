@@ -6,7 +6,7 @@ sys.setdefaultencoding('utf-8')
 
 url = 'https://savvybookwriters.wordpress.com/2012/08/01/63-top-websites-to-announce-your-book-for-free/'
 
-f = open('book_case3.txt', 'w')
+f = open('sitelist.txt', 'w')
 
 ind = 0
 
