@@ -26,7 +26,8 @@ from sklearn import svm
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import classification_report
 
-driver_path = './chromedriver'
+driver_path_mac = './chromedriver_mac'
+driver_path_linux = './chromedriver_linux'
 extension_name = 'listener'
 extension_path = 'src.crx'
 extension_list = 'chrome://extensions-frame'
@@ -362,7 +363,7 @@ if __name__ == '__main__':
     listener.add_experimental_option('prefs', prefs)
 
     # browser = webdriver.Chrome(chrome_options=listener)
-    browser = webdriver.Chrome(driver_path, chrome_options=listener)
+    browser = webdriver.Chrome(driver_path_mac, chrome_options=listener)
 
     extension_id = get_ID(browser, extension_name)
     cmd = 'chrome-extension://' + extension_id + '/command.html?'
@@ -396,7 +397,12 @@ if __name__ == '__main__':
             continue
         # send_cmd(browser, cmd + clear)
 
-        browser.get(i)
+        try:
+            browser.get(i)
+        except TimeoutException:
+            print 'no reaction, pass this site'
+            continue
+
         try:
             WebDriverWait(browser, 1).until(EC.alert_is_present())
             alert = browser.switch_to.alert()

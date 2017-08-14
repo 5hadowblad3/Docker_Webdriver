@@ -27,7 +27,7 @@ from sklearn import svm
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import classification_report
 
-driver_path = './chromedriver'
+driver_path = './chromedriver_mac'
 extension_name = 'listener'
 extension_path = 'src.crx'
 extension_list = 'chrome://extensions-frame'
@@ -448,7 +448,12 @@ if __name__ == '__main__':
             continue
         # send_cmd(browser, cmd + clear)
 
-        browser.get(i)
+        try:
+            browser.get(i)
+        except TimeoutException:
+            print 'no reaction, pass this site'
+            continue
+
         try:
             WebDriverWait(browser, 1).until(EC.alert_is_present())
             alert = browser.switch_to.alert()
