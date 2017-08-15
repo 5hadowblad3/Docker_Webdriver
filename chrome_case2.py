@@ -170,7 +170,7 @@ def load_rule(path):
             pattern = rule
             ind = pattern.find('@@')
             if ind != -1:
-                del pattern[ind:ind + 2]
+                pattern = pattern[:ind] + pattern[ind + 2:]
 
             ind = pattern.find('$')
             if ind != -1:
