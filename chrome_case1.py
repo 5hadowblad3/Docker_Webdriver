@@ -328,7 +328,7 @@ def analyse_json(path, location):
 def ml_performance(path):
     target, features = load_data(path)
     clf = RandomForestClassifier(n_estimators=10)
-    clf = clf.fit(features, target)
+    # clf = clf.fit(features, target)
     clf2 = DecisionTreeClassifier(max_depth=None, min_samples_split=2, random_state=0)
     clf3 = AdaBoostClassifier(n_estimators=100)
     clf4 = MLPClassifier()
