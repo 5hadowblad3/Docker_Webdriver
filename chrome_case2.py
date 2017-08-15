@@ -214,8 +214,8 @@ def label_instance(url, rules):
 # pair response with previous request
 def find_request(requests, identifier):
     for ind, package in enumerate(requests):
-        if package['details']['requestID'] == identifier:
-            return requests.pop(ind)
+        if package['details']['requestId'] == identifier:
+            return requests.pop(ind), requests
 
 
 # Json file analysis for each package
@@ -252,7 +252,9 @@ def analyse_json(path, location, rules):
         if package['type'].count('response') > 0:
             length = 0
 
-            pair_request = find_request(request, package['details']['requestId'])
+            print package['details']['requestId']
+            pair_request, request = find_request(request, package['details']['requestId'])
+            print pair_request
 
             url = tldextract.extract(pair_request['details']['url'])
             # if (url.domain + '.' + url.suffix) not in urls:
