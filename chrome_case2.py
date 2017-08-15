@@ -163,28 +163,36 @@ def load_rule(path):
     rules = []
     with open(path, 'r') as f:
         for rule in f:
-            if rule[0] == '!':
+            if rule[0] == '!' or rule.count('##') > 0 or rule.count('#@#') > 0 or rule.count('#?#'):
                 continue
 
-            if rule.count('@@||') > 0:
-                pattern = rule.replace('@@||', '')
-            else:
-                pattern = rule
+            pattern = rule
+            ind = pattern.find('@@')
+            if ind != -1:
+                del pattern[ind:ind + 2]
 
-            if pattern.count('||') > 0:
-                pattern = pattern.replace('||', '')
-            else:
-                pattern = pattern
+            ind = pattern.find('$')
+            if ind != -1:
+                pattern = pattern[:ind]
 
-            if pattern.find('^$') != -1:
-                pattern = pattern[:pattern.find('^$')]
-            else:
-                pattern = pattern
+            ind = pattern.find('||')
+            if ind != -1:
+                pattern[ind:ind + 2] = '(http\:\/\/|https\:\/\/|http\:\/\/www\.)'
 
-            if pattern.find('$') != -1:
-                pattern = pattern[:pattern.find('^$')]
-            else:
-                pattern = pattern
+            ind = pattern.find('^')
+            if ind != -1:
+                pattern[ind:ind + 1] = '[\?\/\:\=\&]'
+
+            ind = pattern.find('|')
+            if ind != -1:
+                if ind == 0:
+                    pattern[ind] = '^'
+                else:
+                    pattern[ind] = '$'
+
+            replace_str = [':', '-', '+', '.', '=', '&', '?', '/', '_', '!', '~']
+            for string in replace_str:
+                pattern = pattern.replace(string, '\\' + string)
 
             pattern.replace('*', '\S*')
 
@@ -416,7 +424,7 @@ if __name__ == '__main__':
 
     extension_id = get_id(browser, extension_name)
     cmd = 'chrome-extension://' + extension_id + '/command.html?'
-    rules_location = 'rulelist.txt'
+    rules_location = 'easyprivacy.txt'
 
     # search = browser.find_element_by_id("kw")
     # search.send_keys('test')
