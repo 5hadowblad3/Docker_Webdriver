@@ -24,6 +24,7 @@ from sklearn.ensemble import AdaBoostClassifier
 
 from sklearn.metrics import accuracy_score
 from sklearn import svm
+from sklearn.cluster import KMeans
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import classification_report
 
@@ -177,18 +178,18 @@ def load_rule(path):
 
             ind = pattern.find('||')
             if ind != -1:
-                pattern[ind:ind + 2] = '(http\:\/\/|https\:\/\/|http\:\/\/www\.)'
+                pattern = pattern[:ind] + '(http\:\/\/|https\:\/\/|http\:\/\/www\.)' + pattern[ind + 2:]
 
             ind = pattern.find('^')
             if ind != -1:
-                pattern[ind:ind + 1] = '[\?\/\:\=\&]'
+                pattern = pattern[:ind] + '[\?\/\:\=\&]' + pattern[ind + 1:]
 
-            ind = pattern.find('|')
-            if ind != -1:
-                if ind == 0:
-                    pattern[ind] = '^'
-                else:
-                    pattern[ind] = '$'
+            # ind = pattern.find('|')
+            # if ind != -1:
+            #     if ind == 0:
+            #         pattern = '^' + pattern[ind + 1:]
+            #     else:
+            #         pattern = pattern[:ind] + '$' + pattern[ind + 1:]
 
             replace_str = [':', '-', '+', '.', '=', '&', '?', '/', '_', '!', '~']
             for string in replace_str:
@@ -385,10 +386,11 @@ def analyse_json(path, location, rules):
 def ml_performance(path):
     target, features = load_data(path)
     clf = RandomForestClassifier(n_estimators=10)
-    clf = clf.fit(features, target)
+    # clf = clf.fit(features, target)
     clf2 = DecisionTreeClassifier(max_depth=None, min_samples_split=2, random_state=0)
     clf3 = AdaBoostClassifier(n_estimators=100)
     clf4 = MLPClassifier()
+    clf5 = KMeans(n_clusters=2, random_state=0).fit()
     # clf5 = svm.SVC()
     scores = cross_val_score(clf, features, target)
     scores2 = cross_val_score(clf2, features, target)
@@ -401,6 +403,7 @@ def ml_performance(path):
     print scores2.mean()
     print scores3.mean()
     print scores4.mean()
+    print clf5.score(features, target)
     # print scores5.mean()
 
 
