@@ -206,6 +206,8 @@ def load_rule(path):
 def label_instance(url, rules):
     for rule in rules:
         if rule.match(url):
+            print 'rule: ' + rule
+            print 'url:' + url
             return 1
 
     return 0
@@ -216,6 +218,7 @@ def find_request(requests, identifier):
     for ind, package in enumerate(requests):
         if package['details']['requestId'] == identifier:
             return requests.pop(ind), requests
+    return None, requests
 
 
 # Json file analysis for each package
@@ -237,6 +240,9 @@ def analyse_json(path, location, rules):
         if package['type'].count('request') == 0 and package['type'].count('response') == 0:
             continue
 
+        if package['details']['url'].count('chrome-estension') > 0:
+            continue
+
         # interaction with third party => tracking
         if package['type'] == 'request':
             request.append(package)
@@ -254,6 +260,9 @@ def analyse_json(path, location, rules):
 
             print package['details']['requestId']
             pair_request, request = find_request(request, package['details']['requestId'])
+            if pair_request == None:
+                print 'missing pair request, pass:'
+                continue
             print pair_request
 
             url = tldextract.extract(pair_request['details']['url'])
@@ -352,6 +361,8 @@ def analyse_json(path, location, rules):
             label['label'] = label_instance(package['details']['url'], rules)
 
             for key, value in label.iteritems():
+                if key == 'label':
+                    continue
                 fd2.write(str(value) + ' ')
 
             # save final mark
@@ -500,5 +511,5 @@ if __name__ == '__main__':
 
     # print browser.title
     # print browser.page_source
-    ml_performance('data_set')
+    ml_performance('data_set2')
     # browser.quit()
