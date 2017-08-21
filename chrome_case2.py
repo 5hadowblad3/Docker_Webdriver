@@ -106,7 +106,7 @@ def interaction(br, type):
 def init_label():
     flag = {
         'cookies_change': 0,
-        'dom': 0,
+        # 'dom': 0,
         'request_length': 0,
         'response_length': 0,
         'cookies_number': 0,
@@ -178,18 +178,23 @@ def load_rule(path):
 
             ind = pattern.find('||')
             if ind != -1:
-                pattern = pattern[:ind] + '(http\:\/\/|https\:\/\/|http\:\/\/www\.)' + pattern[ind + 2:]
+                pattern = pattern[:ind] + '(http://|https://|http://www.)' + pattern[ind + 2:]
 
             ind = pattern.find('^')
             if ind != -1:
-                pattern = pattern[:ind] + '[\?\/\:\=\&]' + pattern[ind + 1:]
+                pattern = pattern[:ind] + '[?/:=&]' + pattern[ind + 1:]
 
             # ind = pattern.find('|')
-            # if ind != -1:
+            # if pattern[0] == '|':
             #     if ind == 0:
             #         pattern = '^' + pattern[ind + 1:]
             #     else:
             #         pattern = pattern[:ind] + '$' + pattern[ind + 1:]
+
+            if pattern[0] == '|':
+                pattern = '^' + pattern[1:]
+            elif pattern[-1] == '|':
+                pattern = pattern[:ind] + '$'
 
             replace_str = [':', '-', '+', '.', '=', '&', '?', '/', '_', '!', '~']
             for string in replace_str:
@@ -205,8 +210,8 @@ def load_rule(path):
 # label list with matching rules in all lists
 def label_instance(url, rules):
     for rule in rules:
-        if rule.match(url):
-            print 'rule: ' + rule
+        res = rule.match(url)
+        if res != None:
             print 'url:' + url
             return 1
 
@@ -311,6 +316,12 @@ def analyse_json(path, location, rules):
             if 'ip' in package['details'] and package['details']['ip'] not in ip:
                 ip.append(package['details']['ip'])
 
+            # response length
+            if length > 160:
+                label['response_length'] = 1
+
+            length = 0
+
             # print package['details']['type']
             # print 'response from ', domain
             for header in package['details']['responseHeaders']:
@@ -355,7 +366,7 @@ def analyse_json(path, location, rules):
                     label['cache-control'] = 1
 
             # response length
-            if length > 360:
+            if length > 160:
                 label['response_length'] = 1
 
             label['label'] = label_instance(package['details']['url'], rules)
