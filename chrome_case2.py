@@ -295,7 +295,7 @@ def analyse_json(path, location, rules):
                 label['new_frame'] = 1
 
             # new windows generated
-            if pair_request['details']['parentContextId'] != -1:
+            if package['details']['parentContextId'] != -1:
                 label['new_window'] = 1
 
             # status code check
