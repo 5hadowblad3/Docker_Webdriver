@@ -111,6 +111,7 @@ def init_label():
         'request_length': 0,
         'response_length': 0,
         'cookies_number': 0,
+        'parameter_number': 0,
         'js_number': 0,
         'request_number': 0,
         'ip_cnt': 0,
@@ -194,6 +195,10 @@ def analyse_json(path, location):
         if package['type'] == 'request' or package['type'] == 'response':
             if package['details']['parentFrameId'] != -1:
                 label['new_window'] = 1
+
+        # parameter number
+        if package['details']['url'].count('=') > 0:
+            label['parameter_number'] = 1
 
         # upload (hidden) text 1
         if label['variable_new'] != 1 and package['type'] == 'variable.new' > 0:
