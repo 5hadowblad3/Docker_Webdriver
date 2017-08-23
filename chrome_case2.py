@@ -168,7 +168,7 @@ def load_rule(path):
     rules = []
     with open(path, 'r') as f:
         for rule in f:
-            if rule[0] == '!' or rule.count('##') > 0 or rule.count('#@#') > 0 or rule.count('#?#'):
+            if rule[0] == '!' or rule.count('#') > 0:
                 continue
 
             pattern = rule
