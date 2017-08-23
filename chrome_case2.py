@@ -5,8 +5,10 @@ import json
 import time
 import shutil
 import urlparse
+import datetime
 import tldextract
 import editdistance
+import email.utils as eut
 from difflib import SequenceMatcher
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -118,6 +120,7 @@ def init_label():
         'new_frame': 0,
         'status': 0,
         'method': 0,
+        'header_number': 0,
 
         # header info
         'user-agent': 0,
@@ -130,6 +133,7 @@ def init_label():
         'last-modified': 0,
         'set-cookie': 0,
         'cache-control': 0,
+        'expire_time': 0,
 
         # cookies feature
         'multi-origin': 0,
@@ -241,6 +245,10 @@ def analyse_json(path, location, rules):
 
     # analysis each behavior inside one website
     for package in data:
+        if package['type'].count('.changed') > 0:
+            label['cookies_change'] = 1
+            continue
+
         # situation ignored
         if package['type'].count('request') == 0 and package['type'].count('response') == 0:
             continue
@@ -284,20 +292,34 @@ def analyse_json(path, location, rules):
 
             # new windows generated
             if pair_request['details']['parentFrameId'] != -1:
+                label['new_frame'] = 1
+
+            # new windows generated
+            if pair_request['details']['parentContextId'] != -1:
                 label['new_window'] = 1
+
+            # status code check
+            if package['details']['statusCode'] != '200':
+                label['status'] = 1
+
+            # method
+            if package['method'] == 'GET' or package['method'] == 'POST':
+                label['method'] = 1
 
             domain = urlparse.urlparse(pair_request['details']['url']).netloc
             # print 'enter ', domain
             if 'requestHeaders' in pair_request['details']:
                 for header in pair_request['details']['requestHeaders']:
-                    length += len(header['value'])
+                    if 'value' in header:
+                        length += len(header['value'])
                     # user agent exchanging
                     if label['user-agent'] != 1 and header['name'].count('user-agent'):
                         label['user-agent'] = 1
 
                     # request with cookies
-                    if label['cookies'] != 1 and header['name'].count('cookies') > 0:
+                    if label['cookies'] != 1 and header['name'].count('Cookie') > 0:
                         label['cookies'] = 1
+                        label['cookies_number'] = header['value'].count('=')
 
                     # check for referer header
                     if label['Refer'] != 1 and header['name'].count('Referer') > 0:
@@ -309,23 +331,39 @@ def analyse_json(path, location, rules):
                     if label['Accept-Encoding'] != 1 and header['name'].count('Accept-Encoding') > 0:
                         label['Accept-Encoding'] = 1
 
-                    if label['Accept-Encoding'] != 1 and header['name'].count('Accept-Language') > 0:
-                        label['Accept-Encoding'] = 1
+                    # check for font info
+                    if label['Accept-Language'] != 1 and header['name'].count('Accept-Language') > 0:
+                        label['Accept-Language'] = 1
+
+
+
 
             # need modified with third party todo
             if 'ip' in package['details'] and package['details']['ip'] not in ip:
                 ip.append(package['details']['ip'])
 
             # response length
-            if length > 160:
+            if length > 60:
                 label['response_length'] = 1
 
             length = 0
 
+            # parameter number
+            if package['details']['url'].count('=') > 0 or pair_request['details']['url'].count('=') > 0:
+                label['parameter_number'] = 1
+
+            if pair_request['details']['url'].count('js') > 0:
+                label['type'] = 2
+            elif pair_request['details']['url'].count('css') > 0:
+                label['type'] = 3
+            elif pair_request['details']['url'].count('img') > 0:
+                label['type'] = 1
+
             # print package['details']['type']
             # print 'response from ', domain
             for header in package['details']['responseHeaders']:
-                length += len(header['value'])
+                if 'value' in header:
+                    length += len(header['value'])
                 # user agent exchanging
                 if label['last-modified'] != 1 and header['name'].count('last-modified'):
                     label['last-modified'] = 1
@@ -365,8 +403,15 @@ def analyse_json(path, location, rules):
                 if label['cache-control'] != 1 and header['name'].count('cache-control') > 0:
                     label['cache-control'] = 1
 
+                # expire time
+                if label['expire_time'] != 1 and header['name'].count('Expires') > 0:
+                    expire = datetime.datetime.strptime(header['value'], "%a, %d %b %Y %H:%M:%S %Z")
+                    ttl = expire - datetime.datetime.now()
+                    if ttl.days > 7:
+                        label['expire_time'] = 1
+
             # response length
-            if length > 160:
+            if length > 60:
                 label['response_length'] = 1
 
             label['label'] = label_instance(package['details']['url'], rules)
