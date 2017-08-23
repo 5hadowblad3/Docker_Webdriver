@@ -172,6 +172,9 @@ def load_rule(path):
                 continue
 
             pattern = rule
+            if pattern[0] == '&' or pattern[0] == '-' or pattern[0] == '.' or pattern[0] == '/':
+                pattern = pattern[1:]
+
             ind = pattern.find('@@')
             if ind != -1:
                 pattern = pattern[:ind] + pattern[ind + 2:]
@@ -180,13 +183,17 @@ def load_rule(path):
             if ind != -1:
                 pattern = pattern[:ind]
 
+            ind = pattern.find('/')
+            if ind != -1:
+                pattern = pattern[:ind]
+
             ind = pattern.find('||')
             if ind != -1:
-                pattern = pattern[:ind] + '(http://|https://|http://www.)' + pattern[ind + 2:]
+                pattern = pattern[ind + 2:]
 
             ind = pattern.find('^')
             if ind != -1:
-                pattern = pattern[:ind] + '[?/:=&]' + pattern[ind + 1:]
+                pattern = pattern[:ind]
 
             # ind = pattern.find('|')
             # if pattern[0] == '|':
@@ -195,10 +202,10 @@ def load_rule(path):
             #     else:
             #         pattern = pattern[:ind] + '$' + pattern[ind + 1:]
 
-            if pattern[0] == '|':
-                pattern = '^' + pattern[1:]
-            elif pattern[-1] == '|':
-                pattern = pattern[:ind] + '$'
+            # if pattern[0] == '|':
+            #     pattern = '^' + pattern[1:]
+            # elif pattern[-1] == '|':
+            #     pattern = pattern[:ind] + '$'
 
             replace_str = [':', '-', '+', '.', '=', '&', '?', '/', '_', '!', '~']
             for string in replace_str:
@@ -215,7 +222,7 @@ def load_rule(path):
 def label_instance(url, rules):
     for rule in rules:
         res = rule.match(url)
-        if res != None:
+        if res is not None:
             print 'url:' + url
             return 1
 
