@@ -302,7 +302,7 @@ def analyse_json(path, location, rules):
                 label['new_frame'] = 1
 
             # new windows generated
-            if package['details']['parentContextId'] != -1:
+            if 'parentContextId' in package['details'] and package['details']['parentContextId'] != -1:
                 label['new_window'] = 1
 
             # status code check
