@@ -569,10 +569,10 @@ if __name__ == '__main__':
 
         # json_file = os.listdir(download_path)[0]
         # print  download_path + json_file
-        analyse_json(download_path + json_file, 'data_set2', rules)
+        analyse_json(download_path + json_file, 'data_set4', rules)
         shutil.move(download_path + json_file, backup_path + json_file)
 
     # print browser.title
     # print browser.page_source
-    ml_performance('data_set2')
+    ml_performance('data_set4')
     # browser.quit()
