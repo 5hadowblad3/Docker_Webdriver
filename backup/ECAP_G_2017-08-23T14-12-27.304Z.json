@@ -1,0 +1,839 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503497542346
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 644839,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/4df5f7c9-7bda-472e-8873-0a27e3abe349",
+          "id": 199,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T14:12:22.348Z",
+          "state": "in_progress",
+          "totalBytes": 644839,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/4df5f7c9-7bda-472e-8873-0a27e3abe349"
+        }
+      },
+      "timeStamp": 1503497542349
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 644839,
+          "filename": "ECAP_G_2017-08-23T14-12-22.338Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/4df5f7c9-7bda-472e-8873-0a27e3abe349",
+          "id": 199,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T14:12:22.348Z",
+          "state": "in_progress",
+          "totalBytes": 644839,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/4df5f7c9-7bda-472e-8873-0a27e3abe349"
+        }
+      },
+      "timeStamp": 1503497542353
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T14-12-22.338Z.json",
+            "previous": ""
+          },
+          "id": 199
+        }
+      },
+      "timeStamp": 1503497542362
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T14:12:22.365Z"
+          },
+          "id": 199,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503497542365
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503497545306,
+      "url": "https://www.iconshoes.com/thursdayboots.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "15950",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://www.iconshoes.com/thursdayboots.com",
+      "id": 16975,
+      "contextId": 1444,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503497545306,
+      "end": 1503497545307,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.iconshoes.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "ASPSESSIONIDAAQSQDTQ",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "NOECFAKCBDLDEPNHKNBPCLAO"
+      },
+      "removed": false,
+      "timeStamp": 1503497546204,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1444
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "ASPSESSIONIDAAQSQDTQ",
+      "type": "cookie",
+      "value": "NOECFAKCBDLDEPNHKNBPCLAO",
+      "timeStamp": 1503497546204,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1444
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.iconshoes.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "ASPSESSIONIDAAQSQDTQ",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "NOECFAKCBDLDEPNHKNBPCLAO"
+      },
+      "removed": false,
+      "timeStamp": 1503497546207
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "ASPSESSIONIDAAQSQDTQ",
+      "type": "cookie",
+      "value": "NOECFAKCBDLDEPNHKNBPCLAO",
+      "timeStamp": 1503497546207
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "15950",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/8.5"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "ASPSESSIONIDAAQSQDTQ=NOECFAKCBDLDEPNHKNBPCLAO; path=/"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:12:26 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1643"
+        }
+      ],
+      "statusCode": 404,
+      "statusLine": "HTTP/1.1 404 Not Found",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://www.iconshoes.com/thursdayboots.com",
+      "id": 16975,
+      "contextId": 1444,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503497546204,
+      "end": 1503497546209,
+      "fromCache": false,
+      "ip": "69.162.252.185"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "https://www.iconshoes.com/thursdayboots.com"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "https://www.iconshoes.com/thursdayboots.com",
+          "url": "https://www.iconshoes.com/thursdayboots.com",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503497546211
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503497546211
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 205,
+      "tabId": 2,
+      "timeStamp": 1503497546211,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "https://www.iconshoes.com/thursdayboots.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "The page cannot be found"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "The page cannot be found",
+          "url": "https://www.iconshoes.com/thursdayboots.com",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503497546216
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 205,
+      "tabId": 2,
+      "timeStamp": 1503497546222,
+      "url": "https://www.iconshoes.com/thursdayboots.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 205,
+      "tabId": 2,
+      "timeStamp": 1503497546242,
+      "url": "https://www.iconshoes.com/thursdayboots.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "The page cannot be found",
+          "url": "https://www.iconshoes.com/thursdayboots.com",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503497546245
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://www.iconshoes.com/thursdayboots.com",
+      "timeStamp": 1503497546250,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.iconshoes.com/thursdayboots.com",
+      "contextId": 1444,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503497546250,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.iconshoes.com/thursdayboots.com",
+      "contextId": 1444,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "The page cannot be found",
+      "timeStamp": 1503497546250,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.iconshoes.com/thursdayboots.com",
+      "contextId": 1444,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "15951",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.iconshoes.com/favicon.ico",
+      "id": 16976,
+      "contextId": 1444,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503497546253,
+      "end": 1503497546253,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.iconshoes.com/thursdayboots.com"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "ASPSESSIONIDAAQSQDTQ=NOECFAKCBDLDEPNHKNBPCLAO"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "15951",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/x-icon"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 12 Sep 2013 20:19:22 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"9f346e5ef5afce1:0\""
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/8.5"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:12:26 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1150"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.iconshoes.com/favicon.ico",
+      "id": 16976,
+      "contextId": 1444,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503497546403,
+      "end": 1503497546404,
+      "fromCache": false,
+      "ip": "69.162.252.185"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "https://www.iconshoes.com/favicon.ico"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "https://www.iconshoes.com/favicon.ico",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "The page cannot be found",
+          "url": "https://www.iconshoes.com/thursdayboots.com",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503497546405
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "15952",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 16977,
+      "contextId": 1445,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503497547288,
+      "end": 1503497547288
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "15952",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 16977,
+      "contextId": 1445,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503497547288,
+      "end": 1503497547293
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503497547294
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503497547294
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503497547294,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503497547289.153,
+          "title": "Save",
+          "typedCount": 199,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 199
+        }
+      },
+      "timeStamp": 1503497547294
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503497547296
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "15953",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 16978,
+      "contextId": 1445,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503497547295,
+      "end": 1503497547296
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "15953",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 16978,
+      "contextId": 1445,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503497547296,
+      "end": 1503497547296
+    }
+  }
+]

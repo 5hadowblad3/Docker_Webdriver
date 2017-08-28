@@ -1,0 +1,2078 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503503825278
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 375603,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/191184f0-c123-4835-84a1-0ab16caef047",
+          "id": 141,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T15:57:05.280Z",
+          "state": "in_progress",
+          "totalBytes": 375603,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/191184f0-c123-4835-84a1-0ab16caef047"
+        }
+      },
+      "timeStamp": 1503503825282
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 375603,
+          "filename": "ECAP_G_2017-08-23T15-57-05.275Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/191184f0-c123-4835-84a1-0ab16caef047",
+          "id": 141,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T15:57:05.280Z",
+          "state": "in_progress",
+          "totalBytes": 375603,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/191184f0-c123-4835-84a1-0ab16caef047"
+        }
+      },
+      "timeStamp": 1503503825287
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T15-57-05.275Z.json",
+            "previous": ""
+          },
+          "id": 141
+        }
+      },
+      "timeStamp": 1503503825293
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T15:57:05.296Z"
+          },
+          "id": 141,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503503825297
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503503827916,
+      "url": "http://inkarcade.com/submissions",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11050",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://inkarcade.com/submissions",
+      "id": 11605,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503827916,
+      "end": 1503503827917,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11050",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:57:08 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3113"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 23 Aug 2017 13:59:14 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"c29-5576c1df885d2\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=126, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 15:59:14 GMT"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://inkarcade.com/submissions",
+      "id": 11605,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828365,
+      "end": 1503503828366,
+      "fromCache": false,
+      "ip": "109.73.226.65"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://inkarcade.com/submissions"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "inkarcade.com/submissions",
+          "url": "http://inkarcade.com/submissions",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503503828370
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503503828370
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 147,
+      "tabId": 2,
+      "timeStamp": 1503503828372,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://inkarcade.com/submissions",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11051",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://inkarcade.com/site/wp-content/cache/minify/9a2a9.css",
+      "id": 11606,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828379,
+      "end": 1503503828380,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://inkarcade.com/submissions"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11052",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js?ver=2.1.0",
+      "id": 11607,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828380,
+      "end": 1503503828380,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://inkarcade.com/submissions"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "191",
+          "lastVisitTime": 1503503828367.706,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://inkarcade.com/submissions",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503503828381
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Submissions"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Submissions",
+          "url": "http://inkarcade.com/submissions",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503503828382
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11052",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "29478"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 07 Aug 2017 09:07:43 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 07 Aug 2018 09:07:43 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 20 Dec 2016 18:17:03 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000, stale-while-revalidate=2592000"
+        },
+        {
+          "name": "Age",
+          "value": "1406965"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js?ver=2.1.0",
+      "id": 11607,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828389,
+      "end": 1503503828389,
+      "fromCache": false,
+      "ip": "216.58.210.42"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11054",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://inkarcade.com/site/wp-content/themes/inkarcade/assets/javascript/foundation.js?ver=2.3.0",
+      "id": 11608,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828390,
+      "end": 1503503828390,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://inkarcade.com/submissions"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11051",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:57:08 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "22127"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 22 Aug 2017 12:59:34 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"566f-557572abeb38a\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31438946, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 22 Aug 2018 12:59:34 GMT"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://inkarcade.com/site/wp-content/cache/minify/9a2a9.css",
+      "id": 11606,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828493,
+      "end": 1503503828589,
+      "fromCache": false,
+      "ip": "109.73.226.65"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11054",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:57:08 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "25296"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 02 Jun 2016 20:04:24 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1a38c-534511cd0e200\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 15:57:08 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://inkarcade.com/site/wp-content/themes/inkarcade/assets/javascript/foundation.js?ver=2.3.0",
+      "id": 11608,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828503,
+      "end": 1503503828599,
+      "fromCache": false,
+      "ip": "109.73.226.65"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11055",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://inkarcade.com/site/wp-includes/js/wp-embed.min.js?ver=4.8",
+      "id": 11609,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828599,
+      "end": 1503503828600,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://inkarcade.com/submissions"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11053",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://inkarcade.com/site/wp-content/themes/inkarcade/assets/images/logos/inkarcade-logo@2x.png",
+      "id": 11610,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828631,
+      "end": 1503503828631,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://inkarcade.com/submissions"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11057",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://inkarcade.com/site/wp-content/themes/inkarcade/assets/fonts/fontawesome-webfont.woff2?v=4.5.0",
+      "id": 11612,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828655,
+      "end": 1503503828655,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://inkarcade.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://inkarcade.com/site/wp-content/cache/minify/9a2a9.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11055",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:57:08 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "751"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 07 Dec 2016 20:25:11 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"576-54317514fb131\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 15:57:08 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://inkarcade.com/site/wp-includes/js/wp-embed.min.js?ver=4.8",
+      "id": 11609,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828705,
+      "end": 1503503828705,
+      "fromCache": false,
+      "ip": "109.73.226.65"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11053",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:57:08 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1313"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 09 May 2016 21:33:54 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"521-5326f90b39480\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 15:57:08 GMT"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://inkarcade.com/site/wp-content/themes/inkarcade/assets/images/logos/inkarcade-logo@2x.png",
+      "id": 11610,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828738,
+      "end": 1503503828738,
+      "fromCache": false,
+      "ip": "109.73.226.65"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/analytics.js",
+      "requestId": "11056",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/analytics.js"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google-analytics.com/analytics.js",
+      "id": 11611,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1503503828752
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11056",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 11613,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828752,
+      "end": 1503503828752,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://inkarcade.com/submissions"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11056",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 14:22:02 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 16:22:02 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "13472"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "age",
+          "value": "4175"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 11613,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828753,
+      "end": 1503503828753,
+      "fromCache": true,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 147,
+      "tabId": 2,
+      "timeStamp": 1503503828754,
+      "url": "http://inkarcade.com/submissions",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".inkarcade.com",
+        "expirationDate": 1566575828,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.1407089276.1503503829"
+      },
+      "removed": false,
+      "timeStamp": 1503503828771
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_ga",
+      "type": "cookie",
+      "value": "GA1.2.1407089276.1503503829",
+      "timeStamp": 1503503828771
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".inkarcade.com",
+        "expirationDate": 1503590228,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.626455481.1503503829"
+      },
+      "removed": false,
+      "timeStamp": 1503503828771
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gid",
+      "type": "cookie",
+      "value": "GA1.2.626455481.1503503829",
+      "timeStamp": 1503503828771
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".inkarcade.com",
+        "expirationDate": 1503503888,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gat",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1503503828775
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gat",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1503503828775
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11058",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=508465819&t=pageview&_s=1&dl=http%3A%2F%2Finkarcade.com%2Fsubmissions&ul=en-gb&de=UTF-8&dt=Submissions&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=YEBAAUABK~&jid=466838833&gjid=345684786&cid=1407089276.1503503829&tid=UA-7605678-1&_gid=626455481.1503503829&_r=1&z=1443457769",
+      "id": 11614,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828776,
+      "end": 1503503828776,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://inkarcade.com/submissions"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://inkarcade.com/submissions",
+      "timeStamp": 1503503828782,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://inkarcade.com/submissions",
+      "contextId": 1037,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503503828782,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://inkarcade.com/submissions",
+      "contextId": 1037,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Submissions",
+      "timeStamp": 1503503828783,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://inkarcade.com/submissions",
+      "contextId": 1037,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "email",
+      "type": "input:email",
+      "value": "",
+      "timeStamp": 1503503828783,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://inkarcade.com/submissions",
+      "contextId": 1037,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1503503828783,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://inkarcade.com/submissions",
+      "contextId": 1037,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11058",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "302"
+        },
+        {
+          "name": "location",
+          "value": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-7605678-1&cid=1407089276.1503503829&jid=466838833&_gid=626455481.1503503829&gjid=345684786&_v=j60&z=1443457769"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:57:08 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "416"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=508465819&t=pageview&_s=1&dl=http%3A%2F%2Finkarcade.com%2Fsubmissions&ul=en-gb&de=UTF-8&dt=Submissions&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=YEBAAUABK~&jid=466838833&gjid=345684786&cid=1407089276.1503503829&tid=UA-7605678-1&_gid=626455481.1503503829&_r=1&z=1443457769",
+      "id": 11614,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828786,
+      "end": 1503503828786,
+      "fromCache": false,
+      "ip": "216.58.206.46",
+      "redirectUrl": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-7605678-1&cid=1407089276.1503503829&jid=466838833&_gid=626455481.1503503829&gjid=345684786&_v=j60&z=1443457769"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11058",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-7605678-1&cid=1407089276.1503503829&jid=466838833&_gid=626455481.1503503829&gjid=345684786&_v=j60&z=1443457769",
+      "id": 11615,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828786,
+      "end": 1503503828786,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://inkarcade.com/submissions"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=22ac5c04524c0067||t=1503502302|et=730|cs=002213fd48ff2406a570b0e8bd; IDE=AHWqTUme6vL8mdM43KUFVX47iY61lA1HL-MGOPqQzP3H0gk0yFkCN6soiA; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11058",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=10886400; includeSubDomains; preload"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:57:08 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-7605678-1&cid=1407089276.1503503829&jid=466838833&_gid=626455481.1503503829&gjid=345684786&_v=j60&z=1443457769",
+      "id": 11615,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828796,
+      "end": 1503503828796,
+      "fromCache": false,
+      "ip": "74.125.206.156"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11057",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:57:08 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/font-woff2"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10440-534511c56d000\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 15:57:08 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://inkarcade.com/site/wp-content/themes/inkarcade/assets/fonts/fontawesome-webfont.woff2?v=4.5.0",
+      "id": 11612,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828818,
+      "end": 1503503828923,
+      "fromCache": false,
+      "ip": "109.73.226.65"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 147,
+      "tabId": 2,
+      "timeStamp": 1503503828947,
+      "url": "http://inkarcade.com/submissions",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Submissions",
+          "url": "http://inkarcade.com/submissions",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503503828947
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11059",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://inkarcade.com/site/wp-content/themes/inkarcade/assets/images/icons/favicon.ico",
+      "id": 11616,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503828949,
+      "end": 1503503828949,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://inkarcade.com/submissions"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1407089276.1503503829; _gid=GA1.2.626455481.1503503829; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11059",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:57:09 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/x-icon"
+        },
+        {
+          "name": "Content-Length",
+          "value": "221"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "ETag",
+          "value": "\"e4-530dbe1cf8d00\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 15:57:08 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://inkarcade.com/site/wp-content/themes/inkarcade/assets/images/icons/favicon.ico",
+      "id": 11616,
+      "contextId": 1037,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503829102,
+      "end": 1503503829103,
+      "fromCache": false,
+      "ip": "109.73.226.65"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "http://inkarcade.com/site/wp-content/themes/inkarcade/assets/images/icons/favicon.ico"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "http://inkarcade.com/site/wp-content/themes/inkarcade/assets/images/icons/favicon.ico",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Submissions",
+          "url": "http://inkarcade.com/submissions",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503503829105
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11060",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 11617,
+      "contextId": 1038,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503829984,
+      "end": 1503503829985
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11060",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 11617,
+      "contextId": 1038,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503829985,
+      "end": 1503503829991
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503503829991
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503503829991
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503503829991,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503503829986.294,
+          "title": "Save",
+          "typedCount": 141,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 141
+        }
+      },
+      "timeStamp": 1503503829993
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11061",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 11618,
+      "contextId": 1038,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503829993,
+      "end": 1503503829993
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "11061",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 11618,
+      "contextId": 1038,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503829993,
+      "end": 1503503829993
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503503829996
+    }
+  }
+]

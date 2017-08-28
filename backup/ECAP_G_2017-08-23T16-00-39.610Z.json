@@ -1,0 +1,7427 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504033584
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 93358,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/b63e8978-25a4-45be-992b-d71f9e7c87f9",
+          "id": 170,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T16:00:33.587Z",
+          "state": "in_progress",
+          "totalBytes": 93358,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/b63e8978-25a4-45be-992b-d71f9e7c87f9"
+        }
+      },
+      "timeStamp": 1503504033588
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 93358,
+          "filename": "ECAP_G_2017-08-23T16-00-33.579Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/b63e8978-25a4-45be-992b-d71f9e7c87f9",
+          "id": 170,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T16:00:33.587Z",
+          "state": "in_progress",
+          "totalBytes": 93358,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/b63e8978-25a4-45be-992b-d71f9e7c87f9"
+        }
+      },
+      "timeStamp": 1503504033589
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T16-00-33.579Z.json",
+            "previous": ""
+          },
+          "id": 170
+        }
+      },
+      "timeStamp": 1503504033594
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T16:00:33.596Z"
+          },
+          "id": 170,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503504033596
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503504035870,
+      "url": "https://theebookbandit.wordpress.com/contact/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13306",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://theebookbandit.wordpress.com/contact/",
+      "id": 13996,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504035870,
+      "end": 1503504035871,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13306",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "vary",
+          "value": "Cookie"
+        },
+        {
+          "name": "x-hacker",
+          "value": "If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header."
+        },
+        {
+          "name": "link",
+          "value": "<http://wp.me/P8EsCj-3>; rel=shortlink"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-ac",
+          "value": "1.lhr _dfw"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=15552000"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://theebookbandit.wordpress.com/contact/",
+      "id": 13996,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036212,
+      "end": 1503504036214,
+      "fromCache": false,
+      "ip": "192.0.78.12"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "https://theebookbandit.wordpress.com/contact/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "https://theebookbandit.wordpress.com/contact/",
+          "url": "https://theebookbandit.wordpress.com/contact/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504036218
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503504036218
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504036219,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "https://theebookbandit.wordpress.com/contact/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "238",
+          "lastVisitTime": 1503504036215.435,
+          "title": "",
+          "typedCount": 1,
+          "url": "https://theebookbandit.wordpress.com/contact/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503504036224
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13307",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s1.wp.com/_static/??-eJyFj90KwjAMhV/IGqZT3IX4LFsNrlvThqVl+PamDgVF5k3Iz/k4JzCzsTEkDAkoG/b55oLAzDaSEXIe71/T1ops4Dfm3YgCAyZu7Wie05rcxgl1T9ymoiC8uhY9ksrWMOLjiyptr16rNkv8ruMJRYxWcplM6tXoTzwqUZY/QIWfmwV1EGJySsu7KYcLnav60OzqqtmfhgcvXIXW",
+      "id": 13997,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036224,
+      "end": 1503504036224,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13308",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Rubik%3A400%2C500%2C700%2C900%2C400italic%2C700italic%7CLibre+Baskerville%3A700%2C900%2C400italic&subset=latin%2Clatin-ext",
+      "id": 13998,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036224,
+      "end": 1503504036225,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13309",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s0.wp.com/_static/??-eJyNjtEKwjAMRX/IGqYy9UH8li5mNZI2xXQU/96KLw5h+pbDPQcCNTvUVCgVKFeKZJCnAe40ePEJCcY2Ol/JNM5hjWYr+JVbecifKid8665m1PgVxcllmQIng8qXQMXAFNmL46bMYSkOpE4UfWFNM3CjeL4vpe1Z0dDOAM36wFd0jqdudzzst12/6W9PMVCA4w==",
+      "id": 13999,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036225,
+      "end": 1503504036225,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13310",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s2.wp.com/_static/??-eJx9i9EKwjAMRX/IGoVN54P4LVnp2kialCbD3xcfRGTi0z0XzoFHC1HFkzjUNTReM4kBRieVGfuH9tFsB7/1puZhYaQOVrCT5Pf+q0wjIQfWrN9nE3lJNRmUATLrjPwSbvV6HC6H83Qap/H+BMWZScE=",
+      "id": 14000,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036225,
+      "end": 1503504036225,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13311",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s1.wp.com/_static/??-eJyFztEKwjAMBdAfsquTiXsRv6XWOFKXtDbphn69HeiDMBQCgdzDJXZOBtmP5QJiQ517gfx4rybIxv4ChnDITqEh5A/2kRVYF0vxjCOYIpDdUG+16BpXXIqiBCIVraTfLyFPCPNfFkCT8zeTQfC5tJ7o2Hb9Yde3+24bXjRNW9I=",
+      "id": 14001,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036225,
+      "end": 1503504036226,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Get Your Book Featured – The eBook Bandit"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Get Your Book Featured – The eBook Bandit",
+          "url": "https://theebookbandit.wordpress.com/contact/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504036226
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13310",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:34:41 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css;charset=utf-8"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 29 Mar 2017 11:23:13 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"58db9921-f041\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 22:21:10 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s2.wp.com/_static/??-eJx9i9EKwjAMRX/IGoVN54P4LVnp2kialCbD3xcfRGTi0z0XzoFHC1HFkzjUNTReM4kBRieVGfuH9tFsB7/1puZhYaQOVrCT5Pf+q0wjIQfWrN9nE3lJNRmUATLrjPwSbvV6HC6H83Qap/H+BMWZScE=",
+      "id": 14000,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036226,
+      "end": 1503504036226,
+      "fromCache": true,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13311",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:44:17 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 16 Feb 2017 21:47:59 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"58a61e0f-26d19\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 22:21:10 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s1.wp.com/_static/??-eJyFztEKwjAMBdAfsquTiXsRv6XWOFKXtDbphn69HeiDMBQCgdzDJXZOBtmP5QJiQ517gfx4rybIxv4ChnDITqEh5A/2kRVYF0vxjCOYIpDdUG+16BpXXIqiBCIVraTfLyFPCPNfFkCT8zeTQfC5tJ7o2Hb9Yde3+24bXjRNW9I=",
+      "id": 14001,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036227,
+      "end": 1503504036227,
+      "fromCache": true,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13309",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css;charset=utf-8"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 29 Jun 2017 10:20:33 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"5954d471-1a2d2\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 29 Jun 2018 10:20:43 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s0.wp.com/_static/??-eJyNjtEKwjAMRX/IGqYy9UH8li5mNZI2xXQU/96KLw5h+pbDPQcCNTvUVCgVKFeKZJCnAe40ePEJCcY2Ol/JNM5hjWYr+JVbecifKid8665m1PgVxcllmQIng8qXQMXAFNmL46bMYSkOpE4UfWFNM3CjeL4vpe1Z0dDOAM36wFd0jqdudzzst12/6W9PMVCA4w==",
+      "id": 13999,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036235,
+      "end": 1503504036238,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13308",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Rubik%3A400%2C500%2C700%2C900%2C400italic%2C700italic%7CLibre+Baskerville%3A700%2C900%2C400italic&subset=latin%2Clatin-ext",
+      "id": 13998,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036239,
+      "end": 1503504036239,
+      "fromCache": false,
+      "ip": "216.58.213.74"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13313",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://0.gravatar.com/js/gprofiles.js?ver=201734y",
+      "id": 14002,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036241,
+      "end": 1503504036241,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13307",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css;charset=utf-8"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 29 Mar 2016 08:59:04 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"56fa43d8-b37b\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 22:21:10 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s1.wp.com/_static/??-eJyFj90KwjAMhV/IGqZT3IX4LFsNrlvThqVl+PamDgVF5k3Iz/k4JzCzsTEkDAkoG/b55oLAzDaSEXIe71/T1ops4Dfm3YgCAyZu7Wie05rcxgl1T9ymoiC8uhY9ksrWMOLjiyptr16rNkv8ruMJRYxWcplM6tXoTzwqUZY/QIWfmwV1EGJySsu7KYcLnav60OzqqtmfhgcvXIXW",
+      "id": 13997,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036238,
+      "end": 1503504036242,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13313",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:34:41 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Sep 2015 14:13:14 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"55faca7a-50aa\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 30 Aug 2017 15:34:41 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=604800"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://0.gravatar.com/js/gprofiles.js?ver=201734y",
+      "id": 14002,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036243,
+      "end": 1503504036243,
+      "fromCache": true,
+      "ip": "192.0.73.2"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13314",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h",
+      "id": 14003,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036243,
+      "end": 1503504036244,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13314",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:34:41 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"54c2cddb-2f0\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 18:05:56 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "1.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h",
+      "id": 14003,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036244,
+      "end": 1503504036245,
+      "fromCache": true,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13315",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s1.wp.com/_static/??-eJyVkdFuwjAMRX+IEECC7WXat7iJKW4TJ8RJgb8nUTXEpqljb9b1Pc61oy9RmcAZOetBtMWJDMbrepCVfmr5oqIrPbFoRyOKPhcseAK2DtOC2QTvq6RmaGh0p+VCEf8DfRN+gvmEvtpi6XTCDhywwRlyxbMjya8SDBP1kCnwF0FsXLFzCPLQo7gAFu3a068eDxI43Z7bfz0qJlHML28lI8V6Bx7VMZgi6khLfwW2JlEdpJYsY6qVChOmRC3wQ1uaYNo92oRHVd2f/mO73+wO79u33Wa4A/bm2M8=",
+      "id": 14004,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036245,
+      "end": 1503504036245,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13315",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 14 Aug 2017 03:36:47 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"59911acf-1de2e\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 14 Aug 2018 03:47:35 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s1.wp.com/_static/??-eJyVkdFuwjAMRX+IEECC7WXat7iJKW4TJ8RJgb8nUTXEpqljb9b1Pc61oy9RmcAZOetBtMWJDMbrepCVfmr5oqIrPbFoRyOKPhcseAK2DtOC2QTvq6RmaGh0p+VCEf8DfRN+gvmEvtpi6XTCDhywwRlyxbMjya8SDBP1kCnwF0FsXLFzCPLQo7gAFu3a068eDxI43Z7bfz0qJlHML28lI8V6Bx7VMZgi6khLfwW2JlEdpJYsY6qVChOmRC3wQ1uaYNo92oRHVd2f/mO73+wO79u33Wa4A/bm2M8=",
+      "id": 14004,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036246,
+      "end": 1503504036246,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13312",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://theebookbandit.files.wordpress.com/2017/04/cropped-raccoon-1510501_12803.png",
+      "id": 14005,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036247,
+      "end": 1503504036248,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13312",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "content-length",
+          "value": "5888"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 28 Apr 2017 00:06:18 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Mon, 11 Sep 2017 17:45:37 GMT"
+        },
+        {
+          "name": "x-orig-src",
+          "value": "01_mogdir"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 30 np"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://theebookbandit.files.wordpress.com/2017/04/cropped-raccoon-1510501_12803.png",
+      "id": 14005,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036268,
+      "end": 1503504036268,
+      "fromCache": false,
+      "ip": "192.0.72.30"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13316",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s.skimresources.com/js/725X1342.skimlinks.js",
+      "id": 14006,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036268,
+      "end": 1503504036268,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "skimSESS=e796dedc2e4daf53104a52fcd89dcff5; skimGUID=f6a1e71532385bd53b6cf2614159206f; skimORIGIN=r; skimCSP=\"lotame:1503503848\""
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13316",
+      "responseHeaders": [
+        {
+          "name": "x-amz-version-id",
+          "value": "wW6LG5EjvpxsvKMjjt18aBwkGBkS52Jm"
+        },
+        {
+          "name": "ETag",
+          "value": "\"4493f8b79f4de6987ef1865f0f99d8be\""
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Server",
+          "value": "Skimlinks V9.0"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "20016"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:34:41 GMT"
+        },
+        {
+          "name": "X-Served-By",
+          "value": "cache-lcy1148-LCY"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "359909"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "P3P",
+          "value": "policyref=\"https://s.skimresources.com/w3c/p3p.xml\", CP=\"NOI DSP COR CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s.skimresources.com/js/725X1342.skimlinks.js",
+      "id": 14006,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036269,
+      "end": 1503504036269,
+      "fromCache": true,
+      "ip": "151.101.16.129"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13317",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://stats.wp.com/w.js?56",
+      "id": 14007,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036269,
+      "end": 1503504036269,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13317",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:34:41 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"5890f68b-405c\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 31 Jan 2018 20:49:16 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://stats.wp.com/w.js?56",
+      "id": 14007,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036270,
+      "end": 1503504036270,
+      "fromCache": true,
+      "ip": "192.0.76.3"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13318",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s1.wp.com/wp-includes/js/wp-emoji-release.min.js?m=1496863874h&ver=4.8.1-RC2-41203",
+      "id": 14008,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036270,
+      "end": 1503504036270,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13318",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:34:41 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"59385626-2e45\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 02 Aug 2018 14:42:25 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s1.wp.com/wp-includes/js/wp-emoji-release.min.js?m=1496863874h&ver=4.8.1-RC2-41203",
+      "id": 14008,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036271,
+      "end": 1503504036271,
+      "fromCache": true,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13319",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h",
+      "id": 14009,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036271,
+      "end": 1503504036271,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13319",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:34:41 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"575f1ca1-1f6c\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 22:21:10 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h",
+      "id": 14009,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036272,
+      "end": 1503504036379,
+      "fromCache": true,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13320",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/rubik/v6/_mlO9_1N7oXYhEnEzC2l-g.woff2",
+      "id": 14010,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036379,
+      "end": 1503504036379,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://theebookbandit.wordpress.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Rubik%3A400%2C500%2C700%2C900%2C400italic%2C700italic%7CLibre+Baskerville%3A700%2C900%2C400italic&subset=latin%2Clatin-ext"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13321",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://s0.wp.com/wp-content/themes/pub/rebalance/font-awesome/fontawesome-webfont.woff2?v=4.7.0",
+      "id": 14011,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036380,
+      "end": 1503504036380,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://theebookbandit.wordpress.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://s0.wp.com/_static/??-eJyNjtEKwjAMRX/IGqYy9UH8li5mNZI2xXQU/96KLw5h+pbDPQcCNTvUVCgVKFeKZJCnAe40ePEJCcY2Ol/JNM5hjWYr+JVbecifKid8665m1PgVxcllmQIng8qXQMXAFNmL46bMYSkOpE4UfWFNM3CjeL4vpe1Z0dDOAM36wFd0jqdudzzst12/6W9PMVCA4w=="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13320",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "20668"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 16 Aug 2017 17:51:46 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 16 Aug 2018 17:51:46 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 16 Aug 2017 17:47:51 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "598130"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/rubik/v6/_mlO9_1N7oXYhEnEzC2l-g.woff2",
+      "id": 14010,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036380,
+      "end": 1503504036380,
+      "fromCache": false,
+      "ip": "216.58.206.99"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13322",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/librebaskerville/v4/QHIOz1iKF3bIEzRdDFaf5eUHi-3yDrzgLLsrfaKVF9k.woff2",
+      "id": 14012,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036380,
+      "end": 1503504036380,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://theebookbandit.wordpress.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Rubik%3A400%2C500%2C700%2C900%2C400italic%2C700italic%7CLibre+Baskerville%3A700%2C900%2C400italic&subset=latin%2Clatin-ext"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13322",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "29548"
+        },
+        {
+          "name": "date",
+          "value": "Thu, 03 Aug 2017 13:58:45 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 03 Aug 2018 13:58:45 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 06 Oct 2014 20:35:55 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "1735311"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/librebaskerville/v4/QHIOz1iKF3bIEzRdDFaf5eUHi-3yDrzgLLsrfaKVF9k.woff2",
+      "id": 14012,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036380,
+      "end": 1503504036381,
+      "fromCache": false,
+      "ip": "216.58.206.99"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13323",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/librebaskerville/v4/kH7K4InNTm7mmOXXjrA5v6y7YSlLHrWsjpD3RcrnyFM.woff2",
+      "id": 14013,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036381,
+      "end": 1503504036381,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://theebookbandit.wordpress.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Rubik%3A400%2C500%2C700%2C900%2C400italic%2C700italic%7CLibre+Baskerville%3A700%2C900%2C400italic&subset=latin%2Clatin-ext"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13323",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "26644"
+        },
+        {
+          "name": "date",
+          "value": "Thu, 03 Aug 2017 18:14:20 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 03 Aug 2018 18:14:20 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 06 Oct 2014 20:36:11 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "1719976"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/librebaskerville/v4/kH7K4InNTm7mmOXXjrA5v6y7YSlLHrWsjpD3RcrnyFM.woff2",
+      "id": 14013,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036381,
+      "end": 1503504036381,
+      "fromCache": false,
+      "ip": "216.58.206.99"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13321",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/font-woff2"
+        },
+        {
+          "name": "content-length",
+          "value": "77160"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 17 Jan 2017 10:57:55 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"587df8b3-12d68\""
+        },
+        {
+          "name": "access-control-allow-methods",
+          "value": "GET, HEAD"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 22:21:18 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://s0.wp.com/wp-content/themes/pub/rebalance/font-awesome/fontawesome-webfont.woff2?v=4.7.0",
+      "id": 14011,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036381,
+      "end": 1503504036381,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13324",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js?_=1503504036269",
+      "id": 14014,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036382,
+      "end": 1503504036382,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13325",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://widgets.wp.com/platform.js",
+      "id": 14015,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036382,
+      "end": 1503504036382,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13325",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"54cc74fb-2196\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 22:21:11 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://widgets.wp.com/platform.js",
+      "id": 14015,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036384,
+      "end": 1503504036384,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13326",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/rubik/v6/IUSlgBbgyuDQpy87mBOAc_esZW2xOQ-xsNqO47m55DA.woff2",
+      "id": 14016,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036406,
+      "end": 1503504036407,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://theebookbandit.wordpress.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Rubik%3A400%2C500%2C700%2C900%2C400italic%2C700italic%7CLibre+Baskerville%3A700%2C900%2C400italic&subset=latin%2Clatin-ext"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13326",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "21220"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 16 Aug 2017 17:51:46 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 16 Aug 2018 17:51:46 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 16 Aug 2017 17:47:37 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "598130"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/rubik/v6/IUSlgBbgyuDQpy87mBOAc_esZW2xOQ-xsNqO47m55DA.woff2",
+      "id": 14016,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036409,
+      "end": 1503504036410,
+      "fromCache": false,
+      "ip": "216.58.206.99"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13327",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://theebookbandit.files.wordpress.com/2017/04/cropped-raccoon-1510501_12802.png?w=50",
+      "id": 14017,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036421,
+      "end": 1503504036421,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13328",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://r.skimresources.com/api/?callback=skimlinksApplyHandlers&data=%7B%22pubcode%22%3A%22725X1342%22%2C%22domains%22%3A%5B%22facebook.com%22%2C%22twitter.com%22%2C%22eepurl.com%22%2C%22iubenda.com%22%2C%22wp.me%22%2C%22en.wordpress.com%22%2C%22subscribe.wordpress.com%22%5D%2C%22page%22%3A%22https%3A%2F%2Ftheebookbandit.wordpress.com%2Fcontact%2F%22%7D",
+      "id": 14018,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036429,
+      "end": 1503504036429,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "skimSESS=e796dedc2e4daf53104a52fcd89dcff5; skimGUID=f6a1e71532385bd53b6cf2614159206f; skimORIGIN=r; skimCSP=\"lotame:1503503848\""
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13329",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://p.skimresources.com/px.gif?ch=1&rn=10.215249614178843",
+      "id": 14019,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036429,
+      "end": 1503504036430,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "skimSESS=e796dedc2e4daf53104a52fcd89dcff5; skimGUID=f6a1e71532385bd53b6cf2614159206f; skimORIGIN=r; skimCSP=\"lotame:1503503848\""
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13330",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://p.skimresources.com/px.gif?ch=2&rn=10.215249614178843",
+      "id": 14020,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036430,
+      "end": 1503504036430,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "skimSESS=e796dedc2e4daf53104a52fcd89dcff5; skimGUID=f6a1e71532385bd53b6cf2614159206f; skimORIGIN=r; skimCSP=\"lotame:1503503848\""
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13331",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f642.svg",
+      "id": 14021,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036431,
+      "end": 1503504036431,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13327",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "content-length",
+          "value": "4118"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 28 Apr 2017 00:01:40 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 14 Sep 2017 03:14:10 GMT"
+        },
+        {
+          "name": "x-orig-src",
+          "value": "0_imageresize"
+        },
+        {
+          "name": "vary",
+          "value": "Accept"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 30 np"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://theebookbandit.files.wordpress.com/2017/04/cropped-raccoon-1510501_12802.png?w=50",
+      "id": 14017,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036432,
+      "end": 1503504036432,
+      "fromCache": false,
+      "ip": "192.0.72.30"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13331",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/svg+xml"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 25 Aug 2016 00:35:32 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"57be3d54-812\""
+        },
+        {
+          "name": "access-control-allow-methods",
+          "value": "GET, HEAD"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 22:21:10 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f642.svg",
+      "id": 14021,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036436,
+      "end": 1503504036437,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".skimresources.com",
+        "expirationDate": "150350403631536000",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "skimGUID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "f6a1e71532385bd53b6cf2614159206f"
+      },
+      "removed": false,
+      "timeStamp": 1503504036448,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1232
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "skimGUID",
+      "type": "cookie",
+      "value": "f6a1e71532385bd53b6cf2614159206f",
+      "timeStamp": 1503504036448,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1232
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".skimresources.com",
+        "expirationDate": "150350403631536000",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "skimORIGIN",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "r"
+      },
+      "removed": false,
+      "timeStamp": 1503504036448,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1232
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "skimORIGIN",
+      "type": "cookie",
+      "value": "r",
+      "timeStamp": 1503504036448,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1232
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13328",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "openresty/1.11.2.3"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "set-cookie",
+          "value": "skimGUID=f6a1e71532385bd53b6cf2614159206f; Expires=Thu, 23-Aug-18 16:00:36 GMT; Max-Age=31536000; Domain=.skimresources.com; Path=/"
+        },
+        {
+          "name": "set-cookie",
+          "value": "skimORIGIN=r; Expires=Thu, 23-Aug-18 16:00:36 GMT; Max-Age=31536000; Domain=.skimresources.com; Path=/"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "https://theebookbandit.wordpress.com"
+        },
+        {
+          "name": "access-control-allow-credentials",
+          "value": "true"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "p3p",
+          "value": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\""
+        },
+        {
+          "name": "via",
+          "value": "1.1 google"
+        },
+        {
+          "name": "alt-svc",
+          "value": "clear"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://r.skimresources.com/api/?callback=skimlinksApplyHandlers&data=%7B%22pubcode%22%3A%22725X1342%22%2C%22domains%22%3A%5B%22facebook.com%22%2C%22twitter.com%22%2C%22eepurl.com%22%2C%22iubenda.com%22%2C%22wp.me%22%2C%22en.wordpress.com%22%2C%22subscribe.wordpress.com%22%5D%2C%22page%22%3A%22https%3A%2F%2Ftheebookbandit.wordpress.com%2Fcontact%2F%22%7D",
+      "id": 14018,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036448,
+      "end": 1503504036450,
+      "fromCache": false,
+      "ip": "35.190.40.172"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".skimresources.com",
+        "expirationDate": 1535038482.046413,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "skimGUID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "f6a1e71532385bd53b6cf2614159206f"
+      },
+      "removed": true,
+      "timeStamp": 1503504036450
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "skimGUID",
+      "type": "cookie",
+      "value": "f6a1e71532385bd53b6cf2614159206f",
+      "timeStamp": 1503504036450
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".skimresources.com",
+        "expirationDate": 1535040036.448465,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "skimGUID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "f6a1e71532385bd53b6cf2614159206f"
+      },
+      "removed": false,
+      "timeStamp": 1503504036451
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "skimGUID",
+      "type": "cookie",
+      "value": "f6a1e71532385bd53b6cf2614159206f",
+      "timeStamp": 1503504036451
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".skimresources.com",
+        "expirationDate": 1535038482.046443,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "skimORIGIN",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "r"
+      },
+      "removed": true,
+      "timeStamp": 1503504036451
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "skimORIGIN",
+      "type": "cookie",
+      "value": "r",
+      "timeStamp": 1503504036451
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".skimresources.com",
+        "expirationDate": 1535040036.448502,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "skimORIGIN",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "r"
+      },
+      "removed": false,
+      "timeStamp": 1503504036451
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "skimORIGIN",
+      "type": "cookie",
+      "value": "r",
+      "timeStamp": 1503504036451
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13329",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "P3p",
+          "value": "policyref=\"http://skimlinks.com/w3c/p3p.xml\", CP=\"NOI DSP COR CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT\""
+        },
+        {
+          "name": "Server",
+          "value": "Skimlinks Pixel 1.0"
+        },
+        {
+          "name": "Content-Length",
+          "value": "43"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://p.skimresources.com/px.gif?ch=1&rn=10.215249614178843",
+      "id": 14019,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036483,
+      "end": 1503504036484,
+      "fromCache": false,
+      "ip": "54.76.253.20"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13330",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "P3p",
+          "value": "policyref=\"http://skimlinks.com/w3c/p3p.xml\", CP=\"NOI DSP COR CURa ADMa DEVa TAIa OUR BUS IND UNI COM NAV INT\""
+        },
+        {
+          "name": "Server",
+          "value": "Skimlinks Pixel 1.0"
+        },
+        {
+          "name": "Content-Length",
+          "value": "43"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://p.skimresources.com/px.gif?ch=2&rn=10.215249614178843",
+      "id": 14020,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036484,
+      "end": 1503504036484,
+      "fromCache": false,
+      "ip": "54.76.253.20"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13332",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://0.gravatar.com/css/hovercard.css?ver=201734y",
+      "id": 14022,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036485,
+      "end": 1503504036485,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13333",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://0.gravatar.com/css/services.css?ver=201734y",
+      "id": 14023,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036486,
+      "end": 1503504036486,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13332",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:34:42 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 28 Jan 2013 22:29:45 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"5106fbd9-2062\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 30 Aug 2017 15:34:42 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=604800"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://0.gravatar.com/css/hovercard.css?ver=201734y",
+      "id": 14022,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036486,
+      "end": 1503504036486,
+      "fromCache": true,
+      "ip": "192.0.73.2"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13333",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:34:42 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 19 Mar 2014 21:35:23 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"532a0d9b-bd8\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 30 Aug 2017 15:34:42 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=604800"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://0.gravatar.com/css/services.css?ver=201734y",
+      "id": 14023,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036486,
+      "end": 1503504036486,
+      "fromCache": true,
+      "ip": "192.0.73.2"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504036495,
+      "url": "https://theebookbandit.wordpress.com/contact/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13334",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://pixel.wp.com/g.gif?x_stats-initial-visibility=visible&v=wpcom-no-pv&rand=0.6148685071716853",
+      "id": 14024,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036510,
+      "end": 1503504036511,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13335",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://pixel.wp.com/g.gif?blog=127853815&v=wpcom&tz=-5&user_id=0&post=3&subd=theebookbandit&host=theebookbandit.wordpress.com&ref=&rand=0.9906833979639362",
+      "id": 14025,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036511,
+      "end": 1503504036511,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13336",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://pixel.wp.com/g.gif?crypt=UE40eW5QN0p8M2Y%2FRE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzR6MmRCYnxkNmdHcVtQNj9uUVMuLk18QTJFUjdORVNiZEElMHgrY0suMjU0bj05OHksXWk0S1pSVD93eURmTXxCdnZaV0RPJixZWFtwcGViVFQ5Rz9bcV9BTFZOUWllK1JEMW1CbXdVdlRpajQwTkNKPWIsLUlHR0llRV1bamRMV3xWSVIwTlAmWlgsfmdHMF8zdnVTZD9HRDVbZnl6WXl2R2xwLGJzRFtsW2VdMTdVRWZEQWhIZG5sbn5jT35HMVFDTXkvdSYuUmE2bTZ8PVZbK0FIN3Q0LlA4USxfOUFGM3ElVS5wLE8lbTUwV2IyXUt%2BeVNrVkpYRzNuU0NdfDElSVov&v=wpcom-no-pv&rand=0.3714307569790718",
+      "id": 14026,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036511,
+      "end": 1503504036511,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13334",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "content-length",
+          "value": "50"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://pixel.wp.com/g.gif?x_stats-initial-visibility=visible&v=wpcom-no-pv&rand=0.6148685071716853",
+      "id": 14024,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036513,
+      "end": 1503504036514,
+      "fromCache": false,
+      "ip": "192.0.76.3"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13335",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "content-length",
+          "value": "50"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://pixel.wp.com/g.gif?blog=127853815&v=wpcom&tz=-5&user_id=0&post=3&subd=theebookbandit&host=theebookbandit.wordpress.com&ref=&rand=0.9906833979639362",
+      "id": 14025,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036514,
+      "end": 1503504036514,
+      "fromCache": false,
+      "ip": "192.0.76.3"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13336",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "content-length",
+          "value": "50"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://pixel.wp.com/g.gif?crypt=UE40eW5QN0p8M2Y%2FRE1LVmwrVi5vQS5fVFtfdHBbPyw1VXIrU3hWLHhzVndTdktBX0ddJnpXRjVaOTd6fj1YMX4ydzR6MmRCYnxkNmdHcVtQNj9uUVMuLk18QTJFUjdORVNiZEElMHgrY0suMjU0bj05OHksXWk0S1pSVD93eURmTXxCdnZaV0RPJixZWFtwcGViVFQ5Rz9bcV9BTFZOUWllK1JEMW1CbXdVdlRpajQwTkNKPWIsLUlHR0llRV1bamRMV3xWSVIwTlAmWlgsfmdHMF8zdnVTZD9HRDVbZnl6WXl2R2xwLGJzRFtsW2VdMTdVRWZEQWhIZG5sbn5jT35HMVFDTXkvdSYuUmE2bTZ8PVZbK0FIN3Q0LlA4USxfOUFGM3ElVS5wLE8lbTUwV2IyXUt%2BeVNrVkpYRzNuU0NdfDElSVov&v=wpcom-no-pv&rand=0.3714307569790718",
+      "id": 14026,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036514,
+      "end": 1503504036514,
+      "fromCache": false,
+      "ip": "192.0.76.3"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 1051,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503504036516,
+      "url": "https://widgets.wp.com/follow/index.html#href=theebookbandit.wordpress.com&lang=en&blog=https%3A%2F%2Ftheebookbandit.wordpress.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13337",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://widgets.wp.com/follow/index.html#href=theebookbandit.wordpress.com&lang=en&blog=https%3A%2F%2Ftheebookbandit.wordpress.com",
+      "id": 14027,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504036517,
+      "end": 1503504036517,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://theebookbandit.wordpress.com/contact/",
+      "timeStamp": 1503504036519,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://theebookbandit.wordpress.com/contact/",
+      "contextId": 1232,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503504036520,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://theebookbandit.wordpress.com/contact/",
+      "contextId": 1232,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13337",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 12 May 2015 16:15:11 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"5552270f-ec6\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://widgets.wp.com/follow/index.html#href=theebookbandit.wordpress.com&lang=en&blog=https%3A%2F%2Ftheebookbandit.wordpress.com",
+      "id": 14027,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504036519,
+      "end": 1503504036521,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Get Your Book Featured – The eBook Bandit",
+      "timeStamp": 1503504036520,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://theebookbandit.wordpress.com/contact/",
+      "contextId": 1232,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "s",
+      "type": "input:search",
+      "value": "",
+      "timeStamp": 1503504036520,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://theebookbandit.wordpress.com/contact/",
+      "contextId": 1232,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1503504036520,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://theebookbandit.wordpress.com/contact/",
+      "contextId": 1232,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 1051,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504036528,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "https://widgets.wp.com/follow/index.html#href=theebookbandit.wordpress.com&lang=en&blog=https%3A%2F%2Ftheebookbandit.wordpress.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13338",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-includes/js/jquery/jquery.js",
+      "id": 14028,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504036533,
+      "end": 1503504036533,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://widgets.wp.com/follow/index.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 1051,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504036533,
+      "url": "https://widgets.wp.com/follow/index.html#href=theebookbandit.wordpress.com&lang=en&blog=https%3A%2F%2Ftheebookbandit.wordpress.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13338",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"57696159-17ba0\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 18:26:19 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "1.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-includes/js/jquery/jquery.js",
+      "id": 14028,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504036536,
+      "end": 1503504036537,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://widgets.wp.com/follow/index.html#href=theebookbandit.wordpress.com&lang=en&blog=https%3A%2F%2Ftheebookbandit.wordpress.com",
+      "timeStamp": 1503504036541,
+      "tabId": 2,
+      "frameId": 1051,
+      "url": "https://widgets.wp.com/follow/index.html#href=theebookbandit.wordpress.com&lang=en&blog=https%3A%2F%2Ftheebookbandit.wordpress.com",
+      "contextId": 1233,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503504036541,
+      "tabId": 2,
+      "frameId": 1051,
+      "url": "https://widgets.wp.com/follow/index.html#href=theebookbandit.wordpress.com&lang=en&blog=https%3A%2F%2Ftheebookbandit.wordpress.com",
+      "contextId": 1233,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 1051,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504036553,
+      "url": "https://widgets.wp.com/follow/index.html#href=theebookbandit.wordpress.com&lang=en&blog=https%3A%2F%2Ftheebookbandit.wordpress.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13339",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-content/js/postmessage.js",
+      "id": 14029,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504036728,
+      "end": 1503504036729,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://widgets.wp.com/follow/index.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13340",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-content/js/jed/jed.js",
+      "id": 14030,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504036729,
+      "end": 1503504036729,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://widgets.wp.com/follow/index.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13341",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-includes/js/underscore.min.js",
+      "id": 14031,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504036730,
+      "end": 1503504036730,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://widgets.wp.com/follow/index.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13339",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"54cc7506-4c9f\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 21:49:42 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "2.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-content/js/postmessage.js",
+      "id": 14029,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504036733,
+      "end": 1503504036733,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13340",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"54cc7512-918e\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 22:21:10 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-content/js/jed/jed.js",
+      "id": 14030,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504036734,
+      "end": 1503504036735,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13341",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"57165503-401a\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 22:21:10 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-includes/js/underscore.min.js",
+      "id": 14031,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504036734,
+      "end": 1503504036736,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestBody": {
+        "formData": {
+          "data": [
+            "{\"guid\":\"f6a1e71532385bd53b6cf2614159206f\",\"uuid\":\"7d407732036c7254148522088205245b\",\"sessid\":\"e796dedc2e4daf53104a52fcd89dcff5\",\"pub\":\"725X1342\",\"pag\":\"https://theebookbandit.wordpress.com/contact/\",\"dl\":{\"https://www.facebook.com/E-book-Bandit-286140168500389/\":{\"count\":1,\"ae\":0},\"https://twitter.com/eBook_Bandit\":{\"count\":1,\"ae\":0},\"http://eepurl.com/cM3MUz\":{\"count\":1,\"ae\":0},\"http://www.iubenda.com/privacy-policy/8108493\":{\"count\":1,\"ae\":0},\"http://wp.me/P8EsCj-3\":{\"count\":1,\"ae\":0},\"http://en.wordpress.com/abuse/\":{\"count\":1,\"ae\":0},\"https://subscribe.wordpress.com/\":{\"count\":1,\"ae\":0}},\"tz\":-60,\"slmcid\":[],\"typ\":\"l\",\"hae\":0}"
+          ]
+        }
+      },
+      "requestId": "13342",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "https://t.skimresources.com/api/link",
+      "id": 14032,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036917,
+      "end": 1503504036917,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "https://theebookbandit.wordpress.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestBody": {
+        "formData": {
+          "data": [
+            "{\"pag\":\"https://theebookbandit.wordpress.com/contact/\",\"phr\":{},\"unl\":{},\"pub\":\"725X1342\",\"slc\":0,\"swc\":0,\"ulc\":0,\"jsl\":489,\"jsf\":\"\",\"guid\":\"f6a1e71532385bd53b6cf2614159206f\",\"uuid\":\"7d407732036c7254148522088205245b\",\"sessid\":\"e796dedc2e4daf53104a52fcd89dcff5\",\"uc\":false,\"t\":1,\"slmcid\":[],\"tz\":-60,\"pref\":\"\"}"
+          ]
+        }
+      },
+      "requestId": "13343",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "https://t.skimresources.com/api/track.php",
+      "id": 14033,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036917,
+      "end": 1503504036918,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "https://theebookbandit.wordpress.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "13343",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, Accept, Content-Type, X-Requested-With, X-CSRF-Token"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET, POST"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-store, no-cache, must-revalidate"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "P3P",
+          "value": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\""
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Server",
+          "value": "nginx/1.10.2"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Content-Length",
+          "value": "22"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "https://t.skimresources.com/api/track.php",
+      "id": 14033,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036976,
+      "end": 1503504036976,
+      "fromCache": false,
+      "ip": "54.154.53.157"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "13342",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, Accept, Content-Type, X-Requested-With, X-CSRF-Token"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET, POST"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-store, no-cache, must-revalidate"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:36 GMT"
+        },
+        {
+          "name": "P3P",
+          "value": "CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND CNT\""
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Server",
+          "value": "nginx/1.10.2"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Content-Length",
+          "value": "22"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "https://t.skimresources.com/api/link",
+      "id": 14032,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036978,
+      "end": 1503504036979,
+      "fromCache": false,
+      "ip": "54.154.53.157"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13324",
+      "responseHeaders": [
+        {
+          "name": "x-amz-id-2",
+          "value": "flDqlOZF5+gDY47COvsNGAAMqTfk4raODllLD/xl9xXoo1+yclkDRmpxRW/Ej8I9AO/8zKVBhpE="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "4BA1429E918491B0"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:37 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 17 Aug 2017 15:49:31 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"e835d8f2c4f93b7719808f68c80d6ef0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "128933"
+        },
+        {
+          "name": "Server",
+          "value": "AmazonS3"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js?_=1503504036269",
+      "id": 14014,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504036698,
+      "end": 1503504037082,
+      "fromCache": false,
+      "ip": "54.231.121.42"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13344",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://mc.us15.list-manage.com/subscribe/form-settings?u=59de483219184fdae49acd046&id=63cc3e7338&u=59de483219184fdae49acd046&id=63cc3e7338&c=dojo_request_script_callbacks.dojo_request_script0",
+      "id": 14034,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504037135,
+      "end": 1503504037136,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "mc.us15.list-manage.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "_AVESTA_ENVIRONMENT",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "prod"
+      },
+      "removed": false,
+      "timeStamp": 1503504037303,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1232
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "_AVESTA_ENVIRONMENT",
+      "type": "cookie",
+      "value": "prod",
+      "timeStamp": 1503504037303,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1232
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13344",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "openresty"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "Content-Length",
+          "value": "427"
+        },
+        {
+          "name": "X-UA-Compatible",
+          "value": "IE=edge,chrome=1"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:37 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "_AVESTA_ENVIRONMENT=prod; path=/"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://mc.us15.list-manage.com/subscribe/form-settings?u=59de483219184fdae49acd046&id=63cc3e7338&u=59de483219184fdae49acd046&id=63cc3e7338&c=dojo_request_script_callbacks.dojo_request_script0",
+      "id": 14034,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504037303,
+      "end": 1503504037306,
+      "fromCache": false,
+      "ip": "23.198.97.47"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "mc.us15.list-manage.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "_AVESTA_ENVIRONMENT",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "prod"
+      },
+      "removed": false,
+      "timeStamp": 1503504037306
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "_AVESTA_ENVIRONMENT",
+      "type": "cookie",
+      "value": "prod",
+      "timeStamp": 1503504037306
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13345",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/1.0/popup.js",
+      "id": 14035,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504037308,
+      "end": 1503504037308,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13345",
+      "responseHeaders": [
+        {
+          "name": "x-amz-id-2",
+          "value": "EP2ihs8NDViTmklZPgfxDZtGcCRg8AxkKa+hBXa3m/G5f9xgxVvlg/gWM2cHcIubh/56zyr34l0="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "65A2529E7E770ED9"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:38 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 17 Aug 2017 15:49:32 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"ab505d290d7e94843e4ea498b5f0e4cc\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "91557"
+        },
+        {
+          "name": "Server",
+          "value": "AmazonS3"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/1.0/popup.js",
+      "id": 14035,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504037394,
+      "end": 1503504037626,
+      "fromCache": false,
+      "ip": "54.231.121.42"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 1052,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503504037660,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 1052,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504037660,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 1052,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504037662,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 1052,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504037666,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 1053,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503504037666,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 1053,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504037666,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 1053,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504037668,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 1053,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504037672,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 1052,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504037674,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 1052,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504037674,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1052,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13346",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/css/signup-forms/popup/1.0/common.css",
+      "id": 14036,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504037675,
+      "end": 1503504037675,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1052,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13347",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/css/signup-forms/popup/1.0/banner.css",
+      "id": 14037,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504037675,
+      "end": 1503504037675,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 1053,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504037680,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 1053,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504037680,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1053,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13348",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/css/signup-forms/popup/1.0/common.css",
+      "id": 14038,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504037681,
+      "end": 1503504037681,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1053,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13349",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/css/signup-forms/popup/1.0/layout-1.css",
+      "id": 14039,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504037681,
+      "end": 1503504037681,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13350",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/css/signup-forms/popup/1.0/modal.css",
+      "id": 14040,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504037684,
+      "end": 1503504037684,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://theebookbandit.wordpress.com/contact/",
+      "timeStamp": 1503504037693,
+      "tabId": 2,
+      "frameId": 1052,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503504037693,
+      "tabId": 2,
+      "frameId": 1052,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://theebookbandit.wordpress.com/contact/",
+      "timeStamp": 1503504037694,
+      "tabId": 2,
+      "frameId": 1053,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503504037694,
+      "tabId": 2,
+      "frameId": 1053,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "EMAIL",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503504037694,
+      "tabId": 2,
+      "frameId": 1053,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "FNAME",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503504037694,
+      "tabId": 2,
+      "frameId": 1053,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "LNAME",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503504037694,
+      "tabId": 2,
+      "frameId": 1053,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "b_59de483219184fdae49acd046_63cc3e7338",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503504037694,
+      "tabId": 2,
+      "frameId": 1053,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1503504037694,
+      "tabId": 2,
+      "frameId": 1053,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13351",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-content/js/jquery/jquery.wpcom-proxy-request.js?ver=20140528",
+      "id": 14041,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504037724,
+      "end": 1503504037724,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://widgets.wp.com/follow/index.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13351",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:37 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"54c2cdde-2000\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 22:21:10 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-content/js/jquery/jquery.wpcom-proxy-request.js?ver=20140528",
+      "id": 14041,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504037727,
+      "end": 1503504037728,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "dom.message",
+    "details": {
+      "isTrusted": true,
+      "data": {},
+      "origin": "https://widgets.wp.com",
+      "lastEventId": "",
+      "source": "#window",
+      "ports": [],
+      "type": "message",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503504037729,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 1051,
+      "url": "https://widgets.wp.com/follow/index.html#href=theebookbandit.wordpress.com&lang=en&blog=https%3A%2F%2Ftheebookbandit.wordpress.com",
+      "contextId": 1233,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 1054,
+      "parentFrameId": 1051,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503504037732,
+      "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1054,
+      "method": "GET",
+      "parentFrameId": 1051,
+      "requestId": "13352",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+      "id": 14042,
+      "contextId": 1234,
+      "parentContextId": 1233,
+      "windowId": 1,
+      "start": 1503504037732,
+      "end": 1503504037732,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://widgets.wp.com/follow/index.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1052,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13346",
+      "responseHeaders": [
+        {
+          "name": "x-amz-id-2",
+          "value": "lDfpFvgjTmTjRRVIo/yDPlgpcmsoGFCnN0tDipiiNvumMAKx5rTDcOd1m8l7FdxvxgIQBNk46pg="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "7B0434DD1356F59E"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:38 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 17 Aug 2017 15:49:33 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"0c99f069841b23a9dc046c0222033cf5\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6333"
+        },
+        {
+          "name": "Server",
+          "value": "AmazonS3"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/css/signup-forms/popup/1.0/common.css",
+      "id": 14036,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504037774,
+      "end": 1503504037776,
+      "fromCache": false,
+      "ip": "54.231.121.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1053,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13348",
+      "responseHeaders": [
+        {
+          "name": "x-amz-id-2",
+          "value": "lDfpFvgjTmTjRRVIo/yDPlgpcmsoGFCnN0tDipiiNvumMAKx5rTDcOd1m8l7FdxvxgIQBNk46pg="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "7B0434DD1356F59E"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:38 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 17 Aug 2017 15:49:33 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"0c99f069841b23a9dc046c0222033cf5\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6333"
+        },
+        {
+          "name": "Server",
+          "value": "AmazonS3"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/css/signup-forms/popup/1.0/common.css",
+      "id": 14038,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504037776,
+      "end": 1503504037777,
+      "fromCache": true,
+      "ip": "54.231.121.42"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "public-api.wordpress.com",
+        "expirationDate": "15035040380",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "wp_api",
+        "path": "/wp-admin/rest-proxy/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": -1,
+        "value": "+"
+      },
+      "removed": false,
+      "timeStamp": 1503504037854,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1054,
+      "contextId": 1234
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "wp_api",
+      "type": "cookie",
+      "value": "+",
+      "timeStamp": 1503504037854,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1054,
+      "contextId": 1234
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "public-api.wordpress.com",
+        "expirationDate": "15035040380",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "wp_api_sec",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": false,
+        "storeId": -1,
+        "value": "+"
+      },
+      "removed": false,
+      "timeStamp": 1503504037854,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1054,
+      "contextId": 1234
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "wp_api_sec",
+      "type": "cookie",
+      "value": "+",
+      "timeStamp": 1503504037854,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1054,
+      "contextId": 1234
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1054,
+      "method": "GET",
+      "parentFrameId": 1051,
+      "requestId": "13352",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:37 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "p3p",
+          "value": "CP=\"CAO PSA OUR\""
+        },
+        {
+          "name": "set-cookie",
+          "value": "wp_api=+; expires=Tue, 23-Aug-2016 16:00:37 GMT; Max-Age=0; path=/wp-admin/rest-proxy/; domain=public-api.wordpress.com; secure"
+        },
+        {
+          "name": "set-cookie",
+          "value": "wp_api_sec=+; expires=Tue, 23-Aug-2016 16:00:37 GMT; Max-Age=0; path=/; domain=public-api.wordpress.com; secure; HttpOnly"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-ac",
+          "value": "2.lhr _dfw"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=15552000"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+      "id": 14042,
+      "contextId": 1234,
+      "parentContextId": 1233,
+      "windowId": 1,
+      "start": 1503504037854,
+      "end": 1503504037857,
+      "fromCache": false,
+      "ip": "192.0.78.22"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 1054,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504037857,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1054,
+      "method": "GET",
+      "parentFrameId": 1051,
+      "requestId": "13353",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/_static/??/wp-includes/js/jquery/jquery.js,/wp-content/js/postmessage.js?m=1377267974j",
+      "id": 14043,
+      "contextId": 1234,
+      "parentContextId": 1233,
+      "windowId": 1,
+      "start": 1503504037859,
+      "end": 1503504037859,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://public-api.wordpress.com/wp-admin/rest-proxy/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1054,
+      "method": "GET",
+      "parentFrameId": 1051,
+      "requestId": "13353",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:34:42 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 21 Jun 2016 15:46:33 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"57696159-1c843\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 17:55:20 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "1.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/_static/??/wp-includes/js/jquery/jquery.js,/wp-content/js/postmessage.js?m=1377267974j",
+      "id": 14043,
+      "contextId": 1234,
+      "parentContextId": 1233,
+      "windowId": 1,
+      "start": 1503504037859,
+      "end": 1503504037860,
+      "fromCache": true,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 1054,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504037887,
+      "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 1054,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504037893,
+      "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.message",
+    "details": {
+      "isTrusted": true,
+      "data": "ready",
+      "origin": "https://public-api.wordpress.com",
+      "lastEventId": "",
+      "source": "@cross-origin",
+      "ports": [],
+      "type": "message",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503504037893,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 1051,
+      "url": "https://widgets.wp.com/follow/index.html#href=theebookbandit.wordpress.com&lang=en&blog=https%3A%2F%2Ftheebookbandit.wordpress.com",
+      "contextId": 1233,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+      "timeStamp": 1503504037897,
+      "tabId": 2,
+      "frameId": 1054,
+      "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+      "contextId": 1234,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503504037898,
+      "tabId": 2,
+      "frameId": 1054,
+      "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+      "contextId": 1234,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1052,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13347",
+      "responseHeaders": [
+        {
+          "name": "x-amz-id-2",
+          "value": "OvfMCsGkp9RyXdT7ndbZtlpaJSW3lAHoaGZSlxCUZk5YjuW2ca8fsuHHxiK6KByJv/dKSzQwCc0="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "7209414169AB8418"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:38 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 17 Aug 2017 15:49:36 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"a4d1ac758037f4f79022fbc33cdb99b3\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "527"
+        },
+        {
+          "name": "Server",
+          "value": "AmazonS3"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/css/signup-forms/popup/1.0/banner.css",
+      "id": 14037,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504037925,
+      "end": 1503504037926,
+      "fromCache": false,
+      "ip": "54.231.121.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1053,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13349",
+      "responseHeaders": [
+        {
+          "name": "x-amz-id-2",
+          "value": "9W0RbLldALUdQJHSgRM1QggNludc+6qh/zUIB4SfU0xwonjryFRlXaQm8eLw1HD2ODswdgcvQDs="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "CB97BE63BAFCDDC5"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:38 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 17 Aug 2017 15:49:34 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"0f61e9fe2ca51e57d4cb04cbc4342511\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "657"
+        },
+        {
+          "name": "Server",
+          "value": "AmazonS3"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/css/signup-forms/popup/1.0/layout-1.css",
+      "id": 14039,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504038116,
+      "end": 1503504038117,
+      "fromCache": false,
+      "ip": "54.231.121.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13350",
+      "responseHeaders": [
+        {
+          "name": "x-amz-id-2",
+          "value": "Uong3hjLY/Jm5AwXrgB7kj+Pf40+bl33oRdx+jF285hmtZjiV+lJFMRmoqBOu7EPPHyAaVRS49U="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "FCFB21BC443C44A6"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:39 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 17 Aug 2017 15:49:36 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"8ef69dd064c35d402c2243b2fa7cf219\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2223"
+        },
+        {
+          "name": "Server",
+          "value": "AmazonS3"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://s3.amazonaws.com/downloads.mailchimp.com/css/signup-forms/popup/1.0/modal.css",
+      "id": 14040,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504038553,
+      "end": 1503504038554,
+      "fromCache": false,
+      "ip": "54.231.121.42"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 176,
+      "tabId": 2,
+      "timeStamp": 1503504038563,
+      "url": "https://theebookbandit.wordpress.com/contact/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Get Your Book Featured – The eBook Bandit",
+          "url": "https://theebookbandit.wordpress.com/contact/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504038563
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13354",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://theebookbandit.files.wordpress.com/2017/04/cropped-raccoon-1510501_12802.png?w=32",
+      "id": 14044,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504038569,
+      "end": 1503504038569,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "dom.resize",
+    "details": {
+      "isTrusted": true,
+      "type": "resize",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503504038569,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 1052,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.resize",
+    "details": {
+      "isTrusted": true,
+      "type": "resize",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503504038570,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 1053,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13354",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:38 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "content-length",
+          "value": "2374"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 28 Apr 2017 00:01:40 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Sep 2017 04:42:34 GMT"
+        },
+        {
+          "name": "x-orig-src",
+          "value": "0_imageresize"
+        },
+        {
+          "name": "vary",
+          "value": "Accept"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 30 np"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://theebookbandit.files.wordpress.com/2017/04/cropped-raccoon-1510501_12802.png?w=32",
+      "id": 14044,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504038572,
+      "end": 1503504038572,
+      "fromCache": false,
+      "ip": "192.0.72.30"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13355",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://theebookbandit.files.wordpress.com/2017/04/cropped-raccoon-1510501_12802.png?w=192",
+      "id": 14045,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504038573,
+      "end": 1503504038573,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://theebookbandit.wordpress.com/contact/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13355",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:38 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "content-length",
+          "value": "20953"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 28 Apr 2017 00:01:40 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 06 Sep 2017 03:55:11 GMT"
+        },
+        {
+          "name": "x-orig-src",
+          "value": "0_imageresize"
+        },
+        {
+          "name": "vary",
+          "value": "Accept"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 30 np"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://theebookbandit.files.wordpress.com/2017/04/cropped-raccoon-1510501_12802.png?w=192",
+      "id": 14045,
+      "contextId": 1232,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504038576,
+      "end": 1503504038580,
+      "fromCache": false,
+      "ip": "192.0.72.30"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "https://theebookbandit.files.wordpress.com/2017/04/cropped-raccoon-1510501_12802.png?w=32"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "https://theebookbandit.files.wordpress.com/2017/04/cropped-raccoon-1510501_12802.png?w=32",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Get Your Book Featured – The eBook Bandit",
+          "url": "https://theebookbandit.wordpress.com/contact/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504038582
+    }
+  },
+  {
+    "type": "dom.resize",
+    "details": {
+      "isTrusted": true,
+      "type": "resize",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503504038586,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 1053,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13356",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://widgets.wp.com/follow/follow-rest.js",
+      "id": 14046,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504038724,
+      "end": 1503504038724,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://widgets.wp.com/follow/index.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13356",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:38 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"5745b8ef-2653\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 22:21:10 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://widgets.wp.com/follow/follow-rest.js",
+      "id": 14046,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504038727,
+      "end": 1503504038728,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "dom.message",
+    "details": {
+      "isTrusted": true,
+      "data": {
+        "metaAPI": {
+          "accessAllUsersBlogs": true
+        },
+        "callback": 0.5900036332488598,
+        "supports_args": true
+      },
+      "origin": "https://widgets.wp.com",
+      "lastEventId": "",
+      "source": "@cross-origin",
+      "ports": [],
+      "type": "message",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503504038734,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 1054,
+      "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+      "contextId": 1234,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.message",
+    "details": {
+      "isTrusted": true,
+      "data": [
+        "metaAPIupdated",
+        200,
+        0.5900036332488598
+      ],
+      "origin": "https://public-api.wordpress.com",
+      "lastEventId": "",
+      "source": "@cross-origin",
+      "ports": [],
+      "type": "message",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503504038735,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 1051,
+      "url": "https://widgets.wp.com/follow/index.html#href=theebookbandit.wordpress.com&lang=en&blog=https%3A%2F%2Ftheebookbandit.wordpress.com",
+      "contextId": 1233,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1054,
+      "method": "GET",
+      "parentFrameId": 1051,
+      "requestId": "13357",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "https://public-api.wordpress.com/rest/v1/batch?http_envelope=1&urls%5B%5D=%2Fme&urls%5B%5D=%2Fsites%2Fhttps%253A%252F%252Ftheebookbandit.wordpress.com&urls%5B%5D=%2Fsites%2Fhttps%253A%252F%252Ftheebookbandit.wordpress.com%2Ffollows%2Fmine",
+      "id": 14047,
+      "contextId": 1234,
+      "parentContextId": 1233,
+      "windowId": 1,
+      "start": 1503504038740,
+      "end": 1503504038740,
+      "requestHeaders": [
+        {
+          "name": "Accept",
+          "value": "application/json, text/javascript, */*; q=0.01"
+        },
+        {
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Referer",
+          "value": "https://public-api.wordpress.com/wp-admin/rest-proxy/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "dom.message",
+    "details": {
+      "isTrusted": true,
+      "data": {
+        "path": "/batch",
+        "method": "GET",
+        "url": "https://public-api.wordpress.com/rest/v1/batch",
+        "query": {
+          "urls": [
+            "/me",
+            "/sites/https%3A%2F%2Ftheebookbandit.wordpress.com",
+            "/sites/https%3A%2F%2Ftheebookbandit.wordpress.com/follows/mine"
+          ]
+        },
+        "callback": 0.13743061354391295,
+        "supports_args": true
+      },
+      "origin": "https://widgets.wp.com",
+      "lastEventId": "",
+      "source": "@cross-origin",
+      "ports": [],
+      "type": "message",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503504038740,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 1054,
+      "url": "https://public-api.wordpress.com/wp-admin/rest-proxy/#https://widgets.wp.com",
+      "contextId": 1234,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1054,
+      "method": "GET",
+      "parentFrameId": 1051,
+      "requestId": "13357",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:38 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/json"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "x-hacker",
+          "value": "Oh, Awesome: Opossum"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 11 Jan 1984 05:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate, max-age=0"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-ac",
+          "value": "2.lhr _dfw"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=15552000"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "https://public-api.wordpress.com/rest/v1/batch?http_envelope=1&urls%5B%5D=%2Fme&urls%5B%5D=%2Fsites%2Fhttps%253A%252F%252Ftheebookbandit.wordpress.com&urls%5B%5D=%2Fsites%2Fhttps%253A%252F%252Ftheebookbandit.wordpress.com%2Ffollows%2Fmine",
+      "id": 14047,
+      "contextId": 1234,
+      "parentContextId": 1233,
+      "windowId": 1,
+      "start": 1503504038945,
+      "end": 1503504038946,
+      "fromCache": false,
+      "ip": "192.0.78.22"
+    }
+  },
+  {
+    "type": "dom.message",
+    "details": {
+      "isTrusted": true,
+      "data": [
+        {
+          "/me": {
+            "status_code": 403,
+            "errors": {
+              "error": "authorization_required",
+              "message": "An active access token must be used to query information about the current user."
+            }
+          },
+          "/sites/https%3A%2F%2Ftheebookbandit.wordpress.com": {
+            "ID": 127853815,
+            "name": "The eBook Bandit",
+            "description": "Select daily deals on free and bargain eBooks. Sign up for free, and discover new deals each day!",
+            "URL": "https://theebookbandit.wordpress.com",
+            "jetpack": false,
+            "subscribers_count": 46,
+            "lang": false,
+            "icon": {
+              "img": "https://theebookbandit.files.wordpress.com/2017/04/cropped-raccoon-1510501_12802.png?w=96",
+              "ico": "https://theebookbandit.files.wordpress.com/2017/04/cropped-raccoon-1510501_12802.png?w=96"
+            },
+            "logo": {
+              "id": 0,
+              "sizes": [],
+              "url": ""
+            },
+            "visible": null,
+            "is_private": false,
+            "is_following": false,
+            "meta": {
+              "links": {
+                "self": "https://public-api.wordpress.com/rest/v1/sites/127853815",
+                "help": "https://public-api.wordpress.com/rest/v1/sites/127853815/help",
+                "posts": "https://public-api.wordpress.com/rest/v1/sites/127853815/posts/",
+                "comments": "https://public-api.wordpress.com/rest/v1/sites/127853815/comments/",
+                "xmlrpc": "https://theebookbandit.wordpress.com/xmlrpc.php"
+              }
+            }
+          },
+          "/sites/https%3A%2F%2Ftheebookbandit.wordpress.com/follows/mine": {
+            "status_code": 403,
+            "errors": {
+              "error": "authorization_required",
+              "message": "An active access token must be used to follow a blog."
+            }
+          }
+        },
+        200,
+        {
+          "Date": "Wed, 23 Aug 2017 16:00:38 GMT",
+          "Content-Type": "application/json",
+          "X-WP-Total": null,
+          "X-WP-TotalPages": null
+        },
+        0.13743061354391295
+      ],
+      "origin": "https://public-api.wordpress.com",
+      "lastEventId": "",
+      "source": "@cross-origin",
+      "ports": [],
+      "type": "message",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503504038946,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 1051,
+      "url": "https://widgets.wp.com/follow/index.html#href=theebookbandit.wordpress.com&lang=en&blog=https%3A%2F%2Ftheebookbandit.wordpress.com",
+      "contextId": 1233,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13358",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://widgets.wp.com/follow/style.css?ver=1382729516",
+      "id": 14048,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504038947,
+      "end": 1503504038947,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://widgets.wp.com/follow/index.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1051,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "13358",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:00:38 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"54cc74fa-964\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 26 Apr 2018 22:21:10 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://widgets.wp.com/follow/style.css?ver=1382729516",
+      "id": 14048,
+      "contextId": 1233,
+      "parentContextId": 1232,
+      "windowId": 1,
+      "start": 1503504038950,
+      "end": 1503504038950,
+      "fromCache": false,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13359",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 14049,
+      "contextId": 1235,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504039598,
+      "end": 1503504039599
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13359",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 14049,
+      "contextId": 1235,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504039599,
+      "end": 1503504039604
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504039604
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503504039604
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503504039605,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503504039600.782,
+          "title": "Save",
+          "typedCount": 170,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 170
+        }
+      },
+      "timeStamp": 1503504039605
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13360",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 14050,
+      "contextId": 1235,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504039605,
+      "end": 1503504039605
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13360",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 14050,
+      "contextId": 1235,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504039605,
+      "end": 1503504039606
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504039610
+    }
+  }
+]

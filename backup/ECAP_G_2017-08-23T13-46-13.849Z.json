@@ -1,0 +1,5181 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495968834
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 175459,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/9d72bfcf-cdd0-44e0-b5ea-77a959d4e9e1",
+          "id": 75,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T13:46:08.836Z",
+          "state": "in_progress",
+          "totalBytes": 175459,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/9d72bfcf-cdd0-44e0-b5ea-77a959d4e9e1"
+        }
+      },
+      "timeStamp": 1503495968837
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 175459,
+          "filename": "ECAP_G_2017-08-23T13-46-08.825Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/9d72bfcf-cdd0-44e0-b5ea-77a959d4e9e1",
+          "id": 75,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T13:46:08.836Z",
+          "state": "in_progress",
+          "totalBytes": 175459,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/9d72bfcf-cdd0-44e0-b5ea-77a959d4e9e1"
+        }
+      },
+      "timeStamp": 1503495968840
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T13-46-08.825Z.json",
+            "previous": ""
+          },
+          "id": 75
+        }
+      },
+      "timeStamp": 1503495968850
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T13:46:08.852Z"
+          },
+          "id": 75,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503495968853
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503495971263,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6012",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "id": 6337,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971263,
+      "end": 1503495971263,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "bookraid.com",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "_bookraid_session",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": true,
+        "storeId": -1,
+        "value": "dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ==--014463077d7fac0f7ce1c976e11d5117fd968cd8"
+      },
+      "removed": false,
+      "timeStamp": 1503495971678,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 568
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "_bookraid_session",
+      "type": "cookie",
+      "value": "dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ==--014463077d7fac0f7ce1c976e11d5117fd968cd8",
+      "timeStamp": 1503495971678,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 568
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "bookraid.com",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "_bookraid_session",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": true,
+        "storeId": "0",
+        "value": "dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ%3D%3D--014463077d7fac0f7ce1c976e11d5117fd968cd8"
+      },
+      "removed": false,
+      "timeStamp": 1503495971680
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "_bookraid_session",
+      "type": "cookie",
+      "value": "dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ%3D%3D--014463077d7fac0f7ce1c976e11d5117fd968cd8",
+      "timeStamp": 1503495971680
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6012",
+      "responseHeaders": [
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "X-Xss-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Etag",
+          "value": "W/\"02bb1e3dffbf33f0da2616b92e0e8c99\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "X-Request-Id",
+          "value": "ebd24cef-0fa5-47c1-bb1b-fc9c235a90c0"
+        },
+        {
+          "name": "X-Runtime",
+          "value": "0.063201"
+        },
+        {
+          "name": "Server",
+          "value": "WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "28158"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "_bookraid_session=dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ%3D%3D--014463077d7fac0f7ce1c976e11d5117fd968cd8; path=/; secure; HttpOnly"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 vegur"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "id": 6337,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971678,
+      "end": 1503495971681,
+      "fromCache": false,
+      "ip": "50.16.230.171"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "https://bookraid.com/p/partners/sign_up"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "https://bookraid.com/p/partners/sign_up",
+          "url": "https://bookraid.com/p/partners/sign_up",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495971686
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503495971686
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495971687,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "115",
+          "lastVisitTime": 1503495971682.782,
+          "title": "",
+          "typedCount": 1,
+          "url": "https://bookraid.com/p/partners/sign_up",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503495971697
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6013",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800",
+      "id": 6338,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971701,
+      "end": 1503495971702,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6014",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic",
+      "id": 6339,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971702,
+      "end": 1503495971703,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6015",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fast.fonts.net/cssapi/41290dcb-248c-4483-9465-34d079d359c4.css",
+      "id": 6340,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971703,
+      "end": 1503495971703,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6016",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://bookraid.com/assets/application-552b44c69c54744dcf80f6e33ccfa5d7e8f8f0ba4f2eb740bbda376f55a83209.css",
+      "id": 6341,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971703,
+      "end": 1503495971704,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_bookraid_session=dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ%3D%3D--014463077d7fac0f7ce1c976e11d5117fd968cd8"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6017",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://js.stripe.com/v2/",
+      "id": 6342,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971704,
+      "end": 1503495971705,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6018",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://checkout.stripe.com/checkout.js",
+      "id": 6343,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971705,
+      "end": 1503495971705,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "BookRaid: Discounted & Free Bestselling Ebooks"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "BookRaid: Discounted & Free Bestselling Ebooks",
+          "url": "https://bookraid.com/p/partners/sign_up",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495971706
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6014",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic",
+      "id": 6339,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971721,
+      "end": 1503495971721,
+      "fromCache": false,
+      "ip": "216.58.206.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6013",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800",
+      "id": 6338,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971724,
+      "end": 1503495971724,
+      "fromCache": false,
+      "ip": "216.58.206.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6017",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "x-amz-id-2",
+          "value": "Ii+NxeC456p39BjrrpykjoO/gGzlxKKrL1gM89RDOfvoPdfFdLwF5Nl+M2Yn1nO/Ap7XBAlAyOs="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "3FEF7C4B95F0EBDD"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 17 Jul 2017 23:29:15 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"0a45aba7eb8f3ef52026ad1ae14bb133\""
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=300"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "server",
+          "value": "AmazonS3"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "age",
+          "value": "169"
+        },
+        {
+          "name": "x-served-by",
+          "value": "cache-lcy1135-LCY"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-cache-hits",
+          "value": "170"
+        },
+        {
+          "name": "x-timer",
+          "value": "S1503495972.731018,VS0,VE0"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31556926; includeSubDomains"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "20395"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://js.stripe.com/v2/",
+      "id": 6342,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971730,
+      "end": 1503495971733,
+      "fromCache": false,
+      "ip": "151.101.16.176"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6018",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "x-amz-id-2",
+          "value": "QmZwkd7+5BAMfj2+dIRYX1E3efC06Kw35WtyVX8tarwFs8xEXMr2QvG9rkz0GOuDr+m80DtPio4="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "8E24E004C4491AA6"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 18 Aug 2017 16:54:07 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"f891275ba584c80c09e3e8f94ae55228\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "server",
+          "value": "AmazonS3"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "age",
+          "value": "236"
+        },
+        {
+          "name": "x-served-by",
+          "value": "cache-lcy1135-LCY"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-cache-hits",
+          "value": "78"
+        },
+        {
+          "name": "x-timer",
+          "value": "S1503495972.731072,VS0,VE0"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31556926; includeSubDomains"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src 'self'; connect-src 'self' https://api.stripe.com wss://verificator.stripe.com wss://verificator-main.stripe.com https://*.stripecdn.com https://errors.stripe.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://js.stripe.com https://*.stripecdn.com https://stripecdn.com https://api.stripe.com https://maps.googleapis.com https://maps.gstatic.com; style-src 'self' 'unsafe-inline' https://cloud.typography.com https://*.stripecdn.com; frame-src 'self' stripecheckout: bitcoin: https://*.stripecdn.com https://js.stripe.com; img-src * data:; font-src 'none'; media-src 'none'; object-src 'self' https://*.stripecdn.com;"
+        },
+        {
+          "name": "content-length",
+          "value": "26040"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://checkout.stripe.com/checkout.js",
+      "id": 6343,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971732,
+      "end": 1503495971734,
+      "fromCache": false,
+      "ip": "151.101.16.176"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6016",
+      "responseHeaders": [
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 06 Jan 2017 16:27:18 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "41377"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Server",
+          "value": "WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 vegur"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://bookraid.com/assets/application-552b44c69c54744dcf80f6e33ccfa5d7e8f8f0ba4f2eb740bbda376f55a83209.css",
+      "id": 6341,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971794,
+      "end": 1503495971795,
+      "fromCache": false,
+      "ip": "50.16.230.171"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6022",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://bookraid.com/assets/application-cc0b71aa9cda879dc8ae9a78af6111b2ec2193166f8aaf1e2a94768427df8398.js",
+      "id": 6344,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971795,
+      "end": 1503495971795,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_bookraid_session=dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ%3D%3D--014463077d7fac0f7ce1c976e11d5117fd968cd8"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6015",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=604800"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"3287866093+gzip\""
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 30 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 06 Jan 2016 18:55:21 GMT"
+        },
+        {
+          "name": "server",
+          "value": "ECS (lcy/1D1E)"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "content-length",
+          "value": "443"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fast.fonts.net/cssapi/41290dcb-248c-4483-9465-34d079d359c4.css",
+      "id": 6340,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971825,
+      "end": 1503495971825,
+      "fromCache": false,
+      "ip": "68.232.35.182"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6023",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=41290dcb-248c-4483-9465-34d079d359c4",
+      "id": 6345,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971826,
+      "end": 1503495971826,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6023",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=0"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"1685107488\""
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 25 Jul 2011 12:46:22 GMT"
+        },
+        {
+          "name": "server",
+          "value": "ECS (lcy/1D51)"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "content-length",
+          "value": "0"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fast.fonts.net/t/1.css?apiType=css&projectid=41290dcb-248c-4483-9465-34d079d359c4",
+      "id": 6345,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971865,
+      "end": 1503495971866,
+      "fromCache": false,
+      "ip": "68.232.35.182"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6019",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://bookraid.com/assets/logos/header-logo-385a53021f81f15ca38cc49c4df7e1cd7c8ffacf80463506c198fbfad6afa3e7.png",
+      "id": 6346,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971901,
+      "end": 1503495971902,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_bookraid_session=dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ%3D%3D--014463077d7fac0f7ce1c976e11d5117fd968cd8"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6020",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://bookraid.com/assets/logos/stripe-powered-4d3ab0d14b3689a09996f02c1b893e9ab12ed53e843c1fbf3fa52cf83f8d4a4c.gif",
+      "id": 6347,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971902,
+      "end": 1503495971902,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_bookraid_session=dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ%3D%3D--014463077d7fac0f7ce1c976e11d5117fd968cd8"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6021",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://bookraid.com/assets/icons/loading/payment-waiting-ripple-a2643c7af2f9fbdbb8b8b269d97c481b5aebefc8ab0f99954e0a233f010b35f4.svg",
+      "id": 6348,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971902,
+      "end": 1503495971902,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_bookraid_session=dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ%3D%3D--014463077d7fac0f7ce1c976e11d5117fd968cd8"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6024",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 6349,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971902,
+      "end": 1503495971903,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6025",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "id": 6350,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971903,
+      "end": 1503495971903,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6024",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 12:22:02 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 14:22:02 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "13472"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "age",
+          "value": "4329"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 6349,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971903,
+      "end": 1503495971904,
+      "fromCache": true,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6025",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self';"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "access-control-allow-credentials",
+          "value": "true"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "https://connect.facebook.net"
+        },
+        {
+          "name": "access-control-expose-headers",
+          "value": "X-FB-Debug, X-Loader-Length"
+        },
+        {
+          "name": "pragma",
+          "value": "public"
+        },
+        {
+          "name": "vary",
+          "value": "Origin"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "access-control-allow-method",
+          "value": "OPTIONS"
+        },
+        {
+          "name": "expires",
+          "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript; charset=utf-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=1200"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "mokfDlMwLL+znpXZjDo2Lytb5PXimZZgUbFF2Fa1nMBUiJ0o0wbPQ++lDJyi9hbA8JD9d2r4AKaMovH3pZQF+w=="
+        },
+        {
+          "name": "content-length",
+          "value": "11094"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:34:11 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "id": 6350,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971903,
+      "end": 1503495971904,
+      "fromCache": true,
+      "ip": "31.13.69.203"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6026",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 6351,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971914,
+      "end": 1503495971914,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://bookraid.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6027",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fast.fonts.net/dv2/14/5414f75e-5cb8-4357-88e5-5a294424c859.woff2?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&projectId=41290dcb-248c-4483-9465-34d079d359c4",
+      "id": 6352,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971915,
+      "end": 1503495971915,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://bookraid.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fast.fonts.net/cssapi/41290dcb-248c-4483-9465-34d079d359c4.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6026",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "14636"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 22 Aug 2017 17:50:19 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 22 Aug 2018 17:50:19 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 14 Jun 2017 16:46:23 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "71101"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 6351,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971915,
+      "end": 1503495971916,
+      "fromCache": true,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6028",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 6353,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971921,
+      "end": 1503495971921,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://bookraid.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6028",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "13964"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 22 Aug 2017 17:50:05 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 22 Aug 2018 17:50:05 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 14 Jun 2017 16:46:31 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "71115"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 6353,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971922,
+      "end": 1503495971922,
+      "fromCache": true,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6029",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2",
+      "id": 6354,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971930,
+      "end": 1503495971930,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://bookraid.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6030",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://bookraid.com/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2",
+      "id": 6355,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971930,
+      "end": 1503495971930,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://bookraid.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/assets/application-552b44c69c54744dcf80f6e33ccfa5d7e8f8f0ba4f2eb740bbda376f55a83209.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_bookraid_session=dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ%3D%3D--014463077d7fac0f7ce1c976e11d5117fd968cd8"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6029",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "13336"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 07 Aug 2017 18:33:14 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 07 Aug 2018 18:33:14 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 14 Jun 2017 16:46:06 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "1364526"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/xjAJXh38I15wypJXxuGMBo4P5ICox8Kq3LLUNMylGO4.woff2",
+      "id": 6354,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971930,
+      "end": 1503495971931,
+      "fromCache": true,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6019",
+      "responseHeaders": [
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 12 Oct 2016 23:15:39 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "9473"
+        },
+        {
+          "name": "Server",
+          "value": "WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 vegur"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://bookraid.com/assets/logos/header-logo-385a53021f81f15ca38cc49c4df7e1cd7c8ffacf80463506c198fbfad6afa3e7.png",
+      "id": 6346,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971988,
+      "end": 1503495971989,
+      "fromCache": false,
+      "ip": "50.16.230.171"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookraid.com",
+        "expirationDate": 1566567972,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.1519635226.1503495972"
+      },
+      "removed": false,
+      "timeStamp": 1503495972010
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_ga",
+      "type": "cookie",
+      "value": "GA1.2.1519635226.1503495972",
+      "timeStamp": 1503495972010
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookraid.com",
+        "expirationDate": 1503582372,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.341907888.1503495972"
+      },
+      "removed": false,
+      "timeStamp": 1503495972010
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gid",
+      "type": "cookie",
+      "value": "GA1.2.341907888.1503495972",
+      "timeStamp": 1503495972010
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookraid.com",
+        "expirationDate": 1503496032,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gat",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1503495972022
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gat",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1503495972022
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6027",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=7776000"
+        },
+        {
+          "name": "content-type",
+          "value": "application/octet-stream"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"2730671880\""
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 21 Nov 2017 13:46:11 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sat, 10 Sep 2016 09:02:18 GMT"
+        },
+        {
+          "name": "server",
+          "value": "ECS (lcy/1D36)"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "content-length",
+          "value": "46660"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fast.fonts.net/dv2/14/5414f75e-5cb8-4357-88e5-5a294424c859.woff2?d44f19a684109620e484147fa790e81859e92aaaea3d337f84586d5df8888fe5455f55e0f83ed0be044ddfaa95e824a4b1318d5b552aaa24a44025e9&projectId=41290dcb-248c-4483-9465-34d079d359c4",
+      "id": 6352,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971991,
+      "end": 1503495972023,
+      "fromCache": false,
+      "ip": "68.232.35.182"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6031",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=722302761&t=pageview&_s=1&dl=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&ul=en-gb&de=UTF-8&dt=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1141567118&gjid=1567687049&cid=1519635226.1503495972&tid=UA-64886724-1&_gid=341907888.1503495972&_r=1&z=2141888474",
+      "id": 6356,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972023,
+      "end": 1503495972024,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6032",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/451873121672572?v=2.7.19",
+      "id": 6357,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972027,
+      "end": 1503495972027,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6022",
+      "responseHeaders": [
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 12 Jan 2017 16:46:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "151416"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Server",
+          "value": "WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:11 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 vegur"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://bookraid.com/assets/application-cc0b71aa9cda879dc8ae9a78af6111b2ec2193166f8aaf1e2a94768427df8398.js",
+      "id": 6344,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495971878,
+      "end": 1503495972031,
+      "fromCache": false,
+      "ip": "50.16.230.171"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6031",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=722302761&t=pageview&_s=1&dl=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&ul=en-gb&de=UTF-8&dt=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1141567118&gjid=1567687049&cid=1519635226.1503495972&tid=UA-64886724-1&_gid=341907888.1503495972&_r=1&z=2141888474",
+      "id": 6356,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972033,
+      "end": 1503495972033,
+      "fromCache": false,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "BookRaid: Discounted & Free Bestselling Ebooks",
+          "url": "https://bookraid.com/p/partners/sign_up",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495972082
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503495972083
+    }
+  },
+  {
+    "type": "navigation.historyStateUpdated",
+    "details": {
+      "frameId": 0,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972083,
+      "transitionQualifiers": [],
+      "transitionType": "link",
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "115",
+          "lastVisitTime": 1503495972082.149,
+          "title": "BookRaid: Discounted & Free Bestselling Ebooks",
+          "typedCount": 1,
+          "url": "https://bookraid.com/p/partners/sign_up",
+          "visitCount": 2
+        }
+      },
+      "timeStamp": 1503495972083
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 479,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503495972085,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 479,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972086,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 479,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972087,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 479,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972099,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6033",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "https://bookraid.com/categories/1/disabled-dates",
+      "id": 6358,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972111,
+      "end": 1503495972111,
+      "requestHeaders": [
+        {
+          "name": "Accept",
+          "value": "application/json, text/javascript, */*; q=0.01"
+        },
+        {
+          "name": "X-CSRF-Token",
+          "value": "YnnKXIjHIX9YtWEExJdLIv6YJ/gLWQ/IJEWtkhv96TYLvxxHZtcGgIoLVstcPGG34trcEUEQ4l0ffRgUKIpDSw=="
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_bookraid_session=dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ%3D%3D--014463077d7fac0f7ce1c976e11d5117fd968cd8; _ga=GA1.2.1519635226.1503495972; _gid=GA1.2.341907888.1503495972; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972122,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6020",
+      "responseHeaders": [
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 13 Oct 2016 01:56:06 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "8204"
+        },
+        {
+          "name": "Server",
+          "value": "WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 vegur"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://bookraid.com/assets/logos/stripe-powered-4d3ab0d14b3689a09996f02c1b893e9ab12ed53e843c1fbf3fa52cf83f8d4a4c.gif",
+      "id": 6347,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972125,
+      "end": 1503495972125,
+      "fromCache": false,
+      "ip": "50.16.230.171"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 479,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503495972133,
+      "url": "https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fbookraid.com&stripe_xdm_c=default828768&stripe_xdm_p=1#__stripe_transport__",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 479,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6034",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fbookraid.com&stripe_xdm_c=default828768&stripe_xdm_p=1#__stripe_transport__",
+      "id": 6359,
+      "contextId": 569,
+      "parentContextId": 568,
+      "windowId": 1,
+      "start": 1503495972133,
+      "end": 1503495972133,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 479,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6034",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        },
+        {
+          "name": "x-amz-id-2",
+          "value": "xM3mJACkAMiOdTjt46sMS6L86HokxABorP5+3gzHomdZWgtf8A6XRiSv9KPhJ0NQ3s1GkjQrUzU="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "0A4BCC516D19358D"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 13 Feb 2017 15:39:13 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"19af0c6cc7a0bca20a355b3362dc64a0\""
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=300"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html"
+        },
+        {
+          "name": "server",
+          "value": "AmazonS3"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "age",
+          "value": "118"
+        },
+        {
+          "name": "x-served-by",
+          "value": "cache-lcy1135-LCY"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-cache-hits",
+          "value": "168"
+        },
+        {
+          "name": "x-timer",
+          "value": "S1503495972.136973,VS0,VE0"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31556926; includeSubDomains"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "560"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fbookraid.com&stripe_xdm_c=default828768&stripe_xdm_p=1#__stripe_transport__",
+      "id": 6359,
+      "contextId": 569,
+      "parentContextId": 568,
+      "windowId": 1,
+      "start": 1503495972135,
+      "end": 1503495972136,
+      "fromCache": false,
+      "ip": "151.101.16.176"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 479,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972140,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fbookraid.com&stripe_xdm_c=default828768&stripe_xdm_p=1#__stripe_transport__",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://bookraid.com/p/partners/sign_up",
+      "timeStamp": 1503495972142,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503495972142,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "BookRaid: Discounted &amp; Free Bestselling Ebooks",
+      "timeStamp": 1503495972142,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "utf8",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495972142,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "authenticity_token",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][asin]",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][title]",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][author_name]",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][category_id]",
+      "type": "select",
+      "value": [
+        ""
+      ],
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][amazon_pages]",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][amazon_language]",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][amazon_categories]",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][description]",
+      "type": "textarea",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][amazon_url]",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][barnes_and_noble_url]",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][kobo_url]",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][ibooks_url]",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][google_play_url]",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][promotions_attributes][0][amazon_total_reviews]",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][promotions_attributes][0][amazon_average]",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][promotions_attributes][0][requested_date]",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][promotions_attributes][0][sale_price]",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][promotions_attributes][0][current_price]",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][promotions_attributes][0][date_flexibility]",
+      "type": "textarea",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "partner[books_attributes][0][promotions_attributes][0][agree_to_be_charged]",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495972143,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6021",
+      "responseHeaders": [
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 12 Oct 2016 23:15:39 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/svg+xml"
+        },
+        {
+          "name": "Content-Length",
+          "value": "975"
+        },
+        {
+          "name": "Server",
+          "value": "WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 vegur"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://bookraid.com/assets/icons/loading/payment-waiting-ripple-a2643c7af2f9fbdbb8b8b269d97c481b5aebefc8ab0f99954e0a233f010b35f4.svg",
+      "id": 6348,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972146,
+      "end": 1503495972147,
+      "fromCache": false,
+      "ip": "50.16.230.171"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 479,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972154,
+      "url": "https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fbookraid.com&stripe_xdm_c=default828768&stripe_xdm_p=1#__stripe_transport__",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 479,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972158,
+      "url": "https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fbookraid.com&stripe_xdm_c=default828768&stripe_xdm_p=1#__stripe_transport__",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.message",
+    "details": {
+      "isTrusted": true,
+      "data": "default828768-ready",
+      "origin": "https://js.stripe.com",
+      "lastEventId": "",
+      "source": "@cross-origin",
+      "ports": [],
+      "type": "message",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503495972160,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.message",
+    "details": {
+      "isTrusted": true,
+      "data": "stripe:ack",
+      "origin": "https://js.stripe.com",
+      "lastEventId": "",
+      "source": "@cross-origin",
+      "ports": [],
+      "type": "message",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503495972160,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "contextId": 568,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fbookraid.com&stripe_xdm_c=default828768&stripe_xdm_p=1#__stripe_transport__",
+      "timeStamp": 1503495972162,
+      "tabId": 2,
+      "frameId": 479,
+      "url": "https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fbookraid.com&stripe_xdm_c=default828768&stripe_xdm_p=1#__stripe_transport__",
+      "contextId": 569,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503495972162,
+      "tabId": 2,
+      "frameId": 479,
+      "url": "https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fbookraid.com&stripe_xdm_c=default828768&stripe_xdm_p=1#__stripe_transport__",
+      "contextId": 569,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Stripe Internal Communication Channel",
+      "timeStamp": 1503495972163,
+      "tabId": 2,
+      "frameId": 479,
+      "url": "https://js.stripe.com/v2/channel.html?stripe_xdm_e=https%3A%2F%2Fbookraid.com&stripe_xdm_c=default828768&stripe_xdm_p=1#__stripe_transport__",
+      "contextId": 569,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6030",
+      "responseHeaders": [
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 23 Dec 2016 03:30:38 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/font-woff2"
+        },
+        {
+          "name": "Content-Length",
+          "value": "77160"
+        },
+        {
+          "name": "Server",
+          "value": "WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 vegur"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://bookraid.com/assets/fontawesome-webfont-2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe.woff2",
+      "id": 6355,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972075,
+      "end": 1503495972234,
+      "fromCache": false,
+      "ip": "50.16.230.171"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "bookraid.com",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "_bookraid_session",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": true,
+        "storeId": -1,
+        "value": "RURxV3NNNlJTOEVNQU9PRVhMemFHak03ZGVLalhJNGd2SWV1QzZRSWxpZnpqaVF1d1BvZFhWSWVtRDZxZVRxVnFmZ1lLaVdxb3pNY2hLYUFzV20wMndoNDg3U0FHWWdpRFJpUllVNXJEb01vS2Ywa0VMMWU4bVJzUklDdmJHTkloOGRTR2syOWExMHoxYmZ4THhXVm5nPT0tLXhiTU9UWkhEQklkNzczU1hUWmJFbmc9PQ==--c11ec0c29aa7a88f1b3f422d6010ab35b83606fa"
+      },
+      "removed": false,
+      "timeStamp": 1503495972258,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 568
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_bookraid_session",
+      "type": "cookie",
+      "value": "RURxV3NNNlJTOEVNQU9PRVhMemFHak03ZGVLalhJNGd2SWV1QzZRSWxpZnpqaVF1d1BvZFhWSWVtRDZxZVRxVnFmZ1lLaVdxb3pNY2hLYUFzV20wMndoNDg3U0FHWWdpRFJpUllVNXJEb01vS2Ywa0VMMWU4bVJzUklDdmJHTkloOGRTR2syOWExMHoxYmZ4THhXVm5nPT0tLXhiTU9UWkhEQklkNzczU1hUWmJFbmc9PQ==--c11ec0c29aa7a88f1b3f422d6010ab35b83606fa",
+      "timeStamp": 1503495972258,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 568
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6033",
+      "responseHeaders": [
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "X-Xss-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "Etag",
+          "value": "W/\"6e9781c91bd645194ee6d2e98e11e869\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "X-Request-Id",
+          "value": "f3e4bb50-d8a6-48dd-83ea-f5434cca0b2d"
+        },
+        {
+          "name": "X-Runtime",
+          "value": "0.059973"
+        },
+        {
+          "name": "Server",
+          "value": "WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "664"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "_bookraid_session=RURxV3NNNlJTOEVNQU9PRVhMemFHak03ZGVLalhJNGd2SWV1QzZRSWxpZnpqaVF1d1BvZFhWSWVtRDZxZVRxVnFmZ1lLaVdxb3pNY2hLYUFzV20wMndoNDg3U0FHWWdpRFJpUllVNXJEb01vS2Ywa0VMMWU4bVJzUklDdmJHTkloOGRTR2syOWExMHoxYmZ4THhXVm5nPT0tLXhiTU9UWkhEQklkNzczU1hUWmJFbmc9PQ%3D%3D--c11ec0c29aa7a88f1b3f422d6010ab35b83606fa; path=/; secure; HttpOnly"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 vegur"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "https://bookraid.com/categories/1/disabled-dates",
+      "id": 6358,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972258,
+      "end": 1503495972260,
+      "fromCache": false,
+      "ip": "50.16.230.171"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": "bookraid.com",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "_bookraid_session",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": true,
+        "storeId": "0",
+        "value": "dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ%3D%3D--014463077d7fac0f7ce1c976e11d5117fd968cd8"
+      },
+      "removed": true,
+      "timeStamp": 1503495972261
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_bookraid_session",
+      "type": "cookie",
+      "value": "dnpWck9pTGFGUU82Z0NJdS80RUhLcVZQUnpFcGVMZ3FjcUNYa0ZubHo1dGNNQ3llZ29uYU1tWEVYN29tcFh1a0JqL0NGZUFOQWpIcWRNamg2TUhOOXhBU2lET0hNdE8rNGNZbzhnSDQ4eVRiZlUrdktZR0VhbU9wOHNmWUN5Vm9NV0FqU0JVSEliUmV0N1NKSDRzM1hnPT0tLTFjS2prZGNZR1IybGhkQ2FmYnZCYkE9PQ%3D%3D--014463077d7fac0f7ce1c976e11d5117fd968cd8",
+      "timeStamp": 1503495972261
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "bookraid.com",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "_bookraid_session",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": true,
+        "session": true,
+        "storeId": "0",
+        "value": "RURxV3NNNlJTOEVNQU9PRVhMemFHak03ZGVLalhJNGd2SWV1QzZRSWxpZnpqaVF1d1BvZFhWSWVtRDZxZVRxVnFmZ1lLaVdxb3pNY2hLYUFzV20wMndoNDg3U0FHWWdpRFJpUllVNXJEb01vS2Ywa0VMMWU4bVJzUklDdmJHTkloOGRTR2syOWExMHoxYmZ4THhXVm5nPT0tLXhiTU9UWkhEQklkNzczU1hUWmJFbmc9PQ%3D%3D--c11ec0c29aa7a88f1b3f422d6010ab35b83606fa"
+      },
+      "removed": false,
+      "timeStamp": 1503495972262
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_bookraid_session",
+      "type": "cookie",
+      "value": "RURxV3NNNlJTOEVNQU9PRVhMemFHak03ZGVLalhJNGd2SWV1QzZRSWxpZnpqaVF1d1BvZFhWSWVtRDZxZVRxVnFmZ1lLaVdxb3pNY2hLYUFzV20wMndoNDg3U0FHWWdpRFJpUllVNXJEb01vS2Ywa0VMMWU4bVJzUklDdmJHTkloOGRTR2syOWExMHoxYmZ4THhXVm5nPT0tLXhiTU9UWkhEQklkNzczU1hUWmJFbmc9PQ%3D%3D--c11ec0c29aa7a88f1b3f422d6010ab35b83606fa",
+      "timeStamp": 1503495972262
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6032",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "access-control-allow-credentials",
+          "value": "true"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "https://connect.facebook.net"
+        },
+        {
+          "name": "access-control-expose-headers",
+          "value": "X-FB-Debug, X-Loader-Length"
+        },
+        {
+          "name": "pragma",
+          "value": "public"
+        },
+        {
+          "name": "vary",
+          "value": "Origin"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "access-control-allow-method",
+          "value": "OPTIONS"
+        },
+        {
+          "name": "expires",
+          "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=15552000; preload; includeSubDomains"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript; charset=utf-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=1200"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "90dAixeAfUh1YFN/YBBshv9qFw/2aIHg16FWn2akSmu5c7mmeGRLc8nOi/dCzKDE/nHrVQeHREWOtJ4aVKzLBA=="
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/451873121672572?v=2.7.19",
+      "id": 6357,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972453,
+      "end": 1503495972487,
+      "fromCache": false,
+      "ip": "157.240.3.24"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6035",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/tr/?id=451873121672572&ev=PageView&dl=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&rl=&if=false&ts=1503495972497&v=2.7.19&ec=0&o=28",
+      "id": 6360,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972502,
+      "end": 1503495972502,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "fr=09W9UF2HFFTvidHcd..BZnYRe...1.0.BZnYRe."
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6036",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/tr/?id=451873121672572&ev=Microdata&dl=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&rl=&if=false&ts=1503495972501&cd[Schema.org]=%5B%5D&cd[OpenGraph]=%7B%22og%3Aurl%22%3A%22https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up%22%2C%22og%3Atype%22%3A%22website%22%2C%22og%3Atitle%22%3A%22BookRaid%3A%20Discount%20%26%20Free%20Bestselling%20eBooks%22%2C%22og%3Adescription%22%3A%22Download%20free%20%26%20bestselling%20discount%20eBooks%20for%20your%20Kindle%2C%20Nook%2C%20Kobo%2C%20or%20other%20eReader%22%2C%22og%3Aimage%22%3A%22https%3A%2F%2Fbookraid.com%2Fassets%2Fopengraph%2Fgirl-in-hammock-ff6141f1948d5599ac3304495914bd904561cdd56d3ce997ccce2253b8ad92d6.jpg%22%2C%22og%3Aimage%3Aurl%22%3A%22https%3A%2F%2Fbookraid.com%2Fassets%2Fopengraph%2Fgirl-in-hammock-ff6141f1948d5599ac3304495914bd904561cdd56d3ce997ccce2253b8ad92d6.jpg%22%2C%22og%3Aimage%3Atype%22%3A%22image-jpeg%22%2C%22og%3Aimage%3Awidth%22%3A%22630%22%7D&v=2.7.19&o=28",
+      "id": 6361,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972502,
+      "end": 1503495972503,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "fr=09W9UF2HFFTvidHcd..BZnYRe...1.0.BZnYRe."
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.facebook.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "path": "/tr/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1
+      },
+      "removed": false,
+      "timeStamp": 1503495972573,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 568
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "type": "cookie",
+      "timeStamp": 1503495972573,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 568
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6035",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 21 Dec 2012 00:00:01 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate, max-age=0"
+        },
+        {
+          "name": "set-cookie",
+          "value": ""
+        },
+        {
+          "name": "content-length",
+          "value": "44"
+        },
+        {
+          "name": "server",
+          "value": "proxygen"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/tr/?id=451873121672572&ev=PageView&dl=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&rl=&if=false&ts=1503495972497&v=2.7.19&ec=0&o=28",
+      "id": 6360,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972573,
+      "end": 1503495972575,
+      "fromCache": false,
+      "ip": "31.13.71.36"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.facebook.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "path": "/tr/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1
+      },
+      "removed": false,
+      "timeStamp": 1503495972575,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 568
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "type": "cookie",
+      "timeStamp": 1503495972575,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 568
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6036",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 21 Dec 2012 00:00:01 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate, max-age=0"
+        },
+        {
+          "name": "set-cookie",
+          "value": ""
+        },
+        {
+          "name": "content-length",
+          "value": "44"
+        },
+        {
+          "name": "server",
+          "value": "proxygen"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/tr/?id=451873121672572&ev=Microdata&dl=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&rl=&if=false&ts=1503495972501&cd[Schema.org]=%5B%5D&cd[OpenGraph]=%7B%22og%3Aurl%22%3A%22https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up%22%2C%22og%3Atype%22%3A%22website%22%2C%22og%3Atitle%22%3A%22BookRaid%3A%20Discount%20%26%20Free%20Bestselling%20eBooks%22%2C%22og%3Adescription%22%3A%22Download%20free%20%26%20bestselling%20discount%20eBooks%20for%20your%20Kindle%2C%20Nook%2C%20Kobo%2C%20or%20other%20eReader%22%2C%22og%3Aimage%22%3A%22https%3A%2F%2Fbookraid.com%2Fassets%2Fopengraph%2Fgirl-in-hammock-ff6141f1948d5599ac3304495914bd904561cdd56d3ce997ccce2253b8ad92d6.jpg%22%2C%22og%3Aimage%3Aurl%22%3A%22https%3A%2F%2Fbookraid.com%2Fassets%2Fopengraph%2Fgirl-in-hammock-ff6141f1948d5599ac3304495914bd904561cdd56d3ce997ccce2253b8ad92d6.jpg%22%2C%22og%3Aimage%3Atype%22%3A%22image-jpeg%22%2C%22og%3Aimage%3Awidth%22%3A%22630%22%7D&v=2.7.19&o=28",
+      "id": 6361,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972575,
+      "end": 1503495972576,
+      "fromCache": false,
+      "ip": "31.13.71.36"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookraid.com",
+        "expirationDate": 1535031972,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__stripe_mid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "79ffa500-5498-4606-9637-3a8dc6e3e23a"
+      },
+      "removed": false,
+      "timeStamp": 1503495972577
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "__stripe_mid",
+      "type": "cookie",
+      "value": "79ffa500-5498-4606-9637-3a8dc6e3e23a",
+      "timeStamp": 1503495972577
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookraid.com",
+        "expirationDate": 1503497772,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__stripe_sid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "3aa6c318-66b2-453b-b1dd-82dd0ad6f94c"
+      },
+      "removed": false,
+      "timeStamp": 1503495972578
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "__stripe_sid",
+      "type": "cookie",
+      "value": "3aa6c318-66b2-453b-b1dd-82dd0ad6f94c",
+      "timeStamp": 1503495972578
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 480,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503495972580,
+      "url": "https://js.stripe.com/v2/m/outer.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 480,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6037",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://js.stripe.com/v2/m/outer.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "id": 6362,
+      "contextId": 570,
+      "parentContextId": 568,
+      "windowId": 1,
+      "start": 1503495972580,
+      "end": 1503495972580,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 480,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6037",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        },
+        {
+          "name": "x-amz-id-2",
+          "value": "ppAITwwNlP57zcLCq/psWu0fNfNyMDFqs3RuU8u1X74a541HjdV2YHGVkgTVDGhR+keyGo4hWrc="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "AD7DFEC25BA0C6FD"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 16 May 2017 21:02:46 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"51b76bd7931c50d2bf6d4c5a93d343f9\""
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=300"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html"
+        },
+        {
+          "name": "server",
+          "value": "AmazonS3"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "age",
+          "value": "57"
+        },
+        {
+          "name": "x-served-by",
+          "value": "cache-lcy1135-LCY"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "x-cache-hits",
+          "value": "69"
+        },
+        {
+          "name": "x-timer",
+          "value": "S1503495973.584029,VS0,VE0"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31556926; includeSubDomains"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "388"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://js.stripe.com/v2/m/outer.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "id": 6362,
+      "contextId": 570,
+      "parentContextId": 568,
+      "windowId": 1,
+      "start": 1503495972583,
+      "end": 1503495972584,
+      "fromCache": false,
+      "ip": "151.101.16.176"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 480,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972585,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "https://js.stripe.com/v2/m/outer.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 481,
+      "parentFrameId": 480,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503495972591,
+      "url": "https://m.stripe.network/inner.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 481,
+      "method": "GET",
+      "parentFrameId": 480,
+      "requestId": "6038",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://m.stripe.network/inner.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "id": 6363,
+      "contextId": 571,
+      "parentContextId": 570,
+      "windowId": 1,
+      "start": 1503495972592,
+      "end": 1503495972593,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://js.stripe.com/v2/m/outer.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 480,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972593,
+      "url": "https://js.stripe.com/v2/m/outer.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 481,
+      "method": "GET",
+      "parentFrameId": 480,
+      "requestId": "6038",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 17 Jul 2017 22:20:22 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"596d3826-712d\""
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=31556926; includeSubDomains"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=300"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src 'self'; connect-src 'self' https://m.stripe.com https://stripensrq.global.ssl.fastly.net/; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; frame-src 'self' https://js.stripe.com; img-src 'self' https://m.stripe.com; font-src data: https:; media-src 'none'; object-src 'self';"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "fastly-debug-digest",
+          "value": "9e7d6e8497da6a7f00eaf924d154a4dc281d45bcb200f5a67f1e098d922c114c"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "age",
+          "value": "292"
+        },
+        {
+          "name": "x-served-by",
+          "value": "cache-sea1030-SEA, cache-lcy1135-LCY"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT, HIT"
+        },
+        {
+          "name": "x-cache-hits",
+          "value": "2, 286"
+        },
+        {
+          "name": "x-timer",
+          "value": "S1503495973.609837,VS0,VE0"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-length",
+          "value": "10281"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://m.stripe.network/inner.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "id": 6363,
+      "contextId": 571,
+      "parentContextId": 570,
+      "windowId": 1,
+      "start": 1503495972609,
+      "end": 1503495972611,
+      "fromCache": false,
+      "ip": "151.101.16.176"
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://js.stripe.com/v2/m/outer.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "timeStamp": 1503495972610,
+      "tabId": 2,
+      "frameId": 480,
+      "url": "https://js.stripe.com/v2/m/outer.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "contextId": 570,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503495972610,
+      "tabId": 2,
+      "frameId": 480,
+      "url": "https://js.stripe.com/v2/m/outer.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "contextId": 570,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "StripeM-Outer",
+      "timeStamp": 1503495972610,
+      "tabId": 2,
+      "frameId": 480,
+      "url": "https://js.stripe.com/v2/m/outer.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "contextId": 570,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 481,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972613,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "https://m.stripe.network/inner.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 481,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972735,
+      "url": "https://m.stripe.network/inner.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 481,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972738,
+      "url": "https://m.stripe.network/inner.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 480,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972738,
+      "url": "https://js.stripe.com/v2/m/outer.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 81,
+      "tabId": 2,
+      "timeStamp": 1503495972739,
+      "url": "https://bookraid.com/p/partners/sign_up",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "BookRaid: Discounted & Free Bestselling Ebooks",
+          "url": "https://bookraid.com/p/partners/sign_up",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495972739
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6039",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://bookraid.com/assets/icons/favicon/gem-32-d7f16abfd0a5f9343ef24786813e9ad0c1d285c1c3629d659de5b75836390481.png",
+      "id": 6364,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972792,
+      "end": 1503495972792,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookraid.com/p/partners/sign_up"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1519635226.1503495972; _gid=GA1.2.341907888.1503495972; _gat=1; _bookraid_session=RURxV3NNNlJTOEVNQU9PRVhMemFHak03ZGVLalhJNGd2SWV1QzZRSWxpZnpqaVF1d1BvZFhWSWVtRDZxZVRxVnFmZ1lLaVdxb3pNY2hLYUFzV20wMndoNDg3U0FHWWdpRFJpUllVNXJEb01vS2Ywa0VMMWU4bVJzUklDdmJHTkloOGRTR2syOWExMHoxYmZ4THhXVm5nPT0tLXhiTU9UWkhEQklkNzczU1hUWmJFbmc9PQ%3D%3D--c11ec0c29aa7a88f1b3f422d6010ab35b83606fa; __stripe_mid=79ffa500-5498-4606-9637-3a8dc6e3e23a; __stripe_sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://m.stripe.network/inner.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "timeStamp": 1503495972793,
+      "tabId": 2,
+      "frameId": 481,
+      "url": "https://m.stripe.network/inner.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "contextId": 571,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503495972793,
+      "tabId": 2,
+      "frameId": 481,
+      "url": "https://m.stripe.network/inner.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "contextId": 571,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "StripeM-Inner",
+      "timeStamp": 1503495972793,
+      "tabId": 2,
+      "frameId": 481,
+      "url": "https://m.stripe.network/inner.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "contextId": 571,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "1",
+      "type": "sessionStorage",
+      "value": null,
+      "timeStamp": 1503495972794,
+      "tabId": 2,
+      "frameId": 481,
+      "url": "https://m.stripe.network/inner.html#referrer=&title=BookRaid%3A%20Discounted%20%26%20Free%20Bestselling%20Ebooks&url=https%3A%2F%2Fbookraid.com%2Fp%2Fpartners%2Fsign_up&muid=79ffa500-5498-4606-9637-3a8dc6e3e23a&sid=3aa6c318-66b2-453b-b1dd-82dd0ad6f94c&preview=false&",
+      "contextId": 571,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6039",
+      "responseHeaders": [
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 12 Oct 2016 23:15:39 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2272"
+        },
+        {
+          "name": "Server",
+          "value": "WEBrick/1.3.1 (Ruby/2.2.1/2015-02-26)"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:12 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 vegur"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://bookraid.com/assets/icons/favicon/gem-32-d7f16abfd0a5f9343ef24786813e9ad0c1d285c1c3629d659de5b75836390481.png",
+      "id": 6364,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495972876,
+      "end": 1503495972877,
+      "fromCache": false,
+      "ip": "50.16.230.171"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "https://bookraid.com/assets/icons/favicon/gem-32-d7f16abfd0a5f9343ef24786813e9ad0c1d285c1c3629d659de5b75836390481.png"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "https://bookraid.com/assets/icons/favicon/gem-32-d7f16abfd0a5f9343ef24786813e9ad0c1d285c1c3629d659de5b75836390481.png",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "BookRaid: Discounted & Free Bestselling Ebooks",
+          "url": "https://bookraid.com/p/partners/sign_up",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495972878
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6040",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 6365,
+      "contextId": 572,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495973831,
+      "end": 1503495973832
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6040",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 6365,
+      "contextId": 572,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495973832,
+      "end": 1503495973839
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495973839
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503495973839
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503495973840,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503495973833.548,
+          "title": "Save",
+          "typedCount": 75,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 75
+        }
+      },
+      "timeStamp": 1503495973840
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6041",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 6366,
+      "contextId": 572,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495973842,
+      "end": 1503495973842
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6041",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 6366,
+      "contextId": 572,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495973842,
+      "end": 1503495973842
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495973847
+    }
+  }
+]

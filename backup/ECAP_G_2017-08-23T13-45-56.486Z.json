@@ -1,0 +1,5891 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495951677
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 207143,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/e2c9fecc-2d5d-4af1-b9f8-c4f5164fa4fe",
+          "id": 72,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T13:45:51.681Z",
+          "state": "in_progress",
+          "totalBytes": 207143,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/e2c9fecc-2d5d-4af1-b9f8-c4f5164fa4fe"
+        }
+      },
+      "timeStamp": 1503495951682
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 207143,
+          "filename": "ECAP_G_2017-08-23T13-45-51.673Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/e2c9fecc-2d5d-4af1-b9f8-c4f5164fa4fe",
+          "id": 72,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T13:45:51.681Z",
+          "state": "in_progress",
+          "totalBytes": 207143,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/e2c9fecc-2d5d-4af1-b9f8-c4f5164fa4fe"
+        }
+      },
+      "timeStamp": 1503495951687
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T13-45-51.673Z.json",
+            "previous": ""
+          },
+          "id": 72
+        }
+      },
+      "timeStamp": 1503495951699
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T13:45:51.703Z"
+          },
+          "id": 72,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503495951703
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503495954018,
+      "url": "http://bookoftheday.org/add-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5912",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://bookoftheday.org/add-book/",
+      "id": 6233,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954019,
+      "end": 1503495954019,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "bookoftheday.org",
+        "expirationDate": "1503495955-3600",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "wpSGCacheBypass",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "0"
+      },
+      "removed": false,
+      "timeStamp": 1503495954683,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 561
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "wpSGCacheBypass",
+      "type": "cookie",
+      "value": "0",
+      "timeStamp": 1503495954683,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 561
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5912",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7023"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Cache-Enabled",
+          "value": "True"
+        },
+        {
+          "name": "Link",
+          "value": "<http://bookoftheday.org/wp-json/>; rel=\"https://api.w.org/\", <http://wp.me/P53Eqm-kz>; rel=shortlink"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "wpSGCacheBypass=0; expires=Wed, 23-Aug-2017 12:45:54 GMT; Max-Age=-3600; path=/"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://bookoftheday.org/add-book/",
+      "id": 6233,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954683,
+      "end": 1503495954686,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://bookoftheday.org/add-book/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "bookoftheday.org/add-book/",
+          "url": "http://bookoftheday.org/add-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495954689
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503495954689
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 78,
+      "tabId": 2,
+      "timeStamp": 1503495954690,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://bookoftheday.org/add-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "113",
+          "lastVisitTime": 1503495954687.18,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://bookoftheday.org/add-book/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503495954694
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5913",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/plugins/mailchimp//css/flick/flick.css?ver=4.7.5",
+      "id": 6234,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954695,
+      "end": 1503495954695,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5914",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/?mcsf_action=main_css&ver=4.7.5",
+      "id": 6235,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954696,
+      "end": 1503495954696,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5915",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/plugins/jetpack/modules/simple-payments/simple-payments.css?ver=4.7.5",
+      "id": 6236,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954696,
+      "end": 1503495954696,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5916",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/plugins/bns-featured-category/bnsfc-style.css?ver=2.8.2",
+      "id": 6237,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954696,
+      "end": 1503495954696,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5917",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/css/custom-style.css?ver=4.7.5",
+      "id": 6238,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954697,
+      "end": 1503495954697,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5918",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/css/style2/bootstrap.css?ver=4.7.5",
+      "id": 6239,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954697,
+      "end": 1503495954697,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5919",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/css/style2/custom.css?ver=4.7.5",
+      "id": 6240,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954698,
+      "end": 1503495954698,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5920",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/css/font-awesome.min.css?ver=4.7.5",
+      "id": 6241,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954698,
+      "end": 1503495954698,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5921",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/style.css?ver=4.7.5",
+      "id": 6242,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954698,
+      "end": 1503495954699,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5922",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/plugins/favorites/assets/css/favorites.css?ver=2.1.6",
+      "id": 6243,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954699,
+      "end": 1503495954701,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5923",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&subset=latin%2Clatin-ext&ver=4.7.5",
+      "id": 6244,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954701,
+      "end": 1503495954701,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5924",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/plugins/jetpack/css/jetpack.css?ver=5.2.1",
+      "id": 6245,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954701,
+      "end": 1503495954702,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5925",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 6246,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954702,
+      "end": 1503495954702,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5926",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1",
+      "id": 6247,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954702,
+      "end": 1503495954702,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5927",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/mailchimp//js/scrollTo.js?ver=1.5.7",
+      "id": 6248,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954703,
+      "end": 1503495954703,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5928",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-includes/js/jquery/jquery.form.min.js?ver=3.37.0",
+      "id": 6249,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954703,
+      "end": 1503495954703,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5929",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/mailchimp//js/mailchimp.js?ver=1.5.7",
+      "id": 6250,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954703,
+      "end": 1503495954704,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5930",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4",
+      "id": 6251,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954704,
+      "end": 1503495954704,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5931",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/mailchimp//js/datepicker.js?ver=4.7.5",
+      "id": 6252,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954704,
+      "end": 1503495954704,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5932",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/caroufredsel/jquery.transit.min.js?ver=4.7.5",
+      "id": 6253,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954705,
+      "end": 1503495954705,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5933",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/caroufredsel/jquery.carouFredSel-6.2.1-packed.js?ver=4.7.5",
+      "id": 6254,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954705,
+      "end": 1503495954705,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5934",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/caroufredsel/jquery.touchSwipe.min.js?ver=4.7.5",
+      "id": 6255,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954705,
+      "end": 1503495954706,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5935",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/script.js?ver=4.7.5",
+      "id": 6256,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954706,
+      "end": 1503495954706,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5936",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/favorites/assets/js/favorites.min.js?ver=2.1.6",
+      "id": 6257,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954706,
+      "end": 1503495954706,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Add Book | Book of the Day .org"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Add Book | Book of the Day .org",
+          "url": "http://bookoftheday.org/add-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495954707
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5923",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&subset=latin%2Clatin-ext&ver=4.7.5",
+      "id": 6244,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954718,
+      "end": 1503495954719,
+      "fromCache": false,
+      "ip": "216.58.206.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5913",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4168"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 27 Jan 2017 22:37:36 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"5a04-5471b1cc64c00-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/plugins/mailchimp//css/flick/flick.css?ver=4.7.5",
+      "id": 6234,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954792,
+      "end": 1503495954794,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "bookoftheday.org",
+        "expirationDate": "1503495955-3600",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "wpSGCacheBypass",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "0"
+      },
+      "removed": false,
+      "timeStamp": 1503495954798,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 561
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "wpSGCacheBypass",
+      "type": "cookie",
+      "value": "0",
+      "timeStamp": 1503495954798,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 561
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5914",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css;charset=UTF-8"
+        },
+        {
+          "name": "Content-Length",
+          "value": "363"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Cache-Enabled",
+          "value": "True"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "wpSGCacheBypass=0; expires=Wed, 23-Aug-2017 12:25:21 GMT; Max-Age=-3600; path=/"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/?mcsf_action=main_css&ver=4.7.5",
+      "id": 6235,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954798,
+      "end": 1503495954799,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5915",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "719"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 04 Aug 2017 02:15:35 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"8cf-555e41282a283-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/plugins/jetpack/modules/simple-payments/simple-payments.css?ver=4.7.5",
+      "id": 6236,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954890,
+      "end": 1503495954890,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5917",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "688"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 23 Apr 2017 20:57:39 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"750-54ddbbdb2bc6d-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/css/custom-style.css?ver=4.7.5",
+      "id": 6238,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954891,
+      "end": 1503495954892,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5916",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "725"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 15 Mar 2016 23:34:47 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"553-52e1ed7bdf3c0-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/plugins/bns-featured-category/bnsfc-style.css?ver=2.8.2",
+      "id": 6237,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954892,
+      "end": 1503495954893,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5919",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "318"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 12 Mar 2017 00:07:54 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"25d-54a7d62e38a80-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/css/style2/custom.css?ver=4.7.5",
+      "id": 6240,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954894,
+      "end": 1503495954895,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5920",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4385"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 12 Mar 2017 00:06:48 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"5649-54a7d5ef47600-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/css/font-awesome.min.css?ver=4.7.5",
+      "id": 6241,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954895,
+      "end": 1503495954897,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5918",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "18644"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 12 Mar 2017 00:07:55 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"21a2e-54a7d62f2ccc0-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/css/style2/bootstrap.css?ver=4.7.5",
+      "id": 6239,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954893,
+      "end": 1503495954986,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5922",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3092"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 04 Aug 2017 02:13:56 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"207c-555e40ca7abab-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/plugins/favorites/assets/css/favorites.css?ver=2.1.6",
+      "id": 6243,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954993,
+      "end": 1503495954994,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5921",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5022"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 12 Mar 2017 00:43:57 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"42e9-54a7de3d04d40-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/style.css?ver=4.7.5",
+      "id": 6242,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954992,
+      "end": 1503495954997,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5926",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4014"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 21 Jun 2016 18:59:05 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2748-535ce6a35d040-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1",
+      "id": 6247,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954996,
+      "end": 1503495954999,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5924",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "11679"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 04 Aug 2017 02:15:35 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"101f9-555e41283a83d-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://bookoftheday.org/wp-content/plugins/jetpack/css/jetpack.css?ver=5.2.1",
+      "id": 6245,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954994,
+      "end": 1503495955000,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5927",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1204"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 27 Jan 2017 22:37:36 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"8d6-5471b1cc64c00-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/mailchimp//js/scrollTo.js?ver=1.5.7",
+      "id": 6248,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955082,
+      "end": 1503495955083,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5925",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "33766"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 21 Jun 2016 18:59:05 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"17ba0-535ce6a35d040-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 6246,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495954995,
+      "end": 1503495955089,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5928",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5713"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 01 Mar 2015 16:59:02 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"3980-5103d04bb8180-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-includes/js/jquery/jquery.form.min.js?ver=3.37.0",
+      "id": 6249,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955093,
+      "end": 1503495955094,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5929",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "508"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 27 Jan 2017 22:37:36 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"3e2-5471b1cc64c00-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/mailchimp//js/mailchimp.js?ver=1.5.7",
+      "id": 6250,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955096,
+      "end": 1503495955097,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5930",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1821"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 28 Nov 2016 21:33:53 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"fa0-542633a6d7240-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4",
+      "id": 6251,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955098,
+      "end": 1503495955098,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5931",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "19417"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 27 Jan 2017 22:37:36 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"12864-5471b1cc64c00-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/mailchimp//js/datepicker.js?ver=4.7.5",
+      "id": 6252,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955099,
+      "end": 1503495955102,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5932",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2753"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 23 Apr 2017 20:57:39 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1e96-54ddbbdb2b885-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/caroufredsel/jquery.transit.min.js?ver=4.7.5",
+      "id": 6253,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955179,
+      "end": 1503495955179,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5933",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "13676"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 23 Apr 2017 20:57:39 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"d5fc-54ddbbdb2b885-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/caroufredsel/jquery.carouFredSel-6.2.1-packed.js?ver=4.7.5",
+      "id": 6254,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955186,
+      "end": 1503495955187,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5934",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3829"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 23 Apr 2017 20:57:39 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2c99-54ddbbdb2b885-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/caroufredsel/jquery.touchSwipe.min.js?ver=4.7.5",
+      "id": 6255,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955191,
+      "end": 1503495955192,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5935",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "597"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 23 Apr 2017 20:57:39 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"54e-54ddbbdb2b0b5-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/carousel-horizontal-posts-content-slider/assets/js/script.js?ver=4.7.5",
+      "id": 6256,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955196,
+      "end": 1503495955197,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5939",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
+      "id": 6258,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955198,
+      "end": 1503495955199,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5936",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3978"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 04 Aug 2017 02:13:56 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"4802-555e40ca7a3db-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/plugins/favorites/assets/js/favorites.min.js?ver=2.1.6",
+      "id": 6257,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955198,
+      "end": 1503495955199,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5939",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "33333"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 07 Aug 2017 09:06:20 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 07 Aug 2018 09:06:20 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 20 Dec 2016 18:17:03 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000, stale-while-revalidate=2592000"
+        },
+        {
+          "name": "Age",
+          "value": "1399169"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js",
+      "id": 6258,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955200,
+      "end": 1503495955202,
+      "fromCache": true,
+      "ip": "216.58.210.42"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5940",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201734",
+      "id": 6259,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955202,
+      "end": 1503495955202,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5941",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/js/bootstrap.min.js?ver=3.0.0",
+      "id": 6260,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955203,
+      "end": 1503495955204,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5942",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-includes/js/wp-embed.min.js?ver=4.7.5",
+      "id": 6261,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955204,
+      "end": 1503495955205,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5943",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/js/theme-menu.js",
+      "id": 6262,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955205,
+      "end": 1503495955205,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5945",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.anrdoezrs.net/am/7937542/include/allCj/impressions/page/am.js",
+      "id": 6263,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955205,
+      "end": 1503495955206,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5937",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://bookoftheday.org/wp-content/uploads/2017/03/NEWLOGO4.jpg",
+      "id": 6264,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955206,
+      "end": 1503495955207,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5938",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://bookoftheday.org/wp-content/uploads/2016/02/5-Book-of-the-Day-2015-IUEA-300x203.jpg",
+      "id": 6265,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955207,
+      "end": 1503495955207,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5944",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://stats.wp.com/e-201734.js",
+      "id": 6266,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955207,
+      "end": 1503495955208,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5946",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-includes/js/wp-emoji-release.min.js?ver=4.7.5",
+      "id": 6267,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955208,
+      "end": 1503495955208,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5940",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:45:01 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"5841a56f-52b6\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 14 Aug 2018 11:53:29 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201734",
+      "id": 6259,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955203,
+      "end": 1503495955209,
+      "fromCache": true,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5944",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:45:01 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"572909a0-16a6\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 14 Aug 2018 00:25:02 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://stats.wp.com/e-201734.js",
+      "id": 6266,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955210,
+      "end": 1503495955211,
+      "fromCache": true,
+      "ip": "192.0.76.3"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5948",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/images/search-icon.png",
+      "id": 6269,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955274,
+      "end": 1503495955274,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/wp-content/themes/redtree/style.css?ver=4.7.5"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/analytics.js",
+      "requestId": "5947",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/analytics.js"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google-analytics.com/analytics.js",
+      "id": 6268,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1503495955275
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5947",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 6270,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955275,
+      "end": 1503495955275,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5947",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 12:22:02 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 14:22:02 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "13472"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "age",
+          "value": "4329"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 6270,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955276,
+      "end": 1503495955276,
+      "fromCache": true,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5945",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "Resin/3.1.14"
+        },
+        {
+          "name": "Location",
+          "value": "http://www.yceml.net/am_gen/7937542/include/allCj/impressions/page/am.js"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        },
+        {
+          "name": "Content-Length",
+          "value": "110"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302 Found",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.anrdoezrs.net/am/7937542/include/allCj/impressions/page/am.js",
+      "id": 6263,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955228,
+      "end": 1503495955277,
+      "fromCache": false,
+      "ip": "63.215.202.80",
+      "redirectUrl": "http://www.yceml.net/am_gen/7937542/include/allCj/impressions/page/am.js"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5945",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.yceml.net/am_gen/7937542/include/allCj/impressions/page/am.js",
+      "id": 6271,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955277,
+      "end": 1503495955277,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookoftheday.org",
+        "expirationDate": 1566567955,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.848686252.1503495955"
+      },
+      "removed": false,
+      "timeStamp": 1503495955282
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_ga",
+      "type": "cookie",
+      "value": "GA1.2.848686252.1503495955",
+      "timeStamp": 1503495955282
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookoftheday.org",
+        "expirationDate": 1503582355,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.1546689624.1503495955"
+      },
+      "removed": false,
+      "timeStamp": 1503495955283
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gid",
+      "type": "cookie",
+      "value": "GA1.2.1546689624.1503495955",
+      "timeStamp": 1503495955283
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookoftheday.org",
+        "expirationDate": 1503496015,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gat",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1503495955286
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gat",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1503495955286
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=1158244821&t=pageview&_s=1&dl=http%3A%2F%2Fbookoftheday.org%2Fadd-book%2F&ul=en-gb&de=UTF-8&dt=Add%20Book%20%7C%20Book%20of%20the%20Day%20.org&sd=24-bit&sr=1920x1080&vp=935x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1921532926&gjid=1267524545&cid=848686252.1503495955&tid=UA-43817791-3&_gid=1546689624.1503495955&_r=1&z=684304791",
+      "requestId": "5949",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=1158244821&t=pageview&_s=1&dl=http%3A%2F%2Fbookoftheday.org%2Fadd-book%2F&ul=en-gb&de=UTF-8&dt=Add%20Book%20%7C%20Book%20of%20the%20Day%20.org&sd=24-bit&sr=1920x1080&vp=935x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1921532926&gjid=1267524545&cid=848686252.1503495955&tid=UA-43817791-3&_gid=1546689624.1503495955&_r=1&z=684304791"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.google-analytics.com/r/collect?v=1&_v=j60&a=1158244821&t=pageview&_s=1&dl=http%3A%2F%2Fbookoftheday.org%2Fadd-book%2F&ul=en-gb&de=UTF-8&dt=Add%20Book%20%7C%20Book%20of%20the%20Day%20.org&sd=24-bit&sr=1920x1080&vp=935x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1921532926&gjid=1267524545&cid=848686252.1503495955&tid=UA-43817791-3&_gid=1546689624.1503495955&_r=1&z=684304791",
+      "id": 6272,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1503495955287
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5949",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=1158244821&t=pageview&_s=1&dl=http%3A%2F%2Fbookoftheday.org%2Fadd-book%2F&ul=en-gb&de=UTF-8&dt=Add%20Book%20%7C%20Book%20of%20the%20Day%20.org&sd=24-bit&sr=1920x1080&vp=935x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1921532926&gjid=1267524545&cid=848686252.1503495955&tid=UA-43817791-3&_gid=1546689624.1503495955&_r=1&z=684304791",
+      "id": 6273,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955287,
+      "end": 1503495955287,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5949",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=1158244821&t=pageview&_s=1&dl=http%3A%2F%2Fbookoftheday.org%2Fadd-book%2F&ul=en-gb&de=UTF-8&dt=Add%20Book%20%7C%20Book%20of%20the%20Day%20.org&sd=24-bit&sr=1920x1080&vp=935x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1921532926&gjid=1267524545&cid=848686252.1503495955&tid=UA-43817791-3&_gid=1546689624.1503495955&_r=1&z=684304791",
+      "id": 6273,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955296,
+      "end": 1503495955297,
+      "fromCache": false,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5942",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "751"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 27 Dec 2016 20:26:58 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"576-544a9ac834880-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-includes/js/wp-embed.min.js?ver=4.7.5",
+      "id": 6261,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955305,
+      "end": 1503495955306,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5943",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "381"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 12 Mar 2017 00:07:05 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"307-54a7d5ff7dc40-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/js/theme-menu.js",
+      "id": 6262,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955307,
+      "end": 1503495955308,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5941",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7252"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 12 Mar 2017 00:06:59 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6c4e-54a7d5f9c4ec0-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/js/bootstrap.min.js?ver=3.0.0",
+      "id": 6260,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955306,
+      "end": 1503495955308,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5937",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6898"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 12 Mar 2017 00:48:25 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1af2-54a7df3c9a840\""
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://bookoftheday.org/wp-content/uploads/2017/03/NEWLOGO4.jpg",
+      "id": 6264,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955312,
+      "end": 1503495955315,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5938",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "22834"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 22 Feb 2016 22:56:45 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"5932-52c63bf372540\""
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://bookoftheday.org/wp-content/uploads/2016/02/5-Book-of-the-Day-2015-IUEA-300x203.jpg",
+      "id": 6265,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955313,
+      "end": 1503495955315,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5946",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4230"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 27 Dec 2016 20:26:58 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2c96-544a9ac834880-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://bookoftheday.org/wp-includes/js/wp-emoji-release.min.js?ver=4.7.5",
+      "id": 6267,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955314,
+      "end": 1503495955316,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5950",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://pixel.wp.com/g.gif?v=ext&j=1%3A5.2.1&blog=74752058&post=1275&tz=-4&srv=bookoftheday.org&host=bookoftheday.org&ref=&rand=0.5582547050748214",
+      "id": 6274,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955328,
+      "end": 1503495955328,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5950",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "50"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://pixel.wp.com/g.gif?v=ext&j=1%3A5.2.1&blog=74752058&post=1275&tz=-4&srv=bookoftheday.org&host=bookoftheday.org&ref=&rand=0.5582547050748214",
+      "id": 6274,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955332,
+      "end": 1503495955332,
+      "fromCache": false,
+      "ip": "192.0.76.3"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5945",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "Resin/3.1.14"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=86400"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Connection",
+          "value": "Transfer-Encoding"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.yceml.net/am_gen/7937542/include/allCj/impressions/page/am.js",
+      "id": 6271,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955315,
+      "end": 1503495955371,
+      "fromCache": false,
+      "ip": "23.55.59.170"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "OPTIONS",
+      "parentFrameId": -1,
+      "requestId": "5951",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.qksrv.net/pageImpression",
+      "id": 6275,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955376,
+      "end": 1503495955377,
+      "requestHeaders": [
+        {
+          "name": "Access-Control-Request-Method",
+          "value": "POST"
+        },
+        {
+          "name": "Origin",
+          "value": "http://bookoftheday.org"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Access-Control-Request-Headers",
+          "value": "content-type"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "OPTIONS",
+      "parentFrameId": -1,
+      "requestId": "5951",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "Resin/3.1.14"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "http://bookoftheday.org"
+        },
+        {
+          "name": "Access-Control-Allow-Credentials",
+          "value": "true"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "content-type"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "POST"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.qksrv.net/pageImpression",
+      "id": 6275,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955396,
+      "end": 1503495955397,
+      "fromCache": false,
+      "ip": "63.215.202.80"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestBody": {
+        "formData": {
+          "action": [
+            "favorites_nonce"
+          ],
+          "logged_in": [
+            ""
+          ],
+          "user_id": [
+            "0"
+          ]
+        }
+      },
+      "requestId": "5952",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://bookoftheday.org/wp-admin/admin-ajax.php",
+      "id": 6276,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955398,
+      "end": 1503495955398,
+      "requestHeaders": [
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Origin",
+          "value": "http://bookoftheday.org"
+        },
+        {
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.848686252.1503495955; _gid=GA1.2.1546689624.1503495955; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 78,
+      "tabId": 2,
+      "timeStamp": 1503495955400,
+      "url": "http://bookoftheday.org/add-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5948",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "422"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 12 Mar 2017 00:06:56 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1a6-54a7d5f6e8800\""
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://bookoftheday.org/wp-content/themes/redtree/images/search-icon.png",
+      "id": 6269,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955411,
+      "end": 1503495955411,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "5953",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.qksrv.net/pageImpression",
+      "id": 6277,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955416,
+      "end": 1503495955416,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://bookoftheday.org"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 78,
+      "tabId": 2,
+      "timeStamp": 1503495955417,
+      "url": "http://bookoftheday.org/add-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Add Book | Book of the Day .org",
+          "url": "http://bookoftheday.org/add-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495955418
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://bookoftheday.org/add-book/",
+      "timeStamp": 1503495955423,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://bookoftheday.org/add-book/",
+      "contextId": 561,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503495955423,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://bookoftheday.org/add-book/",
+      "contextId": 561,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Add Book | Book of the Day .org",
+      "timeStamp": 1503495955423,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://bookoftheday.org/add-book/",
+      "contextId": 561,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "s",
+      "type": "input:search",
+      "value": "",
+      "timeStamp": 1503495955424,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://bookoftheday.org/add-book/",
+      "contextId": 561,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "s",
+      "type": "input:search",
+      "value": "",
+      "timeStamp": 1503495955424,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://bookoftheday.org/add-book/",
+      "contextId": 561,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5954",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://bookoftheday.org/favicon.ico",
+      "id": 6278,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955425,
+      "end": 1503495955425,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.848686252.1503495955; _gid=GA1.2.1546689624.1503495955; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "5953",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "Resin/3.1.14"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "http://bookoftheday.org"
+        },
+        {
+          "name": "Access-Control-Allow-Credentials",
+          "value": "true"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "content-type"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "POST"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json; charset=utf-8"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:54 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.qksrv.net/pageImpression",
+      "id": 6277,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955444,
+      "end": 1503495955445,
+      "fromCache": false,
+      "ip": "63.215.202.80"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5954",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/x-icon"
+        },
+        {
+          "name": "Content-Length",
+          "value": "205"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 28 Feb 2015 11:50:23 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"13e-5102497129dc0-gzip\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://bookoftheday.org/favicon.ico",
+      "id": 6278,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495955528,
+      "end": 1503495955529,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "http://bookoftheday.org/favicon.ico"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "http://bookoftheday.org/favicon.ico",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Add Book | Book of the Day .org",
+          "url": "http://bookoftheday.org/add-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495955530
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "bookoftheday.org",
+        "expirationDate": "1503495956-3600",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "wpSGCacheBypass",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "0"
+      },
+      "removed": false,
+      "timeStamp": 1503495956004,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 561
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "wpSGCacheBypass",
+      "type": "cookie",
+      "value": "0",
+      "timeStamp": 1503495956004,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 561
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "5952",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:55 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json; charset=UTF-8"
+        },
+        {
+          "name": "Content-Length",
+          "value": "41"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Cache-Enabled",
+          "value": "True"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "http://bookoftheday.org"
+        },
+        {
+          "name": "Access-Control-Allow-Credentials",
+          "value": "true"
+        },
+        {
+          "name": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 11 Jan 1984 05:00:00 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache, must-revalidate, max-age=0"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "wpSGCacheBypass=0; expires=Wed, 23-Aug-2017 12:45:55 GMT; Max-Age=-3600; path=/"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://bookoftheday.org/wp-admin/admin-ajax.php",
+      "id": 6276,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495956004,
+      "end": 1503495956006,
+      "fromCache": false,
+      "ip": "181.224.137.130"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestBody": {
+        "formData": {
+          "action": [
+            "favorites_array"
+          ],
+          "logged_in": [
+            ""
+          ],
+          "user_id": [
+            "0"
+          ]
+        }
+      },
+      "requestId": "5955",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://bookoftheday.org/wp-admin/admin-ajax.php",
+      "id": 6279,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495956010,
+      "end": 1503495956011,
+      "requestHeaders": [
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Origin",
+          "value": "http://bookoftheday.org"
+        },
+        {
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "Referer",
+          "value": "http://bookoftheday.org/add-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.848686252.1503495955; _gid=GA1.2.1546689624.1503495955; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": 0,
+      "fromCache": false,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "5955",
+      "tabId": 2,
+      "timeStamp": 1503495956468,
+      "type": "xmlhttprequest",
+      "url": "http://bookoftheday.org/wp-admin/admin-ajax.php",
+      "id": 6279,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5956",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 6280,
+      "contextId": 562,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495956473,
+      "end": 1503495956473
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5956",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 6280,
+      "contextId": 562,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495956473,
+      "end": 1503495956479
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495956479
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503495956479
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503495956479,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503495956474.625,
+          "title": "Save",
+          "typedCount": 72,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 72
+        }
+      },
+      "timeStamp": 1503495956481
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5957",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 6281,
+      "contextId": 562,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495956480,
+      "end": 1503495956481
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5957",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 6281,
+      "contextId": 562,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495956481,
+      "end": 1503495956481
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495956485
+    }
+  }
+]

@@ -1,0 +1,3648 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496989334
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 295822,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/31398a58-4d8c-4a44-bb23-7586c4592bdc",
+          "id": 175,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T14:03:09.341Z",
+          "state": "in_progress",
+          "totalBytes": 295822,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/31398a58-4d8c-4a44-bb23-7586c4592bdc"
+        }
+      },
+      "timeStamp": 1503496989342
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 295822,
+          "filename": "ECAP_G_2017-08-23T14-03-09.329Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/31398a58-4d8c-4a44-bb23-7586c4592bdc",
+          "id": 175,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T14:03:09.341Z",
+          "state": "in_progress",
+          "totalBytes": 295822,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/31398a58-4d8c-4a44-bb23-7586c4592bdc"
+        }
+      },
+      "timeStamp": 1503496989344
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T14-03-09.329Z.json",
+            "previous": ""
+          },
+          "id": 175
+        }
+      },
+      "timeStamp": 1503496989352
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T14:03:09.354Z"
+          },
+          "id": 175,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503496989355
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496992010,
+      "url": "http://www.derekhaines.ch/whizbuzz/submit-your-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13721",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.derekhaines.ch/whizbuzz/submit-your-book/",
+      "id": 14480,
+      "contextId": 1288,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992010,
+      "end": 1503496992010,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13721",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Location",
+          "value": "http://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3600"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 15:03:12 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "208"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=iso-8859-1"
+        }
+      ],
+      "statusCode": 301,
+      "statusLine": "HTTP/1.1 301 Moved Permanently",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.derekhaines.ch/whizbuzz/submit-your-book/",
+      "id": 14480,
+      "contextId": 1288,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992071,
+      "end": 1503496992073,
+      "fromCache": false,
+      "ip": "128.65.195.25",
+      "redirectUrl": "http://www.whizbuzzbooks.com/submit-your-book/"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13721",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.whizbuzzbooks.com/submit-your-book/",
+      "id": 14481,
+      "contextId": 1289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992073,
+      "end": 1503496992073,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13721",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Location",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3600"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 15:03:12 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "209"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=iso-8859-1"
+        }
+      ],
+      "statusCode": 301,
+      "statusLine": "HTTP/1.1 301 Moved Permanently",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.whizbuzzbooks.com/submit-your-book/",
+      "id": 14481,
+      "contextId": 1289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992171,
+      "end": 1503496992173,
+      "fromCache": false,
+      "ip": "128.65.195.25",
+      "redirectUrl": "https://www.whizbuzzbooks.com/submit-your-book/"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13721",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+      "id": 14482,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992174,
+      "end": 1503496992174,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13721",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 23 Aug 2017 13:25:57 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 14:25:57 GMT"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=1365, public"
+        },
+        {
+          "name": "ETag",
+          "value": "\"a122a92357bbd0325a13c781610e0c2e\""
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "W3 Total Cache/0.9.5.4"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=16000000; includeSubDomains; preload"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+      "id": 14482,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992285,
+      "end": 1503496992288,
+      "fromCache": false,
+      "ip": "128.65.195.25"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "https://www.whizbuzzbooks.com/submit-your-book/",
+          "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496992293
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503496992293
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 181,
+      "tabId": 2,
+      "timeStamp": 1503496992295,
+      "transitionQualifiers": [
+        "server_redirect"
+      ],
+      "transitionType": "typed",
+      "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "252",
+          "lastVisitTime": 1503496992289.164,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://www.derekhaines.ch/whizbuzz/submit-your-book/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503496992306
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "253",
+          "lastVisitTime": 1503496992289.164,
+          "title": "",
+          "typedCount": 0,
+          "url": "http://www.whizbuzzbooks.com/submit-your-book/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503496992306
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "254",
+          "lastVisitTime": 1503496992289.164,
+          "title": "",
+          "typedCount": 0,
+          "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503496992306
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13722",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://www.whizbuzzbooks.com/wp-content/cache/autoptimize/css/autoptimize_749927f8ba983d0f71719f4d2d228eba.css",
+      "id": 14483,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992306,
+      "end": 1503496992306,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13723",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Raleway&ver=2e2363c68c9f40d0dba0b57e16743fee",
+      "id": 14484,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992306,
+      "end": 1503496992307,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13724",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.whizbuzzbooks.com/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 14485,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992307,
+      "end": 1503496992307,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Low Cost Book Promotion For A Year | Whizbuzz Books"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Low Cost Book Promotion For A Year | Whizbuzz Books",
+          "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496992308
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13723",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Raleway&ver=2e2363c68c9f40d0dba0b57e16743fee",
+      "id": 14484,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992320,
+      "end": 1503496992320,
+      "fromCache": false,
+      "ip": "216.58.206.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13722",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Aug 2017 07:02:47 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"3cf54-55729f3159c90\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=30672000, public, immutable, public, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Mon, 13 Aug 2018 14:03:12 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "W3 Total Cache/0.9.5.4"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=16000000; includeSubDomains; preload"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://www.whizbuzzbooks.com/wp-content/cache/autoptimize/css/autoptimize_749927f8ba983d0f71719f4d2d228eba.css",
+      "id": 14483,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992345,
+      "end": 1503496992372,
+      "fromCache": false,
+      "ip": "128.65.195.25"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13724",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 18 Aug 2016 07:03:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"17ba0-53a532f130c30\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 14:03:12 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "W3 Total Cache/0.9.5.4"
+        },
+        {
+          "name": "Content-Length",
+          "value": "33766"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=16000000; includeSubDomains; preload"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.whizbuzzbooks.com/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 14485,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992369,
+      "end": 1503496992372,
+      "fromCache": false,
+      "ip": "128.65.195.25"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13725",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.whizbuzzbooks.com/wp-content/uploads/2017/02/cropped-cropped-whizbuzz-wp-header21.jpg",
+      "id": 14486,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992372,
+      "end": 1503496992372,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13725",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 10 Feb 2017 07:34:08 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"108de-548281f8400ee\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 14:03:12 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "W3 Total Cache/0.9.5.4"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=16000000; includeSubDomains; preload"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.whizbuzzbooks.com/wp-content/uploads/2017/02/cropped-cropped-whizbuzz-wp-header21.jpg",
+      "id": 14486,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992409,
+      "end": 1503496992433,
+      "fromCache": false,
+      "ip": "128.65.195.25"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13726",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.whizbuzzbooks.com/wp-content/uploads/2011/07/Whizbuzz-Only-Books.jpg",
+      "id": 14487,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992433,
+      "end": 1503496992433,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13726",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 01 Aug 2017 18:46:46 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"3a48-555b591ca2e5b\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 14:03:12 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "W3 Total Cache/0.9.5.4"
+        },
+        {
+          "name": "Content-Length",
+          "value": "14334"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=16000000; includeSubDomains; preload"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.whizbuzzbooks.com/wp-content/uploads/2011/07/Whizbuzz-Only-Books.jpg",
+      "id": 14487,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992466,
+      "end": 1503496992466,
+      "fromCache": false,
+      "ip": "128.65.195.25"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13727",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.whizbuzzbooks.com/wp-content/uploads/2017/07/Whats-Included.png",
+      "id": 14488,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992466,
+      "end": 1503496992466,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestBody": {
+        "formData": {
+          "action": [
+            "update_views_ajax"
+          ],
+          "token": [
+            "fe11934842"
+          ],
+          "wpp_id": [
+            "272"
+          ]
+        }
+      },
+      "requestId": "13734",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "https://www.whizbuzzbooks.com/wp-admin/admin-ajax.php",
+      "id": 14489,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992466,
+      "end": 1503496992467,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "https://www.whizbuzzbooks.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13728",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.whizbuzzbooks.com/wp-content/uploads/2017/07/What-do-I-Need.png",
+      "id": 14490,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992467,
+      "end": 1503496992467,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13729",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.whizbuzzbooks.com/wp-content/uploads/2017/07/Start.png",
+      "id": 14491,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992467,
+      "end": 1503496992467,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13730",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif",
+      "id": 14492,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992468,
+      "end": 1503496992468,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "AKA_MVT_BUTTONS=|btn_buynowCC_LG.gif=btn_buynowCC_LG_var14.gif|; PYPF=3RPnkJ2bPx2aLzTg1WjUKxzlZjm8uarGDduZX4z7CKu3YkddbGYqnzQ"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13731",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.paypalobjects.com/en_US/i/scr/pixel.gif",
+      "id": 14493,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992468,
+      "end": 1503496992468,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "AKA_MVT_BUTTONS=|btn_buynowCC_LG.gif=btn_buynowCC_LG_var14.gif|; PYPF=3RPnkJ2bPx2aLzTg1WjUKxzlZjm8uarGDduZX4z7CKu3YkddbGYqnzQ"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13732",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.whizbuzzbooks.com/wp-content/cache/autoptimize/js/autoptimize_6a0cdbee365b91d5ff6bfb74ca265a0d.js",
+      "id": 14494,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992468,
+      "end": 1503496992468,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13733",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.whizbuzzbooks.com/wp-includes/js/wp-emoji-release.min.js?ver=2e2363c68c9f40d0dba0b57e16743fee",
+      "id": 14495,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992468,
+      "end": 1503496992468,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13735",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 14496,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992468,
+      "end": 1503496992468,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13731",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "Apache"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 02 Aug 2017 19:38:31 GMT"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "content-length",
+          "value": "43"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=7776000"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 21 Nov 2017 13:49:59 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:49:59 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.paypalobjects.com/en_US/i/scr/pixel.gif",
+      "id": 14493,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992469,
+      "end": 1503496992469,
+      "fromCache": true,
+      "ip": "23.44.100.236"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13735",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 12:22:02 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 14:22:02 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "13472"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "age",
+          "value": "4329"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 14496,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992469,
+      "end": 1503496992470,
+      "fromCache": true,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".paypalobjects.com",
+        "expirationDate": 1503497592,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "AKA_MVT_ID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "723b37174d1a0000208b9d59d4010000363f0000"
+      },
+      "removed": false,
+      "timeStamp": 1503496992471,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1290
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "AKA_MVT_ID",
+      "type": "cookie",
+      "value": "723b37174d1a0000208b9d59d4010000363f0000",
+      "timeStamp": 1503496992471,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1290
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".paypalobjects.com",
+        "expirationDate": 1503497592.471304,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "AKA_MVT_ID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "723b37174d1a0000208b9d59d4010000363f0000"
+      },
+      "removed": false,
+      "timeStamp": 1503496992472
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "AKA_MVT_ID",
+      "type": "cookie",
+      "value": "723b37174d1a0000208b9d59d4010000363f0000",
+      "timeStamp": 1503496992472
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13736",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://www.whizbuzzbooks.com/wp-content/themes/spacious-pro/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "id": 14497,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992473,
+      "end": 1503496992473,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://www.whizbuzzbooks.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/wp-content/cache/autoptimize/css/autoptimize_749927f8ba983d0f71719f4d2d228eba.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13737",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2",
+      "id": 14498,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992478,
+      "end": 1503496992478,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://www.whizbuzzbooks.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Raleway&ver=2e2363c68c9f40d0dba0b57e16743fee"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13737",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "20332"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 07 Aug 2017 13:23:14 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 07 Aug 2018 13:23:14 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 19 May 2016 23:52:52 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "1384565"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2",
+      "id": 14498,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992479,
+      "end": 1503496992479,
+      "fromCache": true,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13727",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 05 Aug 2017 14:33:24 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"28f0-556027f04c210\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 14:03:12 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "W3 Total Cache/0.9.5.4"
+        },
+        {
+          "name": "Content-Length",
+          "value": "10425"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=16000000; includeSubDomains; preload"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.whizbuzzbooks.com/wp-content/uploads/2017/07/Whats-Included.png",
+      "id": 14488,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992498,
+      "end": 1503496992498,
+      "fromCache": false,
+      "ip": "128.65.195.25"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13730",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "302"
+        },
+        {
+          "name": "server",
+          "value": "AkamaiGHost"
+        },
+        {
+          "name": "content-length",
+          "value": "0"
+        },
+        {
+          "name": "location",
+          "value": "https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif?akam_redir=1"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=7776000"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 21 Nov 2017 14:03:12 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "set-cookie",
+          "value": "AKA_MVT_ID=723b37174d1a0000208b9d59d4010000363f0000; expires=Wed, 23-Aug-2017 14:13:12 GMT; path=/; domain=.paypalobjects.com"
+        },
+        {
+          "name": "p3p",
+          "value": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID PSA OUR IND COM NAV STA\""
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif",
+      "id": 14492,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992471,
+      "end": 1503496992518,
+      "fromCache": false,
+      "ip": "23.44.100.236",
+      "redirectUrl": "https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif?akam_redir=1"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13730",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif?akam_redir=1",
+      "id": 14499,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992518,
+      "end": 1503496992519,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "AKA_MVT_BUTTONS=|btn_buynowCC_LG.gif=btn_buynowCC_LG_var14.gif|; PYPF=3RPnkJ2bPx2aLzTg1WjUKxzlZjm8uarGDduZX4z7CKu3YkddbGYqnzQ; AKA_MVT_ID=723b37174d1a0000208b9d59d4010000363f0000"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".paypalobjects.com",
+        "expirationDate": 1504101792,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "AKA_MVT_BUTTONS",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "|btn_buynowCC_LG.gif=btn_buynowCC_LG_var14.gif|btn_paynowCC_LG.gif=btn_paynowCC_LG_var5.gif|"
+      },
+      "removed": false,
+      "timeStamp": 1503496992523,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1290
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "AKA_MVT_BUTTONS",
+      "type": "cookie",
+      "value": "|btn_buynowCC_LG.gif=btn_buynowCC_LG_var14.gif|btn_paynowCC_LG.gif=btn_paynowCC_LG_var5.gif|",
+      "timeStamp": 1503496992523,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1290
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13730",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "Apache"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 02 Aug 2017 19:38:31 GMT"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-length",
+          "value": "2916"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=7776000"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 21 Nov 2017 14:03:12 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "set-cookie",
+          "value": "AKA_MVT_BUTTONS=|btn_buynowCC_LG.gif=btn_buynowCC_LG_var14.gif|btn_paynowCC_LG.gif=btn_paynowCC_LG_var5.gif|; expires=Wed, 30-Aug-2017 14:03:12 GMT; path=/; domain=.paypalobjects.com"
+        },
+        {
+          "name": "p3p",
+          "value": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID PSA OUR IND COM NAV STA\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.paypalobjects.com/en_US/i/btn/btn_paynowCC_LG.gif?akam_redir=1",
+      "id": 14499,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992523,
+      "end": 1503496992524,
+      "fromCache": false,
+      "ip": "23.44.100.236"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".paypalobjects.com",
+        "expirationDate": 1504100767.165729,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "AKA_MVT_BUTTONS",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "|btn_buynowCC_LG.gif=btn_buynowCC_LG_var14.gif|"
+      },
+      "removed": true,
+      "timeStamp": 1503496992524
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "AKA_MVT_BUTTONS",
+      "type": "cookie",
+      "value": "|btn_buynowCC_LG.gif=btn_buynowCC_LG_var14.gif|",
+      "timeStamp": 1503496992524
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".paypalobjects.com",
+        "expirationDate": 1504101792.523441,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "AKA_MVT_BUTTONS",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "|btn_buynowCC_LG.gif=btn_buynowCC_LG_var14.gif|btn_paynowCC_LG.gif=btn_paynowCC_LG_var5.gif|"
+      },
+      "removed": false,
+      "timeStamp": 1503496992525
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "AKA_MVT_BUTTONS",
+      "type": "cookie",
+      "value": "|btn_buynowCC_LG.gif=btn_buynowCC_LG_var14.gif|btn_paynowCC_LG.gif=btn_paynowCC_LG_var5.gif|",
+      "timeStamp": 1503496992525
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13736",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "ETag",
+          "value": "\"12d68-557016a371865\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 14:03:12 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "W3 Total Cache/0.9.5.4"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/font-woff2"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=16000000; includeSubDomains; preload"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://www.whizbuzzbooks.com/wp-content/themes/spacious-pro/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "id": 14497,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992532,
+      "end": 1503496992536,
+      "fromCache": false,
+      "ip": "128.65.195.25"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".whizbuzzbooks.com",
+        "expirationDate": 1566568992,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.1526024678.1503496993"
+      },
+      "removed": false,
+      "timeStamp": 1503496992537
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_ga",
+      "type": "cookie",
+      "value": "GA1.2.1526024678.1503496993",
+      "timeStamp": 1503496992537
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".whizbuzzbooks.com",
+        "expirationDate": 1503583392,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.324358660.1503496993"
+      },
+      "removed": false,
+      "timeStamp": 1503496992537
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gid",
+      "type": "cookie",
+      "value": "GA1.2.324358660.1503496993",
+      "timeStamp": 1503496992537
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13728",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 05 Aug 2017 14:33:28 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2835-556027f3bdf71\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 14:03:12 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "W3 Total Cache/0.9.5.4"
+        },
+        {
+          "name": "Content-Length",
+          "value": "10243"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=16000000; includeSubDomains; preload"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.whizbuzzbooks.com/wp-content/uploads/2017/07/What-do-I-Need.png",
+      "id": 14490,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992550,
+      "end": 1503496992551,
+      "fromCache": false,
+      "ip": "128.65.195.25"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13729",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 05 Aug 2017 14:33:29 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2a1f-556027f4a46f1\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 14:03:12 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "W3 Total Cache/0.9.5.4"
+        },
+        {
+          "name": "Content-Length",
+          "value": "10709"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=16000000; includeSubDomains; preload"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.whizbuzzbooks.com/wp-content/uploads/2017/07/Start.png",
+      "id": 14491,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992550,
+      "end": 1503496992551,
+      "fromCache": false,
+      "ip": "128.65.195.25"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13733",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 08 Jun 2017 18:04:23 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2e45-55176aec547d0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 14:03:12 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "W3 Total Cache/0.9.5.4"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4299"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=16000000; includeSubDomains; preload"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.whizbuzzbooks.com/wp-includes/js/wp-emoji-release.min.js?ver=2e2363c68c9f40d0dba0b57e16743fee",
+      "id": 14495,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992551,
+      "end": 1503496992551,
+      "fromCache": false,
+      "ip": "128.65.195.25"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".whizbuzzbooks.com",
+        "expirationDate": 1503497052,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gat",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1503496992553
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gat",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1503496992553
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13738",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j60&a=577873848&t=pageview&_s=1&dl=https%3A%2F%2Fwww.whizbuzzbooks.com%2Fsubmit-your-book%2F&ul=en-gb&de=UTF-8&dt=Low%20Cost%20Book%20Promotion%20For%20A%20Year%20%7C%20Whizbuzz%20Books&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=IGBAgEAB~&jid=1808685894&gjid=1513256354&cid=1526024678.1503496993&tid=UA-5243208-25&_gid=324358660.1503496993&z=946027566",
+      "id": 14500,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992554,
+      "end": 1503496992554,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13739",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://stats.g.doubleclick.net/r/collect?t=dc&aip=1&_r=3&v=1&_v=j60&tid=UA-5243208-25&cid=1526024678.1503496993&jid=1808685894&gjid=1513256354&_gid=324358660.1503496993&_u=IGBAgEAB~&z=1651290103",
+      "id": 14501,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992554,
+      "end": 1503496992554,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=22743b04524c0043||t=1503495256|et=730|cs=002213fd48ee616a760a265f2d; IDE=AHWqTUmZwFm759YtS4s6w5Tsj5es_PH7K-kHiZbJxLu-_LZuiNBtmEat_Q; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13738",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 22 Aug 2017 17:49:56 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "age",
+          "value": "72796"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j60&a=577873848&t=pageview&_s=1&dl=https%3A%2F%2Fwww.whizbuzzbooks.com%2Fsubmit-your-book%2F&ul=en-gb&de=UTF-8&dt=Low%20Cost%20Book%20Promotion%20For%20A%20Year%20%7C%20Whizbuzz%20Books&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=IGBAgEAB~&jid=1808685894&gjid=1513256354&cid=1526024678.1503496993&tid=UA-5243208-25&_gid=324358660.1503496993&z=946027566",
+      "id": 14500,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992557,
+      "end": 1503496992557,
+      "fromCache": false,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13739",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=10886400; includeSubDomains; preload"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://stats.g.doubleclick.net/r/collect?t=dc&aip=1&_r=3&v=1&_v=j60&tid=UA-5243208-25&cid=1526024678.1503496993&jid=1808685894&gjid=1513256354&_gid=324358660.1503496993&_u=IGBAgEAB~&z=1651290103",
+      "id": 14501,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992564,
+      "end": 1503496992564,
+      "fromCache": false,
+      "ip": "66.102.1.156"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13732",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 21 Aug 2017 01:55:18 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"15e02-55739c5517857\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public, immutable, public, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 14:03:12 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "W3 Total Cache/0.9.5.4"
+        },
+        {
+          "name": "Content-Length",
+          "value": "27215"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=16000000; includeSubDomains; preload"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.whizbuzzbooks.com/wp-content/cache/autoptimize/js/autoptimize_6a0cdbee365b91d5ff6bfb74ca265a0d.js",
+      "id": 14494,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992578,
+      "end": 1503496992579,
+      "fromCache": false,
+      "ip": "128.65.195.25"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 181,
+      "tabId": 2,
+      "timeStamp": 1503496992602,
+      "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 181,
+      "tabId": 2,
+      "timeStamp": 1503496992617,
+      "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Low Cost Book Promotion For A Year | Whizbuzz Books",
+          "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496992617
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://www.whizbuzzbooks.com/submit-your-book/",
+      "timeStamp": 1503496992624,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+      "contextId": 1290,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503496992624,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+      "contextId": 1290,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Low Cost Book Promotion For A Year | Whizbuzz Books",
+      "timeStamp": 1503496992624,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+      "contextId": 1290,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "cmd",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496992625,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+      "contextId": 1290,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "hosted_button_id",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496992625,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+      "contextId": 1290,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "submit",
+      "type": "input:image",
+      "value": "",
+      "timeStamp": 1503496992625,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+      "contextId": 1290,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13740",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.whizbuzzbooks.com/wp-content/uploads/2015/11/favicon.ico",
+      "id": 14502,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992628,
+      "end": 1503496992628,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.whizbuzzbooks.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1526024678.1503496993; _gid=GA1.2.324358660.1503496993; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13740",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1536-5394852f1e96f\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000, public, public"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 14:03:12 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Pragma",
+          "value": "public"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "W3 Total Cache/0.9.5.4"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1183"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/x-icon"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=16000000; includeSubDomains; preload"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.whizbuzzbooks.com/wp-content/uploads/2015/11/favicon.ico",
+      "id": 14502,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496992658,
+      "end": 1503496992658,
+      "fromCache": false,
+      "ip": "128.65.195.25"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "https://www.whizbuzzbooks.com/wp-content/uploads/2015/11/favicon.ico"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "https://www.whizbuzzbooks.com/wp-content/uploads/2015/11/favicon.ico",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Low Cost Book Promotion For A Year | Whizbuzz Books",
+          "url": "https://www.whizbuzzbooks.com/submit-your-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496992659
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "13734",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "https://www.whizbuzzbooks.com"
+        },
+        {
+          "name": "Access-Control-Allow-Credentials",
+          "value": "true"
+        },
+        {
+          "name": "X-Robots-Tag",
+          "value": "noindex"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 11 Jan 1984 05:00:00 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache, must-revalidate, max-age=0"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Strict-Transport-Security",
+          "value": "max-age=16000000; includeSubDomains; preload"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "https://www.whizbuzzbooks.com/wp-admin/admin-ajax.php",
+      "id": 14489,
+      "contextId": 1290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496993158,
+      "end": 1503496993159,
+      "fromCache": false,
+      "ip": "128.65.195.25"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13741",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 14503,
+      "contextId": 1291,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496993663,
+      "end": 1503496993663
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13741",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 14503,
+      "contextId": 1291,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496993663,
+      "end": 1503496993669
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496993669
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503496993669
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503496993669,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13742",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 14504,
+      "contextId": 1291,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496993670,
+      "end": 1503496993671
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13742",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 14504,
+      "contextId": 1291,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496993671,
+      "end": 1503496993671
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503496993664.668,
+          "title": "Save",
+          "typedCount": 175,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 175
+        }
+      },
+      "timeStamp": 1503496993675
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496993675
+    }
+  }
+]

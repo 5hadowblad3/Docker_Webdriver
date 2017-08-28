@@ -1,0 +1,5292 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502977661
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 217235,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/cfac30c2-3628-4c14-8929-5202ee0a5d24",
+          "id": 63,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T15:42:57.665Z",
+          "state": "in_progress",
+          "totalBytes": 217235,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/cfac30c2-3628-4c14-8929-5202ee0a5d24"
+        }
+      },
+      "timeStamp": 1503502977665
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 217235,
+          "filename": "ECAP_G_2017-08-23T15-42-57.658Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/cfac30c2-3628-4c14-8929-5202ee0a5d24",
+          "id": 63,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T15:42:57.665Z",
+          "state": "in_progress",
+          "totalBytes": 217235,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/cfac30c2-3628-4c14-8929-5202ee0a5d24"
+        }
+      },
+      "timeStamp": 1503502977668
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T15-42-57.658Z.json",
+            "previous": ""
+          },
+          "id": 63
+        }
+      },
+      "timeStamp": 1503502977675
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T15:42:57.677Z"
+          },
+          "id": 63,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503502977677
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503502980192,
+      "url": "http://beezeebooks.com/book-promotion",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5491",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://beezeebooks.com/book-promotion",
+      "id": 5761,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502980193,
+      "end": 1503502980193,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "beezeebooks.com",
+        "expirationDate": 1566574981,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "bsid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "8e8434399c9cd64ab85ce744702e336f"
+      },
+      "removed": false,
+      "timeStamp": 1503502982670,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 500
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "bsid",
+      "type": "cookie",
+      "value": "8e8434399c9cd64ab85ce744702e336f",
+      "timeStamp": 1503502982670,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 500
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "beezeebooks.com",
+        "expirationDate": 1566574983.669922,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "bsid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "8e8434399c9cd64ab85ce744702e336f"
+      },
+      "removed": false,
+      "timeStamp": 1503502982672
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "bsid",
+      "type": "cookie",
+      "value": "8e8434399c9cd64ab85ce744702e336f",
+      "timeStamp": 1503502982672
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5491",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:00 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "PHP/5.4.45"
+        },
+        {
+          "name": "Vary",
+          "value": "Cookie,Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 11 Jan 1984 05:00:00 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache, must-revalidate, max-age=0"
+        },
+        {
+          "name": "Link",
+          "value": "<https://beezeebooks.com/wp-json/>; rel=\"https://api.w.org/\""
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f; expires=Fri, 23-Aug-2019 15:43:01 GMT; path=/"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4028"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        }
+      ],
+      "statusCode": 404,
+      "statusLine": "HTTP/1.1 404 Not Found",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://beezeebooks.com/book-promotion",
+      "id": 5761,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982670,
+      "end": 1503502982672,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://beezeebooks.com/book-promotion"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "beezeebooks.com/book-promotion",
+          "url": "http://beezeebooks.com/book-promotion",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502982678
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503502982678
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 70,
+      "tabId": 2,
+      "timeStamp": 1503502982678,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://beezeebooks.com/book-promotion",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5492",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://beezeebooks.com/wp-content/plugins/contact-form-add/public/assets/css/form-style.css?ver=4.7.5",
+      "id": 5762,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982680,
+      "end": 1503502982680,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5493",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://beezeebooks.com/wp-content/themes/sociallyviral/style.css?ver=4.7.5",
+      "id": 5763,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982681,
+      "end": 1503502982681,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5494",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Roboto%3A400%2C700&subset=latin%2Clatin-ext",
+      "id": 5764,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982681,
+      "end": 1503502982681,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5495",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://beezeebooks.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=4.6",
+      "id": 5765,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982681,
+      "end": 1503502982681,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5496",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://beezeebooks.com/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=1",
+      "id": 5766,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982682,
+      "end": 1503502982682,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5497",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 5767,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982682,
+      "end": 1503502982682,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5498",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1",
+      "id": 5768,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982682,
+      "end": 1503502982683,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5499",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/plugins/menubar/templates/Superfish/superfish.js?ver=4.7.5",
+      "id": 5769,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982683,
+      "end": 1503502982683,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5500",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/plugins/digiproveblog/copyright_proof_live.js?ver=3.02",
+      "id": 5770,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982683,
+      "end": 1503502982683,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5501",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/plugins/si-captcha-for-wordpress/captcha/si_captcha.js?ver=1503502982",
+      "id": 5771,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982683,
+      "end": 1503502982684,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5502",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/plugins/contact-form-add/public/assets/js/jquery-validate.js?ver=1.7",
+      "id": 5772,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982684,
+      "end": 1503502982684,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5503",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/plugins/contact-form-add/public/assets/js/smuzforms.js?ver=1.7",
+      "id": 5773,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982684,
+      "end": 1503502982684,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5504",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://s.gravatar.com/js/gprofiles.js?ver=2017Augaa",
+      "id": 5774,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982684,
+      "end": 1503502982685,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5505",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.7.5",
+      "id": 5775,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982685,
+      "end": 1503502982685,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5506",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/themes/sociallyviral/js/customscripts.js?ver=20120212",
+      "id": 5776,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982685,
+      "end": 1503502982685,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5507",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-includes/js/wp-embed.min.js?ver=4.7.5",
+      "id": 5777,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982685,
+      "end": 1503502982685,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Page not found – beezeebooks"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Page not found – beezeebooks",
+          "url": "http://beezeebooks.com/book-promotion",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502982687
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5504",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:02 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 17 Sep 2015 14:13:14 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"55faca7a-50aa\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 30 Aug 2017 15:43:02 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=604800"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://s.gravatar.com/js/gprofiles.js?ver=2017Augaa",
+      "id": 5774,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982691,
+      "end": 1503502982691,
+      "fromCache": false,
+      "ip": "192.0.73.2"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5494",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Link",
+          "value": "<http://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 15:43:02 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:02 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 23 Aug 2017 15:43:02 GMT"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Server",
+          "value": "ESF"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Roboto%3A400%2C700&subset=latin%2Clatin-ext",
+      "id": 5764,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982697,
+      "end": 1503502982697,
+      "fromCache": false,
+      "ip": "216.58.213.74"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5492",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:02 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 00:50:36 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4201"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://beezeebooks.com/wp-content/plugins/contact-form-add/public/assets/css/form-style.css?ver=4.7.5",
+      "id": 5762,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982845,
+      "end": 1503502982846,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5493",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:02 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 15 Feb 2017 02:08:51 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "8761"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://beezeebooks.com/wp-content/themes/sociallyviral/style.css?ver=4.7.5",
+      "id": 5763,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982851,
+      "end": 1503502982851,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5498",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:02 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 20 May 2016 10:11:28 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4014"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1",
+      "id": 5768,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982998,
+      "end": 1503502983003,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5499",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:02 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 01:01:40 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1531"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/plugins/menubar/templates/Superfish/superfish.js?ver=4.7.5",
+      "id": 5769,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983010,
+      "end": 1503502983011,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5495",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:02 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 00:44:29 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3571"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://beezeebooks.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=4.6",
+      "id": 5765,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983015,
+      "end": 1503502983016,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5500",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:02 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 05:56:14 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "323"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/plugins/digiproveblog/copyright_proof_live.js?ver=3.02",
+      "id": 5770,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983016,
+      "end": 1503502983017,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5496",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:02 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 00:44:24 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "19000"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://beezeebooks.com/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=1",
+      "id": 5766,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502982999,
+      "end": 1503502983147,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 70,
+      "tabId": 2,
+      "timeStamp": 1503502983152,
+      "url": "http://beezeebooks.com/book-promotion",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5501",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:03 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 23 Feb 2017 01:10:28 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "380"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/plugins/si-captcha-for-wordpress/captcha/si_captcha.js?ver=1503502982",
+      "id": 5771,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983168,
+      "end": 1503502983169,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5503",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:03 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 00:50:36 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3103"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/plugins/contact-form-add/public/assets/js/smuzforms.js?ver=1.7",
+      "id": 5773,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983173,
+      "end": 1503502983174,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5502",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:03 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 00:50:36 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "12042"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/plugins/contact-form-add/public/assets/js/jquery-validate.js?ver=1.7",
+      "id": 5772,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983174,
+      "end": 1503502983175,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5505",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:03 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 00:44:26 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "489"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.7.5",
+      "id": 5775,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983179,
+      "end": 1503502983179,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503502983180,
+      "url": "https://beezeebooks.com/book-promotion",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5510",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://beezeebooks.com/book-promotion",
+      "id": 5778,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983180,
+      "end": 1503502983181,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://beezeebooks.com/book-promotion",
+      "timeStamp": 1503502983189,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://beezeebooks.com/book-promotion",
+      "contextId": 501,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503502983189,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://beezeebooks.com/book-promotion",
+      "contextId": 501,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Page not found – beezeebooks",
+      "timeStamp": 1503502983189,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://beezeebooks.com/book-promotion",
+      "contextId": 501,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5497",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:02 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 23 May 2016 13:00:30 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "33766"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 5767,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983000,
+      "end": 1503502983300,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5506",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:03 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 15 Feb 2017 02:08:51 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1234"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-content/themes/sociallyviral/js/customscripts.js?ver=20120212",
+      "id": 5776,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983311,
+      "end": 1503502983311,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5507",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:03 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 23 Nov 2016 18:38:34 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "751"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-includes/js/wp-embed.min.js?ver=4.7.5",
+      "id": 5777,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983338,
+      "end": 1503502983338,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5508",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://stats.wp.com/e-201734.js",
+      "id": 5779,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983338,
+      "end": 1503502983339,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5508",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:42:55 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"572909a0-16a6\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 14 Aug 2018 00:25:02 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://stats.wp.com/e-201734.js",
+      "id": 5779,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983339,
+      "end": 1503502983340,
+      "fromCache": true,
+      "ip": "192.0.76.3"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5509",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-includes/js/wp-emoji-release.min.js?ver=4.7.5",
+      "id": 5780,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983340,
+      "end": 1503502983340,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5509",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:03 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 19 Nov 2016 16:05:32 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4230"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://beezeebooks.com/wp-includes/js/wp-emoji-release.min.js?ver=4.7.5",
+      "id": 5780,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502983509,
+      "end": 1503502983510,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "dom.error",
+    "details": {
+      "isTrusted": true,
+      "message": "Uncaught TypeError: Failed to execute 'observe' on 'MutationObserver': parameter 1 is not of type 'Node'.",
+      "filename": "http://beezeebooks.com/wp-includes/js/wp-emoji-release.min.js?ver=4.7.5",
+      "lineno": 4,
+      "colno": 899,
+      "error": null,
+      "type": "error",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": true,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503502983516,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://beezeebooks.com/book-promotion",
+      "contextId": 501,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 70,
+      "tabId": 2,
+      "timeStamp": 1503502983522,
+      "url": "http://beezeebooks.com/book-promotion",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5510",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:03 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "PHP/5.4.45"
+        },
+        {
+          "name": "Vary",
+          "value": "Cookie,Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 11 Jan 1984 05:00:00 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache, must-revalidate, max-age=0"
+        },
+        {
+          "name": "Link",
+          "value": "<https://beezeebooks.com/wp-json/>; rel=\"https://api.w.org/\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4029"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=200"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        }
+      ],
+      "statusCode": 404,
+      "statusLine": "HTTP/1.1 404 Not Found",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://beezeebooks.com/book-promotion",
+      "id": 5778,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984701,
+      "end": 1503502984704,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5511",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://beezeebooks.com/wp-content/plugins/contact-form-add/public/assets/css/form-style.css?ver=4.7.5",
+      "id": 5781,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984712,
+      "end": 1503502984713,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "https://beezeebooks.com/book-promotion"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Page not found – beezeebooks",
+          "url": "https://beezeebooks.com/book-promotion",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502984713
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503502984714
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 70,
+      "tabId": 2,
+      "timeStamp": 1503502984714,
+      "transitionQualifiers": [
+        "client_redirect"
+      ],
+      "transitionType": "link",
+      "url": "https://beezeebooks.com/book-promotion",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5512",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://beezeebooks.com/wp-content/themes/sociallyviral/style.css?ver=4.7.5",
+      "id": 5782,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984714,
+      "end": 1503502984714,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5513",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Roboto%3A400%2C700&subset=latin%2Clatin-ext",
+      "id": 5783,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984715,
+      "end": 1503502984716,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5514",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://beezeebooks.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=4.6",
+      "id": 5784,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984716,
+      "end": 1503502984716,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5515",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://beezeebooks.com/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=1",
+      "id": 5785,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984717,
+      "end": 1503502984718,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5516",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 5786,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984718,
+      "end": 1503502984720,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5517",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1",
+      "id": 5787,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984720,
+      "end": 1503502984720,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5518",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/plugins/menubar/templates/Superfish/superfish.js?ver=4.7.5",
+      "id": 5788,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984721,
+      "end": 1503502984721,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5519",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/plugins/digiproveblog/copyright_proof_live.js?ver=3.02",
+      "id": 5789,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984721,
+      "end": 1503502984721,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5520",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/plugins/si-captcha-for-wordpress/captcha/si_captcha.js?ver=1503502984",
+      "id": 5790,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984721,
+      "end": 1503502984721,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5521",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/plugins/contact-form-add/public/assets/js/jquery-validate.js?ver=1.7",
+      "id": 5791,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984721,
+      "end": 1503502984721,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5522",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/plugins/contact-form-add/public/assets/js/smuzforms.js?ver=1.7",
+      "id": 5792,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984722,
+      "end": 1503502984722,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5523",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://secure.gravatar.com/js/gprofiles.js?ver=2017Augaa",
+      "id": 5793,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984722,
+      "end": 1503502984722,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5524",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.7.5",
+      "id": 5794,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984722,
+      "end": 1503502984722,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5525",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/themes/sociallyviral/js/customscripts.js?ver=20120212",
+      "id": 5795,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984722,
+      "end": 1503502984722,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5526",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-includes/js/wp-embed.min.js?ver=4.7.5",
+      "id": 5796,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984722,
+      "end": 1503502984722,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5523",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:43:04 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Sep 2015 14:13:14 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"55faca7a-50aa\""
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 30 Aug 2017 15:43:04 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=604800"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://secure.gravatar.com/js/gprofiles.js?ver=2017Augaa",
+      "id": 5793,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984734,
+      "end": 1503502984735,
+      "fromCache": false,
+      "ip": "192.0.73.2"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5513",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 15:43:04 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:43:04 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 23 Aug 2017 15:43:04 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Roboto%3A400%2C700&subset=latin%2Clatin-ext",
+      "id": 5783,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984735,
+      "end": 1503502984735,
+      "fromCache": false,
+      "ip": "216.58.213.74"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5511",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:04 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 00:50:36 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4201"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=199"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://beezeebooks.com/wp-content/plugins/contact-form-add/public/assets/css/form-style.css?ver=4.7.5",
+      "id": 5781,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502984872,
+      "end": 1503502984873,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5512",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:04 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 15 Feb 2017 02:08:51 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "8761"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=198"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://beezeebooks.com/wp-content/themes/sociallyviral/style.css?ver=4.7.5",
+      "id": 5782,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985046,
+      "end": 1503502985047,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5514",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 00:44:29 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3571"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=200"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://beezeebooks.com/wp-content/plugins/jetpack/modules/sharedaddy/sharing.css?ver=4.6",
+      "id": 5784,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985179,
+      "end": 1503502985180,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5518",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 01:01:40 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1531"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=200"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/plugins/menubar/templates/Superfish/superfish.js?ver=4.7.5",
+      "id": 5788,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985181,
+      "end": 1503502985182,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5517",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 20 May 2016 10:11:28 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4014"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=200"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1",
+      "id": 5787,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985178,
+      "end": 1503502985184,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5519",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 05:56:14 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "323"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=197"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/plugins/digiproveblog/copyright_proof_live.js?ver=3.02",
+      "id": 5789,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985204,
+      "end": 1503502985204,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5515",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 00:44:24 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "19000"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=200"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://beezeebooks.com/wp-content/plugins/jetpack/_inc/social-logos/social-logos.min.css?ver=1",
+      "id": 5785,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985180,
+      "end": 1503502985329,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5516",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 23 May 2016 13:00:30 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "33766"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=200"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 5786,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985187,
+      "end": 1503502985339,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5520",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 23 Feb 2017 01:10:28 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "380"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=199"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/plugins/si-captcha-for-wordpress/captcha/si_captcha.js?ver=1503502984",
+      "id": 5790,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985340,
+      "end": 1503502985341,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5522",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 00:50:36 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3103"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=199"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/plugins/contact-form-add/public/assets/js/smuzforms.js?ver=1.7",
+      "id": 5792,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985341,
+      "end": 1503502985342,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5521",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 00:50:36 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "12042"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=199"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/plugins/contact-form-add/public/assets/js/jquery-validate.js?ver=1.7",
+      "id": 5791,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985342,
+      "end": 1503502985343,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5524",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 14 Feb 2017 00:44:26 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "489"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=196"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.7.5",
+      "id": 5794,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985363,
+      "end": 1503502985364,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5527",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://stats.wp.com/e-201734.js",
+      "id": 5797,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985380,
+      "end": 1503502985380,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5528",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-includes/js/wp-emoji-release.min.js?ver=4.7.5",
+      "id": 5798,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985380,
+      "end": 1503502985381,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5527",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:42:55 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"572909a0-16a6\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 14 Aug 2018 00:25:02 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://stats.wp.com/e-201734.js",
+      "id": 5797,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985381,
+      "end": 1503502985381,
+      "fromCache": true,
+      "ip": "192.0.76.3"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5529",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://beezeebooks.com/wp-content/themes/sociallyviral/fonts/sociallyviral.woff",
+      "id": 5799,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985397,
+      "end": 1503502985397,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://beezeebooks.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/wp-content/themes/sociallyviral/style.css?ver=4.7.5"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5525",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 15 Feb 2017 02:08:51 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1234"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=199"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-content/themes/sociallyviral/js/customscripts.js?ver=20120212",
+      "id": 5795,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985488,
+      "end": 1503502985489,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5526",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 23 Nov 2016 18:38:34 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "751"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=199"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-includes/js/wp-embed.min.js?ver=4.7.5",
+      "id": 5796,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985500,
+      "end": 1503502985500,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5530",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://secure.gravatar.com/css/hovercard.css?ver=2017Augaa",
+      "id": 5800,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985509,
+      "end": 1503502985510,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5531",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://secure.gravatar.com/css/services.css?ver=2017Augaa",
+      "id": 5801,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985510,
+      "end": 1503502985510,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5530",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 28 Jan 2013 22:29:45 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"5106fbd9-2062\""
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 30 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=604800"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://secure.gravatar.com/css/hovercard.css?ver=2017Augaa",
+      "id": 5800,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985513,
+      "end": 1503502985514,
+      "fromCache": false,
+      "ip": "192.0.73.2"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5531",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 19 Mar 2014 21:35:23 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"532a0d9b-bd8\""
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 30 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=604800"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://secure.gravatar.com/css/services.css?ver=2017Augaa",
+      "id": 5801,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985516,
+      "end": 1503502985517,
+      "fromCache": false,
+      "ip": "192.0.73.2"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 70,
+      "tabId": 2,
+      "timeStamp": 1503502985517,
+      "url": "https://beezeebooks.com/book-promotion",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5532",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://pixel.wp.com/g.gif?v=ext&j=1%3A4.6&blog=63938223&post=0&tz=0&srv=beezeebooks.com&host=beezeebooks.com&ref=http%3A%2F%2Fbeezeebooks.com%2Fbook-promotion&rand=0.4980232359901249",
+      "id": 5802,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985526,
+      "end": 1503502985527,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5532",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "content-length",
+          "value": "50"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://pixel.wp.com/g.gif?v=ext&j=1%3A4.6&blog=63938223&post=0&tz=0&srv=beezeebooks.com&host=beezeebooks.com&ref=http%3A%2F%2Fbeezeebooks.com%2Fbook-promotion&rand=0.4980232359901249",
+      "id": 5802,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985529,
+      "end": 1503502985530,
+      "fromCache": false,
+      "ip": "192.0.76.3"
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://beezeebooks.com/book-promotion",
+      "timeStamp": 1503502985531,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://beezeebooks.com/book-promotion",
+      "contextId": 501,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503502985532,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://beezeebooks.com/book-promotion",
+      "contextId": 501,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Page not found – beezeebooks",
+      "timeStamp": 1503502985532,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://beezeebooks.com/book-promotion",
+      "contextId": 501,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "s",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503502985532,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://beezeebooks.com/book-promotion",
+      "contextId": 501,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5528",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 19 Nov 2016 16:05:32 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4230"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=195"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://beezeebooks.com/wp-includes/js/wp-emoji-release.min.js?ver=4.7.5",
+      "id": 5798,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985538,
+      "end": 1503502985539,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5529",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 15 Feb 2017 02:08:51 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5976"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=198"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-font-woff"
+        },
+        {
+          "name": "X-Pad",
+          "value": "avoid browser bug"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://beezeebooks.com/wp-content/themes/sociallyviral/fonts/sociallyviral.woff",
+      "id": 5799,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985558,
+      "end": 1503502985559,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 70,
+      "tabId": 2,
+      "timeStamp": 1503502985565,
+      "url": "https://beezeebooks.com/book-promotion",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Page not found – beezeebooks",
+          "url": "https://beezeebooks.com/book-promotion",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502985566
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5533",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://beezeebooks.com/favicon.ico",
+      "id": 5803,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985567,
+      "end": 1503502985567,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://beezeebooks.com/book-promotion"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bsid=8e8434399c9cd64ab85ce744702e336f"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5533",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:05 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "PHP/5.4.45"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=3, max=197"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/vnd.microsoft.icon"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://beezeebooks.com/favicon.ico",
+      "id": 5803,
+      "contextId": 501,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502985804,
+      "end": 1503502985804,
+      "fromCache": false,
+      "ip": "68.65.120.204"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5534",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 5804,
+      "contextId": 502,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502986598,
+      "end": 1503502986599
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5534",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 5804,
+      "contextId": 502,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502986599,
+      "end": 1503502986605
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502986605
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503502986605
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503502986605,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503502986600.57,
+          "title": "Save",
+          "typedCount": 64,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 64
+        }
+      },
+      "timeStamp": 1503502986605
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502986607
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5535",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 5805,
+      "contextId": 502,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502986607,
+      "end": 1503502986607
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5535",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 5805,
+      "contextId": 502,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502986607,
+      "end": 1503502986607
+    }
+  }
+]

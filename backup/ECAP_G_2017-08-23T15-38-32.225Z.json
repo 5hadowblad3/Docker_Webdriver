@@ -1,0 +1,5373 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502702435
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 104518,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/dccb23a8-9f40-4684-8432-bedc04321c1a",
+          "id": 39,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T15:38:22.440Z",
+          "state": "in_progress",
+          "totalBytes": 104518,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/dccb23a8-9f40-4684-8432-bedc04321c1a"
+        }
+      },
+      "timeStamp": 1503502702441
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 104518,
+          "filename": "ECAP_G_2017-08-23T15-38-22.428Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/dccb23a8-9f40-4684-8432-bedc04321c1a",
+          "id": 39,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T15:38:22.440Z",
+          "state": "in_progress",
+          "totalBytes": 104518,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/dccb23a8-9f40-4684-8432-bedc04321c1a"
+        }
+      },
+      "timeStamp": 1503502702443
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T15-38-22.428Z.json",
+            "previous": ""
+          },
+          "id": 39
+        }
+      },
+      "timeStamp": 1503502702448
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T15:38:22.451Z"
+          },
+          "id": 39,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503502702451
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503502704736,
+      "url": "http://www.ebookshare.net/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3584",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.ebookshare.net/",
+      "id": 3726,
+      "contextId": 295,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502704736,
+      "end": 1503502704737,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "ebookshare.net",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "sid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "19e114ac-8819-11e7-9fd7-039c8a001e14"
+      },
+      "removed": false,
+      "timeStamp": 1503502704798,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 295
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "sid",
+      "type": "cookie",
+      "value": "19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "timeStamp": 1503502704798,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 295
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ebookshare.net",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "sid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "19e114ac-8819-11e7-9fd7-039c8a001e14"
+      },
+      "removed": false,
+      "timeStamp": 1503502704798
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "sid",
+      "type": "cookie",
+      "value": "19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "timeStamp": 1503502704798
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3584",
+      "responseHeaders": [
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:23 GMT"
+        },
+        {
+          "name": "content-length",
+          "value": "296"
+        },
+        {
+          "name": "set-cookie",
+          "value": "sid=19e114ac-8819-11e7-9fd7-039c8a001e14; path=/; domain=ebookshare.net; HttpOnly"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "connection",
+          "value": "close"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.ebookshare.net/",
+      "id": 3726,
+      "contextId": 295,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502704798,
+      "end": 1503502704799,
+      "fromCache": false,
+      "ip": "149.202.120.35"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://www.ebookshare.net/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "www.ebookshare.net",
+          "url": "http://www.ebookshare.net/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502704801
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503502704801
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 46,
+      "tabId": 2,
+      "timeStamp": 1503502704801,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://www.ebookshare.net/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "68",
+          "lastVisitTime": 1503502704799.623,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://www.ebookshare.net/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503502704803
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Loading..."
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Loading...",
+          "url": "http://www.ebookshare.net/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502704816
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 46,
+      "tabId": 2,
+      "timeStamp": 1503502704816,
+      "url": "http://www.ebookshare.net/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 46,
+      "tabId": 2,
+      "timeStamp": 1503502704816,
+      "url": "http://www.ebookshare.net/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Loading...",
+          "url": "http://www.ebookshare.net/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502704818
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503502704819,
+      "url": "http://www.ebookshare.net/?js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqcyI6MX0.fADWc9hUOlh58R9UzufQBROmie3I7c7vE835oE6YmU4&uuid=19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3585",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.ebookshare.net/?js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqcyI6MX0.fADWc9hUOlh58R9UzufQBROmie3I7c7vE835oE6YmU4&uuid=19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "id": 3727,
+      "contextId": 296,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502704819,
+      "end": 1503502704819,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookshare.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=19e114ac-8819-11e7-9fd7-039c8a001e14"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3586",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.ebookshare.net/favicon.ico",
+      "id": 3728,
+      "contextId": 296,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502704822,
+      "end": 1503502704822,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookshare.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=19e114ac-8819-11e7-9fd7-039c8a001e14"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://www.ebookshare.net/",
+      "timeStamp": 1503502704823,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.ebookshare.net/",
+      "contextId": 296,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503502704823,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.ebookshare.net/",
+      "contextId": 296,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Loading...",
+      "timeStamp": 1503502704824,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.ebookshare.net/",
+      "contextId": 296,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3586",
+      "responseHeaders": [
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:23 GMT"
+        },
+        {
+          "name": "content-length",
+          "value": "9"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "connection",
+          "value": "close"
+        }
+      ],
+      "statusCode": 404,
+      "statusLine": "HTTP/1.1 404 Not Found",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.ebookshare.net/favicon.ico",
+      "id": 3728,
+      "contextId": 296,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502704861,
+      "end": 1503502704862,
+      "fromCache": false,
+      "ip": "149.202.120.35"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3585",
+      "responseHeaders": [
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:24 GMT"
+        },
+        {
+          "name": "content-length",
+          "value": "11"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "connection",
+          "value": "close"
+        },
+        {
+          "name": "location",
+          "value": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14"
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302 Found",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.ebookshare.net/?js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqcyI6MX0.fADWc9hUOlh58R9UzufQBROmie3I7c7vE835oE6YmU4&uuid=19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "id": 3727,
+      "contextId": 296,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502705317,
+      "end": 1503502705318,
+      "fromCache": false,
+      "ip": "149.202.120.35",
+      "redirectUrl": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3585",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "id": 3729,
+      "contextId": 297,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502705318,
+      "end": 1503502705318,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookshare.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=19e114ac-8819-11e7-9fd7-039c8a001e14"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3585",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:25 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Check",
+          "value": "3c12dc4d54f8e22d666785b733b0052100c53444"
+        },
+        {
+          "name": "X-Language",
+          "value": "english"
+        },
+        {
+          "name": "X-Template",
+          "value": "tpl_CleanPeppermintBlack_oneclick"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "id": 3729,
+      "contextId": 297,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502705517,
+      "end": 1503502705519,
+      "fromCache": false,
+      "ip": "185.53.179.29"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3587",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://d1grtyyel8f1mh.cloudfront.net/themes/assets/style.css",
+      "id": 3730,
+      "contextId": 297,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502705526,
+      "end": 1503502705526,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3588",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://d1grtyyel8f1mh.cloudfront.net/themes/assets/skenzo.css",
+      "id": 3731,
+      "contextId": 297,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502705526,
+      "end": 1503502705526,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Loading...",
+          "url": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502705527
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503502705527
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 46,
+      "tabId": 2,
+      "timeStamp": 1503502705527,
+      "transitionQualifiers": [
+        "client_redirect",
+        "server_redirect"
+      ],
+      "transitionType": "link",
+      "url": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "ebookshare.net"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "ebookshare.net",
+          "url": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502705529
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3588",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Fri, 07 Jul 2017 13:45:24 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 19 Sep 2016 08:03:01 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"57df9bb5-159\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Age",
+          "value": "6595"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 294bcbbb8ae760a6feb0f77b61900436.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "KT8SsfNOGlt7JTH9hYR46iamVysnTn1MhstQ4RB9adGIPfmk_zYS1Q=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://d1grtyyel8f1mh.cloudfront.net/themes/assets/skenzo.css",
+      "id": 3731,
+      "contextId": 297,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502705530,
+      "end": 1503502705530,
+      "fromCache": false,
+      "ip": "52.222.233.254"
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "69",
+          "lastVisitTime": 1503502705525.389,
+          "title": "",
+          "typedCount": 0,
+          "url": "http://www.ebookshare.net/?js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqcyI6MX0.fADWc9hUOlh58R9UzufQBROmie3I7c7vE835oE6YmU4&uuid=19e114ac-8819-11e7-9fd7-039c8a001e14",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503502705531
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "70",
+          "lastVisitTime": 1503502705525.389,
+          "title": "",
+          "typedCount": 0,
+          "url": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503502705531
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 257,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503502705531,
+      "url": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3587",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:25 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Age",
+          "value": "70618"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 72f202fb973968c0cfdb028ab6f36fac.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "28nsnjfj5tObB6Bg2p1cEnyeCGXjVe3ILByfQ51j-YK0ICvM-p9m8A=="
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 19 Sep 2016 08:03:01 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"57df9bb5-33d\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://d1grtyyel8f1mh.cloudfront.net/themes/assets/style.css",
+      "id": 3730,
+      "contextId": 297,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502705530,
+      "end": 1503502705531,
+      "fromCache": true,
+      "ip": "52.222.233.254"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3589",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "id": 3732,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502705531,
+      "end": 1503502705532,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 46,
+      "tabId": 2,
+      "timeStamp": 1503502705532,
+      "url": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "timeStamp": 1503502705544,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "contextId": 297,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503502705544,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "contextId": 297,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "ebookshare.net",
+      "timeStamp": 1503502705544,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "contextId": 297,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "findbetterresults.com",
+        "expirationDate": "1503502710157680000",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "vsid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "903vr2510483058730519"
+      },
+      "removed": false,
+      "timeStamp": 1503502709533,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 257,
+      "contextId": 298
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "vsid",
+      "type": "cookie",
+      "value": "903vr2510483058730519",
+      "timeStamp": 1503502709533,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 257,
+      "contextId": 298
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".findbetterresults.com",
+        "expirationDate": 1661182709.532682,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "vsid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "903vr2510483058730519"
+      },
+      "removed": false,
+      "timeStamp": 1503502709534
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "vsid",
+      "type": "cookie",
+      "value": "903vr2510483058730519",
+      "timeStamp": 1503502709534
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3589",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:25 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "vsid=903vr2510483058730519; expires=Mon, 22-Aug-2022 15:38:25 GMT; Max-Age=157680000; path=/; domain=findbetterresults.com; HttpOnly"
+        },
+        {
+          "name": "X-Adblock-Key",
+          "value": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKX74ixpzVyXbJprcLfbH4psP4+L2entqri0lzh6pkAaXLPIcclv6DQBeJJjGFWrBIF6QMyFwXT5CCRyjS2penECAwEAAQ==_Q97gQbuSBcbeixQ6YRHdjFF0lMh0PZHe/y49uC3HyQGauzdrKGHEvhInntr1/Dm/fHFQDT8jYjqRLnwKX7932w=="
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=73"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "id": 3732,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709533,
+      "end": 1503502709535,
+      "fromCache": false,
+      "ip": "208.91.196.46"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 257,
+      "processId": 46,
+      "tabId": 2,
+      "timeStamp": 1503502709537,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3590",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://findbetterresults.com/px.js?ch=1",
+      "id": 3733,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709539,
+      "end": 1503502709539,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "vsid=903vr2510483058730519"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3591",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://findbetterresults.com/px.js?ch=2",
+      "id": 3734,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709540,
+      "end": 1503502709540,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "vsid=903vr2510483058730519"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3592",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://i3.cdn-image.com/__media__/js/min.js?v1.9",
+      "id": 3735,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709540,
+      "end": 1503502709540,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3593",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i1.cdn-image.com/__media__/pics/8243/logo.png",
+      "id": 3736,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709540,
+      "end": 1503502709540,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3593",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4422"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 13 Mar 2014 04:23:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"532132b8-1146\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=83624"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 14:52:13 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i1.cdn-image.com/__media__/pics/8243/logo.png",
+      "id": 3736,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709561,
+      "end": 1503502709562,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3592",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "8637"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 22 Jun 2017 04:05:34 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"594b420e-21bd\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=44511"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 04:00:20 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://i3.cdn-image.com/__media__/js/min.js?v1.9",
+      "id": 3735,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709561,
+      "end": 1503502709562,
+      "fromCache": false,
+      "ip": "23.55.59.176"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3590",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 11 Jun 2015 06:47:35 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"15a-518385dd48fc0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "346"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=122"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://findbetterresults.com/px.js?ch=1",
+      "id": 3733,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709656,
+      "end": 1503502709657,
+      "fromCache": false,
+      "ip": "208.91.196.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3591",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 11 Jun 2015 06:47:35 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"15a-518385dd48fc0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "346"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=109"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://findbetterresults.com/px.js?ch=2",
+      "id": 3734,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709660,
+      "end": 1503502709661,
+      "fromCache": false,
+      "ip": "208.91.196.46"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3594",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://findbetterresults.com/sk-logabpstatus.php?a=WTlxN0RlT3JWRmRHRGxBUDZURU5mb2VRd2liOFlIdUdmQkhIdVFBRmZIeU1tdm5DYzFnSU1oRXJvVCtYL3JGNjB2dW5RL2Y2aDljY1Q3WUNEZ3FxQzhNN01hdTFQd0RlR0ZKOE1TNTBrS289&b=false",
+      "id": 3737,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709662,
+      "end": 1503502709663,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "vsid=903vr2510483058730519"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3595",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i3.cdn-image.com/__media__/pics/8243/bg.gif",
+      "id": 3738,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709667,
+      "end": 1503502709668,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3596",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i1.cdn-image.com/__media__/pics/8243/bg.gif",
+      "id": 3739,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709668,
+      "end": 1503502709668,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3597",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i3.cdn-image.com/__media__/pics/8243/h_bg.gif",
+      "id": 3740,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709669,
+      "end": 1503502709669,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3598",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i1.cdn-image.com/__media__/pics/7867/srch-bg.gif",
+      "id": 3741,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709669,
+      "end": 1503502709670,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3599",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i4.cdn-image.com/__media__/pics/8243/lhs.gif",
+      "id": 3742,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709672,
+      "end": 1503502709672,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3600",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i4.cdn-image.com/__media__/pics/8243/rhs.gif",
+      "id": 3743,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709673,
+      "end": 1503502709673,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3595",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4474"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 13 Mar 2014 04:23:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"532132b8-117a\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=77135"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 13:04:04 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i3.cdn-image.com/__media__/pics/8243/bg.gif",
+      "id": 3738,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709670,
+      "end": 1503502709674,
+      "fromCache": false,
+      "ip": "23.55.59.176"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3596",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4474"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 13 Mar 2014 04:23:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"532132b8-117a\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=75994"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 12:45:03 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i1.cdn-image.com/__media__/pics/8243/bg.gif",
+      "id": 3739,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709674,
+      "end": 1503502709675,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3597",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2218"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 13 Mar 2014 04:23:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"532132b8-8aa\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=77742"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 13:14:11 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i3.cdn-image.com/__media__/pics/8243/h_bg.gif",
+      "id": 3740,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709676,
+      "end": 1503502709676,
+      "fromCache": false,
+      "ip": "23.55.59.176"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3598",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1654"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 11 Jul 2013 12:19:19 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"51dea2c7-676\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=81506"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 14:16:55 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i1.cdn-image.com/__media__/pics/7867/srch-bg.gif",
+      "id": 3741,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709677,
+      "end": 1503502709678,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3599",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6724"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 13 Mar 2014 04:23:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"532132b8-1a44\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=33958"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 01:04:27 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i4.cdn-image.com/__media__/pics/8243/lhs.gif",
+      "id": 3742,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709682,
+      "end": 1503502709684,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3600",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6763"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 13 Mar 2014 04:23:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"532132b8-1a6b\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=49316"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 05:20:25 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i4.cdn-image.com/__media__/pics/8243/rhs.gif",
+      "id": 3743,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709683,
+      "end": 1503502709685,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3601",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://pxlspamanalyst-a.akamaihd.net/javascripts/browserfp.min.js?templateId=10",
+      "id": 3744,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709716,
+      "end": 1503502709716,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 257,
+      "processId": 46,
+      "tabId": 2,
+      "timeStamp": 1503502709718,
+      "url": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3601",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=utf-8"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=7200"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 17:38:29 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "22224"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://pxlspamanalyst-a.akamaihd.net/javascripts/browserfp.min.js?templateId=10",
+      "id": 3744,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709726,
+      "end": 1503502709727,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "timeStamp": 1503502709744,
+      "tabId": 2,
+      "frameId": 257,
+      "url": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "contextId": 298,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503502709744,
+      "tabId": 2,
+      "frameId": 257,
+      "url": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "contextId": 298,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Ebookshare.net",
+      "timeStamp": 1503502709744,
+      "tabId": 2,
+      "frameId": 257,
+      "url": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "contextId": 298,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "params",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503502709744,
+      "tabId": 2,
+      "frameId": 257,
+      "url": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "contextId": 298,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "s",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503502709745,
+      "tabId": 2,
+      "frameId": 257,
+      "url": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "contextId": 298,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "go",
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1503502709745,
+      "tabId": 2,
+      "frameId": 257,
+      "url": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "contextId": 298,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "gsp",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503502709745,
+      "tabId": 2,
+      "frameId": 257,
+      "url": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "contextId": 298,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3594",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=95"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://findbetterresults.com/sk-logabpstatus.php?a=WTlxN0RlT3JWRmRHRGxBUDZURU5mb2VRd2liOFlIdUdmQkhIdVFBRmZIeU1tdm5DYzFnSU1oRXJvVCtYL3JGNjB2dW5RL2Y2aDljY1Q3WUNEZ3FxQzhNN01hdTFQd0RlR0ZKOE1TNTBrS289&b=false",
+      "id": 3737,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502709781,
+      "end": 1503502709781,
+      "fromCache": false,
+      "ip": "208.91.196.46"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3602",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3745,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711168,
+      "end": 1503502711169,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3603",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3746,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711169,
+      "end": 1503502711169,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".findbetterresults.com",
+        "expirationDate": 1503506309,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bfp_sn",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1503502709753"
+      },
+      "removed": false,
+      "timeStamp": 1503502711170
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "bfp_sn",
+      "type": "cookie",
+      "value": "1503502709753",
+      "timeStamp": 1503502711170
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3604",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 3747,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711171,
+      "end": 1503502711171,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3605",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 3748,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711171,
+      "end": 1503502711171,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3606",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cenw.js?identifier=bafp",
+      "id": 3749,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711171,
+      "end": 1503502711172,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 257,
+      "processId": 46,
+      "tabId": 2,
+      "timeStamp": 1503502711173,
+      "url": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 46,
+      "tabId": 2,
+      "timeStamp": 1503502711173,
+      "url": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "ebookshare.net",
+          "url": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502711173
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3607",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ww1.ebookshare.net/favicon.ico",
+      "id": 3750,
+      "contextId": 297,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502711174,
+      "end": 1503502711174,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.ebookshare.net/?subid1=19e114ac-8819-11e7-9fd7-039c8a001e14"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=19e114ac-8819-11e7-9fd7-039c8a001e14"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3607",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:31 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/x-icon"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 19 Sep 2016 08:03:01 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"57df9bb5-0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ww1.ebookshare.net/favicon.ico",
+      "id": 3750,
+      "contextId": 297,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502711198,
+      "end": 1503502711198,
+      "fromCache": false,
+      "ip": "185.53.179.29"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestId": "3602",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:31 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"7-Jgyp3YpFd/wAt71YECmAdg\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3745,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711325,
+      "end": 1503502711326,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestId": "3603",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:31 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"7-Jgyp3YpFd/wAt71YECmAdg\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3746,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711327,
+      "end": 1503502711328,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3604",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:31 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 3747,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711328,
+      "end": 1503502711329,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".findbetterresults.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "undefined"
+      },
+      "removed": false,
+      "timeStamp": 1503502711329
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "undefined",
+      "timeStamp": 1503502711329
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3605",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:31 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 3748,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711330,
+      "end": 1503502711330,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".findbetterresults.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "undefined"
+      },
+      "removed": false,
+      "timeStamp": 1503502711330
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "undefined",
+      "timeStamp": 1503502711330
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3606",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:31 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"24-PtPPYuQoKVJmHg8ukfGqMA\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Content-Length",
+          "value": "36"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cenw.js?identifier=bafp",
+      "id": 3749,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711333,
+      "end": 1503502711334,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".findbetterresults.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "undefined"
+      },
+      "removed": true,
+      "timeStamp": 1503502711335
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "undefined",
+      "timeStamp": 1503502711335
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".findbetterresults.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "1dc32e20-8819-11e7-8954-8d6db4870bbb"
+      },
+      "removed": false,
+      "timeStamp": 1503502711336
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "1dc32e20-8819-11e7-8954-8d6db4870bbb",
+      "timeStamp": 1503502711336
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3608",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 3751,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711336,
+      "end": 1503502711337,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3609",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 3752,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711337,
+      "end": 1503502711337,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".findbetterresults.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "undefined"
+      },
+      "removed": true,
+      "timeStamp": 1503502711338
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "undefined",
+      "timeStamp": 1503502711338
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".findbetterresults.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "1dc32e20-8819-11e7-8954-8d6db4870bbb"
+      },
+      "removed": false,
+      "timeStamp": 1503502711338
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "1dc32e20-8819-11e7-8954-8d6db4870bbb",
+      "timeStamp": 1503502711338
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3608",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:31 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 3751,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711417,
+      "end": 1503502711417,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3609",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:31 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 3752,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711425,
+      "end": 1503502711425,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "expired_overwrite",
+      "cookie": {
+        "domain": ".findbetterresults.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "1dc32e20-8819-11e7-8954-8d6db4870bbb"
+      },
+      "removed": true,
+      "timeStamp": 1503502711538
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "1dc32e20-8819-11e7-8954-8d6db4870bbb",
+      "timeStamp": 1503502711538
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3611",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 3753,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711538,
+      "end": 1503502711538,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3612",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 3754,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711539,
+      "end": 1503502711539,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "expired_overwrite",
+      "cookie": {
+        "domain": ".findbetterresults.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "1dc32e20-8819-11e7-8954-8d6db4870bbb"
+      },
+      "removed": true,
+      "timeStamp": 1503502711540
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "1dc32e20-8819-11e7-8954-8d6db4870bbb",
+      "timeStamp": 1503502711540
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3613",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3755,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711540,
+      "end": 1503502711541,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3611",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:31 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 3753,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711618,
+      "end": 1503502711619,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".findbetterresults.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1dc32e20-8819-11e7-8954-8d6db4870bbb"
+      },
+      "removed": false,
+      "timeStamp": 1503502711619
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "1dc32e20-8819-11e7-8954-8d6db4870bbb",
+      "timeStamp": 1503502711619
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3612",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:31 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 3754,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711620,
+      "end": 1503502711620,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".findbetterresults.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1dc32e20-8819-11e7-8954-8d6db4870bbb"
+      },
+      "removed": false,
+      "timeStamp": 1503502711620
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "1dc32e20-8819-11e7-8954-8d6db4870bbb",
+      "timeStamp": 1503502711620
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestId": "3613",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:31 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"7-Jgyp3YpFd/wAt71YECmAdg\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3755,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711621,
+      "end": 1503502711621,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3615",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3756,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711670,
+      "end": 1503502711671,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestId": "3615",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:31 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"7-Jgyp3YpFd/wAt71YECmAdg\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3756,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502711751,
+      "end": 1503502711752,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3616",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3757,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502712170,
+      "end": 1503502712170,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": 257,
+      "fromCache": false,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestId": "3616",
+      "tabId": 2,
+      "timeStamp": 1503502712204,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3757,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3617",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A700%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027097602662046046%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502709753%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CUO250V9%22%2C%22gc%22%3A1503502712202%2C%22es%22%3A700%7D",
+      "id": 3758,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502712204,
+      "end": 1503502712205,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3618",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3759,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502712205,
+      "end": 1503502712206,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3619",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3760,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502712206,
+      "end": 1503502712206,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3620",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3761,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502712206,
+      "end": 1503502712207,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3621",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3762,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502712207,
+      "end": 1503502712207,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 257,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3622",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3763,
+      "contextId": 298,
+      "parentContextId": 297,
+      "windowId": 1,
+      "start": 1503502712207,
+      "end": 1503502712208,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://findbetterresults.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3623",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 3764,
+      "contextId": 299,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502712209,
+      "end": 1503502712209
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3623",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 3764,
+      "contextId": 299,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502712209,
+      "end": 1503502712216
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502712216
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503502712216
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503502712217,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3617",
+      "tabId": -1,
+      "timeStamp": 1503502712217,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A700%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027097602662046046%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502709753%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CUO250V9%22%2C%22gc%22%3A1503502712202%2C%22es%22%3A700%7D",
+      "id": 3758,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "3618",
+      "tabId": -1,
+      "timeStamp": 1503502712217,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3759,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "3619",
+      "tabId": -1,
+      "timeStamp": 1503502712217,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3760,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "3620",
+      "tabId": -1,
+      "timeStamp": 1503502712217,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3761,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "3621",
+      "tabId": -1,
+      "timeStamp": 1503502712217,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3762,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "3622",
+      "tabId": -1,
+      "timeStamp": 1503502712217,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3763,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": -1,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3624",
+      "tabId": -1,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A23%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027097602662046046%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502709753%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CUO250V9%22%2C%22pet%22%3A2450%2C%22exInd%22%3A23%2C%22gc%22%3A1503502712211%2C%22es%22%3A23%7D",
+      "id": 3765,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1,
+      "start": 1503502712217,
+      "end": 1503502712217,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": -1,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3625",
+      "tabId": -1,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A31%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027097602662046046%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502709753%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CUO250V9%22%2C%22rb%22%3A%5B%7B%22ele%22%3A%22BODY%22%2C%22ti%22%3A2451%7D%5D%2C%22xk%22%3A%22230%22%2C%22xt%22%3A%221%22%2C%22xlb%22%3A1%2C%22xlc%22%3A1%2C%22fpgt%22%3A-1%2C%22pac%22%3A1%2C%22red%22%3A0%2C%22gc%22%3A1503502712211%2C%22es%22%3A31%7D",
+      "id": 3766,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1,
+      "start": 1503502712217,
+      "end": 1503502712218,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": -1,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3626",
+      "tabId": -1,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A2%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027097602662046046%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502709753%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CUO250V9%22%2C%22pet%22%3A2450%2C%22exInd%22%3A2%2C%22ab%22%3A%221%22%2C%22ac%22%3A%22Gecko%22%2C%22ad%22%3A%22Linux%20x86_64%22%2C%22ae%22%3A%225.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22af%22%3A%22Mozilla%22%2C%22ag%22%3A8%2C%22ah%22%3A%22Google%20Inc.%22%2C%22ai%22%3A%2220030107%22%2C%22ajm%22%3A%5B0%2C0%2C0%2C0%2C0%2C0%5D%2C%22ajs%22%3A26%2C%22akm%22%3A%5B0%2C0%5D%2C%22aks%22%3A29%2C%22dca%22%3A%5B%5D%2C%22dda%22%3A%5B%5D%2C%22fa%22%3A%5B274432%2C8388608%2C67257344%2C8192%2C805568768%2C0%2C4587520%2C403472384%2C0%2C4096%2C0%2C1%2C0%2C940048416%2C16845824%5D%2C%22fas%22%3A27%2C%22iam%22%3A%5B0%5D%2C%22ias%22%3A8%2C%22na%22%3A%5B4294967264%2C134087039%2C328758238%5D%2C%22nas%22%3A29%2C%22la%22%3A0%2C%22lb%22%3A0%2C%22lc%22%3A0%2C%22ld%22%3A0%2C%22le%22%3A0%2C%22xa%22%3A%22en-GB%22%2C%22xn%22%3A%22en-GB%3Ben-US%3Ben%22%2C%22xr%22%3A0%2C%22xf%22%3A%2254062d94277ae55fb1612db80c259baa%22%2C%22xi%22%3A%22441002102exp%22%2C%22xs%22%3A%22NVIDIA%20Corporation%20GeForce%20GT%20730%2FPCIe%2FSSE2%22%2C%22xg%22%3A%227abf61cca9ed82c6960c6b254cc5d51f%22%2C%22xm%22%3A0%2C%22xp%22%3A0%2C%22xq%22%3A33%2C%22xc%22%3A%221%22%2C%22xd%22%3A%221%22%2C%22xe%22%3A%221%22%2C%22yi%22%3A0%2C%22xla%22%3A1%2C%22gc%22%3A1503502712212%2C%22es%22%3A2%7D",
+      "id": 3767,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1,
+      "start": 1503502712218,
+      "end": 1503502712218,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": -1,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3627",
+      "tabId": -1,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A8%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027097602662046046%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502709753%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CUO250V9%22%2C%22pet%22%3A2450%2C%22exInd%22%3A8%2C%22ga%22%3A%22http%3A%2F%2Ffindbetterresults.com%22%2C%22gd%22%3A%22http%3A%2F%2Fww1.ebookshare.net%2F%22%2C%22cchk%22%3A%5B%5D%2C%22kw_id%22%3A%22%22%2C%22kw_pos%22%3A%220%22%2C%22page_id%22%3A%22landing_page%22%2C%22vi_id%22%3A%221032510483093730519%22%2C%22vs_id%22%3A%22903vr2510483058730519%22%2C%22hvs_id%22%3A%22903vt2510483058730519%22%2C%22req_dom%22%3A%22ebookshare.net%22%2C%22refUrl%22%3A%22http%3A%2F%2Fww1.ebookshare.net%2F%3Fsubid1%3D19e114ac-8819-11e7-9fd7-039c8a001e14%22%2C%22srcUrl%22%3A%22http%3A%2F%2Ffindbetterresults.com%2F%3Fdn%3Debookshare.net%26pid%3D9PO755G95%22%2C%22pid%22%3A%229PO755G95%22%2C%22gc%22%3A1503502712212%2C%22es%22%3A8%7D",
+      "id": 3768,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1,
+      "start": 1503502712218,
+      "end": 1503502712218,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://findbetterresults.com/?dn=ebookshare.net&pid=9PO755G95"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3626",
+      "tabId": -1,
+      "timeStamp": 1503502712218,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A2%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027097602662046046%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502709753%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CUO250V9%22%2C%22pet%22%3A2450%2C%22exInd%22%3A2%2C%22ab%22%3A%221%22%2C%22ac%22%3A%22Gecko%22%2C%22ad%22%3A%22Linux%20x86_64%22%2C%22ae%22%3A%225.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22af%22%3A%22Mozilla%22%2C%22ag%22%3A8%2C%22ah%22%3A%22Google%20Inc.%22%2C%22ai%22%3A%2220030107%22%2C%22ajm%22%3A%5B0%2C0%2C0%2C0%2C0%2C0%5D%2C%22ajs%22%3A26%2C%22akm%22%3A%5B0%2C0%5D%2C%22aks%22%3A29%2C%22dca%22%3A%5B%5D%2C%22dda%22%3A%5B%5D%2C%22fa%22%3A%5B274432%2C8388608%2C67257344%2C8192%2C805568768%2C0%2C4587520%2C403472384%2C0%2C4096%2C0%2C1%2C0%2C940048416%2C16845824%5D%2C%22fas%22%3A27%2C%22iam%22%3A%5B0%5D%2C%22ias%22%3A8%2C%22na%22%3A%5B4294967264%2C134087039%2C328758238%5D%2C%22nas%22%3A29%2C%22la%22%3A0%2C%22lb%22%3A0%2C%22lc%22%3A0%2C%22ld%22%3A0%2C%22le%22%3A0%2C%22xa%22%3A%22en-GB%22%2C%22xn%22%3A%22en-GB%3Ben-US%3Ben%22%2C%22xr%22%3A0%2C%22xf%22%3A%2254062d94277ae55fb1612db80c259baa%22%2C%22xi%22%3A%22441002102exp%22%2C%22xs%22%3A%22NVIDIA%20Corporation%20GeForce%20GT%20730%2FPCIe%2FSSE2%22%2C%22xg%22%3A%227abf61cca9ed82c6960c6b254cc5d51f%22%2C%22xm%22%3A0%2C%22xp%22%3A0%2C%22xq%22%3A33%2C%22xc%22%3A%221%22%2C%22xd%22%3A%221%22%2C%22xe%22%3A%221%22%2C%22yi%22%3A0%2C%22xla%22%3A1%2C%22gc%22%3A1503502712212%2C%22es%22%3A2%7D",
+      "id": 3767,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3627",
+      "tabId": -1,
+      "timeStamp": 1503502712218,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A8%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027097602662046046%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502709753%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CUO250V9%22%2C%22pet%22%3A2450%2C%22exInd%22%3A8%2C%22ga%22%3A%22http%3A%2F%2Ffindbetterresults.com%22%2C%22gd%22%3A%22http%3A%2F%2Fww1.ebookshare.net%2F%22%2C%22cchk%22%3A%5B%5D%2C%22kw_id%22%3A%22%22%2C%22kw_pos%22%3A%220%22%2C%22page_id%22%3A%22landing_page%22%2C%22vi_id%22%3A%221032510483093730519%22%2C%22vs_id%22%3A%22903vr2510483058730519%22%2C%22hvs_id%22%3A%22903vt2510483058730519%22%2C%22req_dom%22%3A%22ebookshare.net%22%2C%22refUrl%22%3A%22http%3A%2F%2Fww1.ebookshare.net%2F%3Fsubid1%3D19e114ac-8819-11e7-9fd7-039c8a001e14%22%2C%22srcUrl%22%3A%22http%3A%2F%2Ffindbetterresults.com%2F%3Fdn%3Debookshare.net%26pid%3D9PO755G95%22%2C%22pid%22%3A%229PO755G95%22%2C%22gc%22%3A1503502712212%2C%22es%22%3A8%7D",
+      "id": 3768,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3624",
+      "tabId": -1,
+      "timeStamp": 1503502712218,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A23%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027097602662046046%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502709753%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CUO250V9%22%2C%22pet%22%3A2450%2C%22exInd%22%3A23%2C%22gc%22%3A1503502712211%2C%22es%22%3A23%7D",
+      "id": 3765,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3625",
+      "tabId": -1,
+      "timeStamp": 1503502712218,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A31%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027097602662046046%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502709753%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CUO250V9%22%2C%22rb%22%3A%5B%7B%22ele%22%3A%22BODY%22%2C%22ti%22%3A2451%7D%5D%2C%22xk%22%3A%22230%22%2C%22xt%22%3A%221%22%2C%22xlb%22%3A1%2C%22xlc%22%3A1%2C%22fpgt%22%3A-1%2C%22pac%22%3A1%2C%22red%22%3A0%2C%22gc%22%3A1503502712211%2C%22es%22%3A31%7D",
+      "id": 3766,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503502712210.477,
+          "title": "Save",
+          "typedCount": 40,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 40
+        }
+      },
+      "timeStamp": 1503502712219
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3628",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 3769,
+      "contextId": 299,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502712220,
+      "end": 1503502712220
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502712220
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3628",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 3769,
+      "contextId": 299,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502712220,
+      "end": 1503502712220
+    }
+  }
+]

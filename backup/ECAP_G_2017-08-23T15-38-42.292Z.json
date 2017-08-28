@@ -1,0 +1,5314 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502716102
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 88808,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/4b4f3385-0040-4733-add8-06ac936c5b6a",
+          "id": 41,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T15:38:36.105Z",
+          "state": "in_progress",
+          "totalBytes": 88808,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/4b4f3385-0040-4733-add8-06ac936c5b6a"
+        }
+      },
+      "timeStamp": 1503502716105
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 88808,
+          "filename": "ECAP_G_2017-08-23T15-38-36.097Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/4b4f3385-0040-4733-add8-06ac936c5b6a",
+          "id": 41,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T15:38:36.105Z",
+          "state": "in_progress",
+          "totalBytes": 88808,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/4b4f3385-0040-4733-add8-06ac936c5b6a"
+        }
+      },
+      "timeStamp": 1503502716107
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T15-38-36.097Z.json",
+            "previous": ""
+          },
+          "id": 41
+        }
+      },
+      "timeStamp": 1503502716112
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T15:38:36.113Z"
+          },
+          "id": 41,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503502716113
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503502718298,
+      "url": "http://www.wowio.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3653",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.wowio.com/",
+      "id": 3793,
+      "contextId": 303,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502718299,
+      "end": 1503502718299,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3653",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "http://www.studiowdigital.com"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        }
+      ],
+      "statusCode": 301,
+      "statusLine": "HTTP/1.1 301 Moved Permanently",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.wowio.com/",
+      "id": 3793,
+      "contextId": 303,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502718481,
+      "end": 1503502718484,
+      "fromCache": false,
+      "ip": "216.21.224.199",
+      "redirectUrl": "http://www.studiowdigital.com/"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3653",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.studiowdigital.com/",
+      "id": 3794,
+      "contextId": 304,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502718484,
+      "end": 1503502718484,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "studiowdigital.com",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "sid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "2213af9a-8819-11e7-9f20-039c8a003655"
+      },
+      "removed": false,
+      "timeStamp": 1503502718550,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 304
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "sid",
+      "type": "cookie",
+      "value": "2213af9a-8819-11e7-9f20-039c8a003655",
+      "timeStamp": 1503502718550,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 304
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".studiowdigital.com",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "sid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "2213af9a-8819-11e7-9f20-039c8a003655"
+      },
+      "removed": false,
+      "timeStamp": 1503502718551
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "sid",
+      "type": "cookie",
+      "value": "2213af9a-8819-11e7-9f20-039c8a003655",
+      "timeStamp": 1503502718551
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3653",
+      "responseHeaders": [
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:37 GMT"
+        },
+        {
+          "name": "content-length",
+          "value": "300"
+        },
+        {
+          "name": "set-cookie",
+          "value": "sid=2213af9a-8819-11e7-9f20-039c8a003655; path=/; domain=studiowdigital.com; HttpOnly"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "connection",
+          "value": "close"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.studiowdigital.com/",
+      "id": 3794,
+      "contextId": 304,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502718550,
+      "end": 1503502718552,
+      "fromCache": false,
+      "ip": "149.202.120.47"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://www.studiowdigital.com/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "www.studiowdigital.com",
+          "url": "http://www.studiowdigital.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502718556
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503502718556
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 48,
+      "tabId": 2,
+      "timeStamp": 1503502718557,
+      "transitionQualifiers": [
+        "server_redirect"
+      ],
+      "transitionType": "typed",
+      "url": "http://www.studiowdigital.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "73",
+          "lastVisitTime": 1503502718553.246,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://www.wowio.com/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503502718568
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "74",
+          "lastVisitTime": 1503502718553.246,
+          "title": "",
+          "typedCount": 0,
+          "url": "http://www.studiowdigital.com/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503502718568
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Loading..."
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Loading...",
+          "url": "http://www.studiowdigital.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502718568
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 48,
+      "tabId": 2,
+      "timeStamp": 1503502718569,
+      "url": "http://www.studiowdigital.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 48,
+      "tabId": 2,
+      "timeStamp": 1503502718590,
+      "url": "http://www.studiowdigital.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Loading...",
+          "url": "http://www.studiowdigital.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502718592
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503502718594,
+      "url": "http://www.studiowdigital.com/?js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqcyI6MX0.fADWc9hUOlh58R9UzufQBROmie3I7c7vE835oE6YmU4&uuid=2213af9a-8819-11e7-9f20-039c8a003655",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3654",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.studiowdigital.com/?js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqcyI6MX0.fADWc9hUOlh58R9UzufQBROmie3I7c7vE835oE6YmU4&uuid=2213af9a-8819-11e7-9f20-039c8a003655",
+      "id": 3795,
+      "contextId": 305,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502718594,
+      "end": 1503502718594,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.studiowdigital.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=2213af9a-8819-11e7-9f20-039c8a003655"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3655",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.studiowdigital.com/favicon.ico",
+      "id": 3796,
+      "contextId": 305,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502718597,
+      "end": 1503502718597,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.studiowdigital.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=2213af9a-8819-11e7-9f20-039c8a003655"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://www.studiowdigital.com/",
+      "timeStamp": 1503502718600,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.studiowdigital.com/",
+      "contextId": 305,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503502718600,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.studiowdigital.com/",
+      "contextId": 305,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Loading...",
+      "timeStamp": 1503502718600,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.studiowdigital.com/",
+      "contextId": 305,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3654",
+      "responseHeaders": [
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:37 GMT"
+        },
+        {
+          "name": "content-length",
+          "value": "11"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "connection",
+          "value": "close"
+        },
+        {
+          "name": "location",
+          "value": "http://ww1.studiowdigital.com"
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302 Found",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.studiowdigital.com/?js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqcyI6MX0.fADWc9hUOlh58R9UzufQBROmie3I7c7vE835oE6YmU4&uuid=2213af9a-8819-11e7-9f20-039c8a003655",
+      "id": 3795,
+      "contextId": 305,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502718616,
+      "end": 1503502718617,
+      "fromCache": false,
+      "ip": "149.202.120.47",
+      "redirectUrl": "http://ww1.studiowdigital.com/"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3654",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://ww1.studiowdigital.com/",
+      "id": 3797,
+      "contextId": 306,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502718617,
+      "end": 1503502718617,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.studiowdigital.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=2213af9a-8819-11e7-9f20-039c8a003655"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3655",
+      "responseHeaders": [
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:37 GMT"
+        },
+        {
+          "name": "content-length",
+          "value": "9"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=0, private, must-revalidate"
+        },
+        {
+          "name": "connection",
+          "value": "close"
+        }
+      ],
+      "statusCode": 404,
+      "statusLine": "HTTP/1.1 404 Not Found",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.studiowdigital.com/favicon.ico",
+      "id": 3796,
+      "contextId": 306,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502718636,
+      "end": 1503502718636,
+      "fromCache": false,
+      "ip": "149.202.120.47"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3654",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:38 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "X-Adblock-Key",
+          "value": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKX74ixpzVyXbJprcLfbH4psP4+L2entqri0lzh6pkAaXLPIcclv6DQBeJJjGFWrBIF6QMyFwXT5CCRyjS2penECAwEAAQ==_BKrCpmpgGvAzmruDjRdF2I2fzISTY0CFQ3ER62DXd3GAewfg6KYwrf9Yk6VVUzmFIRtHjTH7uFV9FD2GsKgFrQ=="
+        },
+        {
+          "name": "ntCoent-Length",
+          "value": "2812"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=107"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1447"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://ww1.studiowdigital.com/",
+      "id": 3797,
+      "contextId": 306,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502719020,
+      "end": 1503502719022,
+      "fromCache": false,
+      "ip": "208.91.196.145"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://ww1.studiowdigital.com/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Loading...",
+          "url": "http://ww1.studiowdigital.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502719028
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503502719028
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 48,
+      "tabId": 2,
+      "timeStamp": 1503502719029,
+      "transitionQualifiers": [
+        "client_redirect",
+        "server_redirect"
+      ],
+      "transitionType": "link",
+      "url": "http://ww1.studiowdigital.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "ww1.studiowdigital.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "fjccheck",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1503502719031
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "fjccheck",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1503502719031
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 258,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503502719031,
+      "url": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "75",
+          "lastVisitTime": 1503502719027.401,
+          "title": "",
+          "typedCount": 0,
+          "url": "http://www.studiowdigital.com/?js=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqcyI6MX0.fADWc9hUOlh58R9UzufQBROmie3I7c7vE835oE6YmU4&uuid=2213af9a-8819-11e7-9f20-039c8a003655",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503502719031
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "76",
+          "lastVisitTime": 1503502719027.401,
+          "title": "",
+          "typedCount": 0,
+          "url": "http://ww1.studiowdigital.com/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503502719031
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 48,
+      "tabId": 2,
+      "timeStamp": 1503502719031,
+      "url": "http://ww1.studiowdigital.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3656",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "id": 3798,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719031,
+      "end": 1503502719032,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=2213af9a-8819-11e7-9f20-039c8a003655; fjccheck=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://ww1.studiowdigital.com/",
+      "timeStamp": 1503502719036,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ww1.studiowdigital.com/",
+      "contextId": 306,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503502719037,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ww1.studiowdigital.com/",
+      "contextId": 306,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "ww1.studiowdigital.com",
+        "expirationDate": "1503502720157680000",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "vsid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "931vr2510483191222623"
+      },
+      "removed": false,
+      "timeStamp": 1503502719638,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 258,
+      "contextId": 307
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "vsid",
+      "type": "cookie",
+      "value": "931vr2510483191222623",
+      "timeStamp": 1503502719638,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 258,
+      "contextId": 307
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ww1.studiowdigital.com",
+        "expirationDate": 1661182719.638533,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "vsid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "931vr2510483191222623"
+      },
+      "removed": false,
+      "timeStamp": 1503502719639
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "vsid",
+      "type": "cookie",
+      "value": "931vr2510483191222623",
+      "timeStamp": 1503502719639
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3656",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:39 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "vsid=931vr2510483191222623; expires=Mon, 22-Aug-2022 15:38:39 GMT; Max-Age=157680000; path=/; domain=ww1.studiowdigital.com; HttpOnly"
+        },
+        {
+          "name": "X-Adblock-Key",
+          "value": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKX74ixpzVyXbJprcLfbH4psP4+L2entqri0lzh6pkAaXLPIcclv6DQBeJJjGFWrBIF6QMyFwXT5CCRyjS2penECAwEAAQ==_VqHlAkHXqRfPSifjL+DxHasx/lZP8IoctBEs3+9kh/Oo893pFpbwbc4DqPI6ZBdcX6zWP5m6UFXY8LXSGiNofQ=="
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=73"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "id": 3798,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719638,
+      "end": 1503502719640,
+      "fromCache": false,
+      "ip": "208.91.196.145"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 258,
+      "processId": 48,
+      "tabId": 2,
+      "timeStamp": 1503502719641,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3657",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ww1.studiowdigital.com/px.js?ch=1",
+      "id": 3799,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719646,
+      "end": 1503502719646,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=2213af9a-8819-11e7-9f20-039c8a003655; fjccheck=1; vsid=931vr2510483191222623"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3658",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ww1.studiowdigital.com/px.js?ch=2",
+      "id": 3800,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719647,
+      "end": 1503502719647,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=2213af9a-8819-11e7-9f20-039c8a003655; fjccheck=1; vsid=931vr2510483191222623"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3659",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://i2.cdn-image.com/__media__/js/min.js?v1.9",
+      "id": 3801,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719647,
+      "end": 1503502719648,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3660",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i2.cdn-image.com/__media__/pics/8243/logo.png",
+      "id": 3802,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719648,
+      "end": 1503502719648,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3660",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4422"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 13 Mar 2014 04:23:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"532132b8-1146\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=83614"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 14:52:13 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:39 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i2.cdn-image.com/__media__/pics/8243/logo.png",
+      "id": 3802,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719655,
+      "end": 1503502719657,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3659",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "8637"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 12 Apr 2017 07:01:37 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"58edd0d1-21bd\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=49305"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 05:20:24 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:39 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://i2.cdn-image.com/__media__/js/min.js?v1.9",
+      "id": 3801,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719656,
+      "end": 1503502719657,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3657",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:39 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 11 Jun 2015 06:47:35 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"15a-518385dd48fc0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "346"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=71"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ww1.studiowdigital.com/px.js?ch=1",
+      "id": 3799,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719761,
+      "end": 1503502719762,
+      "fromCache": false,
+      "ip": "208.91.196.145"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3658",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:39 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 11 Jun 2015 06:47:35 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"15a-518385dd48fc0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "346"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=24"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ww1.studiowdigital.com/px.js?ch=2",
+      "id": 3800,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719767,
+      "end": 1503502719768,
+      "fromCache": false,
+      "ip": "208.91.196.145"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3661",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ww1.studiowdigital.com/sk-logabpstatus.php?a=Z0xhcUQ5b1Exc01yZXdodUNVVWNackloVDJIN3pDRVAwRnEzdTZhSVRCYlpqY3l5cDE3dWUxdkl5b1BlMW1odGY0bHpFQ09sdEh5a2ZrNFVhL1FUVEZ0NU9uWVlTcHAyZEVSQ2VDTW43K2s9&b=false",
+      "id": 3803,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719770,
+      "end": 1503502719771,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=2213af9a-8819-11e7-9f20-039c8a003655; fjccheck=1; vsid=931vr2510483191222623"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3662",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i1.cdn-image.com/__media__/pics/8243/bg.gif",
+      "id": 3804,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719774,
+      "end": 1503502719775,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3663",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i4.cdn-image.com/__media__/pics/8243/bg.gif",
+      "id": 3805,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719775,
+      "end": 1503502719776,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3664",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i2.cdn-image.com/__media__/pics/8243/h_bg.gif",
+      "id": 3806,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719776,
+      "end": 1503502719777,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3665",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i1.cdn-image.com/__media__/pics/7867/srch-bg.gif",
+      "id": 3807,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719777,
+      "end": 1503502719777,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3666",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i3.cdn-image.com/__media__/pics/8243/lhs.gif",
+      "id": 3808,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719778,
+      "end": 1503502719778,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3667",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i1.cdn-image.com/__media__/pics/8243/rhs.gif",
+      "id": 3809,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719779,
+      "end": 1503502719779,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3664",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2218"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 13 Mar 2014 04:23:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"532132b8-8aa\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=83615"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 14:52:14 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:39 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i2.cdn-image.com/__media__/pics/8243/h_bg.gif",
+      "id": 3806,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719780,
+      "end": 1503502719781,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3663",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4474"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 13 Mar 2014 04:23:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"532132b8-117a\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=75984"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 12:45:03 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:39 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i4.cdn-image.com/__media__/pics/8243/bg.gif",
+      "id": 3805,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719779,
+      "end": 1503502719783,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3662",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4474"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 13 Mar 2014 04:23:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"532132b8-117a\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=75994"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 12:45:03 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i1.cdn-image.com/__media__/pics/8243/bg.gif",
+      "id": 3804,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719782,
+      "end": 1503502719787,
+      "fromCache": true,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3665",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1654"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 11 Jul 2013 12:19:19 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"51dea2c7-676\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=81506"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 14:16:55 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i1.cdn-image.com/__media__/pics/7867/srch-bg.gif",
+      "id": 3807,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719782,
+      "end": 1503502719787,
+      "fromCache": true,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3666",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6724"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 13 Mar 2014 04:23:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"532132b8-1a44\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=28701"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 23:37:00 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:39 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i3.cdn-image.com/__media__/pics/8243/lhs.gif",
+      "id": 3808,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719783,
+      "end": 1503502719788,
+      "fromCache": false,
+      "ip": "23.55.59.176"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3667",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6763"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 13 Mar 2014 04:23:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"532132b8-1a6b\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=49306"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 24 Aug 2017 05:20:25 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:39 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i1.cdn-image.com/__media__/pics/8243/rhs.gif",
+      "id": 3809,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719784,
+      "end": 1503502719788,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3668",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://pxlspamanalyst-a.akamaihd.net/javascripts/browserfp.min.js?templateId=10",
+      "id": 3810,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719819,
+      "end": 1503502719819,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3668",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=utf-8"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=7200"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 17:38:29 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:29 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "22224"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://pxlspamanalyst-a.akamaihd.net/javascripts/browserfp.min.js?templateId=10",
+      "id": 3810,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719819,
+      "end": 1503502719820,
+      "fromCache": true,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 258,
+      "processId": 48,
+      "tabId": 2,
+      "timeStamp": 1503502719822,
+      "url": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "timeStamp": 1503502719840,
+      "tabId": 2,
+      "frameId": 258,
+      "url": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "contextId": 307,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503502719840,
+      "tabId": 2,
+      "frameId": 258,
+      "url": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "contextId": 307,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Studiowdigital.com",
+      "timeStamp": 1503502719840,
+      "tabId": 2,
+      "frameId": 258,
+      "url": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "contextId": 307,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "params",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503502719841,
+      "tabId": 2,
+      "frameId": 258,
+      "url": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "contextId": 307,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "s",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503502719841,
+      "tabId": 2,
+      "frameId": 258,
+      "url": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "contextId": 307,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "go",
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1503502719841,
+      "tabId": 2,
+      "frameId": 258,
+      "url": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "contextId": 307,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "gsp",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503502719841,
+      "tabId": 2,
+      "frameId": 258,
+      "url": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "contextId": 307,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3661",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:39 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=126"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ww1.studiowdigital.com/sk-logabpstatus.php?a=Z0xhcUQ5b1Exc01yZXdodUNVVWNackloVDJIN3pDRVAwRnEzdTZhSVRCYlpqY3l5cDE3dWUxdkl5b1BlMW1odGY0bHpFQ09sdEh5a2ZrNFVhL1FUVEZ0NU9uWVlTcHAyZEVSQ2VDTW43K2s9&b=false",
+      "id": 3803,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502719899,
+      "end": 1503502719899,
+      "fromCache": false,
+      "ip": "208.91.196.145"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3669",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3811,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721228,
+      "end": 1503502721229,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3670",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3812,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721229,
+      "end": 1503502721229,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ww1.studiowdigital.com",
+        "expirationDate": 1503506319,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bfp_sn",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1503502719846"
+      },
+      "removed": false,
+      "timeStamp": 1503502721230
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bfp_sn",
+      "type": "cookie",
+      "value": "1503502719846",
+      "timeStamp": 1503502721230
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3671",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 3813,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721231,
+      "end": 1503502721231,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3672",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 3814,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721231,
+      "end": 1503502721231,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3673",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cenw.js?identifier=bafp",
+      "id": 3815,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721232,
+      "end": 1503502721232,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 258,
+      "processId": 48,
+      "tabId": 2,
+      "timeStamp": 1503502721233,
+      "url": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 48,
+      "tabId": 2,
+      "timeStamp": 1503502721233,
+      "url": "http://ww1.studiowdigital.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Loading...",
+          "url": "http://ww1.studiowdigital.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502721234
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3674",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ww1.studiowdigital.com/favicon.ico",
+      "id": 3816,
+      "contextId": 306,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502721234,
+      "end": 1503502721234,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=2213af9a-8819-11e7-9f20-039c8a003655; fjccheck=1; vsid=931vr2510483191222623; bfp_sn=1503502719846"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestId": "3669",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:41 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"7-Jgyp3YpFd/wAt71YECmAdg\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3811,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721309,
+      "end": 1503502721310,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3674",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:41 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Cteonnt-Length",
+          "value": "10"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=102"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=iso-8859-1"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "30"
+        }
+      ],
+      "statusCode": 404,
+      "statusLine": "HTTP/1.1 404 Not Found",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ww1.studiowdigital.com/favicon.ico",
+      "id": 3816,
+      "contextId": 306,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502721351,
+      "end": 1503502721351,
+      "fromCache": false,
+      "ip": "208.91.196.145"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestId": "3670",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:41 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"7-Jgyp3YpFd/wAt71YECmAdg\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3812,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721385,
+      "end": 1503502721386,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3672",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:41 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 3814,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721390,
+      "end": 1503502721391,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ww1.studiowdigital.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "undefined"
+      },
+      "removed": false,
+      "timeStamp": 1503502721391
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "undefined",
+      "timeStamp": 1503502721391
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3673",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:41 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"24-tgBG3XBEBC+1K80/mmAnAQ\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Content-Length",
+          "value": "36"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cenw.js?identifier=bafp",
+      "id": 3815,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721404,
+      "end": 1503502721405,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ww1.studiowdigital.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "23c459c0-8819-11e7-8954-8d6db4870bbb"
+      },
+      "removed": false,
+      "timeStamp": 1503502721407
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "23c459c0-8819-11e7-8954-8d6db4870bbb",
+      "timeStamp": 1503502721407
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3675",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 3817,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721408,
+      "end": 1503502721409,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3676",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 3818,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721409,
+      "end": 1503502721410,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".ww1.studiowdigital.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "undefined"
+      },
+      "removed": true,
+      "timeStamp": 1503502721410
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "undefined",
+      "timeStamp": 1503502721410
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ww1.studiowdigital.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "23c459c0-8819-11e7-8954-8d6db4870bbb"
+      },
+      "removed": false,
+      "timeStamp": 1503502721411
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "23c459c0-8819-11e7-8954-8d6db4870bbb",
+      "timeStamp": 1503502721411
+    }
+  },
+  {
+    "type": "dom.storage",
+    "details": {
+      "isTrusted": true,
+      "key": "bafp",
+      "oldValue": null,
+      "newValue": "23c459c0-8819-11e7-8954-8d6db4870bbb",
+      "url": "http://ww1.studiowdigital.com/",
+      "storageArea": {
+        "bafp": "23c459c0-8819-11e7-8954-8d6db4870bbb"
+      },
+      "type": "storage",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503502721410,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "contextId": 306,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "bafp",
+      "type": "localStorage",
+      "value": "23c459c0-8819-11e7-8954-8d6db4870bbb",
+      "timeStamp": 1503502721411,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ww1.studiowdigital.com/",
+      "contextId": 306,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.storage",
+    "details": {
+      "isTrusted": true,
+      "key": "bafp",
+      "oldValue": null,
+      "newValue": "23c459c0-8819-11e7-8954-8d6db4870bbb",
+      "url": "http://ww1.studiowdigital.com/",
+      "storageArea": {
+        "bafp": "23c459c0-8819-11e7-8954-8d6db4870bbb"
+      },
+      "type": "storage",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503502721411,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "contextId": 306,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "bafp",
+      "type": "sessionStorage",
+      "value": "23c459c0-8819-11e7-8954-8d6db4870bbb",
+      "timeStamp": 1503502721412,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ww1.studiowdigital.com/",
+      "contextId": 306,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3671",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:41 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 3813,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721414,
+      "end": 1503502721415,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".ww1.studiowdigital.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "23c459c0-8819-11e7-8954-8d6db4870bbb"
+      },
+      "removed": true,
+      "timeStamp": 1503502721416
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "23c459c0-8819-11e7-8954-8d6db4870bbb",
+      "timeStamp": 1503502721416
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ww1.studiowdigital.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "undefined"
+      },
+      "removed": false,
+      "timeStamp": 1503502721416
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "undefined",
+      "timeStamp": 1503502721416
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3676",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:41 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 3818,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721488,
+      "end": 1503502721489,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3675",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:41 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 3817,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721492,
+      "end": 1503502721493,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "expired_overwrite",
+      "cookie": {
+        "domain": ".ww1.studiowdigital.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "undefined"
+      },
+      "removed": true,
+      "timeStamp": 1503502721610
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "undefined",
+      "timeStamp": 1503502721610
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3678",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 3819,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721611,
+      "end": 1503502721611,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3679",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 3820,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721613,
+      "end": 1503502721613,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "expired_overwrite",
+      "cookie": {
+        "domain": ".ww1.studiowdigital.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "23c459c0-8819-11e7-8954-8d6db4870bbb"
+      },
+      "removed": true,
+      "timeStamp": 1503502721613
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "23c459c0-8819-11e7-8954-8d6db4870bbb",
+      "timeStamp": 1503502721613
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3680",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3821,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721614,
+      "end": 1503502721615,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3678",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:41 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 3819,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721688,
+      "end": 1503502721689,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ww1.studiowdigital.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "undefined"
+      },
+      "removed": false,
+      "timeStamp": 1503502721692
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "undefined",
+      "timeStamp": 1503502721692
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestId": "3680",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:41 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"7-Jgyp3YpFd/wAt71YECmAdg\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3821,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721693,
+      "end": 1503502721694,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3679",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:41 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 3820,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721694,
+      "end": 1503502721695,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ww1.studiowdigital.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "23c459c0-8819-11e7-8954-8d6db4870bbb"
+      },
+      "removed": false,
+      "timeStamp": 1503502721695
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "23c459c0-8819-11e7-8954-8d6db4870bbb",
+      "timeStamp": 1503502721695
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3682",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3822,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721731,
+      "end": 1503502721731,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestId": "3682",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:41 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"7-Jgyp3YpFd/wAt71YECmAdg\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3822,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502721811,
+      "end": 1503502721812,
+      "fromCache": false,
+      "ip": "34.225.28.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3683",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3823,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502722230,
+      "end": 1503502722230,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": 258,
+      "fromCache": false,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestId": "3683",
+      "tabId": 2,
+      "timeStamp": 1503502722272,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3823,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "3684",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A700%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027198531909020490%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502719846%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%221CUM4ZBQO%22%2C%22gc%22%3A1503502722270%2C%22es%22%3A700%7D",
+      "id": 3824,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502722272,
+      "end": 1503502722273,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3685",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3825,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502722273,
+      "end": 1503502722274,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3686",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3826,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502722274,
+      "end": 1503502722274,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3687",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3827,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502722275,
+      "end": 1503502722275,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3688",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3828,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502722275,
+      "end": 1503502722276,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 258,
+      "method": "POST",
+      "parentFrameId": 0,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "3689",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3829,
+      "contextId": 307,
+      "parentContextId": 306,
+      "windowId": 1,
+      "start": 1503502722276,
+      "end": 1503502722276,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://ww1.studiowdigital.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3690",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 3830,
+      "contextId": 308,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502722277,
+      "end": 1503502722277
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3690",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 3830,
+      "contextId": 308,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502722277,
+      "end": 1503502722283
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502722284
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503502722284
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503502722284,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3684",
+      "tabId": -1,
+      "timeStamp": 1503502722284,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A700%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027198531909020490%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502719846%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%221CUM4ZBQO%22%2C%22gc%22%3A1503502722270%2C%22es%22%3A700%7D",
+      "id": 3824,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "3685",
+      "tabId": -1,
+      "timeStamp": 1503502722284,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3825,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "3686",
+      "tabId": -1,
+      "timeStamp": 1503502722284,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3826,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "3687",
+      "tabId": -1,
+      "timeStamp": 1503502722284,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3827,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "3688",
+      "tabId": -1,
+      "timeStamp": 1503502722284,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3828,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "3689",
+      "tabId": -1,
+      "timeStamp": 1503502722284,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/ptmdP",
+      "id": 3829,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": -1,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3691",
+      "tabId": -1,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A23%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027198531909020490%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502719846%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%221CUM4ZBQO%22%2C%22pet%22%3A2425%2C%22exInd%22%3A23%2C%22gc%22%3A1503502722278%2C%22es%22%3A23%7D",
+      "id": 3831,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1,
+      "start": 1503502722284,
+      "end": 1503502722284,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": -1,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3692",
+      "tabId": -1,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A2%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027198531909020490%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502719846%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%221CUM4ZBQO%22%2C%22pet%22%3A2425%2C%22exInd%22%3A2%2C%22ab%22%3A%221%22%2C%22ac%22%3A%22Gecko%22%2C%22ad%22%3A%22Linux%20x86_64%22%2C%22ae%22%3A%225.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22af%22%3A%22Mozilla%22%2C%22ag%22%3A8%2C%22ah%22%3A%22Google%20Inc.%22%2C%22ai%22%3A%2220030107%22%2C%22ajm%22%3A%5B0%2C0%2C0%2C0%2C0%2C0%5D%2C%22ajs%22%3A26%2C%22akm%22%3A%5B0%2C0%5D%2C%22aks%22%3A29%2C%22dca%22%3A%5B%5D%2C%22dda%22%3A%5B%5D%2C%22fa%22%3A%5B274432%2C8388608%2C67257344%2C8192%2C805568768%2C0%2C4587520%2C403472384%2C0%2C4096%2C0%2C1%2C0%2C940048416%2C16845824%5D%2C%22fas%22%3A27%2C%22iam%22%3A%5B0%5D%2C%22ias%22%3A8%2C%22na%22%3A%5B4294967264%2C134087039%2C328758238%5D%2C%22nas%22%3A29%2C%22la%22%3A0%2C%22lb%22%3A0%2C%22lc%22%3A0%2C%22ld%22%3A0%2C%22le%22%3A0%2C%22xa%22%3A%22en-GB%22%2C%22xn%22%3A%22en-GB%3Ben-US%3Ben%22%2C%22xr%22%3A0%2C%22xf%22%3A%2254062d94277ae55fb1612db80c259baa%22%2C%22xi%22%3A%22441002102exp%22%2C%22xs%22%3A%22NVIDIA%20Corporation%20GeForce%20GT%20730%2FPCIe%2FSSE2%22%2C%22xg%22%3A%227abf61cca9ed82c6960c6b254cc5d51f%22%2C%22xm%22%3A0%2C%22xp%22%3A0%2C%22xq%22%3A33%2C%22xc%22%3A%221%22%2C%22xd%22%3A%221%22%2C%22xe%22%3A%221%22%2C%22yi%22%3A0%2C%22xla%22%3A1%2C%22gc%22%3A1503502722279%2C%22es%22%3A2%7D",
+      "id": 3832,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1,
+      "start": 1503502722284,
+      "end": 1503502722285,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": -1,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3693",
+      "tabId": -1,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A8%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027198531909020490%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502719846%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%221CUM4ZBQO%22%2C%22pet%22%3A2425%2C%22exInd%22%3A8%2C%22ga%22%3A%22http%3A%2F%2Fww1.studiowdigital.com%22%2C%22gap%22%3A%22http%3A%2F%2Fww1.studiowdigital.com%22%2C%22gd%22%3A%22http%3A%2F%2Fww1.studiowdigital.com%2F%22%2C%22gdp%22%3A%22http%3A%2F%2Fwww.studiowdigital.com%2F%22%2C%22cchk%22%3A%5B%5D%2C%22kw_id%22%3A%22%22%2C%22kw_pos%22%3A%220%22%2C%22page_id%22%3A%22landing_page%22%2C%22vi_id%22%3A%221312510483194922623%22%2C%22vs_id%22%3A%22931vr2510483191222623%22%2C%22hvs_id%22%3A%22931vt2510483191222623%22%2C%22req_dom%22%3A%22studiowdigital.com%22%2C%22refUrl%22%3A%22http%3A%2F%2Fwww.studiowdigital.com%2F%22%2C%22srcUrl%22%3A%22http%3A%2F%2Fww1.studiowdigital.com%2F%22%2C%22pid%22%3A%221PO8G3V7O%22%2C%22gc%22%3A1503502722280%2C%22es%22%3A8%7D",
+      "id": 3833,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1,
+      "start": 1503502722285,
+      "end": 1503502722285,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": -1,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3694",
+      "tabId": -1,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A31%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027198531909020490%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502719846%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%221CUM4ZBQO%22%2C%22rb%22%3A%5B%7B%22ele%22%3A%22BODY%22%2C%22ti%22%3A2426%7D%5D%2C%22xk%22%3A%22230%22%2C%22xt%22%3A%221%22%2C%22xlb%22%3A1%2C%22xlc%22%3A1%2C%22fpgt%22%3A-1%2C%22pac%22%3A1%2C%22red%22%3A0%2C%22gc%22%3A1503502722280%2C%22es%22%3A31%7D",
+      "id": 3834,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1,
+      "start": 1503502722285,
+      "end": 1503502722285,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ww1.studiowdigital.com/?fp=Fgcc371d7CA8ThNQXdfYE9h1sgX08Zm1kKcIa%2BnzvC2E0uMxU3A5l4GfuVgTitPaW3N%2FoZflo8QEF2l0hbIC6g%3D%3D&prvtof=bisFLoz7sxYiyXLOP1zvvsoIytsvQqmvPYJjaWd8CqxZ8U9tRpHEHAmgf6nrSpdJ&poru=6KYZtQOGqm4Hxi2VqkVWP6zn8AdfYfqyl%2BTuQAEkqWjb4Z%2F6VB3J2g%2FRj9saogxv&"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3691",
+      "tabId": -1,
+      "timeStamp": 1503502722285,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A23%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027198531909020490%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502719846%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%221CUM4ZBQO%22%2C%22pet%22%3A2425%2C%22exInd%22%3A23%2C%22gc%22%3A1503502722278%2C%22es%22%3A23%7D",
+      "id": 3831,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3694",
+      "tabId": -1,
+      "timeStamp": 1503502722285,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A31%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027198531909020490%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502719846%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%221CUM4ZBQO%22%2C%22rb%22%3A%5B%7B%22ele%22%3A%22BODY%22%2C%22ti%22%3A2426%7D%5D%2C%22xk%22%3A%22230%22%2C%22xt%22%3A%221%22%2C%22xlb%22%3A1%2C%22xlc%22%3A1%2C%22fpgt%22%3A-1%2C%22pac%22%3A1%2C%22red%22%3A0%2C%22gc%22%3A1503502722280%2C%22es%22%3A31%7D",
+      "id": 3834,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3693",
+      "tabId": -1,
+      "timeStamp": 1503502722285,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A8%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027198531909020490%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502719846%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%221CUM4ZBQO%22%2C%22pet%22%3A2425%2C%22exInd%22%3A8%2C%22ga%22%3A%22http%3A%2F%2Fww1.studiowdigital.com%22%2C%22gap%22%3A%22http%3A%2F%2Fww1.studiowdigital.com%22%2C%22gd%22%3A%22http%3A%2F%2Fww1.studiowdigital.com%2F%22%2C%22gdp%22%3A%22http%3A%2F%2Fwww.studiowdigital.com%2F%22%2C%22cchk%22%3A%5B%5D%2C%22kw_id%22%3A%22%22%2C%22kw_pos%22%3A%220%22%2C%22page_id%22%3A%22landing_page%22%2C%22vi_id%22%3A%221312510483194922623%22%2C%22vs_id%22%3A%22931vr2510483191222623%22%2C%22hvs_id%22%3A%22931vt2510483191222623%22%2C%22req_dom%22%3A%22studiowdigital.com%22%2C%22refUrl%22%3A%22http%3A%2F%2Fwww.studiowdigital.com%2F%22%2C%22srcUrl%22%3A%22http%3A%2F%2Fww1.studiowdigital.com%2F%22%2C%22pid%22%3A%221PO8G3V7O%22%2C%22gc%22%3A1503502722280%2C%22es%22%3A8%7D",
+      "id": 3833,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": -1,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3692",
+      "tabId": -1,
+      "timeStamp": 1503502722285,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A2%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215035027198531909020490%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.89%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22308484c0-8803-11e7-8794-71310d22b186%22%2C%22eti%22%3A1503502709%2C%22slst%22%3A%221503502719846%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%221CUM4ZBQO%22%2C%22pet%22%3A2425%2C%22exInd%22%3A2%2C%22ab%22%3A%221%22%2C%22ac%22%3A%22Gecko%22%2C%22ad%22%3A%22Linux%20x86_64%22%2C%22ae%22%3A%225.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22af%22%3A%22Mozilla%22%2C%22ag%22%3A8%2C%22ah%22%3A%22Google%20Inc.%22%2C%22ai%22%3A%2220030107%22%2C%22ajm%22%3A%5B0%2C0%2C0%2C0%2C0%2C0%5D%2C%22ajs%22%3A26%2C%22akm%22%3A%5B0%2C0%5D%2C%22aks%22%3A29%2C%22dca%22%3A%5B%5D%2C%22dda%22%3A%5B%5D%2C%22fa%22%3A%5B274432%2C8388608%2C67257344%2C8192%2C805568768%2C0%2C4587520%2C403472384%2C0%2C4096%2C0%2C1%2C0%2C940048416%2C16845824%5D%2C%22fas%22%3A27%2C%22iam%22%3A%5B0%5D%2C%22ias%22%3A8%2C%22na%22%3A%5B4294967264%2C134087039%2C328758238%5D%2C%22nas%22%3A29%2C%22la%22%3A0%2C%22lb%22%3A0%2C%22lc%22%3A0%2C%22ld%22%3A0%2C%22le%22%3A0%2C%22xa%22%3A%22en-GB%22%2C%22xn%22%3A%22en-GB%3Ben-US%3Ben%22%2C%22xr%22%3A0%2C%22xf%22%3A%2254062d94277ae55fb1612db80c259baa%22%2C%22xi%22%3A%22441002102exp%22%2C%22xs%22%3A%22NVIDIA%20Corporation%20GeForce%20GT%20730%2FPCIe%2FSSE2%22%2C%22xg%22%3A%227abf61cca9ed82c6960c6b254cc5d51f%22%2C%22xm%22%3A0%2C%22xp%22%3A0%2C%22xq%22%3A33%2C%22xc%22%3A%221%22%2C%22xd%22%3A%221%22%2C%22xe%22%3A%221%22%2C%22yi%22%3A0%2C%22xla%22%3A1%2C%22gc%22%3A1503502722279%2C%22es%22%3A2%7D",
+      "id": 3832,
+      "contextId": -1,
+      "parentContextId": -1,
+      "windowId": -1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503502722278.39,
+          "title": "Save",
+          "typedCount": 42,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 42
+        }
+      },
+      "timeStamp": 1503502722286
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502722287
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3695",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 3835,
+      "contextId": 308,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502722287,
+      "end": 1503502722287
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3695",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 3835,
+      "contextId": 308,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502722287,
+      "end": 1503502722287
+    }
+  }
+]
