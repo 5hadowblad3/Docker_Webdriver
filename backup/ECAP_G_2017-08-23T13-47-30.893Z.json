@@ -1,0 +1,6424 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496046405
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 202929,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/06b92dca-86da-44d0-b10a-cd51103a024b",
+          "id": 89,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T13:47:26.406Z",
+          "state": "in_progress",
+          "totalBytes": 202929,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/06b92dca-86da-44d0-b10a-cd51103a024b"
+        }
+      },
+      "timeStamp": 1503496046407
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 202929,
+          "filename": "ECAP_G_2017-08-23T13-47-26.400Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/06b92dca-86da-44d0-b10a-cd51103a024b",
+          "id": 89,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T13:47:26.406Z",
+          "state": "in_progress",
+          "totalBytes": 202929,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/06b92dca-86da-44d0-b10a-cd51103a024b"
+        }
+      },
+      "timeStamp": 1503496046415
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T13-47-26.400Z.json",
+            "previous": ""
+          },
+          "id": 89
+        }
+      },
+      "timeStamp": 1503496046423
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T13:47:26.426Z"
+          },
+          "id": 89,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503496046427
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496048839,
+      "url": "http://booksliced.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6886",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://booksliced.com/",
+      "id": 7283,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496048840,
+      "end": 1503496048840,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "booksliced.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "PHPSESSID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "anhrbmqupnqo029cqev83nb611"
+      },
+      "removed": false,
+      "timeStamp": 1503496049114,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 653
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "PHPSESSID",
+      "type": "cookie",
+      "value": "anhrbmqupnqo029cqev83nb611",
+      "timeStamp": 1503496049114,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 653
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "booksliced.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "PHPSESSID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "anhrbmqupnqo029cqev83nb611"
+      },
+      "removed": false,
+      "timeStamp": 1503496049116
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "PHPSESSID",
+      "type": "cookie",
+      "value": "anhrbmqupnqo029cqev83nb611",
+      "timeStamp": 1503496049116
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6886",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:28 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 19 Nov 1981 08:52:00 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611; path=/"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "9185"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://booksliced.com/",
+      "id": 7283,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049114,
+      "end": 1503496049117,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://booksliced.com/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "booksliced.com",
+          "url": "http://booksliced.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496049121
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503496049121
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049122,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://booksliced.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "132",
+          "lastVisitTime": 1503496049118.4648,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://booksliced.com/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503496049130
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6887",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?021314g",
+      "id": 7284,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049130,
+      "end": 1503496049130,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6888",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://booksliced.com/js-new/config.js?021314g",
+      "id": 7285,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049130,
+      "end": 1503496049130,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6889",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://booksliced.com/js-new/skel.min.js?021314g",
+      "id": 7286,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049131,
+      "end": 1503496049131,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6890",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://booksliced.com/js-new/skel-panels.min.js?021314g",
+      "id": 7287,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049131,
+      "end": 1503496049131,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6891",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://booksliced.com/css/add2home.css?092313a",
+      "id": 7288,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049131,
+      "end": 1503496049131,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6892",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://booksliced.com/js/add2home.js?092313a",
+      "id": 7289,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049132,
+      "end": 1503496049132,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "BookSliced | Find free ebooks and discover discounts"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "BookSliced | Find free ebooks and discover discounts",
+          "url": "http://booksliced.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496049133
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6887",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "33018"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 13:47:29 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000, stale-while-revalidate=2592000"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 20 Dec 2016 18:17:03 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js?021314g",
+      "id": 7284,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049139,
+      "end": 1503496049142,
+      "fromCache": false,
+      "ip": "216.58.210.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6888",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 06 Jan 2014 23:36:54 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"400-4ef55bc2972a7\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=604800"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 30 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "476"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://booksliced.com/js-new/config.js?021314g",
+      "id": 7285,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049258,
+      "end": 1503496049258,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6889",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 17 Feb 2014 19:36:37 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"5407-4f29f4628f947\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=604800"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 30 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6876"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://booksliced.com/js-new/skel.min.js?021314g",
+      "id": 7286,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049261,
+      "end": 1503496049263,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6905",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://booksliced.com/css/style-new.css?021314g",
+      "id": 7290,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049280,
+      "end": 1503496049280,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6906",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://booksliced.com/css/style-new-narrow.css?021314g",
+      "id": 7291,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049281,
+      "end": 1503496049281,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6890",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 03 Jan 2014 21:05:53 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"41c3-4ef1746898d89\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=604800"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 30 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4370"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://booksliced.com/js-new/skel-panels.min.js?021314g",
+      "id": 7287,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049343,
+      "end": 1503496049344,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6891",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 23 Sep 2013 23:23:55 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"15d5-4e715505b95ad\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=604800"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 30 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2869"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://booksliced.com/css/add2home.css?092313a",
+      "id": 7288,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049354,
+      "end": 1503496049356,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6892",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 23 Sep 2013 23:24:06 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"3843-4e7155105e3ee\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=604800"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 30 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5447"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://booksliced.com/js/add2home.js?092313a",
+      "id": 7289,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049355,
+      "end": 1503496049356,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 552,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496049367,
+      "url": "http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6906",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 11 Feb 2014 21:08:04 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"85e-4f227da2de6ca\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=604800"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 30 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "719"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://booksliced.com/css/style-new-narrow.css?021314g",
+      "id": 7291,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049396,
+      "end": 1503496049396,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6905",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 17 Feb 2014 19:05:40 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"bb3e-4f29ed7785768\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=604800"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 30 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "8130"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://booksliced.com/css/style-new.css?021314g",
+      "id": 7290,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049400,
+      "end": 1503496049401,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6893",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/519GUR39-cL.SX90.jpg",
+      "id": 7293,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049401,
+      "end": 1503496049401,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6894",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/41OYSFt8V3L.SX90.jpg",
+      "id": 7294,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049401,
+      "end": 1503496049401,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6895",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51FWt5mnAtL.SX90.jpg",
+      "id": 7295,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049401,
+      "end": 1503496049401,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6896",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/41ric1L9CLL.SX90.jpg",
+      "id": 7296,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049402,
+      "end": 1503496049402,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6897",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51Xv7a%2Bn0-L.SX90.jpg",
+      "id": 7297,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049402,
+      "end": 1503496049402,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6898",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/510X47dF05L.SX90.jpg",
+      "id": 7298,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049402,
+      "end": 1503496049402,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6896",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4454"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Server",
+          "value": "Server"
+        },
+        {
+          "name": "Date",
+          "value": "Fri, 18 Aug 2017 08:25:06 GMT"
+        },
+        {
+          "name": "X-Amz-IR-Id",
+          "value": "3f7de488-a5e0-4135-8a46-5e7e348e3e53"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 12 Aug 2037 18:11:56 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=630720000,public"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 26 Sep 2013 18:57:21 GMT"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Age",
+          "value": "502533"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 fc9d9a7af13415e6a82bdb916c46eb5a.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "ALE-nLUR-RlE0guofBkTvYLKABd4eD1leG1j5Wf_Aq8KqE-24DEdZg=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/41ric1L9CLL.SX90.jpg",
+      "id": 7296,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049407,
+      "end": 1503496049407,
+      "fromCache": false,
+      "ip": "52.222.227.72"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6899",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51-Wz2LB6xL.SX90.jpg",
+      "id": 7301,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049407,
+      "end": 1503496049408,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": 552,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6909",
+      "tabId": 2,
+      "timeStamp": 1503496049408,
+      "type": "sub_frame",
+      "url": "http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "id": 7292,
+      "contextId": 654,
+      "parentContextId": 653,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6894",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5288"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Server",
+          "value": "Server"
+        },
+        {
+          "name": "Date",
+          "value": "Sun, 20 Aug 2017 19:16:59 GMT"
+        },
+        {
+          "name": "X-Amz-IR-Id",
+          "value": "683e8d3e-1ff9-4a30-93c0-8acdde2a022a"
+        },
+        {
+          "name": "Expires",
+          "value": "Sat, 15 Aug 2037 19:16:59 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=630720000,public"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 24 Feb 2014 19:58:23 GMT"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Age",
+          "value": "239430"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 40aba1f2d18f4a578f447caa4526a36d.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "odWIqsSBML_DXQWirOGbIzk4KiSlZmHdzxd2uScqRs1vjNJkBTz41g=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/41OYSFt8V3L.SX90.jpg",
+      "id": 7294,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049407,
+      "end": 1503496049408,
+      "fromCache": false,
+      "ip": "52.222.227.72"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6900",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/41QoSehePcL.SX90.jpg",
+      "id": 7302,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049408,
+      "end": 1503496049408,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": 552,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496049409,
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6895",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7577"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Server",
+          "value": "Server"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 11:05:20 GMT"
+        },
+        {
+          "name": "X-Amz-IR-Id",
+          "value": "e0c0b38e-da2f-45dd-88a2-46d454d2c9f9"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 18 Aug 2037 00:20:57 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=630720000,public"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 09 May 2017 18:12:29 GMT"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Age",
+          "value": "48392"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 c802a393513febbcce744c30e284c561.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "zpkeGY8USsKLwDuDPPaaLojmq2SQXHFfxyxE7YuWuNB2AgTbkkFR4A=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51FWt5mnAtL.SX90.jpg",
+      "id": 7295,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049411,
+      "end": 1503496049411,
+      "fromCache": false,
+      "ip": "52.222.227.72"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 553,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496049412,
+      "url": "http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6901",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51rjvDzYf3L.SX90.jpg",
+      "id": 7304,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049412,
+      "end": 1503496049413,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6893",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6145"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Server",
+          "value": "Server"
+        },
+        {
+          "name": "Date",
+          "value": "Sun, 20 Aug 2017 19:16:59 GMT"
+        },
+        {
+          "name": "X-Amz-IR-Id",
+          "value": "bd6d3d7e-0048-448f-a136-948896bfc85b"
+        },
+        {
+          "name": "Expires",
+          "value": "Sat, 15 Aug 2037 19:16:59 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=630720000,public"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 04 Jan 2017 05:14:02 GMT"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Age",
+          "value": "239430"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 2e578cf3c3154a7d5d4f253d74c2b940.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "Yuo1hVEsXHGCPPGydXWH4x_L-d786wB5aYlxNfdWzwX7SjaANOTc1Q=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/519GUR39-cL.SX90.jpg",
+      "id": 7293,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049412,
+      "end": 1503496049413,
+      "fromCache": false,
+      "ip": "52.222.227.72"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6898",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4977"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Server",
+          "value": "Server"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 15 Aug 2017 09:56:14 GMT"
+        },
+        {
+          "name": "X-Amz-IR-Id",
+          "value": "d1cfa297-5ac9-4e5a-bd4b-b940485af506"
+        },
+        {
+          "name": "Expires",
+          "value": "Sun, 09 Aug 2037 17:28:53 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=630720000,public"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 07 May 2014 01:25:25 GMT"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Age",
+          "value": "764316"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 fc9d9a7af13415e6a82bdb916c46eb5a.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "d66OgKI6DY_BvR6WOdR0IFRUIuW52dZ8nXRlpRN9-FKhgGtnoWxu1g=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/510X47dF05L.SX90.jpg",
+      "id": 7298,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049412,
+      "end": 1503496049413,
+      "fromCache": false,
+      "ip": "52.222.227.72"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6902",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51KqU7Dw9SL.SX90.jpg",
+      "id": 7305,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049413,
+      "end": 1503496049413,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6903",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/419zGRYvGnL.SX90.jpg",
+      "id": 7306,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049414,
+      "end": 1503496049414,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6899",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7311"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Server",
+          "value": "Server"
+        },
+        {
+          "name": "Date",
+          "value": "Thu, 17 Aug 2017 15:05:47 GMT"
+        },
+        {
+          "name": "X-Amz-IR-Id",
+          "value": "989d290d-ad6d-4c14-93d7-9a9e6edd2c02"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 12 Aug 2037 15:05:47 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=630720000,public"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 25 May 2010 21:38:05 GMT"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Age",
+          "value": "513702"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 40aba1f2d18f4a578f447caa4526a36d.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "_urn7huZsdRpB5jRFNhOUAJ3Ni5ph9dcSS5_7Jw_Rm0Qs4vncqnErA=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51-Wz2LB6xL.SX90.jpg",
+      "id": 7301,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049415,
+      "end": 1503496049415,
+      "fromCache": false,
+      "ip": "52.222.227.72"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6904",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/515MrbUcuwL.SX90.jpg",
+      "id": 7307,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049415,
+      "end": 1503496049416,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049416,
+      "url": "http://booksliced.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6900",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4809"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Server",
+          "value": "Server"
+        },
+        {
+          "name": "Date",
+          "value": "Sun, 20 Aug 2017 19:16:59 GMT"
+        },
+        {
+          "name": "X-Amz-IR-Id",
+          "value": "0de5d033-4daa-41d1-ad51-e347d323e856"
+        },
+        {
+          "name": "Expires",
+          "value": "Sat, 15 Aug 2037 19:16:59 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=630720000,public"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 06 Feb 2017 10:33:33 GMT"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Age",
+          "value": "239430"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 2e578cf3c3154a7d5d4f253d74c2b940.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "AD8IGps_MXHQTiE3TnHyqCsSS6JEexkwj92e42-mPpdOe6YH1uXSgQ=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/41QoSehePcL.SX90.jpg",
+      "id": 7302,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049416,
+      "end": 1503496049417,
+      "fromCache": false,
+      "ip": "52.222.227.161"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6897",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7806"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Server",
+          "value": "Server"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 11:05:20 GMT"
+        },
+        {
+          "name": "X-Amz-IR-Id",
+          "value": "1a86344e-4dcc-4c14-9a86-544279c88cf2"
+        },
+        {
+          "name": "Expires",
+          "value": "Sun, 16 Aug 2037 19:02:38 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=630720000,public"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 21 Jun 2014 18:38:48 GMT"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Age",
+          "value": "153891"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 00956c6ec4781959da21fba8cd5dffda.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "NFTN-k_M2nCxEyhbb_71v0928uyStuQUoyW9biFEiIOcQYt0SoHc9Q=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51Xv7a%2Bn0-L.SX90.jpg",
+      "id": 7297,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049421,
+      "end": 1503496049422,
+      "fromCache": false,
+      "ip": "52.222.227.72"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6903",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4408"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Server",
+          "value": "Server"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 11:05:20 GMT"
+        },
+        {
+          "name": "X-Amz-IR-Id",
+          "value": "edf6931c-e5a6-4c64-a192-f9022aedf0d9"
+        },
+        {
+          "name": "Expires",
+          "value": "Sun, 16 Aug 2037 19:02:38 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=630720000,public"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 05 Oct 2013 20:46:15 GMT"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Age",
+          "value": "153891"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 2e578cf3c3154a7d5d4f253d74c2b940.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "6OvwFg-ZzR7kinb6pEuRyFdXMYZbxWa41xytAW7DZlh21nyJiDFNgg=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/419zGRYvGnL.SX90.jpg",
+      "id": 7306,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049422,
+      "end": 1503496049422,
+      "fromCache": false,
+      "ip": "52.222.227.72"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6902",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6684"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Server",
+          "value": "Server"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 11:05:20 GMT"
+        },
+        {
+          "name": "X-Amz-IR-Id",
+          "value": "8b0e2607-e43b-43d8-8fca-a23bf5cca811"
+        },
+        {
+          "name": "Expires",
+          "value": "Sun, 16 Aug 2037 19:02:38 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=630720000,public"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 27 Sep 2015 15:15:17 GMT"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Age",
+          "value": "153891"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 fc9d9a7af13415e6a82bdb916c46eb5a.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "3p31xuGnDxIFzH9FEU7IHOcc0jODbIhNiam00cqokMABdF-X4Suz5g=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51KqU7Dw9SL.SX90.jpg",
+      "id": 7305,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049423,
+      "end": 1503496049423,
+      "fromCache": false,
+      "ip": "52.222.227.72"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6901",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4484"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Server",
+          "value": "Server"
+        },
+        {
+          "name": "Date",
+          "value": "Thu, 17 Aug 2017 00:33:00 GMT"
+        },
+        {
+          "name": "X-Amz-IR-Id",
+          "value": "11ac6581-1319-4128-8c1f-101c728c1343"
+        },
+        {
+          "name": "Expires",
+          "value": "Mon, 10 Aug 2037 04:42:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=630720000,public"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 11 Jun 2015 01:38:17 GMT"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Age",
+          "value": "723903"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 c802a393513febbcce744c30e284c561.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "5BQfeamwTrRx6Yflvoy3n5kfbfaq2oyi6qZ5revErfz9G8PWnV7J4g=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/51rjvDzYf3L.SX90.jpg",
+      "id": 7304,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049424,
+      "end": 1503496049424,
+      "fromCache": false,
+      "ip": "52.222.227.72"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6904",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4175"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Server",
+          "value": "Server"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 11:05:20 GMT"
+        },
+        {
+          "name": "X-Amz-IR-Id",
+          "value": "538808c9-164d-46af-8c9c-ac56ed3ffe41"
+        },
+        {
+          "name": "Expires",
+          "value": "Sun, 16 Aug 2037 19:02:38 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=630720000,public"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 02 Nov 2016 01:26:08 GMT"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Age",
+          "value": "153891"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 40aba1f2d18f4a578f447caa4526a36d.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "IglLwyLtA8csTZp30kacnu5_sVGtG6fP1lUTgh3iKmfGJn4EI2MqIg=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://images-na.ssl-images-amazon.com/images/I/515MrbUcuwL.SX90.jpg",
+      "id": 7307,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049425,
+      "end": 1503496049425,
+      "fromCache": false,
+      "ip": "52.222.227.72"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/ga.js",
+      "requestId": "6907",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/ga.js"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google-analytics.com/ga.js",
+      "id": 7299,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1503496049435
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6907",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/ga.js",
+      "id": 7308,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049436,
+      "end": 1503496049436,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://connect.facebook.net/en_US/all.js#xfbml=1&appId=302617260156825",
+      "requestId": "6908",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://connect.facebook.net/en_US/all.js#xfbml=1&appId=302617260156825"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://connect.facebook.net/en_US/all.js#xfbml=1&appId=302617260156825",
+      "id": 7300,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1503496049436
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6908",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/all.js#xfbml=1&appId=302617260156825",
+      "id": 7309,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049436,
+      "end": 1503496049436,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6907",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:17:36 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 15:17:36 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "16022"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "age",
+          "value": "1022"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/ga.js",
+      "id": 7308,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049436,
+      "end": 1503496049436,
+      "fromCache": true,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 553,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": 0,
+      "redirectUrl": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "requestId": "6910",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "id": 7303,
+      "contextId": 655,
+      "parentContextId": 653,
+      "windowId": 1,
+      "end": 1503496049436
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 553,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6910",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "id": 7310,
+      "contextId": 656,
+      "parentContextId": 653,
+      "windowId": 1,
+      "start": 1503496049436,
+      "end": 1503496049437,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "fr=09W9UF2HFFTvidHcd..BZnYRe...1.0.BZnYRe."
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6908",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-expose-headers",
+          "value": "X-FB-Content-MD5"
+        },
+        {
+          "name": "x-fb-content-md5",
+          "value": "e0d77a07bcf976efbd4915490c4025ea"
+        },
+        {
+          "name": "etag",
+          "value": "\"ba4c8edae868229e255beeb012730a97\""
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript; charset=utf-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;"
+        },
+        {
+          "name": "cache-control",
+          "value": "public,max-age=1200,stale-while-revalidate=3600"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 13:46:31 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-md5",
+          "value": "foQQ9ZK6LpaVQL1Qsu5LeA=="
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "tuRK7HjT47omHsYVQYHWUEZTcBKhQu1rIdqi8Y5vB3oYr4aWdZrOnCMudyRbxsZaai8EGnbKdOilwjejo2eSZA=="
+        },
+        {
+          "name": "content-length",
+          "value": "61899"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:35:20 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/all.js#xfbml=1&appId=302617260156825",
+      "id": 7309,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049437,
+      "end": 1503496049439,
+      "fromCache": true,
+      "ip": "31.13.69.203"
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://booksliced.com/",
+      "timeStamp": 1503496049443,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://booksliced.com/",
+      "contextId": 653,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503496049444,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://booksliced.com/",
+      "contextId": 653,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "BookSliced | Find free ebooks and discover discounts",
+      "timeStamp": 1503496049444,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://booksliced.com/",
+      "contextId": 653,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "search",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496049444,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://booksliced.com/",
+      "contextId": 653,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "search",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496049444,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://booksliced.com/",
+      "contextId": 653,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:checkbox",
+      "value": [],
+      "timeStamp": 1503496049444,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://booksliced.com/",
+      "contextId": 653,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": null,
+      "type": "input:checkbox",
+      "value": [],
+      "timeStamp": 1503496049444,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://booksliced.com/",
+      "contextId": 653,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6911",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://booksliced.com/css/fonts/Museo_Slab_500-webfont.woff",
+      "id": 7311,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049455,
+      "end": 1503496049455,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://booksliced.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/css/style-new.css?021314g"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6912",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://booksliced.com/css/fonts/Museo_Slab_900-webfont.woff",
+      "id": 7312,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049456,
+      "end": 1503496049456,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://booksliced.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/css/style-new.css?021314g"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6913",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://booksliced.com/css/fonts/fontawesome-webfont.woff?v=3.0.1",
+      "id": 7313,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049456,
+      "end": 1503496049456,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://booksliced.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/css/style-new.css?021314g"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6914",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://booksliced.com/css/fonts/Museo_Slab_300-webfont.woff",
+      "id": 7314,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049463,
+      "end": 1503496049463,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://booksliced.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/css/style-new.css?021314g"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6915",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://booksliced.com/css/fonts/fontawesome-social-webfont.woff",
+      "id": 7315,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049463,
+      "end": 1503496049464,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://booksliced.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/css/style-new.css?021314g"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 554,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496049512,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 554,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049512,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 554,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049512,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 554,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049516,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 555,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496049517,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 555,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049517,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 555,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049518,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 555,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049522,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6916",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/impression.php/f2c7eda0bb8528c/?api_key=302617260156825&lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D",
+      "id": 7316,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049524,
+      "end": 1503496049524,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "fr=09W9UF2HFFTvidHcd..BZnYRe...1.0.BZnYRe."
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".booksliced.com",
+        "expirationDate": 1566568049,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "25865902.1191004487.1503496050.1503496050.1503496050.1"
+      },
+      "removed": false,
+      "timeStamp": 1503496049531
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "25865902.1191004487.1503496050.1503496050.1503496050.1",
+      "timeStamp": 1503496049531
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".booksliced.com",
+        "expirationDate": 1503497849,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "25865902.0.10.1503496050"
+      },
+      "removed": false,
+      "timeStamp": 1503496049531
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "25865902.0.10.1503496050",
+      "timeStamp": 1503496049531
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".booksliced.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "25865902"
+      },
+      "removed": false,
+      "timeStamp": 1503496049531
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "25865902",
+      "timeStamp": 1503496049531
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".booksliced.com",
+        "expirationDate": 1519264049,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "25865902.1503496050.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": false,
+      "timeStamp": 1503496049531
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "25865902.1503496050.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1503496049531
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".booksliced.com",
+        "expirationDate": 1503496649,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmt",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1503496049534
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmt",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1503496049534
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".booksliced.com",
+        "expirationDate": 1566568049,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "25865902.1191004487.1503496050.1503496050.1503496050.1"
+      },
+      "removed": true,
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "25865902.1191004487.1503496050.1503496050.1503496050.1",
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".booksliced.com",
+        "expirationDate": 1566568049,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "25865902.1191004487.1503496050.1503496050.1503496050.1"
+      },
+      "removed": false,
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "25865902.1191004487.1503496050.1503496050.1503496050.1",
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".booksliced.com",
+        "expirationDate": 1503497849,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "25865902.0.10.1503496050"
+      },
+      "removed": true,
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "25865902.0.10.1503496050",
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".booksliced.com",
+        "expirationDate": 1503497849,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "25865902.1.10.1503496050"
+      },
+      "removed": false,
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "25865902.1.10.1503496050",
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".booksliced.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "25865902"
+      },
+      "removed": true,
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "25865902",
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".booksliced.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "25865902"
+      },
+      "removed": false,
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "25865902",
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".booksliced.com",
+        "expirationDate": 1519264049,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "25865902.1503496050.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": true,
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "25865902.1503496050.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".booksliced.com",
+        "expirationDate": 1519264049,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "25865902.1503496050.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": false,
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "25865902.1503496050.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1503496049535
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 554,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496049537,
+      "url": "http://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 555,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496049538,
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 555,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6919",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "id": 7319,
+      "contextId": 658,
+      "parentContextId": 653,
+      "windowId": 1,
+      "start": 1503496049538,
+      "end": 1503496049539,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "fr=09W9UF2HFFTvidHcd..BZnYRe...1.0.BZnYRe."
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 555,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6919",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 21 Aug 2018 21:38:59 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public,max-age=31536000,immutable"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "QqKw7D88iFC96lrGk+9TQop8+UYiCFdj9iVaSlDuaIXun6Leygyhw/EeaPUbCyniTVHwqf3U0iroGOJ0n+KwIQ=="
+        },
+        {
+          "name": "content-length",
+          "value": "13482"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:34:16 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "id": 7319,
+      "contextId": 658,
+      "parentContextId": 653,
+      "windowId": 1,
+      "start": 1503496049539,
+      "end": 1503496049540,
+      "fromCache": true,
+      "ip": "31.13.69.203"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1701417320&utmhn=booksliced.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookSliced%20%7C%20Find%20free%20ebooks%20and%20discover%20discounts&utmhid=1447565048&utmr=-&utmp=%2F&utmht=1503496049534&utmac=UA-32744826-1&utmcc=__utma%3D25865902.1191004487.1503496050.1503496050.1503496050.1%3B%2B__utmz%3D25865902.1503496050.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=254208537&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~",
+      "requestId": "6917",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1701417320&utmhn=booksliced.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookSliced%20%7C%20Find%20free%20ebooks%20and%20discover%20discounts&utmhid=1447565048&utmr=-&utmp=%2F&utmht=1503496049534&utmac=UA-32744826-1&utmcc=__utma%3D25865902.1191004487.1503496050.1503496050.1503496050.1%3B%2B__utmz%3D25865902.1503496050.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=254208537&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1701417320&utmhn=booksliced.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookSliced%20%7C%20Find%20free%20ebooks%20and%20discover%20discounts&utmhid=1447565048&utmr=-&utmp=%2F&utmht=1503496049534&utmac=UA-32744826-1&utmcc=__utma%3D25865902.1191004487.1503496050.1503496050.1503496050.1%3B%2B__utmz%3D25865902.1503496050.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=254208537&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~",
+      "id": 7317,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1503496049540
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6917",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1701417320&utmhn=booksliced.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookSliced%20%7C%20Find%20free%20ebooks%20and%20discover%20discounts&utmhid=1447565048&utmr=-&utmp=%2F&utmht=1503496049534&utmac=UA-32744826-1&utmcc=__utma%3D25865902.1191004487.1503496050.1503496050.1503496050.1%3B%2B__utmz%3D25865902.1503496050.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=254208537&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~",
+      "id": 7320,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049540,
+      "end": 1503496049540,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 554,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": 0,
+      "redirectUrl": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "requestId": "6918",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "id": 7318,
+      "contextId": 657,
+      "parentContextId": 653,
+      "windowId": 1,
+      "end": 1503496049540
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 554,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6918",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "id": 7321,
+      "contextId": 659,
+      "parentContextId": 653,
+      "windowId": 1,
+      "start": 1503496049540,
+      "end": 1503496049541,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "fr=09W9UF2HFFTvidHcd..BZnYRe...1.0.BZnYRe."
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 554,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6918",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 21 Aug 2018 21:38:59 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public,max-age=31536000,immutable"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "QqKw7D88iFC96lrGk+9TQop8+UYiCFdj9iVaSlDuaIXun6Leygyhw/EeaPUbCyniTVHwqf3U0iroGOJ0n+KwIQ=="
+        },
+        {
+          "name": "content-length",
+          "value": "13482"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:34:16 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "id": 7321,
+      "contextId": 659,
+      "parentContextId": 653,
+      "windowId": 1,
+      "start": 1503496049541,
+      "end": 1503496049542,
+      "fromCache": true,
+      "ip": "31.13.69.203"
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "about:blank",
+      "timeStamp": 1503496049542,
+      "tabId": 2,
+      "frameId": 554,
+      "url": "about:blank",
+      "contextId": 659,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503496049543,
+      "tabId": 2,
+      "frameId": 554,
+      "url": "about:blank",
+      "contextId": 659,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "about:blank",
+      "timeStamp": 1503496049544,
+      "tabId": 2,
+      "frameId": 555,
+      "url": "about:blank",
+      "contextId": 658,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503496049544,
+      "tabId": 2,
+      "frameId": 555,
+      "url": "about:blank",
+      "contextId": 658,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 555,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049546,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 554,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049549,
+      "transitionQualifiers": [
+        "server_redirect"
+      ],
+      "transitionType": "auto_subframe",
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6917",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1701417320&utmhn=booksliced.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookSliced%20%7C%20Find%20free%20ebooks%20and%20discover%20discounts&utmhid=1447565048&utmr=-&utmp=%2F&utmht=1503496049534&utmac=UA-32744826-1&utmcc=__utma%3D25865902.1191004487.1503496050.1503496050.1503496050.1%3B%2B__utmz%3D25865902.1503496050.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=254208537&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~",
+      "id": 7320,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049550,
+      "end": 1503496049550,
+      "fromCache": false,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 555,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049556,
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 555,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049560,
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 554,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049561,
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 554,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049565,
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.message",
+    "details": {
+      "isTrusted": true,
+      "data": "_FB_fad6d84310a184data&logged_in=false&xd_action=proxy_ready",
+      "origin": "https://staticxx.facebook.com",
+      "lastEventId": "",
+      "source": "@cross-origin",
+      "ports": [],
+      "type": "message",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503496049566,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://booksliced.com/",
+      "contextId": 653,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "timeStamp": 1503496049569,
+      "tabId": 2,
+      "frameId": 555,
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "contextId": 658,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503496049569,
+      "tabId": 2,
+      "frameId": 555,
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "contextId": 658,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Facebook Cross-Domain Messaging helper",
+      "timeStamp": 1503496049570,
+      "tabId": 2,
+      "frameId": 555,
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "contextId": 658,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "timeStamp": 1503496049571,
+      "tabId": 2,
+      "frameId": 554,
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "contextId": 659,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503496049571,
+      "tabId": 2,
+      "frameId": 554,
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "contextId": 659,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Facebook Cross-Domain Messaging helper",
+      "timeStamp": 1503496049571,
+      "tabId": 2,
+      "frameId": 554,
+      "url": "https://staticxx.facebook.com/connect/xd_arbiter/r/0sTQzbapM8j.js?version=42#channel=fad6d84310a184&origin=http%3A%2F%2Fbooksliced.com",
+      "contextId": 659,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6916",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "access-control-allow-credentials",
+          "value": "true"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "https://www.facebook.com"
+        },
+        {
+          "name": "access-control-expose-headers",
+          "value": "X-FB-Debug, X-Loader-Length"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "vary",
+          "value": "Origin"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "public-key-pins-report-only",
+          "value": "max-age=500; pin-sha256=\"WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=\"; pin-sha256=\"r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=\"; pin-sha256=\"q4PO2G2cbkZhZ82+JgmRUyGMoAeozA+BSXVXQWB8XWQ=\"; report-uri=\"http://reports.fb.com/hpkp/\""
+        },
+        {
+          "name": "access-control-allow-method",
+          "value": "OPTIONS"
+        },
+        {
+          "name": "expires",
+          "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=15552000; preload"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "nmxTvgP+H14lmZafbQep0jky5/XbTJc+nrm03gVXYqzy/X+P/kI4UX0Y7JACP6qw+E6qqGGvRhFAb6wc5QH1hg=="
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/impression.php/f2c7eda0bb8528c/?api_key=302617260156825&lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D",
+      "id": 7316,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049607,
+      "end": 1503496049608,
+      "fromCache": false,
+      "ip": "31.13.71.36"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 553,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6910",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "public-key-pins-report-only",
+          "value": "max-age=500; pin-sha256=\"WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=\"; pin-sha256=\"r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=\"; pin-sha256=\"q4PO2G2cbkZhZ82+JgmRUyGMoAeozA+BSXVXQWB8XWQ=\"; report-uri=\"http://reports.fb.com/hpkp/\""
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=15552000; preload"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "expires",
+          "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "r4zkXt4XFEb/5YdE5bxr22wBr8nFDX6iRQmbYaJVOI9PZE+KydaG+XsW/QgKNjIOg5joNF2CLS7Ih+XS5wqkbA=="
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "id": 7310,
+      "contextId": 656,
+      "parentContextId": 653,
+      "windowId": 1,
+      "start": 1503496049609,
+      "end": 1503496049611,
+      "fromCache": false,
+      "ip": "31.13.71.36"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 553,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049611,
+      "transitionQualifiers": [
+        "server_redirect"
+      ],
+      "transitionType": "auto_subframe",
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 553,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6920",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/rsrc.php/v3/yn/r/lH1ibRl5GKq.png",
+      "id": 7322,
+      "contextId": 656,
+      "parentContextId": 653,
+      "windowId": 1,
+      "start": 1503496049617,
+      "end": 1503496049618,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "fr=09W9UF2HFFTvidHcd..BZnYRe...1.0.BZnYRe."
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 553,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6920",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-credentials",
+          "value": "true"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 01 Jan 2001 08:00:00 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "public-key-pins-report-only",
+          "value": "max-age=500; pin-sha256=\"WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=\"; pin-sha256=\"r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=\"; pin-sha256=\"q4PO2G2cbkZhZ82+JgmRUyGMoAeozA+BSXVXQWB8XWQ=\"; report-uri=\"http://reports.fb.com/hpkp/\""
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self';"
+        },
+        {
+          "name": "cache-control",
+          "value": "public,max-age=31536000,immutable"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 21 Aug 2018 12:59:45 GMT"
+        },
+        {
+          "name": "content-md5",
+          "value": "LsIm49y5qOd6jowRdAWHyQ=="
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "yf7J4LyZ21Jd7+IXlCL4JF+j34zGPvP/ihwO8KTjO48cb3JS/ckD2rCu9JxkVDzSIcKMNcA6AZoivN/h3yh6DQ=="
+        },
+        {
+          "name": "date",
+          "value": "Mon, 21 Aug 2017 12:59:45 GMT"
+        },
+        {
+          "name": "content-length",
+          "value": "222"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/rsrc.php/v3/yn/r/lH1ibRl5GKq.png",
+      "id": 7322,
+      "contextId": 656,
+      "parentContextId": 653,
+      "windowId": 1,
+      "start": 1503496049618,
+      "end": 1503496049619,
+      "fromCache": true,
+      "ip": "31.13.70.36"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 553,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6921",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "https://www.facebook.com/rsrc.php/v3im314/yL/l/en_GB/aX7h9yqX6Lj.js",
+      "id": 7323,
+      "contextId": 656,
+      "parentContextId": 653,
+      "windowId": 1,
+      "start": 1503496049620,
+      "end": 1503496049620,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "fr=09W9UF2HFFTvidHcd..BZnYRe...1.0.BZnYRe."
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 553,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6921",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-credentials",
+          "value": "true"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 01 Jan 2001 08:00:00 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript; charset=utf-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "public-key-pins-report-only",
+          "value": "max-age=500; pin-sha256=\"WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=\"; pin-sha256=\"r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=\"; pin-sha256=\"q4PO2G2cbkZhZ82+JgmRUyGMoAeozA+BSXVXQWB8XWQ=\"; report-uri=\"http://reports.fb.com/hpkp/\""
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;"
+        },
+        {
+          "name": "cache-control",
+          "value": "public,max-age=31536000,immutable"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 23 Aug 2018 04:09:30 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "content-md5",
+          "value": "noA+kx3l/qxhUTZBPftscQ=="
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "m2XUnWUR2DZpMsgKAD0Nj9edUA5zt4ai32PneSYVoDTxPCrw3ydpHYdYWj7GPonqgG37+tg4QCnaYU7mS0yJgA=="
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 04:09:31 GMT"
+        },
+        {
+          "name": "content-length",
+          "value": "104282"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "https://www.facebook.com/rsrc.php/v3im314/yL/l/en_GB/aX7h9yqX6Lj.js",
+      "id": 7323,
+      "contextId": 656,
+      "parentContextId": 653,
+      "windowId": 1,
+      "start": 1503496049621,
+      "end": 1503496049625,
+      "fromCache": true,
+      "ip": "31.13.70.36"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 553,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049626,
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 553,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049655,
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "timeStamp": 1503496049662,
+      "tabId": 2,
+      "frameId": 553,
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "contextId": 656,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503496049662,
+      "tabId": 2,
+      "frameId": 553,
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "contextId": 656,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Facebook",
+      "timeStamp": 1503496049662,
+      "tabId": 2,
+      "frameId": 553,
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "contextId": 656,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "action",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496049663,
+      "tabId": 2,
+      "frameId": 553,
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "contextId": 656,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "nobootload",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496049663,
+      "tabId": 2,
+      "frameId": 553,
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "contextId": 656,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "iframe_referer",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496049663,
+      "tabId": 2,
+      "frameId": 553,
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "contextId": 656,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "r_ts",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496049663,
+      "tabId": 2,
+      "frameId": 553,
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "contextId": 656,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "ref",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496049663,
+      "tabId": 2,
+      "frameId": 553,
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "contextId": 656,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "app_id",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496049663,
+      "tabId": 2,
+      "frameId": 553,
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Ffacebook.com%2Fbooksliced&send=false&layout=button_count&width=120&show_faces=false&action=like&colorscheme=light&font=arial&height=21&appId=302617260156825",
+      "contextId": 656,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6915",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 28 May 2013 18:27:07 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"4f94-4ddcb69a71b9d\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "20358"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://booksliced.com/css/fonts/fontawesome-social-webfont.woff",
+      "id": 7315,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049575,
+      "end": 1503496049677,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6914",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 28 May 2013 18:27:12 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"7488-4ddcb69f3e034\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "29802"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://booksliced.com/css/fonts/Museo_Slab_300-webfont.woff",
+      "id": 7314,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049580,
+      "end": 1503496049682,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6912",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 28 May 2013 18:27:16 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"7314-4ddcb6a3536a4\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "29423"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://booksliced.com/css/fonts/Museo_Slab_900-webfont.woff",
+      "id": 7312,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049580,
+      "end": 1503496049683,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6913",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 28 May 2013 18:27:08 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"72c4-4ddcb69b77b06\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "29346"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://booksliced.com/css/fonts/fontawesome-webfont.woff?v=3.0.1",
+      "id": 7313,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049582,
+      "end": 1503496049687,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6911",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 28 May 2013 18:27:13 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"7544-4ddcb6a08a075\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "29978"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://booksliced.com/css/fonts/Museo_Slab_500-webfont.woff",
+      "id": 7311,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049583,
+      "end": 1503496049687,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 556,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496049729,
+      "url": "https://www.facebook.com/connect/ping?client_id=302617260156825&domain=booksliced.com&origin=1&redirect_uri=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F0sTQzbapM8j.js%3Fversion%3D42%23cb%3Df29632b66415d4c%26domain%3Dbooksliced.com%26origin%3Dhttp%253A%252F%252Fbooksliced.com%252Ffad6d84310a184%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 556,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6922",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://www.facebook.com/connect/ping?client_id=302617260156825&domain=booksliced.com&origin=1&redirect_uri=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F0sTQzbapM8j.js%3Fversion%3D42%23cb%3Df29632b66415d4c%26domain%3Dbooksliced.com%26origin%3Dhttp%253A%252F%252Fbooksliced.com%252Ffad6d84310a184%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey",
+      "id": 7324,
+      "contextId": 660,
+      "parentContextId": 653,
+      "windowId": 1,
+      "start": 1503496049729,
+      "end": 1503496049729,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "fr=09W9UF2HFFTvidHcd..BZnYRe...1.0.BZnYRe."
+        }
+      ]
+    }
+  },
+  {
+    "type": "dom.scroll",
+    "details": {
+      "isTrusted": true,
+      "type": "scroll",
+      "target": "#window>#document",
+      "currentTarget": "#window",
+      "eventPhase": 1,
+      "bubbles": true,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503496049746,
+      "srcElement": "#window>#document",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window>#document",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://booksliced.com/",
+      "contextId": 653,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 556,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "6922",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "public-key-pins-report-only",
+          "value": "max-age=500; pin-sha256=\"WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=\"; pin-sha256=\"r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=\"; pin-sha256=\"q4PO2G2cbkZhZ82+JgmRUyGMoAeozA+BSXVXQWB8XWQ=\"; report-uri=\"http://reports.fb.com/hpkp/\""
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=15552000; preload"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "expires",
+          "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "rtY9e1qx88eH46ASBjUnCWaY2JIZrMahjYzxoTN6z2aauoyRtp1Uu3NfavxCfk3xFJ6tlQ9aW8CV2IUgPaOF4g=="
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://www.facebook.com/connect/ping?client_id=302617260156825&domain=booksliced.com&origin=1&redirect_uri=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F0sTQzbapM8j.js%3Fversion%3D42%23cb%3Df29632b66415d4c%26domain%3Dbooksliced.com%26origin%3Dhttp%253A%252F%252Fbooksliced.com%252Ffad6d84310a184%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey",
+      "id": 7324,
+      "contextId": 660,
+      "parentContextId": 653,
+      "windowId": 1,
+      "start": 1503496049815,
+      "end": 1503496049815,
+      "fromCache": false,
+      "ip": "31.13.71.36"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 556,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049816,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "https://www.facebook.com/connect/ping?client_id=302617260156825&domain=booksliced.com&origin=1&redirect_uri=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F0sTQzbapM8j.js%3Fversion%3D42%23cb%3Df29632b66415d4c%26domain%3Dbooksliced.com%26origin%3Dhttp%253A%252F%252Fbooksliced.com%252Ffad6d84310a184%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 556,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049819,
+      "url": "https://www.facebook.com/connect/ping?client_id=302617260156825&domain=booksliced.com&origin=1&redirect_uri=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F0sTQzbapM8j.js%3Fversion%3D42%23cb%3Df29632b66415d4c%26domain%3Dbooksliced.com%26origin%3Dhttp%253A%252F%252Fbooksliced.com%252Ffad6d84310a184%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 556,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049825,
+      "url": "https://www.facebook.com/connect/ping?client_id=302617260156825&domain=booksliced.com&origin=1&redirect_uri=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F0sTQzbapM8j.js%3Fversion%3D42%23cb%3Df29632b66415d4c%26domain%3Dbooksliced.com%26origin%3Dhttp%253A%252F%252Fbooksliced.com%252Ffad6d84310a184%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 95,
+      "tabId": 2,
+      "timeStamp": 1503496049825,
+      "url": "http://booksliced.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "BookSliced | Find free ebooks and discover discounts",
+          "url": "http://booksliced.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496049825
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6923",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://booksliced.com/favicon.ico?021314g",
+      "id": 7325,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049827,
+      "end": 1503496049827,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://booksliced.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=anhrbmqupnqo029cqev83nb611; __utmt=1; __utma=25865902.1191004487.1503496050.1503496050.1503496050.1; __utmb=25865902.1.10.1503496050; __utmc=25865902; __utmz=25865902.1503496050.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://www.facebook.com/connect/ping?client_id=302617260156825&domain=booksliced.com&origin=1&redirect_uri=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F0sTQzbapM8j.js%3Fversion%3D42%23cb%3Df29632b66415d4c%26domain%3Dbooksliced.com%26origin%3Dhttp%253A%252F%252Fbooksliced.com%252Ffad6d84310a184%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey",
+      "timeStamp": 1503496049828,
+      "tabId": 2,
+      "frameId": 556,
+      "url": "https://www.facebook.com/connect/ping?client_id=302617260156825&domain=booksliced.com&origin=1&redirect_uri=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F0sTQzbapM8j.js%3Fversion%3D42%23cb%3Df29632b66415d4c%26domain%3Dbooksliced.com%26origin%3Dhttp%253A%252F%252Fbooksliced.com%252Ffad6d84310a184%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey",
+      "contextId": 660,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503496049829,
+      "tabId": 2,
+      "frameId": 556,
+      "url": "https://www.facebook.com/connect/ping?client_id=302617260156825&domain=booksliced.com&origin=1&redirect_uri=http%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2F0sTQzbapM8j.js%3Fversion%3D42%23cb%3Df29632b66415d4c%26domain%3Dbooksliced.com%26origin%3Dhttp%253A%252F%252Fbooksliced.com%252Ffad6d84310a184%26relation%3Dparent&response_type=token%2Csigned_request%2Ccode&sdk=joey",
+      "contextId": 660,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6923",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:47:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 17 Jun 2013 01:49:44 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"5e1-4df4fcf8910ad\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1186"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/vnd.microsoft.icon"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://booksliced.com/favicon.ico?021314g",
+      "id": 7325,
+      "contextId": 653,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496049938,
+      "end": 1503496049938,
+      "fromCache": false,
+      "ip": "69.160.61.14"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "http://booksliced.com/favicon.ico?021314g"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "http://booksliced.com/favicon.ico?021314g",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "BookSliced | Find free ebooks and discover discounts",
+          "url": "http://booksliced.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496049939
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6924",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 7326,
+      "contextId": 661,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496050881,
+      "end": 1503496050881
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6924",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 7326,
+      "contextId": 661,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496050881,
+      "end": 1503496050887
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496050888
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503496050888
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503496050888,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6925",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 7327,
+      "contextId": 661,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496050888,
+      "end": 1503496050888
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6925",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 7327,
+      "contextId": 661,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496050888,
+      "end": 1503496050889
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503496050883.517,
+          "title": "Save",
+          "typedCount": 89,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 89
+        }
+      },
+      "timeStamp": 1503496050892
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496050893
+    }
+  }
+]

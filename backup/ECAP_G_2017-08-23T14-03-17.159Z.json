@@ -1,0 +1,731 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496993678
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 92743,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/c80f4e32-ee3e-4205-aae2-2a5ee31a9f8e",
+          "id": 176,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T14:03:13.679Z",
+          "state": "in_progress",
+          "totalBytes": 92743,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/c80f4e32-ee3e-4205-aae2-2a5ee31a9f8e"
+        }
+      },
+      "timeStamp": 1503496993681
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 92743,
+          "filename": "ECAP_G_2017-08-23T14-03-13.676Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/c80f4e32-ee3e-4205-aae2-2a5ee31a9f8e",
+          "id": 176,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T14:03:13.679Z",
+          "state": "in_progress",
+          "totalBytes": 92743,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/c80f4e32-ee3e-4205-aae2-2a5ee31a9f8e"
+        }
+      },
+      "timeStamp": 1503496993684
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T14-03-13.676Z.json",
+            "previous": ""
+          },
+          "id": 176
+        }
+      },
+      "timeStamp": 1503496993689
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T14:03:13.691Z"
+          },
+          "id": 176,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503496993691
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496995903,
+      "url": "http://www.worldliterarycafe.com/content/find-your-books-wings",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13744",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.worldliterarycafe.com/content/find-your-books-wings",
+      "id": 14505,
+      "contextId": 1292,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496995904,
+      "end": 1503496995904,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13744",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:16 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=iso-8859-1"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 404,
+      "statusLine": "HTTP/1.1 404 Not Found",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.worldliterarycafe.com/content/find-your-books-wings",
+      "id": 14505,
+      "contextId": 1292,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496996040,
+      "end": 1503496996041,
+      "fromCache": false,
+      "ip": "198.199.69.166"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://www.worldliterarycafe.com/content/find-your-books-wings"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "www.worldliterarycafe.com/content/find-your-books-wings",
+          "url": "http://www.worldliterarycafe.com/content/find-your-books-wings",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496996046
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503496996046
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 182,
+      "tabId": 2,
+      "timeStamp": 1503496996048,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://www.worldliterarycafe.com/content/find-your-books-wings",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "404 Not Found"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "404 Not Found",
+          "url": "http://www.worldliterarycafe.com/content/find-your-books-wings",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496996057
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 182,
+      "tabId": 2,
+      "timeStamp": 1503496996057,
+      "url": "http://www.worldliterarycafe.com/content/find-your-books-wings",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 182,
+      "tabId": 2,
+      "timeStamp": 1503496996095,
+      "url": "http://www.worldliterarycafe.com/content/find-your-books-wings",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "404 Not Found",
+          "url": "http://www.worldliterarycafe.com/content/find-your-books-wings",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496996095
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13745",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.worldliterarycafe.com/favicon.ico",
+      "id": 14506,
+      "contextId": 1292,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496996101,
+      "end": 1503496996101,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.worldliterarycafe.com/content/find-your-books-wings"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://www.worldliterarycafe.com/content/find-your-books-wings",
+      "timeStamp": 1503496996104,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.worldliterarycafe.com/content/find-your-books-wings",
+      "contextId": 1292,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503496996105,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.worldliterarycafe.com/content/find-your-books-wings",
+      "contextId": 1292,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "404 Not Found",
+      "timeStamp": 1503496996105,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.worldliterarycafe.com/content/find-your-books-wings",
+      "contextId": 1292,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13745",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:03:16 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=iso-8859-1"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 404,
+      "statusLine": "HTTP/1.1 404 Not Found",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.worldliterarycafe.com/favicon.ico",
+      "id": 14506,
+      "contextId": 1292,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496996177,
+      "end": 1503496996178,
+      "fromCache": false,
+      "ip": "198.199.69.166"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13746",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 14507,
+      "contextId": 1293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496997144,
+      "end": 1503496997144
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13746",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 14507,
+      "contextId": 1293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496997144,
+      "end": 1503496997151
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496997152
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503496997152
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503496997152,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503496997145.9849,
+          "title": "Save",
+          "typedCount": 176,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 176
+        }
+      },
+      "timeStamp": 1503496997153
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13747",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 14508,
+      "contextId": 1293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496997153,
+      "end": 1503496997154
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13747",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 14508,
+      "contextId": 1293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496997154,
+      "end": 1503496997155
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496997159
+    }
+  }
+]

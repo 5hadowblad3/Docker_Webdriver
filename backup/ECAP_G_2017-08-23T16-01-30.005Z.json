@@ -1,0 +1,6241 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504085238
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 489777,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/6465f332-8dc2-4429-9e6c-2f7cb17154c2",
+          "id": 179,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T16:01:25.241Z",
+          "state": "in_progress",
+          "totalBytes": 489777,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/6465f332-8dc2-4429-9e6c-2f7cb17154c2"
+        }
+      },
+      "timeStamp": 1503504085241
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 489777,
+          "filename": "ECAP_G_2017-08-23T16-01-25.234Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/6465f332-8dc2-4429-9e6c-2f7cb17154c2",
+          "id": 179,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T16:01:25.241Z",
+          "state": "in_progress",
+          "totalBytes": 489777,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/6465f332-8dc2-4429-9e6c-2f7cb17154c2"
+        }
+      },
+      "timeStamp": 1503504085244
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T16-01-25.234Z.json",
+            "previous": ""
+          },
+          "id": 179
+        }
+      },
+      "timeStamp": 1503504085254
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T16:01:25.259Z"
+          },
+          "id": 179,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503504085259
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503504087590,
+      "url": "https://www.thescarpetta.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13988",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://www.thescarpetta.com/",
+      "id": 14703,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504087590,
+      "end": 1503504087590,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".thescarpetta.com",
+        "expirationDate": 1535040087,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "d6943c6ee7fd403860f051610006152c31503504087"
+      },
+      "removed": false,
+      "timeStamp": 1503504088286,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1277
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "d6943c6ee7fd403860f051610006152c31503504087",
+      "timeStamp": 1503504088286,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1277
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.thescarpetta.com",
+        "expirationDate": "15035040883600",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "frontend",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "4uaubj73i4um9b2v71l8tdvs70"
+      },
+      "removed": false,
+      "timeStamp": 1503504088286,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1277
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "frontend",
+      "type": "cookie",
+      "value": "4uaubj73i4um9b2v71l8tdvs70",
+      "timeStamp": 1503504088286,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1277
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".thescarpetta.com",
+        "expirationDate": 1535040087.285874,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "d6943c6ee7fd403860f051610006152c31503504087"
+      },
+      "removed": false,
+      "timeStamp": 1503504088290
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "d6943c6ee7fd403860f051610006152c31503504087",
+      "timeStamp": 1503504088290
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".www.thescarpetta.com",
+        "expirationDate": 1503507688.28596,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "frontend",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "4uaubj73i4um9b2v71l8tdvs70"
+      },
+      "removed": false,
+      "timeStamp": 1503504088291
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "frontend",
+      "type": "cookie",
+      "value": "4uaubj73i4um9b2v71l8tdvs70",
+      "timeStamp": 1503504088291
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "https://www.thescarpetta.com/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "https://www.thescarpetta.com",
+          "url": "https://www.thescarpetta.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504088292
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503504088292
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 185,
+      "tabId": 2,
+      "timeStamp": 1503504088293,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "https://www.thescarpetta.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13988",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "set-cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087; expires=Thu, 23-Aug-18 16:01:27 GMT; path=/; domain=.thescarpetta.com; HttpOnly"
+        },
+        {
+          "name": "set-cookie",
+          "value": "frontend=4uaubj73i4um9b2v71l8tdvs70; expires=Wed, 23-Aug-2017 17:01:28 GMT; Max-Age=3600; path=/; domain=www.thescarpetta.com; HttpOnly"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 19 Nov 1981 08:52:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a638f3f34a6-LHR"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://www.thescarpetta.com/",
+      "id": 14703,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088286,
+      "end": 1503504088295,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13989",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://thescarpetta.com/media/css_secure/7ef88c9964b5e4815547e73d1f70036c.css",
+      "id": 14704,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088296,
+      "end": 1503504088296,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13990",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://thescarpetta.com/media/css_secure/975b098998550aef6eabb2e067fde39a.css",
+      "id": 14705,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088297,
+      "end": 1503504088297,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13991",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://thescarpetta.com/media/js/3f0244981b6f9577c12e934e6f1885ad.js",
+      "id": 14706,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088297,
+      "end": 1503504088298,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13992",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Angkor:400normal",
+      "id": 14707,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088298,
+      "end": 1503504088298,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "254",
+          "lastVisitTime": 1503504088290.4338,
+          "title": "",
+          "typedCount": 1,
+          "url": "https://www.thescarpetta.com/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503504088305
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "The Scarpetta | Designer Shoes"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "The Scarpetta | Designer Shoes",
+          "url": "https://www.thescarpetta.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504088305
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13989",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sat, 19 Aug 2017 01:46:28 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"59979874-1788\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a67d9bb34a6-LHR"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://thescarpetta.com/media/css_secure/7ef88c9964b5e4815547e73d1f70036c.css",
+      "id": 14704,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088308,
+      "end": 1503504088309,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13992",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Angkor:400normal",
+      "id": 14707,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088310,
+      "end": 1503504088311,
+      "fromCache": false,
+      "ip": "216.58.213.74"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13990",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 22 Aug 2017 18:53:43 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"599c7db7-4f139\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a67d9bc34a6-LHR"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://thescarpetta.com/media/css_secure/975b098998550aef6eabb2e067fde39a.css",
+      "id": 14705,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088324,
+      "end": 1503504088331,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13993",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/media/wysiwyg/banners/15int.gif",
+      "id": 14708,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088331,
+      "end": 1503504088332,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13993",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/webp"
+        },
+        {
+          "name": "content-length",
+          "value": "3508"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-bgj",
+          "value": "imgq:85"
+        },
+        {
+          "name": "cf-polished",
+          "value": "origFmt=gif, origSize=5557"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"15int.webp\""
+        },
+        {
+          "name": "etag",
+          "value": "\"597dea10-15b5\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 30 Jul 2017 14:15:44 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a6809ee34a6-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/media/wysiwyg/banners/15int.gif",
+      "id": 14708,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088341,
+      "end": 1503504088342,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13994",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/media/wysiwyg/milano/default/scarpetta_logo_4_1.png",
+      "id": 14709,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088342,
+      "end": 1503504088342,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13994",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/webp"
+        },
+        {
+          "name": "content-length",
+          "value": "5396"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-bgj",
+          "value": "imgq:85"
+        },
+        {
+          "name": "cf-polished",
+          "value": "origFmt=png, origSize=5734"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"scarpetta_logo_4_1.webp\""
+        },
+        {
+          "name": "etag",
+          "value": "\"57fce755-1666\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 11 Oct 2016 13:21:25 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a6829fe34a6-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/media/wysiwyg/milano/default/scarpetta_logo_4_1.png",
+      "id": 14709,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088356,
+      "end": 1503504088356,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13995",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/media/shopshark/revslider/July_Banner_1.png",
+      "id": 14710,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088357,
+      "end": 1503504088357,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13995",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/webp"
+        },
+        {
+          "name": "content-length",
+          "value": "287854"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-bgj",
+          "value": "imgq:85"
+        },
+        {
+          "name": "cf-polished",
+          "value": "origFmt=png, origSize=451238"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"July_Banner_1.webp\""
+        },
+        {
+          "name": "etag",
+          "value": "\"559c1fba-6e2a6\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 07 Jul 2015 18:51:38 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a683a0b34a6-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/media/shopshark/revslider/July_Banner_1.png",
+      "id": 14710,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088365,
+      "end": 1503504088379,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13996",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://magemail.co/app/skin/js/magento.js",
+      "id": 14711,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088379,
+      "end": 1503504088379,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13991",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sat, 19 Aug 2017 18:32:10 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"5998842a-f0b5b\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a67d9bd34a6-LHR"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://thescarpetta.com/media/js/3f0244981b6f9577c12e934e6f1885ad.js",
+      "id": 14706,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088321,
+      "end": 1503504088381,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13998",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "id": 14712,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088436,
+      "end": 1503504088436,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13997",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://thescarpetta.com/media/css_secure/9ae5679e1e8052950e60f67593a2a448.css",
+      "id": 14713,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088436,
+      "end": 1503504088436,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13999",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PNQRNG",
+      "id": 14714,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088436,
+      "end": 1503504088436,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13998",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "access-control-allow-credentials",
+          "value": "true"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "https://connect.facebook.net"
+        },
+        {
+          "name": "access-control-expose-headers",
+          "value": "X-FB-Debug, X-Loader-Length"
+        },
+        {
+          "name": "pragma",
+          "value": "public"
+        },
+        {
+          "name": "vary",
+          "value": "Origin"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "access-control-allow-method",
+          "value": "OPTIONS"
+        },
+        {
+          "name": "expires",
+          "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript; charset=utf-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=1200"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "JquL4jJUWm0ic5JM43bjz9TDIyCtqJrXTMvacua3XIvTb/WbZngJvtmQyt5gm1H2okutpEZKuTUMl9j5+NJE2w=="
+        },
+        {
+          "name": "content-length",
+          "value": "11094"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:52:14 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "id": 14712,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088436,
+      "end": 1503504088437,
+      "fromCache": true,
+      "ip": "157.240.14.19"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14000",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://thescarpetta.com/skin/frontend/default/milano/fonts/shopsharkfont-webfont.woff",
+      "id": 14715,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088438,
+      "end": 1503504088438,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://www.thescarpetta.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://thescarpetta.com/media/css_secure/975b098998550aef6eabb2e067fde39a.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14001",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/skin/frontend/base/default/images/mirasvit/loader.gif",
+      "id": 14716,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088439,
+      "end": 1503504088439,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://thescarpetta.com/media/css_secure/975b098998550aef6eabb2e067fde39a.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13997",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sat, 19 Aug 2017 01:46:48 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"59979888-621\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a68ba4234a6-LHR"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://thescarpetta.com/media/css_secure/9ae5679e1e8052950e60f67593a2a448.css",
+      "id": 14713,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088441,
+      "end": 1503504088441,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14001",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "content-length",
+          "value": "1669"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-bgj",
+          "value": "imgq:85"
+        },
+        {
+          "name": "cf-polished",
+          "value": "origSize=1737"
+        },
+        {
+          "name": "etag",
+          "value": "\"55822b71-6c9\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 18 Jun 2015 02:22:41 GMT"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a68ba4534a6-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/skin/frontend/base/default/images/mirasvit/loader.gif",
+      "id": 14716,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088444,
+      "end": 1503504088444,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".thescarpetta.com",
+        "expirationDate": 1535040088,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "dea46881fe51eea67585338e5c240f2791503504088"
+      },
+      "removed": false,
+      "timeStamp": 1503504088457,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1277
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "dea46881fe51eea67585338e5c240f2791503504088",
+      "timeStamp": 1503504088457,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1277
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14000",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/font-woff"
+        },
+        {
+          "name": "content-length",
+          "value": "27447"
+        },
+        {
+          "name": "set-cookie",
+          "value": "__cfduid=dea46881fe51eea67585338e5c240f2791503504088; expires=Thu, 23-Aug-18 16:01:28 GMT; path=/; domain=.thescarpetta.com; HttpOnly"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 18 Jun 2015 02:22:41 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 23 Aug 2018 16:01:28 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a68c8e634ee-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://thescarpetta.com/skin/frontend/default/milano/fonts/shopsharkfont-webfont.woff",
+      "id": 14715,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088457,
+      "end": 1503504088460,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14002",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://thescarpetta.com/skin/frontend/default/milano/fonts/shopsharkfont-webfont.ttf",
+      "id": 14717,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088475,
+      "end": 1503504088475,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://www.thescarpetta.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://thescarpetta.com/media/css_secure/975b098998550aef6eabb2e067fde39a.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14003",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/skin/frontend/default/milano/images/bkg_pipe1.gif",
+      "id": 14718,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088478,
+      "end": 1503504088478,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://thescarpetta.com/media/css_secure/975b098998550aef6eabb2e067fde39a.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14004",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/skin/frontend/default/milano/images/i_rss.gif",
+      "id": 14719,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088478,
+      "end": 1503504088478,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://thescarpetta.com/media/css_secure/975b098998550aef6eabb2e067fde39a.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14005",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/skin/frontend/default/milano/images/payment-options-sprite.png",
+      "id": 14720,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088479,
+      "end": 1503504088479,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://thescarpetta.com/media/css_secure/975b098998550aef6eabb2e067fde39a.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13999",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript; charset=UTF-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "http://www.googletagmanager.com"
+        },
+        {
+          "name": "access-control-allow-headers",
+          "value": "Cache-Control"
+        },
+        {
+          "name": "access-control-allow-credentials",
+          "value": "true"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=900"
+        },
+        {
+          "name": "server",
+          "value": "Google Tag Manager (scaffolding)"
+        },
+        {
+          "name": "content-length",
+          "value": "18457"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PNQRNG",
+      "id": 14714,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088480,
+      "end": 1503504088481,
+      "fromCache": false,
+      "ip": "216.58.206.104"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".thescarpetta.com",
+        "expirationDate": 1535040088,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "dea46881fe51eea67585338e5c240f2791503504088"
+      },
+      "removed": false,
+      "timeStamp": 1503504088484,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1277
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "dea46881fe51eea67585338e5c240f2791503504088",
+      "timeStamp": 1503504088484,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1277
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14003",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "content-length",
+          "value": "36"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-bgj",
+          "value": "imgq:85"
+        },
+        {
+          "name": "cf-polished",
+          "value": "origSize=44"
+        },
+        {
+          "name": "etag",
+          "value": "\"55822b71-2c\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 18 Jun 2015 02:22:41 GMT"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a68fa6834a6-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/skin/frontend/default/milano/images/bkg_pipe1.gif",
+      "id": 14718,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088485,
+      "end": 1503504088486,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14002",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/font-sfnt"
+        },
+        {
+          "name": "content-length",
+          "value": "27771"
+        },
+        {
+          "name": "set-cookie",
+          "value": "__cfduid=dea46881fe51eea67585338e5c240f2791503504088; expires=Thu, 23-Aug-18 16:01:28 GMT; path=/; domain=.thescarpetta.com; HttpOnly"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 18 Jun 2015 02:22:41 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 23 Aug 2018 16:01:28 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a68f8fb34ee-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://thescarpetta.com/skin/frontend/default/milano/fonts/shopsharkfont-webfont.ttf",
+      "id": 14717,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088484,
+      "end": 1503504088486,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14004",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/webp"
+        },
+        {
+          "name": "content-length",
+          "value": "234"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-bgj",
+          "value": "imgq:85"
+        },
+        {
+          "name": "cf-polished",
+          "value": "origFmt=gif, origSize=350"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"i_rss.webp\""
+        },
+        {
+          "name": "etag",
+          "value": "\"55822b71-15e\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 18 Jun 2015 02:22:41 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a68fa6934a6-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/skin/frontend/default/milano/images/i_rss.gif",
+      "id": 14719,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088492,
+      "end": 1503504088492,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14005",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/webp"
+        },
+        {
+          "name": "content-length",
+          "value": "3604"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-bgj",
+          "value": "imgq:85"
+        },
+        {
+          "name": "cf-polished",
+          "value": "origFmt=png, origSize=5240"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"payment-options-sprite.webp\""
+        },
+        {
+          "name": "etag",
+          "value": "\"5877f65f-1478\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 12 Jan 2017 21:34:23 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a68fa6b34a6-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/skin/frontend/default/milano/images/payment-options-sprite.png",
+      "id": 14720,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088492,
+      "end": 1503504088493,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14006",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/angkor/v9/Vke_8K9OBrUfPOWx9oFNiPesZW2xOQ-xsNqO47m55DA.woff2",
+      "id": 14721,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088514,
+      "end": 1503504088515,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://www.thescarpetta.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Angkor:400normal"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14007",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/skin/frontend/default/milano/assets/loader.gif",
+      "id": 14722,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088542,
+      "end": 1503504088542,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://thescarpetta.com/media/css_secure/975b098998550aef6eabb2e067fde39a.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14007",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "content-length",
+          "value": "2093"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-bgj",
+          "value": "imgq:85"
+        },
+        {
+          "name": "cf-polished",
+          "value": "origSize=2545"
+        },
+        {
+          "name": "etag",
+          "value": "\"55822b71-9f1\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 18 Jun 2015 02:22:41 GMT"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a695aad34a6-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/skin/frontend/default/milano/assets/loader.gif",
+      "id": 14722,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088548,
+      "end": 1503504088548,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 185,
+      "tabId": 2,
+      "timeStamp": 1503504088556,
+      "url": "https://www.thescarpetta.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14006",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "26444"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 23 Aug 2018 16:01:28 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 14 Aug 2017 23:22:27 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/angkor/v9/Vke_8K9OBrUfPOWx9oFNiPesZW2xOQ-xsNqO47m55DA.woff2",
+      "id": 14721,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088582,
+      "end": 1503504088583,
+      "fromCache": false,
+      "ip": "216.58.206.99"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14008",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/113480209298114?v=2.7.19",
+      "id": 14723,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088589,
+      "end": 1503504088589,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://www.thescarpetta.com/",
+      "timeStamp": 1503504088605,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.thescarpetta.com/",
+      "contextId": 1277,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503504088605,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.thescarpetta.com/",
+      "contextId": 1277,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "The Scarpetta | Designer Shoes",
+      "timeStamp": 1503504088605,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.thescarpetta.com/",
+      "contextId": 1277,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "q",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503504088606,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.thescarpetta.com/",
+      "contextId": 1277,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "q",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503504088606,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.thescarpetta.com/",
+      "contextId": 1277,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "firstname",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503504088606,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.thescarpetta.com/",
+      "contextId": 1277,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "email",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503504088606,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.thescarpetta.com/",
+      "contextId": 1277,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14009",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 14724,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088609,
+      "end": 1503504088610,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14010",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+      "id": 14725,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088610,
+      "end": 1503504088610,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14009",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 14:22:02 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 16:22:02 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "13472"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "age",
+          "value": "4175"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 14724,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088610,
+      "end": 1503504088611,
+      "fromCache": true,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14010",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "p3p",
+          "value": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "etag",
+          "value": "889438253356072931"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:31:37 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 15:31:37 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-disposition",
+          "value": "attachment; filename=\"f.txt\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "cafe"
+        },
+        {
+          "name": "content-length",
+          "value": "4763"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"39,38,37,35\",quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+      "id": 14725,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088610,
+      "end": 1503504088611,
+      "fromCache": true,
+      "ip": "216.58.212.66"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14011",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+      "id": 14726,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088613,
+      "end": 1503504088613,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14011",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "content-length",
+          "value": "1296"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:12:17 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 16:12:17 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 21 Apr 2016 03:17:22 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3600"
+        },
+        {
+          "name": "age",
+          "value": "1222"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+      "id": 14726,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088613,
+      "end": 1503504088614,
+      "fromCache": true,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".thescarpetta.com",
+        "expirationDate": 1566576088,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.484201102.1503504089"
+      },
+      "removed": false,
+      "timeStamp": 1503504088615
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_ga",
+      "type": "cookie",
+      "value": "GA1.2.484201102.1503504089",
+      "timeStamp": 1503504088615
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".thescarpetta.com",
+        "expirationDate": 1503590488,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.1789305828.1503504089"
+      },
+      "removed": false,
+      "timeStamp": 1503504088616
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gid",
+      "type": "cookie",
+      "value": "GA1.2.1789305828.1503504089",
+      "timeStamp": 1503504088616
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14012",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/935654711/?random=1503504088618&cv=8&fst=1503504088618&num=1&fmt=3&guid=ON&eid=376635471&u_h=1080&u_w=1920&u_ah=1032&u_aw=1920&u_cd=24&u_his=50&u_tz=60&u_java=false&u_nplug=5&u_nmime=7&frm=0&url=https%3A%2F%2Fwww.thescarpetta.com%2F&tiba=The%20Scarpetta%20%7C%20Designer%20Shoes&async=1",
+      "id": 14727,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088620,
+      "end": 1503504088620,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=22ac5c04524c0067||t=1503502302|et=730|cs=002213fd48ff2406a570b0e8bd; IDE=AHWqTUme6vL8mdM43KUFVX47iY61lA1HL-MGOPqQzP3H0gk0yFkCN6soiA; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".thescarpetta.com",
+        "expirationDate": 1503504148,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gat_UA-39787201-1",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1503504088622
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "_gat_UA-39787201-1",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1503504088622
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14013",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=2100825311&t=pageview&_s=1&dl=https%3A%2F%2Fwww.thescarpetta.com%2F&ul=en-gb&de=UTF-8&dt=The%20Scarpetta%20%7C%20Designer%20Shoes&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=aGBAAAALI~&jid=1375667741&gjid=226032554&cid=484201102.1503504089&tid=UA-39787201-1&_gid=1789305828.1503504089&_r=1&gtm=GTM-PNQRNG&z=954676272",
+      "id": 14728,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088623,
+      "end": 1503504088623,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14013",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "302"
+        },
+        {
+          "name": "location",
+          "value": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-39787201-1&cid=484201102.1503504089&jid=1375667741&_gid=1789305828.1503504089&gjid=226032554&_v=j60&z=954676272"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "417"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=2100825311&t=pageview&_s=1&dl=https%3A%2F%2Fwww.thescarpetta.com%2F&ul=en-gb&de=UTF-8&dt=The%20Scarpetta%20%7C%20Designer%20Shoes&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=aGBAAAALI~&jid=1375667741&gjid=226032554&cid=484201102.1503504089&tid=UA-39787201-1&_gid=1789305828.1503504089&_r=1&gtm=GTM-PNQRNG&z=954676272",
+      "id": 14728,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088635,
+      "end": 1503504088635,
+      "fromCache": false,
+      "ip": "216.58.206.46",
+      "redirectUrl": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-39787201-1&cid=484201102.1503504089&jid=1375667741&_gid=1789305828.1503504089&gjid=226032554&_v=j60&z=954676272"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14013",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-39787201-1&cid=484201102.1503504089&jid=1375667741&_gid=1789305828.1503504089&gjid=226032554&_v=j60&z=954676272",
+      "id": 14729,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088635,
+      "end": 1503504088635,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=22ac5c04524c0067||t=1503502302|et=730|cs=002213fd48ff2406a570b0e8bd; IDE=AHWqTUme6vL8mdM43KUFVX47iY61lA1HL-MGOPqQzP3H0gk0yFkCN6soiA; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14013",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "302"
+        },
+        {
+          "name": "location",
+          "value": "https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-39787201-1&cid=484201102.1503504089&jid=1375667741&_v=j60&z=954676272"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=10886400; includeSubDomains; preload"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "365"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-39787201-1&cid=484201102.1503504089&jid=1375667741&_gid=1789305828.1503504089&gjid=226032554&_v=j60&z=954676272",
+      "id": 14729,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088645,
+      "end": 1503504088645,
+      "fromCache": false,
+      "ip": "74.125.206.156",
+      "redirectUrl": "https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-39787201-1&cid=484201102.1503504089&jid=1375667741&_v=j60&z=954676272"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14013",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-39787201-1&cid=484201102.1503504089&jid=1375667741&_v=j60&z=954676272",
+      "id": 14730,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088645,
+      "end": 1503504088645,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "NID=110=nmOp9QI54tWe1SeTrusJUG2-RlHFFY33zuk6q_ozdrqIaXFL21cswhL7oRK4O1sjVz30r88h_hyeCw4Ci6DILy1MrGYQCfriTykXQ9-kuJNAqASXIHE35TjFNvMIduZg"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14013",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "302"
+        },
+        {
+          "name": "p3p",
+          "value": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate"
+        },
+        {
+          "name": "location",
+          "value": "https://www.google.co.uk/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-39787201-1&cid=484201102.1503504089&jid=1375667741&_v=j60&z=954676272&slf_rd=1&random=2820258772"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "cafe"
+        },
+        {
+          "name": "content-length",
+          "value": "0"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-39787201-1&cid=484201102.1503504089&jid=1375667741&_v=j60&z=954676272",
+      "id": 14730,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088658,
+      "end": 1503504088661,
+      "fromCache": false,
+      "ip": "216.58.206.36",
+      "redirectUrl": "https://www.google.co.uk/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-39787201-1&cid=484201102.1503504089&jid=1375667741&_v=j60&z=954676272&slf_rd=1&random=2820258772"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14013",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google.co.uk/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-39787201-1&cid=484201102.1503504089&jid=1375667741&_v=j60&z=954676272&slf_rd=1&random=2820258772",
+      "id": 14731,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088661,
+      "end": 1503504088661,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14013",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "p3p",
+          "value": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "cafe"
+        },
+        {
+          "name": "content-length",
+          "value": "42"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google.co.uk/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-39787201-1&cid=484201102.1503504089&jid=1375667741&_v=j60&z=954676272&slf_rd=1&random=2820258772",
+      "id": 14731,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088678,
+      "end": 1503504088679,
+      "fromCache": false,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14012",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "302"
+        },
+        {
+          "name": "p3p",
+          "value": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\""
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate"
+        },
+        {
+          "name": "location",
+          "value": "https://www.google.com/ads/user-lists/935654711/?random=1503504088618&cv=8&fst=1503504000000&num=1&fmt=3&guid=ON&eid=376635471&u_h=1080&u_w=1920&u_ah=1032&u_aw=1920&u_cd=24&u_his=50&u_tz=60&u_java=false&u_nplug=5&u_nmime=7&frm=0&url=https%3A%2F%2Fwww.thescarpetta.com%2F&tiba=The%20Scarpetta%20%7C%20Designer%20Shoes&async=1&cdct=2&is_vtc=1&random=770891981&fpvtc=/935654711/%3Frandom%3D1316136012%26cv%3D8%26fst%3D1503504000000%26num%3D1%26fmt%3D3%26guid%3DON%26eid%3D376635471%26u_h%3D1080%26u_w%3D1920%26u_ah%3D1032%26u_aw%3D1920%26u_cd%3D24%26u_his%3D50%26u_tz%3D60%26u_java%3Dfalse%26u_nplug%3D5%26u_nmime%3D7%26frm%3D0%26url%3Dhttps%253A%252F%252Fwww.thescarpetta.com%252F%26tiba%3DThe%2520Scarpetta%2520%257C%2520Designer%2520Shoes%26async%3D1%26cdct%3D2%26is_vtc%3D1"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "cafe"
+        },
+        {
+          "name": "content-length",
+          "value": "42"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"39,38,37,35\",quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/935654711/?random=1503504088618&cv=8&fst=1503504088618&num=1&fmt=3&guid=ON&eid=376635471&u_h=1080&u_w=1920&u_ah=1032&u_aw=1920&u_cd=24&u_his=50&u_tz=60&u_java=false&u_nplug=5&u_nmime=7&frm=0&url=https%3A%2F%2Fwww.thescarpetta.com%2F&tiba=The%20Scarpetta%20%7C%20Designer%20Shoes&async=1",
+      "id": 14727,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088664,
+      "end": 1503504088716,
+      "fromCache": false,
+      "ip": "216.58.198.162",
+      "redirectUrl": "https://www.google.com/ads/user-lists/935654711/?random=1503504088618&cv=8&fst=1503504000000&num=1&fmt=3&guid=ON&eid=376635471&u_h=1080&u_w=1920&u_ah=1032&u_aw=1920&u_cd=24&u_his=50&u_tz=60&u_java=false&u_nplug=5&u_nmime=7&frm=0&url=https%3A%2F%2Fwww.thescarpetta.com%2F&tiba=The%20Scarpetta%20%7C%20Designer%20Shoes&async=1&cdct=2&is_vtc=1&random=770891981&fpvtc=/935654711/%3Frandom%3D1316136012%26cv%3D8%26fst%3D1503504000000%26num%3D1%26fmt%3D3%26guid%3DON%26eid%3D376635471%26u_h%3D1080%26u_w%3D1920%26u_ah%3D1032%26u_aw%3D1920%26u_cd%3D24%26u_his%3D50%26u_tz%3D60%26u_java%3Dfalse%26u_nplug%3D5%26u_nmime%3D7%26frm%3D0%26url%3Dhttps%253A%252F%252Fwww.thescarpetta.com%252F%26tiba%3DThe%2520Scarpetta%2520%257C%2520Designer%2520Shoes%26async%3D1%26cdct%3D2%26is_vtc%3D1"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14012",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google.com/ads/user-lists/935654711/?random=1503504088618&cv=8&fst=1503504000000&num=1&fmt=3&guid=ON&eid=376635471&u_h=1080&u_w=1920&u_ah=1032&u_aw=1920&u_cd=24&u_his=50&u_tz=60&u_java=false&u_nplug=5&u_nmime=7&frm=0&url=https%3A%2F%2Fwww.thescarpetta.com%2F&tiba=The%20Scarpetta%20%7C%20Designer%20Shoes&async=1&cdct=2&is_vtc=1&random=770891981&fpvtc=/935654711/%3Frandom%3D1316136012%26cv%3D8%26fst%3D1503504000000%26num%3D1%26fmt%3D3%26guid%3DON%26eid%3D376635471%26u_h%3D1080%26u_w%3D1920%26u_ah%3D1032%26u_aw%3D1920%26u_cd%3D24%26u_his%3D50%26u_tz%3D60%26u_java%3Dfalse%26u_nplug%3D5%26u_nmime%3D7%26frm%3D0%26url%3Dhttps%253A%252F%252Fwww.thescarpetta.com%252F%26tiba%3DThe%2520Scarpetta%2520%257C%2520Designer%2520Shoes%26async%3D1%26cdct%3D2%26is_vtc%3D1",
+      "id": 14732,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088717,
+      "end": 1503504088717,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "NID=110=nmOp9QI54tWe1SeTrusJUG2-RlHFFY33zuk6q_ozdrqIaXFL21cswhL7oRK4O1sjVz30r88h_hyeCw4Ci6DILy1MrGYQCfriTykXQ9-kuJNAqASXIHE35TjFNvMIduZg"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14012",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "302"
+        },
+        {
+          "name": "location",
+          "value": "https://www.google.co.uk/ads/user-lists/935654711/?random=1503504088618&cv=8&fst=1503504000000&num=1&fmt=3&guid=ON&eid=376635471&u_h=1080&u_w=1920&u_ah=1032&u_aw=1920&u_cd=24&u_his=50&u_tz=60&u_java=false&u_nplug=5&u_nmime=7&frm=0&url=https%3A%2F%2Fwww.thescarpetta.com%2F&tiba=The%20Scarpetta%20%7C%20Designer%20Shoes&async=1&cdct=2&is_vtc=1&random=770891981&fpvtc=/935654711/%3Frandom%3D1316136012%26cv%3D8%26fst%3D1503504000000%26num%3D1%26fmt%3D3%26guid%3DON%26eid%3D376635471%26u_h%3D1080%26u_w%3D1920%26u_ah%3D1032%26u_aw%3D1920%26u_cd%3D24%26u_his%3D50%26u_tz%3D60%26u_java%3Dfalse%26u_nplug%3D5%26u_nmime%3D7%26frm%3D0%26url%3Dhttps%253A%252F%252Fwww.thescarpetta.com%252F%26tiba%3DThe%2520Scarpetta%2520%257C%2520Designer%2520Shoes%26async%3D1%26cdct%3D2%26is_vtc%3D1&ipr=y&ulfeg=n"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=43200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "adclick_server"
+        },
+        {
+          "name": "content-length",
+          "value": "1091"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google.com/ads/user-lists/935654711/?random=1503504088618&cv=8&fst=1503504000000&num=1&fmt=3&guid=ON&eid=376635471&u_h=1080&u_w=1920&u_ah=1032&u_aw=1920&u_cd=24&u_his=50&u_tz=60&u_java=false&u_nplug=5&u_nmime=7&frm=0&url=https%3A%2F%2Fwww.thescarpetta.com%2F&tiba=The%20Scarpetta%20%7C%20Designer%20Shoes&async=1&cdct=2&is_vtc=1&random=770891981&fpvtc=/935654711/%3Frandom%3D1316136012%26cv%3D8%26fst%3D1503504000000%26num%3D1%26fmt%3D3%26guid%3DON%26eid%3D376635471%26u_h%3D1080%26u_w%3D1920%26u_ah%3D1032%26u_aw%3D1920%26u_cd%3D24%26u_his%3D50%26u_tz%3D60%26u_java%3Dfalse%26u_nplug%3D5%26u_nmime%3D7%26frm%3D0%26url%3Dhttps%253A%252F%252Fwww.thescarpetta.com%252F%26tiba%3DThe%2520Scarpetta%2520%257C%2520Designer%2520Shoes%26async%3D1%26cdct%3D2%26is_vtc%3D1",
+      "id": 14732,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088731,
+      "end": 1503504088731,
+      "fromCache": false,
+      "ip": "216.58.206.36",
+      "redirectUrl": "https://www.google.co.uk/ads/user-lists/935654711/?random=1503504088618&cv=8&fst=1503504000000&num=1&fmt=3&guid=ON&eid=376635471&u_h=1080&u_w=1920&u_ah=1032&u_aw=1920&u_cd=24&u_his=50&u_tz=60&u_java=false&u_nplug=5&u_nmime=7&frm=0&url=https%3A%2F%2Fwww.thescarpetta.com%2F&tiba=The%20Scarpetta%20%7C%20Designer%20Shoes&async=1&cdct=2&is_vtc=1&random=770891981&fpvtc=/935654711/%3Frandom%3D1316136012%26cv%3D8%26fst%3D1503504000000%26num%3D1%26fmt%3D3%26guid%3DON%26eid%3D376635471%26u_h%3D1080%26u_w%3D1920%26u_ah%3D1032%26u_aw%3D1920%26u_cd%3D24%26u_his%3D50%26u_tz%3D60%26u_java%3Dfalse%26u_nplug%3D5%26u_nmime%3D7%26frm%3D0%26url%3Dhttps%253A%252F%252Fwww.thescarpetta.com%252F%26tiba%3DThe%2520Scarpetta%2520%257C%2520Designer%2520Shoes%26async%3D1%26cdct%3D2%26is_vtc%3D1&ipr=y&ulfeg=n"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14012",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google.co.uk/ads/user-lists/935654711/?random=1503504088618&cv=8&fst=1503504000000&num=1&fmt=3&guid=ON&eid=376635471&u_h=1080&u_w=1920&u_ah=1032&u_aw=1920&u_cd=24&u_his=50&u_tz=60&u_java=false&u_nplug=5&u_nmime=7&frm=0&url=https%3A%2F%2Fwww.thescarpetta.com%2F&tiba=The%20Scarpetta%20%7C%20Designer%20Shoes&async=1&cdct=2&is_vtc=1&random=770891981&fpvtc=/935654711/%3Frandom%3D1316136012%26cv%3D8%26fst%3D1503504000000%26num%3D1%26fmt%3D3%26guid%3DON%26eid%3D376635471%26u_h%3D1080%26u_w%3D1920%26u_ah%3D1032%26u_aw%3D1920%26u_cd%3D24%26u_his%3D50%26u_tz%3D60%26u_java%3Dfalse%26u_nplug%3D5%26u_nmime%3D7%26frm%3D0%26url%3Dhttps%253A%252F%252Fwww.thescarpetta.com%252F%26tiba%3DThe%2520Scarpetta%2520%257C%2520Designer%2520Shoes%26async%3D1%26cdct%3D2%26is_vtc%3D1&ipr=y&ulfeg=n",
+      "id": 14733,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088732,
+      "end": 1503504088732,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14008",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "access-control-allow-credentials",
+          "value": "true"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "https://connect.facebook.net"
+        },
+        {
+          "name": "access-control-expose-headers",
+          "value": "X-FB-Debug, X-Loader-Length"
+        },
+        {
+          "name": "pragma",
+          "value": "public"
+        },
+        {
+          "name": "vary",
+          "value": "Origin"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "access-control-allow-method",
+          "value": "OPTIONS"
+        },
+        {
+          "name": "expires",
+          "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=15552000; preload; includeSubDomains"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript; charset=utf-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=1200"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "Cizhy6GJx5X9m8kvAbxZqUFHZj2z6bMO9JX91GXFW7u20ZXgjnIfzFFfLZnAgk/HZFhFPdriAayaG3Alb5h0qg=="
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/113480209298114?v=2.7.19",
+      "id": 14723,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088735,
+      "end": 1503504088736,
+      "fromCache": false,
+      "ip": "31.13.76.107"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14014",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/tr/?id=113480209298114&ev=PageView&dl=https%3A%2F%2Fwww.thescarpetta.com%2F&rl=&if=false&ts=1503504088740&v=2.7.19&ec=0&o=28",
+      "id": 14734,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088742,
+      "end": 1503504088742,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "fr=0p9IOSiK1aQMQPO5T..BZnZ_k..Fmd.1.0.BZnZ_k."
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14012",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "adclick_server"
+        },
+        {
+          "name": "content-length",
+          "value": "42"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google.co.uk/ads/user-lists/935654711/?random=1503504088618&cv=8&fst=1503504000000&num=1&fmt=3&guid=ON&eid=376635471&u_h=1080&u_w=1920&u_ah=1032&u_aw=1920&u_cd=24&u_his=50&u_tz=60&u_java=false&u_nplug=5&u_nmime=7&frm=0&url=https%3A%2F%2Fwww.thescarpetta.com%2F&tiba=The%20Scarpetta%20%7C%20Designer%20Shoes&async=1&cdct=2&is_vtc=1&random=770891981&fpvtc=/935654711/%3Frandom%3D1316136012%26cv%3D8%26fst%3D1503504000000%26num%3D1%26fmt%3D3%26guid%3DON%26eid%3D376635471%26u_h%3D1080%26u_w%3D1920%26u_ah%3D1032%26u_aw%3D1920%26u_cd%3D24%26u_his%3D50%26u_tz%3D60%26u_java%3Dfalse%26u_nplug%3D5%26u_nmime%3D7%26frm%3D0%26url%3Dhttps%253A%252F%252Fwww.thescarpetta.com%252F%26tiba%3DThe%2520Scarpetta%2520%257C%2520Designer%2520Shoes%26async%3D1%26cdct%3D2%26is_vtc%3D1&ipr=y&ulfeg=n",
+      "id": 14733,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088746,
+      "end": 1503504088746,
+      "fromCache": false,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.facebook.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "path": "/tr/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1
+      },
+      "removed": false,
+      "timeStamp": 1503504088819,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1277
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "type": "cookie",
+      "timeStamp": 1503504088819,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1277
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14014",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 21 Dec 2012 00:00:01 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate, max-age=0"
+        },
+        {
+          "name": "set-cookie",
+          "value": ""
+        },
+        {
+          "name": "content-length",
+          "value": "44"
+        },
+        {
+          "name": "server",
+          "value": "proxygen"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/tr/?id=113480209298114&ev=PageView&dl=https%3A%2F%2Fwww.thescarpetta.com%2F&rl=&if=false&ts=1503504088740&v=2.7.19&ec=0&o=28",
+      "id": 14734,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088819,
+      "end": 1503504088820,
+      "fromCache": false,
+      "ip": "31.13.69.228"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13996",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 14 Aug 2017 14:45:35 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"c9b1-556b7b725dd74\""
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=2592000"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://magemail.co/app/skin/js/magento.js",
+      "id": 14711,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088843,
+      "end": 1503504088843,
+      "fromCache": false,
+      "ip": "192.241.220.17"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 1073,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503504088849,
+      "url": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1073,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "14015",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE",
+      "id": 14735,
+      "contextId": 1278,
+      "parentContextId": 1277,
+      "windowId": 1,
+      "start": 1503504088849,
+      "end": 1503504088850,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=22ac5c04524c0067||t=1503502302|et=730|cs=002213fd48ff2406a570b0e8bd; IDE=AHWqTUme6vL8mdM43KUFVX47iY61lA1HL-MGOPqQzP3H0gk0yFkCN6soiA; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1073,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "14015",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "p3p",
+          "value": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\""
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "server",
+          "value": "cafe"
+        },
+        {
+          "name": "cache-control",
+          "value": "private"
+        },
+        {
+          "name": "content-length",
+          "value": "149"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE",
+      "id": 14735,
+      "contextId": 1278,
+      "parentContextId": 1277,
+      "windowId": 1,
+      "start": 1503504088888,
+      "end": 1503504088890,
+      "fromCache": false,
+      "ip": "74.125.206.156"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 1073,
+      "processId": 185,
+      "tabId": 2,
+      "timeStamp": 1503504088890,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1073,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "14016",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://cm.g.doubleclick.net/pixel?google_nid=yieldlab&google_cm&google_sc&google_awbid",
+      "id": 14736,
+      "contextId": 1278,
+      "parentContextId": 1277,
+      "windowId": 1,
+      "start": 1503504088892,
+      "end": 1503504088893,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=22ac5c04524c0067||t=1503502302|et=730|cs=002213fd48ff2406a570b0e8bd; IDE=AHWqTUme6vL8mdM43KUFVX47iY61lA1HL-MGOPqQzP3H0gk0yFkCN6soiA; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1073,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "14017",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://cm.g.doubleclick.net/pixel?google_nid=pubmatic&google_cm&google_sc&google_awbid",
+      "id": 14737,
+      "contextId": 1278,
+      "parentContextId": 1277,
+      "windowId": 1,
+      "start": 1503504088893,
+      "end": 1503504088893,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=22ac5c04524c0067||t=1503502302|et=730|cs=002213fd48ff2406a570b0e8bd; IDE=AHWqTUme6vL8mdM43KUFVX47iY61lA1HL-MGOPqQzP3H0gk0yFkCN6soiA; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 1073,
+      "processId": 185,
+      "tabId": 2,
+      "timeStamp": 1503504088893,
+      "url": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE",
+      "timeStamp": 1503504088899,
+      "tabId": 2,
+      "frameId": 1073,
+      "url": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE",
+      "contextId": 1278,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503504088899,
+      "tabId": 2,
+      "frameId": 1073,
+      "url": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE",
+      "contextId": 1278,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1073,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "14017",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "302"
+        },
+        {
+          "name": "p3p",
+          "value": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\""
+        },
+        {
+          "name": "location",
+          "value": "https://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTIxNzcmdGw9MTI5NjAw&piggybackCookie=CAESEGMM8Tp3acOxJCQFU10V9Us&google_cver=1"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "server",
+          "value": "HTTP server (unknown)"
+        },
+        {
+          "name": "content-length",
+          "value": "350"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"39,38,37,35\",quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://cm.g.doubleclick.net/pixel?google_nid=pubmatic&google_cm&google_sc&google_awbid",
+      "id": 14737,
+      "contextId": 1278,
+      "parentContextId": 1277,
+      "windowId": 1,
+      "start": 1503504088903,
+      "end": 1503504088906,
+      "fromCache": false,
+      "ip": "216.58.204.2",
+      "redirectUrl": "https://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTIxNzcmdGw9MTI5NjAw&piggybackCookie=CAESEGMM8Tp3acOxJCQFU10V9Us&google_cver=1"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1073,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "14017",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTIxNzcmdGw9MTI5NjAw&piggybackCookie=CAESEGMM8Tp3acOxJCQFU10V9Us&google_cver=1",
+      "id": 14738,
+      "contextId": 1278,
+      "parentContextId": 1277,
+      "windowId": 1,
+      "start": 1503504088907,
+      "end": 1503504088907,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "KRTBCOOKIE_286=5193-Q5567889121903562303J; KRTBCOOKIE_931=18118-uid:pa_RVKPMi3KPZO5wDsLV; KRTBCOOKIE_10=22808-ZjNmNjEzNjBjMzkzOGU0YmIzN2NmMDk5ZWNhZGYyMjQ&KRTB&22883-ZjNmNjEzNjBjMzkzOGU0YmIzN2NmMDk5ZWNhZGYyMjQ; KRTBCOOKIE_97=3385-uid:5fc6ee7d-a627-4385-9bd6-77558d41de9b; PugT=1503504084; PUBMDCID=3"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1073,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "14016",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "302"
+        },
+        {
+          "name": "p3p",
+          "value": "policyref=\"https://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\""
+        },
+        {
+          "name": "location",
+          "value": "https://ad.yieldlab.net/m?dt_id=52&ext_id=CAESEAFOSnhwKO87iZEUVm_G7xY&google_cver=1"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "server",
+          "value": "HTTP server (unknown)"
+        },
+        {
+          "name": "content-length",
+          "value": "288"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\"googleads.g.doubleclick.net:443\"; ma=2592000; v=\"39,38,37,35\",quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://cm.g.doubleclick.net/pixel?google_nid=yieldlab&google_cm&google_sc&google_awbid",
+      "id": 14736,
+      "contextId": 1278,
+      "parentContextId": 1277,
+      "windowId": 1,
+      "start": 1503504088905,
+      "end": 1503504088907,
+      "fromCache": false,
+      "ip": "216.58.204.2",
+      "redirectUrl": "https://ad.yieldlab.net/m?dt_id=52&ext_id=CAESEAFOSnhwKO87iZEUVm_G7xY&google_cver=1"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 1073,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "14016",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://ad.yieldlab.net/m?dt_id=52&ext_id=CAESEAFOSnhwKO87iZEUVm_G7xY&google_cver=1",
+      "id": 14739,
+      "contextId": 1278,
+      "parentContextId": 1277,
+      "windowId": 1,
+      "start": 1503504088907,
+      "end": 1503504088907,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=13cfc8d5-a7ba-48fc-84f7-aae1781f814a"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "pubmatic.com",
+        "expirationDate": 1511280088,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "KRTBCOOKIE_80",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "15669-CAESEGMM8Tp3acOxJCQFU10V9Us&KRTB&15671-CAESEGMM8Tp3acOxJCQFU10V9Us&KRTB&16514-CAESEGMM8Tp3acOxJCQFU10V9Us"
+      },
+      "removed": false,
+      "timeStamp": 1503504088935,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1073,
+      "contextId": 1278
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "KRTBCOOKIE_80",
+      "type": "cookie",
+      "value": "15669-CAESEGMM8Tp3acOxJCQFU10V9Us&KRTB&15671-CAESEGMM8Tp3acOxJCQFU10V9Us&KRTB&16514-CAESEGMM8Tp3acOxJCQFU10V9Us",
+      "timeStamp": 1503504088935,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1073,
+      "contextId": 1278
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "pubmatic.com",
+        "expirationDate": 1506096088,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "PugT",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "1503504088"
+      },
+      "removed": false,
+      "timeStamp": 1503504088935,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1073,
+      "contextId": 1278
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "PugT",
+      "type": "cookie",
+      "value": "1503504088",
+      "timeStamp": 1503504088935,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1073,
+      "contextId": 1278
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "pubmatic.com",
+        "expirationDate": 1503504088,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "PUBRETARGET",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "dummy"
+      },
+      "removed": false,
+      "timeStamp": 1503504088935,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1073,
+      "contextId": 1278
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "PUBRETARGET",
+      "type": "cookie",
+      "value": "dummy",
+      "timeStamp": 1503504088935,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1073,
+      "contextId": 1278
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "pubmatic.com",
+        "expirationDate": 1511280088,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "PUBMDCID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "3"
+      },
+      "removed": false,
+      "timeStamp": 1503504088935,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1073,
+      "contextId": 1278
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "PUBMDCID",
+      "type": "cookie",
+      "value": "3",
+      "timeStamp": 1503504088935,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1073,
+      "contextId": 1278
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1073,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "14017",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/gif; charset=utf-8"
+        },
+        {
+          "name": "Content-Length",
+          "value": "42"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.24 (Unix) mod_ssl/2.2.24 OpenSSL/1.0.0-fips mod_fastcgi/2.4.6"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "KRTBCOOKIE_80=15669-CAESEGMM8Tp3acOxJCQFU10V9Us&KRTB&15671-CAESEGMM8Tp3acOxJCQFU10V9Us&KRTB&16514-CAESEGMM8Tp3acOxJCQFU10V9Us; domain=pubmatic.com; expires=Tue, 21-Nov-2017 16:01:28 GMT; path=/"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "PugT=1503504088; domain=pubmatic.com; expires=Fri, 22-Sep-2017 16:01:28 GMT; path=/"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "PUBRETARGET=dummy; domain=pubmatic.com; expires=Wed, 23-Aug-2017 16:01:28 GMT; path=/"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "PUBMDCID=3; domain=pubmatic.com; expires=Tue, 21-Nov-2017 16:01:28 GMT; path=/"
+        },
+        {
+          "name": "X-lat",
+          "value": "Pug22015:0:348"
+        },
+        {
+          "name": "P3P",
+          "value": "CP=\"NOI DSP COR LAW CUR ADMo DEVo TAIo PSAo PSDo IVAo IVDo HISo OTPo OUR SAMo BUS UNI COM NAV INT DEM CNT STA PRE LOC\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-store, no-cache, private"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTIxNzcmdGw9MTI5NjAw&piggybackCookie=CAESEGMM8Tp3acOxJCQFU10V9Us&google_cver=1",
+      "id": 14738,
+      "contextId": 1278,
+      "parentContextId": 1277,
+      "windowId": 1,
+      "start": 1503504088935,
+      "end": 1503504088940,
+      "fromCache": false,
+      "ip": "185.64.189.236"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".pubmatic.com",
+        "expirationDate": 1511280088.935544,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "KRTBCOOKIE_80",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "15669-CAESEGMM8Tp3acOxJCQFU10V9Us&KRTB&15671-CAESEGMM8Tp3acOxJCQFU10V9Us&KRTB&16514-CAESEGMM8Tp3acOxJCQFU10V9Us"
+      },
+      "removed": false,
+      "timeStamp": 1503504088940
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "KRTBCOOKIE_80",
+      "type": "cookie",
+      "value": "15669-CAESEGMM8Tp3acOxJCQFU10V9Us&KRTB&15671-CAESEGMM8Tp3acOxJCQFU10V9Us&KRTB&16514-CAESEGMM8Tp3acOxJCQFU10V9Us",
+      "timeStamp": 1503504088940
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".pubmatic.com",
+        "expirationDate": 1506096084.220577,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "PugT",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1503504084"
+      },
+      "removed": true,
+      "timeStamp": 1503504088941
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "PugT",
+      "type": "cookie",
+      "value": "1503504084",
+      "timeStamp": 1503504088941
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".pubmatic.com",
+        "expirationDate": 1506096088.935575,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "PugT",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1503504088"
+      },
+      "removed": false,
+      "timeStamp": 1503504088941
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "PugT",
+      "type": "cookie",
+      "value": "1503504088",
+      "timeStamp": 1503504088941
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".pubmatic.com",
+        "expirationDate": 1511280084.220603,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "PUBMDCID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "3"
+      },
+      "removed": true,
+      "timeStamp": 1503504088941
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "PUBMDCID",
+      "type": "cookie",
+      "value": "3",
+      "timeStamp": 1503504088941
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".pubmatic.com",
+        "expirationDate": 1511280088.935603,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "PUBMDCID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "3"
+      },
+      "removed": false,
+      "timeStamp": 1503504088941
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "PUBMDCID",
+      "type": "cookie",
+      "value": "3",
+      "timeStamp": 1503504088941
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "yieldlab.net",
+        "expirationDate": 1535040088,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "id",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "13cfc8d5-a7ba-48fc-84f7-aae1781f814a"
+      },
+      "removed": false,
+      "timeStamp": 1503504088941,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1073,
+      "contextId": 1278
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "id",
+      "type": "cookie",
+      "value": "13cfc8d5-a7ba-48fc-84f7-aae1781f814a",
+      "timeStamp": 1503504088941,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 1073,
+      "contextId": 1278
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 1073,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "14016",
+      "responseHeaders": [
+        {
+          "name": "X-Application-Context",
+          "value": "application"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-store,no-cache,max-age=-3600,must-revalidate,post-check=0,pre-check=0"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 22 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "id=13cfc8d5-a7ba-48fc-84f7-aae1781f814a;Path=/;Domain=yieldlab.net;Expires=Thu, 23-Aug-2018 16:01:28 GMT"
+        }
+      ],
+      "statusCode": 204,
+      "statusLine": "HTTP/1.1 204 No Content",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://ad.yieldlab.net/m?dt_id=52&ext_id=CAESEAFOSnhwKO87iZEUVm_G7xY&google_cver=1",
+      "id": 14739,
+      "contextId": 1278,
+      "parentContextId": 1277,
+      "windowId": 1,
+      "start": 1503504088941,
+      "end": 1503504088943,
+      "fromCache": false,
+      "ip": "23.44.100.199"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".yieldlab.net",
+        "expirationDate": 1535038512.631783,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "id",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "13cfc8d5-a7ba-48fc-84f7-aae1781f814a"
+      },
+      "removed": true,
+      "timeStamp": 1503504088943
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "id",
+      "type": "cookie",
+      "value": "13cfc8d5-a7ba-48fc-84f7-aae1781f814a",
+      "timeStamp": 1503504088943
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".yieldlab.net",
+        "expirationDate": 1535040088.936773,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "id",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "13cfc8d5-a7ba-48fc-84f7-aae1781f814a"
+      },
+      "removed": false,
+      "timeStamp": 1503504088943
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "id",
+      "type": "cookie",
+      "value": "13cfc8d5-a7ba-48fc-84f7-aae1781f814a",
+      "timeStamp": 1503504088943
+    }
+  },
+  {
+    "type": "dom.error",
+    "details": {
+      "isTrusted": true,
+      "type": "error",
+      "target": "#window>#document>html[0]>body[0]>img[0]",
+      "currentTarget": "#window",
+      "eventPhase": 1,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503504088941,
+      "srcElement": "#window>#document>html[0]>body[0]>img[0]",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window>#document>html[0]>body[0]>img[0]",
+      "tabId": 2,
+      "frameId": 1073,
+      "url": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE",
+      "contextId": 1278,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 1073,
+      "processId": 185,
+      "tabId": 2,
+      "timeStamp": 1503504088943,
+      "url": "https://bid.g.doubleclick.net/xbbe/pixel?d=KAE",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 185,
+      "tabId": 2,
+      "timeStamp": 1503504088943,
+      "url": "https://www.thescarpetta.com/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "The Scarpetta | Designer Shoes",
+          "url": "https://www.thescarpetta.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504088943
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14018",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/media/favicon/default/scarpetta_shoe_square.png",
+      "id": 14740,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088943,
+      "end": 1503504088943,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087; _ga=GA1.2.484201102.1503504089; _gid=GA1.2.1789305828.1503504089; _gat_UA-39787201-1=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14018",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/webp"
+        },
+        {
+          "name": "content-length",
+          "value": "33616"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-bgj",
+          "value": "imgq:85"
+        },
+        {
+          "name": "cf-polished",
+          "value": "origFmt=png, origSize=56190"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"scarpetta_shoe_square.webp\""
+        },
+        {
+          "name": "etag",
+          "value": "\"5437fe53-db7e\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 10 Oct 2014 15:42:11 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a6bebfc34a6-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/media/favicon/default/scarpetta_shoe_square.png",
+      "id": 14740,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088955,
+      "end": 1503504088956,
+      "fromCache": false,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14019",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/media/favicon/default/scarpetta_shoe_square.png",
+      "id": 14741,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088962,
+      "end": 1503504088963,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.thescarpetta.com/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d6943c6ee7fd403860f051610006152c31503504087; _ga=GA1.2.484201102.1503504089; _gid=GA1.2.1789305828.1503504089; _gat_UA-39787201-1=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14019",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 16:01:28 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/webp"
+        },
+        {
+          "name": "content-length",
+          "value": "33616"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=3360000"
+        },
+        {
+          "name": "cf-bgj",
+          "value": "imgq:85"
+        },
+        {
+          "name": "cf-polished",
+          "value": "origFmt=png, origSize=56190"
+        },
+        {
+          "name": "content-disposition",
+          "value": "inline; filename=\"scarpetta_shoe_square.webp\""
+        },
+        {
+          "name": "etag",
+          "value": "\"5437fe53-db7e\""
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 01 Oct 2017 13:21:28 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 10 Oct 2014 15:42:11 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f4a6bebfc34a6-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://thescarpetta.com/media/favicon/default/scarpetta_shoe_square.png",
+      "id": 14741,
+      "contextId": 1277,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504088963,
+      "end": 1503504088963,
+      "fromCache": true,
+      "ip": "104.25.35.9"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "https://thescarpetta.com/media/favicon/default/scarpetta_shoe_square.png"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "https://thescarpetta.com/media/favicon/default/scarpetta_shoe_square.png",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "The Scarpetta | Designer Shoes",
+          "url": "https://www.thescarpetta.com/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504088968
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14020",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 14742,
+      "contextId": 1279,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504089977,
+      "end": 1503504089977
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14020",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 14742,
+      "contextId": 1279,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504089977,
+      "end": 1503504089991
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504089993
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503504089993
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503504089993,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503504089979.939,
+          "title": "Save",
+          "typedCount": 179,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 179
+        }
+      },
+      "timeStamp": 1503504089996
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14021",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 14743,
+      "contextId": 1279,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504089995,
+      "end": 1503504089996
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "14021",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 14743,
+      "contextId": 1279,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504089996,
+      "end": 1503504089997
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504090004
+    }
+  }
+]

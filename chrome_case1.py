@@ -6,6 +6,7 @@ import shutil
 import urlparse
 import tldextract
 import editdistance
+from analysis import *
 from difflib import SequenceMatcher
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options

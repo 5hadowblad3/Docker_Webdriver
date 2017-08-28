@@ -1,0 +1,4693 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496015094
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 261327,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/7be7e48f-fe79-4da0-9a8c-f521e2603cb7",
+          "id": 83,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T13:46:55.094Z",
+          "state": "in_progress",
+          "totalBytes": 261327,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/7be7e48f-fe79-4da0-9a8c-f521e2603cb7"
+        }
+      },
+      "timeStamp": 1503496015098
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 261327,
+          "filename": "ECAP_G_2017-08-23T13-46-55.087Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/7be7e48f-fe79-4da0-9a8c-f521e2603cb7",
+          "id": 83,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T13:46:55.094Z",
+          "state": "in_progress",
+          "totalBytes": 261327,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/7be7e48f-fe79-4da0-9a8c-f521e2603cb7"
+        }
+      },
+      "timeStamp": 1503496015100
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T13-46-55.087Z.json",
+            "previous": ""
+          },
+          "id": 83
+        }
+      },
+      "timeStamp": 1503496015108
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T13:46:55.112Z"
+          },
+          "id": 83,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503496015113
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496017497,
+      "url": "http://www.booklemur.com/pages/promotion.php",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6565",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.booklemur.com/pages/promotion.php",
+      "id": 6935,
+      "contextId": 619,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496017497,
+      "end": 1503496017497,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6565",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:57 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Location",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Content-Length",
+          "value": "229"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=iso-8859-1"
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302 Found",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.booklemur.com/pages/promotion.php",
+      "id": 6935,
+      "contextId": 619,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496017650,
+      "end": 1503496017652,
+      "fromCache": false,
+      "ip": "70.39.235.60",
+      "redirectUrl": "https://www.booklemur.com/pages/promotion.php"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6565",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://www.booklemur.com/pages/promotion.php",
+      "id": 6936,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496017653,
+      "end": 1503496017653,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "https://www.booklemur.com/pages/promotion.php"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "https://www.booklemur.com/pages/promotion.php",
+          "url": "https://www.booklemur.com/pages/promotion.php",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496018034
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503496018034
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 89,
+      "tabId": 2,
+      "timeStamp": 1503496018035,
+      "transitionQualifiers": [
+        "server_redirect"
+      ],
+      "transitionType": "typed",
+      "url": "https://www.booklemur.com/pages/promotion.php",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "123",
+          "lastVisitTime": 1503496018030.071,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://www.booklemur.com/pages/promotion.php",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503496018047
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "124",
+          "lastVisitTime": 1503496018030.071,
+          "title": "",
+          "typedCount": 0,
+          "url": "https://www.booklemur.com/pages/promotion.php",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503496018047
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6566",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.booklemur.com/js/jquery.min.js",
+      "id": 6937,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018048,
+      "end": 1503496018048,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6567",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.booklemur.com/js/jquery.dropotron.min.js",
+      "id": 6938,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018049,
+      "end": 1503496018049,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6568",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.booklemur.com/js/jquery.scrollgress.min.js",
+      "id": 6939,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018050,
+      "end": 1503496018051,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6569",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.booklemur.com/js/skel.min.js",
+      "id": 6940,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018051,
+      "end": 1503496018052,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6570",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.booklemur.com/js/skel-layers.min.js",
+      "id": 6941,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018052,
+      "end": 1503496018052,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6571",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.booklemur.com/js/init_sub.js",
+      "id": 6942,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018053,
+      "end": 1503496018053,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "BookLemur.com | Promote Your Books"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "BookLemur.com | Promote Your Books",
+          "url": "https://www.booklemur.com/pages/promotion.php",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496018054
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6565",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:57 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://www.booklemur.com/pages/promotion.php",
+      "id": 6936,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018026,
+      "end": 1503496018106,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6567",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 21 Oct 2014 12:51:26 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4270"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.booklemur.com/js/jquery.dropotron.min.js",
+      "id": 6938,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018189,
+      "end": 1503496018190,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6568",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 21 Oct 2014 12:51:26 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2897"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.booklemur.com/js/jquery.scrollgress.min.js",
+      "id": 6939,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018273,
+      "end": 1503496018273,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6571",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 21 Oct 2014 15:18:59 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5552"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.booklemur.com/js/init_sub.js",
+      "id": 6942,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018296,
+      "end": 1503496018296,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6569",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 21 Oct 2014 12:51:27 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "20972"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "X-Pad",
+          "value": "avoid browser bug"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.booklemur.com/js/skel.min.js",
+      "id": 6940,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018293,
+      "end": 1503496018374,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6566",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 21 Oct 2014 12:51:26 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "95786"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "X-Pad",
+          "value": "avoid browser bug"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.booklemur.com/js/jquery.min.js",
+      "id": 6937,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018132,
+      "end": 1503496018374,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6570",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 21 Oct 2014 12:51:26 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "15366"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "X-Pad",
+          "value": "avoid browser bug"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.booklemur.com/js/skel-layers.min.js",
+      "id": 6941,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018295,
+      "end": 1503496018375,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6572",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/anthony-awtrey.jpg",
+      "id": 6943,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018375,
+      "end": 1503496018376,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6581",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://www.booklemur.com/css/style.css",
+      "id": 6944,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018424,
+      "end": 1503496018424,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6582",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://www.booklemur.com/css/style-wide.css",
+      "id": 6945,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018424,
+      "end": 1503496018425,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6583",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://www.booklemur.com/css/style-normal.css",
+      "id": 6946,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018425,
+      "end": 1503496018425,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6584",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://www.booklemur.com/css/style-narrow.css",
+      "id": 6947,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018425,
+      "end": 1503496018425,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6575",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/cyndie-shaffstall.jpg",
+      "id": 6948,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018438,
+      "end": 1503496018439,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6573",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/anthony-awtrey-tweet.png",
+      "id": 6949,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018439,
+      "end": 1503496018439,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6574",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/norma-budden.jpg",
+      "id": 6950,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018439,
+      "end": 1503496018439,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 89,
+      "tabId": 2,
+      "timeStamp": 1503496018447,
+      "url": "https://www.booklemur.com/pages/promotion.php",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://www.booklemur.com/pages/promotion.php",
+      "timeStamp": 1503496018470,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.booklemur.com/pages/promotion.php",
+      "contextId": 620,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503496018470,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.booklemur.com/pages/promotion.php",
+      "contextId": 620,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "BookLemur.com | Promote Your Books",
+      "timeStamp": 1503496018470,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.booklemur.com/pages/promotion.php",
+      "contextId": 620,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6584",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 25 Dec 2014 20:15:57 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "201"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://www.booklemur.com/css/style-narrow.css",
+      "id": 6947,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018507,
+      "end": 1503496018508,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6581",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 22 Jan 2016 14:54:34 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "30709"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://www.booklemur.com/css/style.css",
+      "id": 6944,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018506,
+      "end": 1503496018508,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6582",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 25 Dec 2014 20:15:57 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "256"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://www.booklemur.com/css/style-wide.css",
+      "id": 6945,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018509,
+      "end": 1503496018509,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6583",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 25 Dec 2014 20:15:57 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "362"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://www.booklemur.com/css/style-normal.css",
+      "id": 6946,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018509,
+      "end": 1503496018509,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6576",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/nancy-wikarski.png",
+      "id": 6951,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018510,
+      "end": 1503496018510,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6577",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/roberta-kagan.jpg",
+      "id": 6952,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018510,
+      "end": 1503496018510,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6585",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 6953,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018510,
+      "end": 1503496018510,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6586",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "id": 6954,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018511,
+      "end": 1503496018511,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6586",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self';"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "access-control-allow-credentials",
+          "value": "true"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "https://connect.facebook.net"
+        },
+        {
+          "name": "access-control-expose-headers",
+          "value": "X-FB-Debug, X-Loader-Length"
+        },
+        {
+          "name": "pragma",
+          "value": "public"
+        },
+        {
+          "name": "vary",
+          "value": "Origin"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "access-control-allow-method",
+          "value": "OPTIONS"
+        },
+        {
+          "name": "expires",
+          "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript; charset=utf-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=1200"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "mokfDlMwLL+znpXZjDo2Lytb5PXimZZgUbFF2Fa1nMBUiJ0o0wbPQ++lDJyi9hbA8JD9d2r4AKaMovH3pZQF+w=="
+        },
+        {
+          "name": "content-length",
+          "value": "11094"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:34:11 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "id": 6954,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018511,
+      "end": 1503496018512,
+      "fromCache": true,
+      "ip": "31.13.69.203"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6585",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 12:22:02 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 14:22:02 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "13472"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "age",
+          "value": "4329"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 6953,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018511,
+      "end": 1503496018513,
+      "fromCache": true,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6587",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://www.booklemur.com/css/font-awesome.min.css",
+      "id": 6955,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018523,
+      "end": 1503496018523,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6588",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic",
+      "id": 6956,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018524,
+      "end": 1503496018524,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6588",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic",
+      "id": 6956,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018536,
+      "end": 1503496018537,
+      "fromCache": false,
+      "ip": "216.58.206.42"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6589",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/883546165039574?v=2.7.19",
+      "id": 6957,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018541,
+      "end": 1503496018541,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".booklemur.com",
+        "expirationDate": 1566568018,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.1618220624.1503496019"
+      },
+      "removed": false,
+      "timeStamp": 1503496018546
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_ga",
+      "type": "cookie",
+      "value": "GA1.2.1618220624.1503496019",
+      "timeStamp": 1503496018546
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".booklemur.com",
+        "expirationDate": 1503582418,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.2047368113.1503496019"
+      },
+      "removed": false,
+      "timeStamp": 1503496018546
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gid",
+      "type": "cookie",
+      "value": "GA1.2.2047368113.1503496019",
+      "timeStamp": 1503496018546
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".booklemur.com",
+        "expirationDate": 1503496078,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gat",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1503496018550
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gat",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1503496018550
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6590",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j60&a=1882563144&t=pageview&_s=1&dl=https%3A%2F%2Fwww.booklemur.com%2Fpages%2Fpromotion.php&ul=en-gb&de=UTF-8&dt=BookLemur.com%20%7C%20Promote%20Your%20Books&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=IGBAgEAB~&jid=1348301654&gjid=374523022&cid=1618220624.1503496019&tid=UA-54723510-1&_gid=2047368113.1503496019&z=201559576",
+      "id": 6958,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018551,
+      "end": 1503496018551,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6591",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://stats.g.doubleclick.net/r/collect?t=dc&aip=1&_r=3&v=1&_v=j60&tid=UA-54723510-1&cid=1618220624.1503496019&jid=1348301654&gjid=374523022&_gid=2047368113.1503496019&_u=IGBAgEAB~&z=1320368660",
+      "id": 6959,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018551,
+      "end": 1503496018551,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=22743b04524c0043||t=1503495256|et=730|cs=002213fd48ee616a760a265f2d; IDE=AHWqTUmZwFm759YtS4s6w5Tsj5es_PH7K-kHiZbJxLu-_LZuiNBtmEat_Q; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6590",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 22 Aug 2017 17:49:56 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "age",
+          "value": "71822"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j60&a=1882563144&t=pageview&_s=1&dl=https%3A%2F%2Fwww.booklemur.com%2Fpages%2Fpromotion.php&ul=en-gb&de=UTF-8&dt=BookLemur.com%20%7C%20Promote%20Your%20Books&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=IGBAgEAB~&jid=1348301654&gjid=374523022&cid=1618220624.1503496019&tid=UA-54723510-1&_gid=2047368113.1503496019&z=201559576",
+      "id": 6958,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018554,
+      "end": 1503496018555,
+      "fromCache": false,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6591",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=10886400; includeSubDomains; preload"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://stats.g.doubleclick.net/r/collect?t=dc&aip=1&_r=3&v=1&_v=j60&tid=UA-54723510-1&cid=1618220624.1503496019&jid=1348301654&gjid=374523022&_gid=2047368113.1503496019&_u=IGBAgEAB~&z=1320368660",
+      "id": 6959,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018560,
+      "end": 1503496018561,
+      "fromCache": false,
+      "ip": "66.102.1.155"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6574",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 07 Aug 2016 14:36:34 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "24080"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/norma-budden.jpg",
+      "id": 6950,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018592,
+      "end": 1503496018593,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6575",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 11 Oct 2015 16:56:53 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "19732"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/cyndie-shaffstall.jpg",
+      "id": 6948,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018521,
+      "end": 1503496018601,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6578",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/amazon_review_01.jpg",
+      "id": 6960,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018601,
+      "end": 1503496018602,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1618220624.1503496019; _gid=GA1.2.2047368113.1503496019; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6577",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 17 Apr 2016 18:46:23 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "22858"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/roberta-kagan.jpg",
+      "id": 6952,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018591,
+      "end": 1503496018671,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6579",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/paid_book_sales.png",
+      "id": 6961,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018672,
+      "end": 1503496018672,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1618220624.1503496019; _gid=GA1.2.2047368113.1503496019; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6587",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 25 Dec 2014 20:15:56 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "21984"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://www.booklemur.com/css/font-awesome.min.css",
+      "id": 6955,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018675,
+      "end": 1503496018676,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6580",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/google-analytics-150123.jpg",
+      "id": 6962,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018676,
+      "end": 1503496018676,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1618220624.1503496019; _gid=GA1.2.2047368113.1503496019; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6592",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/sourcesanspro/v10/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2",
+      "id": 6963,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018692,
+      "end": 1503496018692,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://www.booklemur.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6592",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "14624"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 07 Aug 2017 17:49:21 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 07 Aug 2018 17:49:21 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 05 Jun 2017 20:31:56 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "1367100"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/sourcesanspro/v10/ODelI1aHBYDBqgeIAH2zlNV_2ngZ8dMf8fLgjYEouxg.woff2",
+      "id": 6963,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018693,
+      "end": 1503496018693,
+      "fromCache": true,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6589",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "default-src * data: blob:;script-src *.facebook.com *.fbcdn.net *.facebook.net *.google-analytics.com *.virtualearth.net *.google.com 127.0.0.1:* *.spotilocal.com:* 'unsafe-inline' 'unsafe-eval' fbstatic-a.akamaihd.net fbcdn-static-b-a.akamaihd.net *.atlassolutions.com blob: data: 'self';style-src data: blob: 'unsafe-inline' *;connect-src *.facebook.com *.fbcdn.net *.facebook.net *.spotilocal.com:* *.akamaihd.net wss://*.facebook.com:* https://fb.scanandcleanlocal.com:* *.atlassolutions.com attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' chrome-extension://boadgeojelhgndaghljhdicfkmllpafd chrome-extension://dliochdbjfkdbacpmhlcpmleaejidimm;"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "DENY"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "0"
+        },
+        {
+          "name": "access-control-allow-credentials",
+          "value": "true"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "https://connect.facebook.net"
+        },
+        {
+          "name": "access-control-expose-headers",
+          "value": "X-FB-Debug, X-Loader-Length"
+        },
+        {
+          "name": "pragma",
+          "value": "public"
+        },
+        {
+          "name": "vary",
+          "value": "Origin"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "access-control-allow-method",
+          "value": "OPTIONS"
+        },
+        {
+          "name": "expires",
+          "value": "Sat, 01 Jan 2000 00:00:00 GMT"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=15552000; preload; includeSubDomains"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript; charset=utf-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=1200"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-fb-debug",
+          "value": "FD39JlWQ68lfmxMJvJfIe2dVGR5eY2asVKXIgqYb5wATujhmdFGG7VkkscsmaqEMGUPXPnYWUviTkTBwdd4NJA=="
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://connect.facebook.net/signals/config/883546165039574?v=2.7.19",
+      "id": 6957,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018716,
+      "end": 1503496018717,
+      "fromCache": false,
+      "ip": "157.240.3.24"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6593",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/sourcesanspro/v10/M2Jd71oPJhLKp0zdtTvoMxgy2Fsj5sj3EzlXpqVXRKo.woff2",
+      "id": 6964,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018728,
+      "end": 1503496018728,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://www.booklemur.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6596",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://www.booklemur.com/fonts/fontawesome-webfont.woff?v=4.2.0",
+      "id": 6965,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018729,
+      "end": 1503496018730,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://www.booklemur.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/css/font-awesome.min.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1618220624.1503496019; _gid=GA1.2.2047368113.1503496019; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6593",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "13872"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 07 Aug 2017 09:32:42 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 07 Aug 2018 09:32:42 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 05 Jun 2017 20:32:55 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "1397656"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/sourcesanspro/v10/M2Jd71oPJhLKp0zdtTvoMxgy2Fsj5sj3EzlXpqVXRKo.woff2",
+      "id": 6964,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018731,
+      "end": 1503496018732,
+      "fromCache": false,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6579",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 02 Feb 2015 23:15:05 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "15178"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/paid_book_sales.png",
+      "id": 6961,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018755,
+      "end": 1503496018755,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6594",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/css/images/overlay.png",
+      "id": 6966,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018806,
+      "end": 1503496018806,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/css/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1618220624.1503496019; _gid=GA1.2.2047368113.1503496019; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6595",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/banner.jpg",
+      "id": 6967,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018806,
+      "end": 1503496018806,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/css/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1618220624.1503496019; _gid=GA1.2.2047368113.1503496019; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6597",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/tr/?id=883546165039574&ev=PageView&dl=https%3A%2F%2Fwww.booklemur.com%2Fpages%2Fpromotion.php&rl=&if=false&ts=1503496018827&v=2.7.19&ec=0&o=28",
+      "id": 6968,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018830,
+      "end": 1503496018830,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "fr=09W9UF2HFFTvidHcd..BZnYRe...1.0.BZnYRe."
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6598",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/tr/?id=883546165039574&ev=Microdata&dl=https%3A%2F%2Fwww.booklemur.com%2Fpages%2Fpromotion.php&rl=&if=false&ts=1503496018829&cd[Schema.org]=%5B%5D&cd[OpenGraph]=%7B%22og%3Atype%22%3A%22website%22%2C%22og%3Atitle%22%3A%22BookLemur.com%20%7C%20Promote%20Your%20Books%22%2C%22og%3Adescription%22%3A%22How%20to%20promote%20your%20book%20to%20BookLemur%20readers.%20These%20smart%20humans%20are%20waiting%20to%20get%20their%20eyes%20on%20your%20work!%22%2C%22og%3Aurl%22%3A%22http%3A%2F%2Fwww.booklemur.com%2Fpages%2Fpromotion.php%22%2C%22og%3Aimage%22%3A%22http%3A%2F%2Fwww.booklemur.com%2Fimages%2Fbooklemur_promote.jpg%22%2C%22og%3Asite_name%22%3A%22BookLemur.com%22%7D&v=2.7.19&o=28",
+      "id": 6969,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018830,
+      "end": 1503496018830,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "fr=09W9UF2HFFTvidHcd..BZnYRe...1.0.BZnYRe."
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6599",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/tr/?id=883546165039574&ev=PROMOTION&dl=https%3A%2F%2Fwww.booklemur.com%2Fpages%2Fpromotion.php&rl=&if=false&ts=1503496018829&v=2.7.19&ec=1&o=28",
+      "id": 6970,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018830,
+      "end": 1503496018830,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "fr=09W9UF2HFFTvidHcd..BZnYRe...1.0.BZnYRe."
+        }
+      ]
+    }
+  },
+  {
+    "type": "dom.message",
+    "details": {
+      "isTrusted": true,
+      "data": {
+        "action": "FB_LOG",
+        "logType": "Facebook Pixel Warning",
+        "logMessage": "You are sending a non-standard event 'PROMOTION'. The preferred way to send events is using trackCustom. See https://www.facebookmarketingdevelopers.com/pixels/up#sec-custom for more information"
+      },
+      "origin": "https://www.booklemur.com",
+      "lastEventId": "",
+      "source": "#window",
+      "ports": [],
+      "type": "message",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503496018831,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.booklemur.com/pages/promotion.php",
+      "contextId": 620,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6576",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 24 Apr 2015 23:35:39 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "68042"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/nancy-wikarski.png",
+      "id": 6951,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018591,
+      "end": 1503496018832,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6580",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 06 Feb 2015 13:58:08 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "49857"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=96"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/google-analytics-150123.jpg",
+      "id": 6962,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018758,
+      "end": 1503496018838,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.facebook.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "path": "/tr/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1
+      },
+      "removed": false,
+      "timeStamp": 1503496018902,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 620
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "type": "cookie",
+      "timeStamp": 1503496018902,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 620
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6597",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 21 Dec 2012 00:00:01 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate, max-age=0"
+        },
+        {
+          "name": "set-cookie",
+          "value": ""
+        },
+        {
+          "name": "content-length",
+          "value": "44"
+        },
+        {
+          "name": "server",
+          "value": "proxygen"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/tr/?id=883546165039574&ev=PageView&dl=https%3A%2F%2Fwww.booklemur.com%2Fpages%2Fpromotion.php&rl=&if=false&ts=1503496018827&v=2.7.19&ec=0&o=28",
+      "id": 6968,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018902,
+      "end": 1503496018903,
+      "fromCache": false,
+      "ip": "31.13.71.36"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.facebook.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "path": "/tr/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1
+      },
+      "removed": false,
+      "timeStamp": 1503496018903,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 620
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "type": "cookie",
+      "timeStamp": 1503496018903,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 620
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6598",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 21 Dec 2012 00:00:01 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate, max-age=0"
+        },
+        {
+          "name": "set-cookie",
+          "value": ""
+        },
+        {
+          "name": "content-length",
+          "value": "44"
+        },
+        {
+          "name": "server",
+          "value": "proxygen"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/tr/?id=883546165039574&ev=Microdata&dl=https%3A%2F%2Fwww.booklemur.com%2Fpages%2Fpromotion.php&rl=&if=false&ts=1503496018829&cd[Schema.org]=%5B%5D&cd[OpenGraph]=%7B%22og%3Atype%22%3A%22website%22%2C%22og%3Atitle%22%3A%22BookLemur.com%20%7C%20Promote%20Your%20Books%22%2C%22og%3Adescription%22%3A%22How%20to%20promote%20your%20book%20to%20BookLemur%20readers.%20These%20smart%20humans%20are%20waiting%20to%20get%20their%20eyes%20on%20your%20work!%22%2C%22og%3Aurl%22%3A%22http%3A%2F%2Fwww.booklemur.com%2Fpages%2Fpromotion.php%22%2C%22og%3Aimage%22%3A%22http%3A%2F%2Fwww.booklemur.com%2Fimages%2Fbooklemur_promote.jpg%22%2C%22og%3Asite_name%22%3A%22BookLemur.com%22%7D&v=2.7.19&o=28",
+      "id": 6969,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018903,
+      "end": 1503496018904,
+      "fromCache": false,
+      "ip": "31.13.71.36"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.facebook.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "path": "/tr/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1
+      },
+      "removed": false,
+      "timeStamp": 1503496018904,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 620
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "type": "cookie",
+      "timeStamp": 1503496018904,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 620
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6599",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 21 Dec 2012 00:00:01 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate, max-age=0"
+        },
+        {
+          "name": "set-cookie",
+          "value": ""
+        },
+        {
+          "name": "content-length",
+          "value": "44"
+        },
+        {
+          "name": "server",
+          "value": "proxygen"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.facebook.com/tr/?id=883546165039574&ev=PROMOTION&dl=https%3A%2F%2Fwww.booklemur.com%2Fpages%2Fpromotion.php&rl=&if=false&ts=1503496018829&v=2.7.19&ec=1&o=28",
+      "id": 6970,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018904,
+      "end": 1503496018905,
+      "fromCache": false,
+      "ip": "31.13.71.36"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6594",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 25 Dec 2014 20:15:57 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "870"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/css/images/overlay.png",
+      "id": 6966,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018915,
+      "end": 1503496018915,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6573",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 15 May 2017 12:02:13 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "228500"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=96"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/anthony-awtrey-tweet.png",
+      "id": 6949,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018590,
+      "end": 1503496018991,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6596",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 21 Oct 2014 12:50:42 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "65452"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=96"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-font-woff"
+        },
+        {
+          "name": "X-Pad",
+          "value": "avoid browser bug"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://www.booklemur.com/fonts/fontawesome-webfont.woff?v=4.2.0",
+      "id": 6965,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018837,
+      "end": 1503496018997,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6578",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 02 May 2017 16:28:53 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "139319"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/amazon_review_01.jpg",
+      "id": 6960,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018685,
+      "end": 1503496019006,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6595",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 20 Feb 2015 14:01:09 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "335166"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=95"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/banner.jpg",
+      "id": 6967,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018921,
+      "end": 1503496019243,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6572",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:58 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 16 May 2017 13:09:07 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "598558"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/images/anthony-awtrey.jpg",
+      "id": 6943,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496018458,
+      "end": 1503496019261,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 89,
+      "tabId": 2,
+      "timeStamp": 1503496019268,
+      "url": "https://www.booklemur.com/pages/promotion.php",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "BookLemur.com | Promote Your Books",
+          "url": "https://www.booklemur.com/pages/promotion.php",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496019269
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6600",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/lemur.ico",
+      "id": 6971,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496019272,
+      "end": 1503496019273,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.booklemur.com/pages/promotion.php"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1618220624.1503496019; _gid=GA1.2.2047368113.1503496019; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6600",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:46:59 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 25 Dec 2014 22:14:00 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "31662"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/x-icon"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.booklemur.com/lemur.ico",
+      "id": 6971,
+      "contextId": 620,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496019356,
+      "end": 1503496019357,
+      "fromCache": false,
+      "ip": "70.39.235.60"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "https://www.booklemur.com/lemur.ico"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "https://www.booklemur.com/lemur.ico",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "BookLemur.com | Promote Your Books",
+          "url": "https://www.booklemur.com/pages/promotion.php",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496019359
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6601",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 6972,
+      "contextId": 621,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496020316,
+      "end": 1503496020316
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6601",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 6972,
+      "contextId": 621,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496020316,
+      "end": 1503496020321
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496020322
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503496020322
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503496020322,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6602",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 6973,
+      "contextId": 621,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496020323,
+      "end": 1503496020323
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6602",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 6973,
+      "contextId": 621,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496020323,
+      "end": 1503496020323
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503496020317.432,
+          "title": "Save",
+          "typedCount": 83,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 83
+        }
+      },
+      "timeStamp": 1503496020326
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496020327
+    }
+  }
+]

@@ -1,0 +1,995 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503503032309
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 145343,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/ba23a2f7-25d3-4920-a667-65b9fcf87696",
+          "id": 72,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T15:43:52.311Z",
+          "state": "in_progress",
+          "totalBytes": 145343,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/ba23a2f7-25d3-4920-a667-65b9fcf87696"
+        }
+      },
+      "timeStamp": 1503503032313
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 145343,
+          "filename": "ECAP_G_2017-08-23T15-43-52.305Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/ba23a2f7-25d3-4920-a667-65b9fcf87696",
+          "id": 72,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T15:43:52.311Z",
+          "state": "in_progress",
+          "totalBytes": 145343,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/ba23a2f7-25d3-4920-a667-65b9fcf87696"
+        }
+      },
+      "timeStamp": 1503503032315
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T15-43-52.305Z.json",
+            "previous": ""
+          },
+          "id": 72
+        }
+      },
+      "timeStamp": 1503503032321
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T15:43:52.321Z"
+          },
+          "id": 72,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503503032322
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503503034712,
+      "url": "http://bookpraiser.com/submit-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6069",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://bookpraiser.com/submit-book/",
+      "id": 6358,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503034712,
+      "end": 1503503034713,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6069",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:43:54 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        },
+        {
+          "name": "Content-Length",
+          "value": "178"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=20"
+        },
+        {
+          "name": "Location",
+          "value": "https://bookpraiser.com/submit-book/"
+        },
+        {
+          "name": "X-Type",
+          "value": "default"
+        }
+      ],
+      "statusCode": 301,
+      "statusLine": "HTTP/1.1 301 Moved Permanently",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://bookpraiser.com/submit-book/",
+      "id": 6358,
+      "contextId": 561,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503034973,
+      "end": 1503503034975,
+      "fromCache": false,
+      "ip": "35.185.203.112",
+      "redirectUrl": "https://bookpraiser.com/submit-book/"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6069",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://bookpraiser.com/submit-book/",
+      "id": 6359,
+      "contextId": 562,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503034975,
+      "end": 1503503034975,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6069",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "404"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:43:55 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "content-length",
+          "value": "935"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 11 Jan 1984 05:00:00 GMT"
+        },
+        {
+          "name": "link",
+          "value": "<https://bookpraiser.com/wp-json/>; rel=\"https://api.w.org/\""
+        },
+        {
+          "name": "x-tec-api-version",
+          "value": "v1"
+        },
+        {
+          "name": "x-tec-api-root",
+          "value": "https://bookpraiser.com/wp-json/tribe/events/v1/"
+        },
+        {
+          "name": "x-tec-api-origin",
+          "value": "https://bookpraiser.com"
+        },
+        {
+          "name": "x-cacheable",
+          "value": "non200"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=600, must-revalidate"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT: 1"
+        },
+        {
+          "name": "x-pass-why",
+          "value": ""
+        },
+        {
+          "name": "x-cache-group",
+          "value": "normal"
+        }
+      ],
+      "statusCode": 404,
+      "statusLine": "HTTP/1.1 404",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://bookpraiser.com/submit-book/",
+      "id": 6359,
+      "contextId": 562,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503035562,
+      "end": 1503503035564,
+      "fromCache": false,
+      "ip": "35.185.203.112"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "https://bookpraiser.com/submit-book/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "https://bookpraiser.com/submit-book/",
+          "url": "https://bookpraiser.com/submit-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503503035568
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503503035568
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 79,
+      "tabId": 2,
+      "timeStamp": 1503503035568,
+      "transitionQualifiers": [
+        "server_redirect"
+      ],
+      "transitionType": "typed",
+      "url": "https://bookpraiser.com/submit-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6070",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://bookpraiser.com/wp-content/uploads/2015/03/BookPR.png",
+      "id": 6360,
+      "contextId": 562,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503035573,
+      "end": 1503503035573,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookpraiser.com/submit-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 79,
+      "tabId": 2,
+      "timeStamp": 1503503035573,
+      "url": "https://bookpraiser.com/submit-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://bookpraiser.com/submit-book/",
+      "timeStamp": 1503503035606,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookpraiser.com/submit-book/",
+      "contextId": 562,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503503035606,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookpraiser.com/submit-book/",
+      "contextId": 562,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.resize",
+    "details": {
+      "isTrusted": true,
+      "type": "resize",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503503035670,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookpraiser.com/submit-book/",
+      "contextId": 562,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.resize",
+    "details": {
+      "isTrusted": true,
+      "type": "resize",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503503035682,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookpraiser.com/submit-book/",
+      "contextId": 562,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6070",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:43:55 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "content-length",
+          "value": "9387"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sat, 08 Apr 2017 14:32:35 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"58e8f483-24ab\""
+        },
+        {
+          "name": "x-type",
+          "value": "static/known"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=2592000"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://bookpraiser.com/wp-content/uploads/2015/03/BookPR.png",
+      "id": 6360,
+      "contextId": 562,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503035708,
+      "end": 1503503035842,
+      "fromCache": false,
+      "ip": "35.185.203.112"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 79,
+      "tabId": 2,
+      "timeStamp": 1503503035843,
+      "url": "https://bookpraiser.com/submit-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "https://bookpraiser.com/submit-book/",
+          "url": "https://bookpraiser.com/submit-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503503035844
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6071",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://bookpraiser.com/favicon.ico",
+      "id": 6361,
+      "contextId": 562,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503035845,
+      "end": 1503503035845,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookpraiser.com/submit-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6071",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:43:55 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/x-icon"
+        },
+        {
+          "name": "content-length",
+          "value": "0"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 21 Aug 2017 22:42:52 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"599b61ec-0\""
+        },
+        {
+          "name": "x-type",
+          "value": "static/known"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=2592000"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://bookpraiser.com/favicon.ico",
+      "id": 6361,
+      "contextId": 562,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503035980,
+      "end": 1503503035981,
+      "fromCache": false,
+      "ip": "35.185.203.112"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6072",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 6362,
+      "contextId": 563,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503036881,
+      "end": 1503503036882
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6072",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 6362,
+      "contextId": 563,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503036882,
+      "end": 1503503036886
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503503036887
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503503036887
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503503036887,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503503036883.009,
+          "title": "Save",
+          "typedCount": 73,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 73
+        }
+      },
+      "timeStamp": 1503503036887
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6073",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 6363,
+      "contextId": 563,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503036889,
+      "end": 1503503036889
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6073",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 6363,
+      "contextId": 563,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503503036889,
+      "end": 1503503036889
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503503036892
+    }
+  }
+]

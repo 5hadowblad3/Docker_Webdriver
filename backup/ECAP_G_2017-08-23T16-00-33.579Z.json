@@ -1,0 +1,3659 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504026663
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 281084,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/2a74593f-d2b7-43e4-8d15-e5bb4cfe1a87",
+          "id": 169,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T16:00:26.667Z",
+          "state": "in_progress",
+          "totalBytes": 281084,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/2a74593f-d2b7-43e4-8d15-e5bb4cfe1a87"
+        }
+      },
+      "timeStamp": 1503504026678
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 281084,
+          "filename": "ECAP_G_2017-08-23T16-00-26.659Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/2a74593f-d2b7-43e4-8d15-e5bb4cfe1a87",
+          "id": 169,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T16:00:26.667Z",
+          "state": "in_progress",
+          "totalBytes": 281084,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/2a74593f-d2b7-43e4-8d15-e5bb4cfe1a87"
+        }
+      },
+      "timeStamp": 1503504026682
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T16-00-26.659Z.json",
+            "previous": ""
+          },
+          "id": 169
+        }
+      },
+      "timeStamp": 1503504026689
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T16:00:26.695Z"
+          },
+          "id": 169,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503504026695
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503504029242,
+      "url": "http://sweetfreebooks.com/advertise/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13275",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://sweetfreebooks.com/advertise/",
+      "id": 13965,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504029243,
+      "end": 1503504029243,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "sweetfreebooks.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "PHPSESSID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "ff4a1eb8a095ee89049f63b0a2ba0d97"
+      },
+      "removed": false,
+      "timeStamp": 1503504031552,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1230
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "PHPSESSID",
+      "type": "cookie",
+      "value": "ff4a1eb8a095ee89049f63b0a2ba0d97",
+      "timeStamp": 1503504031552,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1230
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "sweetfreebooks.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "PHPSESSID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "ff4a1eb8a095ee89049f63b0a2ba0d97"
+      },
+      "removed": false,
+      "timeStamp": 1503504031555
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "PHPSESSID",
+      "type": "cookie",
+      "value": "ff4a1eb8a095ee89049f63b0a2ba0d97",
+      "timeStamp": 1503504031555
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://sweetfreebooks.com/advertise/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "sweetfreebooks.com/advertise/",
+          "url": "http://sweetfreebooks.com/advertise/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504031558
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503504031558
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 175,
+      "tabId": 2,
+      "timeStamp": 1503504031559,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://sweetfreebooks.com/advertise/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "237",
+          "lastVisitTime": 1503504031555.829,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://sweetfreebooks.com/advertise/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503504031563
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "The End | SweetFreeBooks"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "The End | SweetFreeBooks",
+          "url": "http://sweetfreebooks.com/advertise/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504031563
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13276",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/jquery-ui.css?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13966,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031563,
+      "end": 1503504031564,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13277",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://sweetfreebooks.com/wp-content/plugins/sociable/css/sociable.css?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13967,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031564,
+      "end": 1503504031564,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13278",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/css/style.css?ver=1.9.7.6",
+      "id": 13968,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031564,
+      "end": 1503504031564,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13279",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/css/responsive.css?ver=1.9.7.6",
+      "id": 13969,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031565,
+      "end": 1503504031565,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13276",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css; charset=UTF-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5862"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:31 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 23 Aug 2018 16:00:31 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000, stale-while-revalidate=2592000"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 20 Dec 2016 18:17:03 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.2/themes/smoothness/jquery-ui.css?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13966,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031577,
+      "end": 1503504031577,
+      "fromCache": false,
+      "ip": "216.58.206.138"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13281",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 13970,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031582,
+      "end": 1503504031582,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13282",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1",
+      "id": 13971,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031583,
+      "end": 1503504031583,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13283",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/plugins/sociable/js/sociable.js?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13972,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031583,
+      "end": 1503504031583,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13284",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/plugins/sociable/js/vuible.js?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13973,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031583,
+      "end": 1503504031583,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13285",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/plugins/sociable/js/addtofavorites.js?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13974,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031584,
+      "end": 1503504031584,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13286",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/js/responsive-modernizr.min.js?ver=2.6.1",
+      "id": 13975,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031584,
+      "end": 1503504031584,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13288",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/plugins/wp-click-track/js/ajax.js",
+      "id": 13977,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031584,
+      "end": 1503504031584,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://apis.google.com/js/plusone.js",
+      "requestId": "13287",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://apis.google.com/js/plusone.js"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://apis.google.com/js/plusone.js",
+      "id": 13976,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1503504031585
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13287",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://apis.google.com/js/plusone.js",
+      "id": 13978,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031585,
+      "end": 1503504031585,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "NID=110=nmOp9QI54tWe1SeTrusJUG2-RlHFFY33zuk6q_ozdrqIaXFL21cswhL7oRK4O1sjVz30r88h_hyeCw4Ci6DILy1MrGYQCfriTykXQ9-kuJNAqASXIHE35TjFNvMIduZg"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13287",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript; charset=utf-8"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "script-src 'unsafe-inline' 'unsafe-eval' 'self' https://*.gstatic.com https://www.google-analytics.com https://pagead2.googleadservices.com https://pagead2.googlesyndication.com https://tpc.googlesyndication.com https://s.ytimg.com https://www.youtube.com;report-uri /_/cspreport/es_oz_20170821.13_p1"
+        },
+        {
+          "name": "x-ua-compatible",
+          "value": "IE=edge, chrome=1"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "etag",
+          "value": "\"3ae48ece7fab496af495f6f51383ab49\""
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 15:34:51 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:34:51 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=1800, stale-while-revalidate=1800"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://apis.google.com/js/plusone.js",
+      "id": 13978,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031585,
+      "end": 1503504031586,
+      "fromCache": true,
+      "ip": "216.58.213.78"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13277",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:31 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 15 Sep 2013 18:32:29 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6da2375-173d-4e6704f65eda2\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5949"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://sweetfreebooks.com/wp-content/plugins/sociable/css/sociable.css?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13967,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031644,
+      "end": 1503504031645,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13279",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:31 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 18 Apr 2015 19:02:34 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6ec0f35-18e3-5140456e7e8c6\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6371"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/css/responsive.css?ver=1.9.7.6",
+      "id": 13969,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031725,
+      "end": 1503504031726,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13282",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:31 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 21 Jun 2016 19:07:33 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6da1990-2748-535ce88848a7e\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "10056"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1",
+      "id": 13971,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031731,
+      "end": 1503504031732,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13275",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:29 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "PHP/5.4.42"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 19 Nov 1981 08:52:00 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Link",
+          "value": "<http://sweetfreebooks.com/wp-json/>; rel=\"https://api.w.org/\", <http://sweetfreebooks.com/?p=11>; rel=shortlink"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97; path=/"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://sweetfreebooks.com/advertise/",
+      "id": 13965,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031552,
+      "end": 1503504031765,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13284",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 15 Sep 2013 18:32:29 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6da2381-172-4e6704f65f95b\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "370"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/plugins/sociable/js/vuible.js?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13973,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031803,
+      "end": 1503504031803,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13285",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 15 Sep 2013 18:32:29 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6da2380-25a-4e6704f65f573\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "602"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/plugins/sociable/js/addtofavorites.js?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13974,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031805,
+      "end": 1503504031806,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13286",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 18 Apr 2015 19:02:34 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6ec0f4d-4a88-5140456e80bee\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "19080"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/js/responsive-modernizr.min.js?ver=2.6.1",
+      "id": 13975,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031839,
+      "end": 1503504031840,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13288",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 01 Jul 2013 17:48:46 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6da09a6-142a-4e076d7196051\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5162"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/plugins/wp-click-track/js/ajax.js",
+      "id": 13977,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031883,
+      "end": 1503504031883,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13278",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:31 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 18 Apr 2015 19:02:34 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6ec0f37-f101-5140456e7e8c6\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "61697"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/css/style.css?ver=1.9.7.6",
+      "id": 13968,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031723,
+      "end": 1503504031944,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13281",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:31 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 21 Jun 2016 19:07:33 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6da034a-17ba0-535ce88848e66\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "97184"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 13970,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504031724,
+      "end": 1503504032018,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13292",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4",
+      "id": 13979,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032018,
+      "end": 1503504032019,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13283",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 15 Sep 2013 18:32:29 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6da237f-7a7-4e6704f65f573\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1959"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/plugins/sociable/js/sociable.js?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13972,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032030,
+      "end": 1503504032030,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13293",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4",
+      "id": 13980,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032078,
+      "end": 1503504032078,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13294",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4",
+      "id": 13981,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032078,
+      "end": 1503504032078,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13295",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4",
+      "id": 13982,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032078,
+      "end": 1503504032078,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13296",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/js/responsive-scripts.min.js?ver=1.2.6",
+      "id": 13983,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032079,
+      "end": 1503504032079,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13297",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/js/jquery.placeholder.min.js?ver=2.0.7",
+      "id": 13984,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032079,
+      "end": 1503504032079,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13300",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://apis.google.com/js/plusone.js",
+      "id": 13985,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032079,
+      "end": 1503504032079,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "NID=110=nmOp9QI54tWe1SeTrusJUG2-RlHFFY33zuk6q_ozdrqIaXFL21cswhL7oRK4O1sjVz30r88h_hyeCw4Ci6DILy1MrGYQCfriTykXQ9-kuJNAqASXIHE35TjFNvMIduZg"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13301",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_GB.uIOrGrW8HRA.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCMjYRCc1g3JiTXkd5r3oBASSfpo4w/cb=gapi.loaded_0",
+      "id": 13986,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032079,
+      "end": 1503504032079,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "NID=110=nmOp9QI54tWe1SeTrusJUG2-RlHFFY33zuk6q_ozdrqIaXFL21cswhL7oRK4O1sjVz30r88h_hyeCw4Ci6DILy1MrGYQCfriTykXQ9-kuJNAqASXIHE35TjFNvMIduZg"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13300",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript; charset=utf-8"
+        },
+        {
+          "name": "content-security-policy",
+          "value": "script-src 'unsafe-inline' 'unsafe-eval' 'self' https://*.gstatic.com https://www.google-analytics.com https://pagead2.googleadservices.com https://pagead2.googlesyndication.com https://tpc.googlesyndication.com https://s.ytimg.com https://www.youtube.com;report-uri /_/cspreport/es_oz_20170821.13_p1"
+        },
+        {
+          "name": "x-ua-compatible",
+          "value": "IE=edge, chrome=1"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "etag",
+          "value": "\"3ae48ece7fab496af495f6f51383ab49\""
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 15:34:51 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:34:51 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=1800, stale-while-revalidate=1800"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://apis.google.com/js/plusone.js",
+      "id": 13985,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032080,
+      "end": 1503504032081,
+      "fromCache": true,
+      "ip": "216.58.213.78"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13301",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "content-length",
+          "value": "46132"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 22 Aug 2017 17:55:53 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 22 Aug 2018 17:55:53 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 21 Aug 2017 11:37:39 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, immutable, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "77938"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_GB.uIOrGrW8HRA.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCMjYRCc1g3JiTXkd5r3oBASSfpo4w/cb=gapi.loaded_0",
+      "id": 13986,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032080,
+      "end": 1503504032081,
+      "fromCache": true,
+      "ip": "216.58.213.78"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13292",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 19 Sep 2016 20:34:43 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6da0868-fa0-53ce23df4669a\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4000"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4",
+      "id": 13979,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032100,
+      "end": 1503504032100,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13298",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/plugins/page-links-to/js/new-tab.min.js?ver=2.9.8",
+      "id": 13987,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032101,
+      "end": 1503504032101,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13291",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/icons/facebook-icon.png",
+      "id": 13988,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032117,
+      "end": 1503504032117,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13289",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://sweetfreebooks.com/wp-content/uploads/2015/04/cropped-stackheader.png",
+      "id": 13989,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032117,
+      "end": 1503504032117,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13290",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/icons/twitter-icon.png",
+      "id": 13990,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032117,
+      "end": 1503504032117,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13296",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 18 Apr 2015 19:02:34 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6ec0f4c-270f-5140456e80bee\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "9999"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/js/responsive-scripts.min.js?ver=1.2.6",
+      "id": 13983,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032152,
+      "end": 1503504032152,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13297",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 18 Apr 2015 19:02:34 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6ec0f4e-ce8-5140456e80bee\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3304"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/js/jquery.placeholder.min.js?ver=2.0.7",
+      "id": 13984,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032152,
+      "end": 1503504032153,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13294",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 19 Sep 2016 20:34:43 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6da0874-2f4e-53ce23df46a82\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "12110"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.4",
+      "id": 13981,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032154,
+      "end": 1503504032154,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13293",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 19 Sep 2016 20:34:43 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6da0864-1afc-53ce23df4669a\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6908"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4",
+      "id": 13980,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032155,
+      "end": 1503504032155,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13299",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/wp-embed.min.js?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13991,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032155,
+      "end": 1503504032155,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13298",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 06 Mar 2017 22:18:39 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"4200ba-279-54a1747032138\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "633"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-content/plugins/page-links-to/js/new-tab.min.js?ver=2.9.8",
+      "id": 13987,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032182,
+      "end": 1503504032182,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13280",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/wp-emoji-release.min.js?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13992,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032182,
+      "end": 1503504032183,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13291",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 18 Apr 2015 19:02:34 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6ec0f42-13c-5140456e8041e\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "316"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/icons/facebook-icon.png",
+      "id": 13988,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032226,
+      "end": 1503504032226,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13290",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 18 Apr 2015 19:02:34 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6ec0f46-1bb-5140456e8041e\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "443"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://sweetfreebooks.com/wp-content/themes/responsive/core/icons/twitter-icon.png",
+      "id": 13990,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032229,
+      "end": 1503504032230,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13299",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 22 Dec 2016 22:06:27 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6da3c80-576-544467b175ee8\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1398"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/wp-embed.min.js?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13991,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032232,
+      "end": 1503504032233,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13280",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 22 Dec 2016 22:06:27 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6da0855-2c96-544467b175ee8\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "11414"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=96"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/wp-emoji-release.min.js?ver=82e9dcb80702c286bff420728a8ef33f",
+      "id": 13992,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032257,
+      "end": 1503504032258,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13295",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 19 Sep 2016 20:34:43 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6da0869-8e9c-53ce23df4669a\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "36508"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://sweetfreebooks.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4",
+      "id": 13982,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032155,
+      "end": 1503504032306,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 175,
+      "tabId": 2,
+      "timeStamp": 1503504032327,
+      "url": "http://sweetfreebooks.com/advertise/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://sweetfreebooks.com/advertise/",
+      "timeStamp": 1503504032349,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://sweetfreebooks.com/advertise/",
+      "contextId": 1230,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503504032349,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://sweetfreebooks.com/advertise/",
+      "contextId": 1230,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "The End | SweetFreeBooks",
+      "timeStamp": 1503504032349,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://sweetfreebooks.com/advertise/",
+      "contextId": 1230,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13289",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 18 Apr 2015 19:07:03 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6ec0dbf-183ad-5140466f92cde\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "99245"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://sweetfreebooks.com/wp-content/uploads/2015/04/cropped-stackheader.png",
+      "id": 13989,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032227,
+      "end": 1503504032512,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 175,
+      "tabId": 2,
+      "timeStamp": 1503504032514,
+      "url": "http://sweetfreebooks.com/advertise/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "The End | SweetFreeBooks",
+          "url": "http://sweetfreebooks.com/advertise/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504032515
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13302",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://sweetfreebooks.com/favicon.ico",
+      "id": 13993,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032516,
+      "end": 1503504032516,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://sweetfreebooks.com/advertise/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "PHPSESSID=ff4a1eb8a095ee89049f63b0a2ba0d97"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13302",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 16:00:32 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.29 (Unix) mod_ssl/2.2.29 OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "PHP/5.4.42"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=96"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/vnd.microsoft.icon"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://sweetfreebooks.com/favicon.ico",
+      "id": 13993,
+      "contextId": 1230,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504032979,
+      "end": 1503504032979,
+      "fromCache": false,
+      "ip": "206.72.202.212"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13303",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 13994,
+      "contextId": 1231,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504033554,
+      "end": 1503504033555
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13303",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 13994,
+      "contextId": 1231,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504033555,
+      "end": 1503504033566
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504033567
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503504033567
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503504033567,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503504033557.147,
+          "title": "Save",
+          "typedCount": 169,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 169
+        }
+      },
+      "timeStamp": 1503504033570
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13304",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 13995,
+      "contextId": 1231,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504033570,
+      "end": 1503504033570
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "13304",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 13995,
+      "contextId": 1231,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503504033570,
+      "end": 1503504033571
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503504033578
+    }
+  }
+]

@@ -168,11 +168,14 @@ def load_rule(path):
     rules = []
     with open(path, 'r') as f:
         for rule in f:
-            if rule[0] == '!' or rule.count('#') > 0:
+            if rule[0] == '!' or rule.count('#') > 0 or rule.count('[') > 0:
                 continue
 
             pattern = rule
-            if pattern[0] == '&' or pattern[0] == '-' or pattern[0] == '.' or pattern[0] == '/':
+            # print rule
+            # print 'ss'
+            if pattern[0] == '&' or pattern[0] == '-' or pattern[0] == '.' or pattern[0] == '/' or \
+                            pattern[0] == '?' or pattern[0] == '^':
                 pattern = pattern[1:]
 
             ind = pattern.find('@@')
@@ -202,17 +205,20 @@ def load_rule(path):
             #     else:
             #         pattern = pattern[:ind] + '$' + pattern[ind + 1:]
 
-            # if pattern[0] == '|':
-            #     pattern = '^' + pattern[1:]
-            # elif pattern[-1] == '|':
-            #     pattern = pattern[:ind] + '$'
+            ind = pattern.find('|')
+            if ind == 0:
+                pattern = pattern[1:]
+            elif ind != -1:
+                pattern = pattern[:ind]
 
-            replace_str = [':', '-', '+', '.', '=', '&', '?', '/', '_', '!', '~']
+            replace_str = [':', '-', '+', '.', '=', '&', '?', '/', '_', '!', '~', ';']
             for string in replace_str:
                 pattern = pattern.replace(string, '\\' + string)
 
-            pattern.replace('*', '\S*')
 
+            pattern = pattern.replace('*', '.*')
+
+            # print pattern
             rules.append(re.compile(pattern))
 
     return rules
@@ -221,8 +227,8 @@ def load_rule(path):
 # label list with matching rules in all lists
 def label_instance(url, rules):
     for rule in rules:
-        res = rule.match(url)
-        if res is not None:
+        res = rule.search(url)
+        if res:
             print 'url:' + url
             return 1
 
@@ -270,7 +276,6 @@ def analyse_json(path, location, rules):
 
         # request headers analysis 8
         if package['type'].count('request') > 0:
-
             length = 0
             request_cnt += 1
 
@@ -310,7 +315,7 @@ def analyse_json(path, location, rules):
                 label['status'] = 1
 
             # method
-            if package['method'] == 'GET' or package['method'] == 'POST':
+            if package['details']['method'] == 'GET' or package['details']['method'] == 'POST':
                 label['method'] = 1
 
             domain = urlparse.urlparse(pair_request['details']['url']).netloc
@@ -341,9 +346,6 @@ def analyse_json(path, location, rules):
                     # check for font info
                     if label['Accept-Language'] != 1 and header['name'].count('Accept-Language') > 0:
                         label['Accept-Language'] = 1
-
-
-
 
             # need modified with third party todo
             if 'ip' in package['details'] and package['details']['ip'] not in ip:
@@ -412,6 +414,7 @@ def analyse_json(path, location, rules):
 
                 # expire time
                 if label['expire_time'] != 1 and header['name'].count('Expires') > 0:
+                    print header['value']
                     expire = datetime.datetime.strptime(header['value'], "%a, %d %b %Y %H:%M:%S %Z")
                     ttl = expire - datetime.datetime.now()
                     if ttl.days > 7:
@@ -431,31 +434,31 @@ def analyse_json(path, location, rules):
             # save final mark
             fd2.write(str(label['label']) + '\n')
 
-        # # cookies modification 1
-        # if label['cookies_change'] != 1 and package['type'] == 'cookie.changed':
-        #     label['cookies_change'] = 1
+            # # cookies modification 1
+            # if label['cookies_change'] != 1 and package['type'] == 'cookie.changed':
+            #     label['cookies_change'] = 1
 
-        # # dom element changing 1
-        # if label['dom'] != 1 and package['type'].count('dom') > 0:
-        #     label['dom'] = 1
+            # # dom element changing 1
+            # if label['dom'] != 1 and package['type'].count('dom') > 0:
+            #     label['dom'] = 1
 
-    # js number
-    # if js_cnt > 10:
-    #     label['js_number'] = 1
-    #
-    # # ip number
-    # if len(ip) > 4:
-    #     label['ip_cnt'] = 1
-    #
-    # # request number
-    # if request_cnt > 20:
-    #     label['request_number'] = 1
-    #
-    # if len(cookies.keys()) > 5:
-    #     label['cookies_number'] = 1
+            # js number
+            # if js_cnt > 10:
+            #     label['js_number'] = 1
+            #
+            # # ip number
+            # if len(ip) > 4:
+            #     label['ip_cnt'] = 1
+            #
+            # # request number
+            # if request_cnt > 20:
+            #     label['request_number'] = 1
+            #
+            # if len(cookies.keys()) > 5:
+            #     label['cookies_number'] = 1
 
-    # cookies pattern increase
-    # label = analysis_cookie(cookies, domain, label)
+            # cookies pattern increase
+            # label = analysis_cookie(cookies, domain, label)
 
 
 # machine learning analysis

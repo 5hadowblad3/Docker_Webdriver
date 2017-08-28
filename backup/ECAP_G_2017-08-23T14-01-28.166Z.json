@@ -1,0 +1,6925 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496882839
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 349180,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/3d3bde78-23e4-4764-ae64-f82ea0db2f6c",
+          "id": 161,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T14:01:22.841Z",
+          "state": "in_progress",
+          "totalBytes": 349180,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/3d3bde78-23e4-4764-ae64-f82ea0db2f6c"
+        }
+      },
+      "timeStamp": 1503496882842
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 349180,
+          "filename": "ECAP_G_2017-08-23T14-01-22.836Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/3d3bde78-23e4-4764-ae64-f82ea0db2f6c",
+          "id": 161,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T14:01:22.841Z",
+          "state": "in_progress",
+          "totalBytes": 349180,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/3d3bde78-23e4-4764-ae64-f82ea0db2f6c"
+        }
+      },
+      "timeStamp": 1503496882844
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T14-01-22.836Z.json",
+            "previous": ""
+          },
+          "id": 161
+        }
+      },
+      "timeStamp": 1503496882846
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T14:01:22.853Z"
+          },
+          "id": 161,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503496882854
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496885604,
+      "url": "http://readcheaply.com/partners/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12731",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://readcheaply.com/partners/",
+      "id": 13460,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885604,
+      "end": 1503496885604,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".readcheaply.com",
+        "expirationDate": 1535032885,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "ded07fc014f0d305af296617308bb11d81503496885"
+      },
+      "removed": false,
+      "timeStamp": 1503496885771,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1218
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "ded07fc014f0d305af296617308bb11d81503496885",
+      "timeStamp": 1503496885771,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1218
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".readcheaply.com",
+        "expirationDate": 1535032885.771215,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "ded07fc014f0d305af296617308bb11d81503496885"
+      },
+      "removed": false,
+      "timeStamp": 1503496885773
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "ded07fc014f0d305af296617308bb11d81503496885",
+      "timeStamp": 1503496885773
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://readcheaply.com/partners/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "readcheaply.com/partners/",
+          "url": "http://readcheaply.com/partners/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496885776
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503496885776
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 167,
+      "tabId": 2,
+      "timeStamp": 1503496885777,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://readcheaply.com/partners/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "224",
+          "lastVisitTime": 1503496885774.064,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://readcheaply.com/partners/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503496885784
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12732",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cdn.jsdelivr.net/bootstrap/3.3.2/css/bootstrap.min.css",
+      "id": 13461,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885785,
+      "end": 1503496885786,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12733",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/assets/css/plugins/font-awesome/css/font-awesome.min.css",
+      "id": 13462,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885786,
+      "end": 1503496885787,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12734",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic",
+      "id": 13463,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885788,
+      "end": 1503496885788,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12735",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Montserrat:400,700",
+      "id": 13464,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885788,
+      "end": 1503496885789,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12736",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Pacifico",
+      "id": 13465,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885789,
+      "end": 1503496885789,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12737",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/retina/retina.min.js",
+      "id": 13466,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885789,
+      "end": 1503496885789,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12738",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/assets/css/plugins/hover/hover.min.css",
+      "id": 13467,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885790,
+      "end": 1503496885790,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12739",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/assets/css/plugins/owl.carousel/owl.carousel.css",
+      "id": 13468,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885790,
+      "end": 1503496885790,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12740",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/assets/css/plugins/owl.carousel/owl.theme.css",
+      "id": 13469,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885791,
+      "end": 1503496885791,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12741",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/assets/css/plugins/owl.carousel/owl.transitions.css",
+      "id": 13470,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885791,
+      "end": 1503496885792,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12742",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/vendor/formvalidation/css/formValidation.min.css",
+      "id": 13471,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885792,
+      "end": 1503496885792,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12743",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/assets/css/site.css",
+      "id": 13472,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885792,
+      "end": 1503496885793,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12744",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css",
+      "id": 13473,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885793,
+      "end": 1503496885794,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "ReadCheaply | Partners"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "ReadCheaply | Partners",
+          "url": "http://readcheaply.com/partners/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496885796
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12735",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Link",
+          "value": "<http://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 13:35:41 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:35:41 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 23 Aug 2017 13:35:41 GMT"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Server",
+          "value": "ESF"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Montserrat:400,700",
+      "id": 13464,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885795,
+      "end": 1503496885796,
+      "fromCache": true,
+      "ip": "216.58.213.74"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12732",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000, s-maxage=31536000"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1c99e-lz43qFApIdVrwCu1UyH0Wwcrb3E\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "19209"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Served-By",
+          "value": "cache-lcy1140-LCY"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cdn.jsdelivr.net/bootstrap/3.3.2/css/bootstrap.min.css",
+      "id": 13461,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885796,
+      "end": 1503496885799,
+      "fromCache": false,
+      "ip": "151.101.18.109"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12744",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 22 Jun 2016 20:02:10 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Mon, 13 Aug 2018 14:01:25 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=30672000"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "HIT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a90372f6a01-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.min.css",
+      "id": 13473,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885802,
+      "end": 1503496885803,
+      "fromCache": false,
+      "ip": "104.19.194.102"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12736",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Link",
+          "value": "<http://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Server",
+          "value": "ESF"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Pacifico",
+      "id": 13465,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885806,
+      "end": 1503496885807,
+      "fromCache": false,
+      "ip": "216.58.206.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12734",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Link",
+          "value": "<http://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Server",
+          "value": "ESF"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic",
+      "id": 13463,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885809,
+      "end": 1503496885810,
+      "fromCache": false,
+      "ip": "216.58.206.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12731",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885; expires=Thu, 23-Aug-18 14:01:25 GMT; path=/; domain=.readcheaply.com; HttpOnly"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "PHP/5.3.28"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a8f049134a0-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://readcheaply.com/partners/",
+      "id": 13460,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885771,
+      "end": 1503496885931,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12739",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 18 Mar 2014 01:03:28 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23a2a-5c6-4f4d71a959800\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:25 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a90312769d1-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/assets/css/plugins/owl.carousel/owl.carousel.css",
+      "id": 13468,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885966,
+      "end": 1503496885967,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12741",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 10 Feb 2014 06:48:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23a2e-117c-4f207bb6cb880\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:25 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a90312969d1-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/assets/css/plugins/owl.carousel/owl.transitions.css",
+      "id": 13470,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885967,
+      "end": 1503496885968,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12738",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 02 Feb 2014 08:37:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23a1b-9cfd-4f16852823380\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:25 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9035883458-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/assets/css/plugins/hover/hover.min.css",
+      "id": 13467,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885964,
+      "end": 1503496885970,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12733",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 19 Feb 2015 21:43:16 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"239d2-5cbb-50f77d2d12500\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:25 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9021b00a84-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/assets/css/plugins/font-awesome/css/font-awesome.min.css",
+      "id": 13462,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885969,
+      "end": 1503496885971,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12740",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:25 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 10 Feb 2014 06:48:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23a2d-681-4f207bb6cb880\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:25 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9031a306e2-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/assets/css/plugins/owl.carousel/owl.theme.css",
+      "id": 13469,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496885992,
+      "end": 1503496885993,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12742",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 09 Mar 2015 20:17:33 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23d94-77c-510e0b969f140\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a91150d34a0-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/vendor/formvalidation/css/formValidation.min.css",
+      "id": 13471,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886107,
+      "end": 1503496886107,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12737",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 18 Apr 2014 00:22:02 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23b59-a0f-4f746237cde80\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a91518069d1-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/retina/retina.min.js",
+      "id": 13466,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886143,
+      "end": 1503496886144,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12753",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js",
+      "id": 13474,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886146,
+      "end": 1503496886146,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12743",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 09 Apr 2015 13:14:22 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"249be-114fd-5134a6d12a780\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a91417e69d1-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://readcheaply.com/partners/assets/css/site.css",
+      "id": 13472,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886145,
+      "end": 1503496886147,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12754",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn.jsdelivr.net/bootstrap/3.3.2/js/bootstrap.min.js",
+      "id": 13475,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886155,
+      "end": 1503496886155,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12755",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/vendor/formvalidation/js/formValidation.min.js",
+      "id": 13476,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886155,
+      "end": 1503496886156,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12756",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/vendor/formvalidation/js/framework/bootstrap.min.js",
+      "id": 13477,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886156,
+      "end": 1503496886157,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12757",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/modernizr.custom.js",
+      "id": 13478,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886157,
+      "end": 1503496886157,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12758",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/jquery.easing/jquery.easing.1.3.js",
+      "id": 13479,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886158,
+      "end": 1503496886158,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12759",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/owl.carousel/owl.carousel.min.js",
+      "id": 13480,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886158,
+      "end": 1503496886159,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12760",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/scrollReveal/scrollReveal.js",
+      "id": 13481,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886159,
+      "end": 1503496886159,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12764",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js",
+      "id": 13482,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886160,
+      "end": 1503496886160,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12765",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js",
+      "id": 13483,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886160,
+      "end": 1503496886161,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12753",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "33495"
+        },
+        {
+          "name": "Date",
+          "value": "Fri, 04 Aug 2017 18:46:55 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Sat, 04 Aug 2018 18:46:55 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 20 Dec 2016 18:17:03 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000, stale-while-revalidate=2592000"
+        },
+        {
+          "name": "Age",
+          "value": "1624471"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js",
+      "id": 13474,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886154,
+      "end": 1503496886164,
+      "fromCache": false,
+      "ip": "216.58.204.10"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12754",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000, s-maxage=31536000"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript; charset=utf-8"
+        },
+        {
+          "name": "ETag",
+          "value": "\"8a7c-s/Lvn5heeQbJNgdWtzzWS/dzNkc\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "9407"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Served-By",
+          "value": "cache-lcy1140-LCY"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn.jsdelivr.net/bootstrap/3.3.2/js/bootstrap.min.js",
+      "id": 13475,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886162,
+      "end": 1503496886164,
+      "fromCache": false,
+      "ip": "151.101.18.109"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12764",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript; charset=utf-8"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 22 Jun 2016 20:06:46 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Mon, 13 Aug 2018 14:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=30672000"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "HIT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9280046a01-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js",
+      "id": 13482,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886165,
+      "end": 1503496886166,
+      "fromCache": false,
+      "ip": "104.19.194.102"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12765",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript; charset=utf-8"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 22 Jun 2016 20:02:10 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Mon, 13 Aug 2018 14:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=30672000"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "HIT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9280076a01-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.min.js",
+      "id": 13483,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886168,
+      "end": 1503496886169,
+      "fromCache": false,
+      "ip": "104.19.194.102"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12770",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/montserrat/v10/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2",
+      "id": 13484,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886188,
+      "end": 1503496886189,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://readcheaply.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://fonts.googleapis.com/css?family=Montserrat:400,700"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12770",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "15148"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 07 Aug 2017 16:07:19 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 07 Aug 2018 16:07:19 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 09 Feb 2017 01:12:56 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "Age",
+          "value": "1373303"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/montserrat/v10/zhcz-_WihjSQC0oHJ9TCYPk_vArhqVIZ0nv9q090hN8.woff2",
+      "id": 13484,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886189,
+      "end": 1503496886190,
+      "fromCache": true,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12773",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lora/v10/4vqKRIwnQQGUQQh-PnvdMA.woff2",
+      "id": 13485,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886200,
+      "end": 1503496886200,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://readcheaply.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12773",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "26336"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 07 Aug 2017 08:57:12 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 07 Aug 2018 08:57:12 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 19 Jan 2017 18:54:04 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "Age",
+          "value": "1399655"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lora/v10/4vqKRIwnQQGUQQh-PnvdMA.woff2",
+      "id": 13485,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886201,
+      "end": 1503496886201,
+      "fromCache": true,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12774",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/pacifico/v9/Q_Z9mv4hySLTMoMjnk_rCfesZW2xOQ-xsNqO47m55DA.woff2",
+      "id": 13486,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886208,
+      "end": 1503496886208,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://readcheaply.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://fonts.googleapis.com/css?family=Pacifico"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12775",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://readcheaply.com/partners/assets/css/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0",
+      "id": 13487,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886209,
+      "end": 1503496886209,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://readcheaply.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/assets/css/plugins/font-awesome/css/font-awesome.min.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12774",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "30380"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 07 Aug 2017 12:47:08 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 07 Aug 2018 12:47:08 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 19 Jan 2017 22:14:03 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "Age",
+          "value": "1386389"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/pacifico/v9/Q_Z9mv4hySLTMoMjnk_rCfesZW2xOQ-xsNqO47m55DA.woff2",
+      "id": 13486,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886209,
+      "end": 1503496886209,
+      "fromCache": true,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12776",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lora/v10/_RSiB1sBuflZfa9fxV8cOg.woff2",
+      "id": 13488,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886215,
+      "end": 1503496886216,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://readcheaply.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12776",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "25728"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 07 Aug 2017 13:23:18 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 07 Aug 2018 13:23:18 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 19 Jan 2017 18:54:36 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "Age",
+          "value": "1384688"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lora/v10/_RSiB1sBuflZfa9fxV8cOg.woff2",
+      "id": 13488,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886219,
+      "end": 1503496886219,
+      "fromCache": false,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12777",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lora/v10/_IxjUs2lbQSu0MyFEAfa7VtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 13489,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886221,
+      "end": 1503496886221,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://readcheaply.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12777",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "25200"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 07 Aug 2017 10:38:57 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 07 Aug 2018 10:38:57 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 19 Jan 2017 18:53:45 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "Age",
+          "value": "1394549"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lora/v10/_IxjUs2lbQSu0MyFEAfa7VtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 13489,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886225,
+      "end": 1503496886227,
+      "fromCache": false,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12756",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 09 Mar 2015 20:17:33 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23d9e-cb7-510e0b969f140\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9271df69d1-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/vendor/formvalidation/js/framework/bootstrap.min.js",
+      "id": 13477,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886319,
+      "end": 1503496886320,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12757",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 27 Mar 2014 02:43:54 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23b3b-2ae3-4f58d8e556e80\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a92855b34a0-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/modernizr.custom.js",
+      "id": 13478,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886321,
+      "end": 1503496886322,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12761",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/stellar/stellar.js",
+      "id": 13490,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886323,
+      "end": 1503496886323,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12760",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 16 Apr 2014 01:52:46 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23b5b-22da-4f71f2c4af780\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a92860f3458-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/scrollReveal/scrollReveal.js",
+      "id": 13481,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886322,
+      "end": 1503496886323,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12762",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/SmoothScroll/SmoothScroll.js",
+      "id": 13491,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886323,
+      "end": 1503496886323,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12759",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 10 Feb 2014 06:48:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"24a5a-3a44-4f207bb6cb880\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9282360a84-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/owl.carousel/owl.carousel.min.js",
+      "id": 13480,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886325,
+      "end": 1503496886326,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12763",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/jqBootstrapValidation/jqBootstrapValidation.js",
+      "id": 13492,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886326,
+      "end": 1503496886326,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12758",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 02 Feb 2014 07:05:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23b44-15bc-4f167097daf80\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a92823606e2-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/jquery.easing/jquery.easing.1.3.js",
+      "id": 13479,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886331,
+      "end": 1503496886331,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12766",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/site.nav.js",
+      "id": 13493,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886332,
+      "end": 1503496886332,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12755",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 09 Mar 2015 20:17:33 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23d9b-1d786-510e0b969f140\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9271de69d1-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/vendor/formvalidation/js/formValidation.min.js",
+      "id": 13476,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886332,
+      "end": 1503496886333,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12767",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/placeholders.jquery.min.js",
+      "id": 13494,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886333,
+      "end": 1503496886333,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12779",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/montserrat/v10/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2",
+      "id": 13495,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886406,
+      "end": 1503496886407,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://readcheaply.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://fonts.googleapis.com/css?family=Montserrat:400,700"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12779",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "15328"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 07 Aug 2017 09:32:36 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 07 Aug 2018 09:32:36 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 09 Feb 2017 01:14:07 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "Age",
+          "value": "1396986"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/montserrat/v10/IQHow_FEYlDC4Gzy_m8fcoWiMMZ7xLd792ULpGE4W_Y.woff2",
+      "id": 13495,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886407,
+      "end": 1503496886407,
+      "fromCache": true,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12772",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/diagonal-noise.png",
+      "id": 13496,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886414,
+      "end": 1503496886414,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/assets/css/site.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12771",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/bg.jpg",
+      "id": 13497,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886415,
+      "end": 1503496886415,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12745",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/logo.png",
+      "id": 13498,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886415,
+      "end": 1503496886415,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12761",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 07 Feb 2015 08:30:30 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23b60-5a25-50e7b59911580\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a93859d34a0-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/stellar/stellar.js",
+      "id": 13490,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886480,
+      "end": 1503496886481,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12762",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 07 Feb 2015 05:21:14 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23b5d-3790-50e78b4b24680\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9386483458-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/SmoothScroll/SmoothScroll.js",
+      "id": 13491,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886484,
+      "end": 1503496886484,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12775",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain; charset=UTF-8"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 19 Feb 2015 21:43:16 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"239e1-ddcc-50f77d2d12500\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a93721f69d1-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://readcheaply.com/partners/assets/css/plugins/font-awesome/fonts/fontawesome-webfont.woff2?v=4.3.0",
+      "id": 13487,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886482,
+      "end": 1503496886486,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12763",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 08 Apr 2014 23:10:56 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23b41-8d54-4f69018a48000\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9382680a84-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/plugins/jqBootstrapValidation/jqBootstrapValidation.js",
+      "id": 13492,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886490,
+      "end": 1503496886491,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12768",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/site.js",
+      "id": 13499,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886491,
+      "end": 1503496886491,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12766",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 07 Feb 2015 08:42:30 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23b68-623-50e7b847b6980\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a93927506e2-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/site.nav.js",
+      "id": 13493,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886494,
+      "end": 1503496886495,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12769",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/validation.js",
+      "id": 13500,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886495,
+      "end": 1503496886495,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12767",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 10 Apr 2015 12:07:21 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"2474d-1555-5135d9b3e7040\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a93922969d1-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/placeholders.jquery.min.js",
+      "id": 13494,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886504,
+      "end": 1503496886504,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12746",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/ipadair.png",
+      "id": 13501,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886505,
+      "end": 1503496886505,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12772",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5943"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 27 Mar 2014 00:59:24 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"23b20-1737-4f58c189cd300\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9485d334a0-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/diagonal-noise.png",
+      "id": 13496,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886641,
+      "end": 1503496886642,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12747",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/testimonial-pam.jpg",
+      "id": 13502,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886642,
+      "end": 1503496886642,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12745",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2367"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 08 Apr 2015 20:42:57 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"23e75-93f-5133c937d9640\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a94826869d1-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/logo.png",
+      "id": 13498,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886648,
+      "end": 1503496886649,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12748",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/testimonial-jill.jpg",
+      "id": 13503,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886649,
+      "end": 1503496886650,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12771",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "106818"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 12 Apr 2015 19:28:55 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"241bd-1a142-5138c02178bc0\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a94868b3458-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/bg.jpg",
+      "id": 13497,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886645,
+      "end": 1503496886652,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12749",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/testimonial-dana.jpg",
+      "id": 13504,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886652,
+      "end": 1503496886653,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12768",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 10 Apr 2015 12:57:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23b64-84b-5135e4e5b1980\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9492980a84-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/site.js",
+      "id": 13499,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886656,
+      "end": 1503496886657,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12750",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/testimonial-el.jpg",
+      "id": 13505,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886657,
+      "end": 1503496886658,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12769",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 16 May 2016 13:36:06 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"23e8c-2b83-532f5b4d83d80\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9492a506e2-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://readcheaply.com/partners/assets/js/validation.js",
+      "id": 13500,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886659,
+      "end": 1503496886660,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12751",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/testimonial-janelle.jpg",
+      "id": 13506,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886660,
+      "end": 1503496886660,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12746",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "91223"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 30 Mar 2015 11:06:13 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"246b7-16457-5127f785c1340\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a94a26f69d1-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/ipadair.png",
+      "id": 13501,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886710,
+      "end": 1503496886716,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12752",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/logo-footer.png",
+      "id": 13507,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886716,
+      "end": 1503496886716,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 167,
+      "tabId": 2,
+      "timeStamp": 1503496886723,
+      "url": "http://readcheaply.com/partners/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://readcheaply.com/partners/",
+      "timeStamp": 1503496886745,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503496886745,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "ReadCheaply | Partners",
+      "timeStamp": 1503496886746,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "name",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496886746,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "email",
+      "type": "input:email",
+      "value": "",
+      "timeStamp": 1503496886746,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "role",
+      "type": "select",
+      "value": [
+        ""
+      ],
+      "timeStamp": 1503496886746,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "genre",
+      "type": "select",
+      "value": [
+        ""
+      ],
+      "timeStamp": 1503496886746,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "price",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496886746,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "deal",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496886746,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "start",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "end",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "newrelease",
+      "type": "input:checkbox",
+      "value": [],
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "permafree",
+      "type": "input:checkbox",
+      "value": [],
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "summary",
+      "type": "textarea",
+      "value": "",
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "amazon",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "nook",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "apple",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "google",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "kobo",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "smash",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:email",
+      "value": "",
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "textarea",
+      "value": "",
+      "timeStamp": 1503496886747,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12747",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "61293"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Apr 2015 00:05:33 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"24994-ef6d-513172c5cad40\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a95861734a0-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/testimonial-pam.jpg",
+      "id": 13502,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886806,
+      "end": 1503496886811,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12778",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/covers-bg.jpg",
+      "id": 13508,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886811,
+      "end": 1503496886811,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12749",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "47366"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 06 Apr 2015 23:57:28 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"24998-b906-513170f742a00\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9596ce3458-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/testimonial-dana.jpg",
+      "id": 13504,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886815,
+      "end": 1503496886817,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12751",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "33657"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Apr 2015 00:03:52 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"24995-8379-5131726578a00\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9592f206e2-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/testimonial-janelle.jpg",
+      "id": 13506,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886823,
+      "end": 1503496886825,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12750",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "58475"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 06 Apr 2015 23:58:01 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"24999-e46b-51317116bb440\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a9592ce0a84-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/testimonial-el.jpg",
+      "id": 13505,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886824,
+      "end": 1503496886827,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12752",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1745"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 08 Apr 2015 20:49:37 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"240df-6d1-5133cab551a40\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a95f2be69d1-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/logo-footer.png",
+      "id": 13507,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886875,
+      "end": 1503496886875,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12778",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:26 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "502644"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 07 Apr 2015 15:30:29 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"24a3e-7ab74-51324182e6f40\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a96965234a0-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/covers-bg.jpg",
+      "id": 13508,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496886978,
+      "end": 1503496887004,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12748",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:27 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "56854"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 04 Mar 2015 18:53:35 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2499a-de16-5107af7eb49c0\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a95829e69d1-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/testimonial-jill.jpg",
+      "id": 13503,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496887102,
+      "end": 1503496887105,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 167,
+      "tabId": 2,
+      "timeStamp": 1503496887114,
+      "url": "http://readcheaply.com/partners/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "ReadCheaply | Partners",
+          "url": "http://readcheaply.com/partners/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496887114
+    }
+  },
+  {
+    "type": "dom.scroll",
+    "details": {
+      "isTrusted": true,
+      "type": "scroll",
+      "target": "#window>#document",
+      "currentTarget": "#window",
+      "eventPhase": 1,
+      "bubbles": true,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503496887115,
+      "srcElement": "#window>#document",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window>#document",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://readcheaply.com/partners/",
+      "contextId": 1218,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12780",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/favicon.png",
+      "id": 13509,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496887119,
+      "end": 1503496887119,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://readcheaply.com/partners/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=ded07fc014f0d305af296617308bb11d81503496885"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12780",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 14:01:27 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "609"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 27 Mar 2015 11:31:21 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2408e-261-5124378b83440\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 18:01:27 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392e9a98735f69d1-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://readcheaply.com/partners/assets/img/favicon.png",
+      "id": 13509,
+      "contextId": 1218,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496887285,
+      "end": 1503496887285,
+      "fromCache": false,
+      "ip": "104.28.22.15"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "http://readcheaply.com/partners/assets/img/favicon.png"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "http://readcheaply.com/partners/assets/img/favicon.png",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "ReadCheaply | Partners",
+          "url": "http://readcheaply.com/partners/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496887286
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12781",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 13510,
+      "contextId": 1219,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496888154,
+      "end": 1503496888154
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12781",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 13510,
+      "contextId": 1219,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496888154,
+      "end": 1503496888159
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496888160
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503496888160
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503496888160,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503496888155.18,
+          "title": "Save",
+          "typedCount": 161,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 161
+        }
+      },
+      "timeStamp": 1503496888160
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12782",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 13511,
+      "contextId": 1219,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496888162,
+      "end": 1503496888162
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "12782",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 13511,
+      "contextId": 1219,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496888162,
+      "end": 1503496888162
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496888165
+    }
+  }
+]

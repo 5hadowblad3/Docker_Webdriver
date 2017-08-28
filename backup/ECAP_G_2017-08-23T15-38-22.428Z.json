@@ -1,0 +1,4099 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502698636
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 165602,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/0f77ca4f-4b23-4b81-ba5b-c542b55a5e5a",
+          "id": 38,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T15:38:18.637Z",
+          "state": "in_progress",
+          "totalBytes": 165602,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/0f77ca4f-4b23-4b81-ba5b-c542b55a5e5a"
+        }
+      },
+      "timeStamp": 1503502698638
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 165602,
+          "filename": "ECAP_G_2017-08-23T15-38-18.633Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/0f77ca4f-4b23-4b81-ba5b-c542b55a5e5a",
+          "id": 38,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T15:38:18.637Z",
+          "state": "in_progress",
+          "totalBytes": 165602,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/0f77ca4f-4b23-4b81-ba5b-c542b55a5e5a"
+        }
+      },
+      "timeStamp": 1503502698640
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T15-38-18.633Z.json",
+            "previous": ""
+          },
+          "id": 38
+        }
+      },
+      "timeStamp": 1503502698646
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T15:38:18.649Z"
+          },
+          "id": 38,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503502698649
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503502700855,
+      "url": "http://spotbit.com/main/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3553",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://spotbit.com/main/",
+      "id": 3695,
+      "contextId": 292,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502700855,
+      "end": 1503502700855,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".spotbit.com",
+        "expirationDate": 1535038700,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "de71809a183d46fe49350403b3e80bd641503502700"
+      },
+      "removed": false,
+      "timeStamp": 1503502700898,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 292
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "de71809a183d46fe49350403b3e80bd641503502700",
+      "timeStamp": 1503502700898,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 292
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".spotbit.com",
+        "expirationDate": 1535038700.897837,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "de71809a183d46fe49350403b3e80bd641503502700"
+      },
+      "removed": false,
+      "timeStamp": 1503502700899
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "de71809a183d46fe49350403b3e80bd641503502700",
+      "timeStamp": 1503502700899
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3553",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 15:38:20 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700; expires=Thu, 23-Aug-18 15:38:20 GMT; path=/; domain=.spotbit.com; HttpOnly"
+        },
+        {
+          "name": "Location",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "392f2888554369dd-LHR"
+        }
+      ],
+      "statusCode": 301,
+      "statusLine": "HTTP/1.1 301 Moved Permanently",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://spotbit.com/main/",
+      "id": 3695,
+      "contextId": 292,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502700898,
+      "end": 1503502700901,
+      "fromCache": false,
+      "ip": "104.28.24.40",
+      "redirectUrl": "https://spotbit.com/main/"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3553",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://spotbit.com/main/",
+      "id": 3696,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502700901,
+      "end": 1503502700901,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3553",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "404"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "vary",
+          "value": "Cookie"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 11 Jan 1984 05:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate, max-age=0"
+        },
+        {
+          "name": "link",
+          "value": "<https://spotbit.com/wp-json/>; rel=\"https://api.w.org/\""
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f2888cc7b0a90-LHR"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 404,
+      "statusLine": "HTTP/1.1 404",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://spotbit.com/main/",
+      "id": 3696,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701161,
+      "end": 1503502701162,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "https://spotbit.com/main/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "https://spotbit.com/main/",
+          "url": "https://spotbit.com/main/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502701167
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503502701167
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 45,
+      "tabId": 2,
+      "timeStamp": 1503502701168,
+      "transitionQualifiers": [
+        "server_redirect"
+      ],
+      "transitionType": "typed",
+      "url": "https://spotbit.com/main/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3554",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/plugins/yet-another-related-posts-plugin/style/widget.css?ver=4.8.1",
+      "id": 3697,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701180,
+      "end": 1503502701181,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3555",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/style.css?ver=4.8.1",
+      "id": 3698,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701181,
+      "end": 1503502701181,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3556",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/stylesheets/bootstrap.min.css?ver=1.0.8",
+      "id": 3699,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701181,
+      "end": 1503502701181,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3557",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/stylesheets/animations.css?ver=1.0.8",
+      "id": 3700,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701182,
+      "end": 1503502701182,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3558",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/stylesheets/prettyPhoto.css?ver=1.0.8",
+      "id": 3701,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701182,
+      "end": 1503502701182,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3559",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/stylesheets/styles.css?ver=1.0.8",
+      "id": 3702,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701182,
+      "end": 1503502701182,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3560",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/stylesheets/custom-style.css?ver=1.0.8",
+      "id": 3703,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701183,
+      "end": 1503502701183,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3561",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/fonts/font-awesome/css/font-awesome.min.css?ver=1.0.8",
+      "id": 3704,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701183,
+      "end": 1503502701183,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3562",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans%3Aregular%2Citalic%2C700%26subset%3Dlatin%2C",
+      "id": 3705,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701183,
+      "end": 1503502701184,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3563",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 3706,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701184,
+      "end": 1503502701184,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3564",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1",
+      "id": 3707,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701184,
+      "end": 1503502701184,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3565",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/bootstrap.min.js?ver=1.0.8",
+      "id": 3708,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701184,
+      "end": 1503502701185,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3566",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/bootstrap-hover-dropdown.min.js?ver=1.0.8",
+      "id": 3709,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701185,
+      "end": 1503502701185,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3567",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/headroom.js?ver=1.0.8",
+      "id": 3710,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701185,
+      "end": 1503502701185,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3568",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/scroll-to-fixed.js?ver=1.0.8",
+      "id": 3711,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701185,
+      "end": 1503502701186,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3569",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/smart-nav-init.js?ver=1.0.8",
+      "id": 3712,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701186,
+      "end": 1503502701186,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3570",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/init.js?ver=1.0.8",
+      "id": 3713,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701186,
+      "end": 1503502701186,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3571",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/skip-link-focus-fix.js?ver=1.0.8",
+      "id": 3714,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701186,
+      "end": 1503502701187,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3572",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-includes/js/wp-embed.min.js?ver=4.8.1",
+      "id": 3715,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701187,
+      "end": 1503502701187,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3554",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 26 May 2017 12:53:33 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a5d060a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/plugins/yet-another-related-posts-plugin/style/widget.css?ver=4.8.1",
+      "id": 3697,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701187,
+      "end": 1503502701187,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Page not found — Spotbit"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Page not found — Spotbit",
+          "url": "https://spotbit.com/main/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502701188
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3555",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d070a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/style.css?ver=4.8.1",
+      "id": 3698,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701189,
+      "end": 1503502701190,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3561",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d0d0a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/fonts/font-awesome/css/font-awesome.min.css?ver=1.0.8",
+      "id": 3704,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701193,
+      "end": 1503502701194,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3564",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 17 May 2017 11:08:40 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d0f0a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1",
+      "id": 3707,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701195,
+      "end": 1503502701195,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3560",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d0c0a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/stylesheets/custom-style.css?ver=1.0.8",
+      "id": 3703,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701196,
+      "end": 1503502701196,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3568",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d150a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/scroll-to-fixed.js?ver=1.0.8",
+      "id": 3711,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701196,
+      "end": 1503502701197,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3557",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d090a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/stylesheets/animations.css?ver=1.0.8",
+      "id": 3700,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701199,
+      "end": 1503502701200,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3572",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 17 May 2017 11:08:40 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d190a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-includes/js/wp-embed.min.js?ver=4.8.1",
+      "id": 3715,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701200,
+      "end": 1503502701201,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3567",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d140a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/headroom.js?ver=1.0.8",
+      "id": 3710,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701203,
+      "end": 1503502701203,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3570",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d170a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/init.js?ver=1.0.8",
+      "id": 3713,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701203,
+      "end": 1503502701204,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3566",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d130a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/bootstrap-hover-dropdown.min.js?ver=1.0.8",
+      "id": 3709,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701204,
+      "end": 1503502701204,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3569",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d160a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/smart-nav-init.js?ver=1.0.8",
+      "id": 3712,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701204,
+      "end": 1503502701205,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3562",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans%3Aregular%2Citalic%2C700%26subset%3Dlatin%2C",
+      "id": 3705,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701205,
+      "end": 1503502701206,
+      "fromCache": false,
+      "ip": "216.58.213.74"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3571",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d180a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/skip-link-focus-fix.js?ver=1.0.8",
+      "id": 3714,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701208,
+      "end": 1503502701208,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3558",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d0a0a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/stylesheets/prettyPhoto.css?ver=1.0.8",
+      "id": 3701,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701208,
+      "end": 1503502701208,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3563",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 17 May 2017 11:08:40 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d0e0a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 3706,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701190,
+      "end": 1503502701208,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3559",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d0b0a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/stylesheets/styles.css?ver=1.0.8",
+      "id": 3702,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701205,
+      "end": 1503502701209,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3556",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d080a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://spotbit.com/wp-content/themes/smartr/stylesheets/bootstrap.min.css?ver=1.0.8",
+      "id": 3699,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701197,
+      "end": 1503502701209,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3565",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288a6d110a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-content/themes/smartr/js/bootstrap.min.js?ver=1.0.8",
+      "id": 3708,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701211,
+      "end": 1503502701211,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3573",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-includes/js/wp-emoji-release.min.js?ver=4.8.1",
+      "id": 3716,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701235,
+      "end": 1503502701235,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3573",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 13 Jul 2017 12:37:09 GMT"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288abd3e0a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://spotbit.com/wp-includes/js/wp-emoji-release.min.js?ver=4.8.1",
+      "id": 3716,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701252,
+      "end": 1503502701253,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3574",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 3717,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701261,
+      "end": 1503502701262,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3574",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 14:22:02 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 16:22:02 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "13472"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "age",
+          "value": "4175"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 3717,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701262,
+      "end": 1503502701262,
+      "fromCache": true,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3575",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 3718,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701277,
+      "end": 1503502701277,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://spotbit.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Open+Sans%3Aregular%2Citalic%2C700%26subset%3Dlatin%2C"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3575",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "13964"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 16 Aug 2017 22:16:42 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 16 Aug 2018 22:16:42 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 14 Jun 2017 16:46:31 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "580551"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 3718,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701277,
+      "end": 1503502701278,
+      "fromCache": true,
+      "ip": "216.58.213.67"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3576",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 3719,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701282,
+      "end": 1503502701282,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://spotbit.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Open+Sans%3Aregular%2Citalic%2C700%26subset%3Dlatin%2C"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3577",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://spotbit.com/wp-content/themes/smartr/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+      "id": 3720,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701283,
+      "end": 1503502701283,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://spotbit.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/wp-content/themes/smartr/fonts/font-awesome/css/font-awesome.min.css?ver=1.0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3576",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "14636"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 16 Aug 2017 22:16:38 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 16 Aug 2018 22:16:38 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 14 Jun 2017 16:46:23 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "580555"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 3719,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701283,
+      "end": 1503502701283,
+      "fromCache": true,
+      "ip": "216.58.213.67"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3578",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://spotbit.com/wp-content/themes/smartr/images/cd-top-arrow.svg",
+      "id": 3721,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701284,
+      "end": 1503502701284,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/wp-content/themes/smartr/stylesheets/styles.css?ver=1.0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3578",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/svg+xml"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"59255b36-232\""
+        },
+        {
+          "name": "expires",
+          "value": "Sat, 21 Aug 2027 15:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=315360000"
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288b0d5c0a90-LHR"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://spotbit.com/wp-content/themes/smartr/images/cd-top-arrow.svg",
+      "id": 3721,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701289,
+      "end": 1503502701289,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3577",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/octet-stream"
+        },
+        {
+          "name": "content-length",
+          "value": "64464"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 24 May 2017 10:06:46 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"59255b36-fbd0\""
+        },
+        {
+          "name": "content-security-policy-report-only",
+          "value": "default-src https:; script-src https: 'unsafe-eval' 'unsafe-inline'; style-src https: 'unsafe-inline'; img-src https: data:; font-src https: data:; report-uri /csp-report"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 19:38:21 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288b0d5b0a90-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://spotbit.com/wp-content/themes/smartr/fonts/font-awesome/fonts/fontawesome-webfont.woff2?v=4.4.0",
+      "id": 3720,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701292,
+      "end": 1503502701299,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 45,
+      "tabId": 2,
+      "timeStamp": 1503502701324,
+      "url": "https://spotbit.com/main/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".spotbit.com",
+        "expirationDate": 1566574701,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.2074666635.1503502701"
+      },
+      "removed": false,
+      "timeStamp": 1503502701358
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_ga",
+      "type": "cookie",
+      "value": "GA1.2.2074666635.1503502701",
+      "timeStamp": 1503502701358
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".spotbit.com",
+        "expirationDate": 1503589101,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.813735923.1503502701"
+      },
+      "removed": false,
+      "timeStamp": 1503502701358
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gid",
+      "type": "cookie",
+      "value": "GA1.2.813735923.1503502701",
+      "timeStamp": 1503502701358
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".spotbit.com",
+        "expirationDate": 1503502761,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gat",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1503502701361
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gat",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1503502701361
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3579",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=430431322&t=pageview&_s=1&dl=https%3A%2F%2Fspotbit.com%2Fmain%2F&ul=en-gb&de=UTF-8&dt=Page%20not%20found%20%E2%80%94%20Spotbit&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=615526016&gjid=670975811&cid=2074666635.1503502701&tid=UA-90324623-7&_gid=813735923.1503502701&_r=1&z=198952968",
+      "id": 3722,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701362,
+      "end": 1503502701363,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://spotbit.com/main/",
+      "timeStamp": 1503502701364,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://spotbit.com/main/",
+      "contextId": 293,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503502701365,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://spotbit.com/main/",
+      "contextId": 293,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Page not found — Spotbit",
+      "timeStamp": 1503502701365,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://spotbit.com/main/",
+      "contextId": 293,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "s",
+      "type": "input:search",
+      "value": "",
+      "timeStamp": 1503502701365,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://spotbit.com/main/",
+      "contextId": 293,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1503502701365,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://spotbit.com/main/",
+      "contextId": 293,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3579",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=430431322&t=pageview&_s=1&dl=https%3A%2F%2Fspotbit.com%2Fmain%2F&ul=en-gb&de=UTF-8&dt=Page%20not%20found%20%E2%80%94%20Spotbit&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=615526016&gjid=670975811&cid=2074666635.1503502701&tid=UA-90324623-7&_gid=813735923.1503502701&_r=1&z=198952968",
+      "id": 3722,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701372,
+      "end": 1503502701373,
+      "fromCache": false,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 45,
+      "tabId": 2,
+      "timeStamp": 1503502701375,
+      "url": "https://spotbit.com/main/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Page not found — Spotbit",
+          "url": "https://spotbit.com/main/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502701376
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3580",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://spotbit.com/favicon.ico",
+      "id": 3723,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701377,
+      "end": 1503502701377,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://spotbit.com/main/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=de71809a183d46fe49350403b3e80bd641503502700; _ga=GA1.2.2074666635.1503502701; _gid=GA1.2.813735923.1503502701; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3580",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "404"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 15:38:21 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "EXPIRED"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "392f288b9d970a90-LHR"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 404,
+      "statusLine": "HTTP/1.1 404",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://spotbit.com/favicon.ico",
+      "id": 3723,
+      "contextId": 293,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502701464,
+      "end": 1503502701468,
+      "fromCache": false,
+      "ip": "104.28.24.40"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3581",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 3724,
+      "contextId": 294,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502702415,
+      "end": 1503502702415
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3581",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 3724,
+      "contextId": 294,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502702415,
+      "end": 1503502702421
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502702421
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503502702421
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503502702421,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3582",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 3725,
+      "contextId": 294,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502702422,
+      "end": 1503502702422
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503502702416.1921,
+          "title": "Save",
+          "typedCount": 39,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 39
+        }
+      },
+      "timeStamp": 1503502702423
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3582",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 3725,
+      "contextId": 294,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503502702422,
+      "end": 1503502702423
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503502702428
+    }
+  }
+]

@@ -1,0 +1,3376 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495703707
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 140018,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/dcae4de8-dbd2-4399-a575-179c8ec083f9",
+          "id": 52,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T13:41:43.710Z",
+          "state": "in_progress",
+          "totalBytes": 140018,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/dcae4de8-dbd2-4399-a575-179c8ec083f9"
+        }
+      },
+      "timeStamp": 1503495703710
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 140018,
+          "filename": "ECAP_G_2017-08-23T13-41-43.703Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/dcae4de8-dbd2-4399-a575-179c8ec083f9",
+          "id": 52,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T13:41:43.710Z",
+          "state": "in_progress",
+          "totalBytes": 140018,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/dcae4de8-dbd2-4399-a575-179c8ec083f9"
+        }
+      },
+      "timeStamp": 1503495703713
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T13-41-43.703Z.json",
+            "previous": ""
+          },
+          "id": 52
+        }
+      },
+      "timeStamp": 1503495703720
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T13:41:43.722Z"
+          },
+          "id": 52,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503495703723
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503495705857,
+      "url": "http://www.onlinefreeebooks.net/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4692",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.onlinefreeebooks.net/",
+      "id": 4915,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495705857,
+      "end": 1503495705857,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.onlinefreeebooks.net",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "SessionID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "a5ae7b5d-5f9a-4102-9138-fc27bf25aad9"
+      },
+      "removed": false,
+      "timeStamp": 1503495706185,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 448
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "SessionID",
+      "type": "cookie",
+      "value": "a5ae7b5d-5f9a-4102-9138-fc27bf25aad9",
+      "timeStamp": 1503495706185,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 448
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.onlinefreeebooks.net",
+        "expirationDate": 1598190111,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "VisitorID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "088bb06d-be29-43da-9c54-97f96a9f7715&Exp=8/23/2020 6:41:51 AM"
+      },
+      "removed": false,
+      "timeStamp": 1503495706185,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 448
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "VisitorID",
+      "type": "cookie",
+      "value": "088bb06d-be29-43da-9c54-97f96a9f7715&Exp=8/23/2020 6:41:51 AM",
+      "timeStamp": 1503495706185,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 448
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.onlinefreeebooks.net",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "SessionID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "a5ae7b5d-5f9a-4102-9138-fc27bf25aad9"
+      },
+      "removed": false,
+      "timeStamp": 1503495706186
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "SessionID",
+      "type": "cookie",
+      "value": "a5ae7b5d-5f9a-4102-9138-fc27bf25aad9",
+      "timeStamp": 1503495706186
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.onlinefreeebooks.net",
+        "expirationDate": 1598190107.184833,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "VisitorID",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "088bb06d-be29-43da-9c54-97f96a9f7715&Exp=8/23/2020 6:41:51 AM"
+      },
+      "removed": false,
+      "timeStamp": 1503495706187
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "VisitorID",
+      "type": "cookie",
+      "value": "088bb06d-be29-43da-9c54-97f96a9f7715&Exp=8/23/2020 6:41:51 AM",
+      "timeStamp": 1503495706187
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://www.onlinefreeebooks.net/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "www.onlinefreeebooks.net",
+          "url": "http://www.onlinefreeebooks.net/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495706191
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503495706192
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 58,
+      "tabId": 2,
+      "timeStamp": 1503495706192,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://www.onlinefreeebooks.net/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "87",
+          "lastVisitTime": 1503495706188.157,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://www.onlinefreeebooks.net/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503495706202
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4693",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://code.jquery.com/jquery-latest.min.js",
+      "id": 4916,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706203,
+      "end": 1503495706203,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4694",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.onlinefreeebooks.net/js/standard.js?rte=1&tm=2&dn=onlinefreeebooks.net&tid=1020",
+      "id": 4917,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706204,
+      "end": 1503495706204,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "SessionID=a5ae7b5d-5f9a-4102-9138-fc27bf25aad9; VisitorID=088bb06d-be29-43da-9c54-97f96a9f7715&Exp=8/23/2020 6:41:51 AM"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4695",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.onlinefreeebooks.net/js/google_caf.js?rte=1&tm=2&dn=onlinefreeebooks.net&tid=1020",
+      "id": 4918,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706204,
+      "end": 1503495706205,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "SessionID=a5ae7b5d-5f9a-4102-9138-fc27bf25aad9; VisitorID=088bb06d-be29-43da-9c54-97f96a9f7715&Exp=8/23/2020 6:41:51 AM"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4696",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google.com/adsense/domains/caf.js",
+      "id": 4919,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706205,
+      "end": 1503495706205,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "NID=110=sttvqia_adSAkAOb9SOrPXYukpR0a4JD78SXQ_5Ya0rBDN8ZG1CW5D-B9zUnvyBLOQodw8DBokCcCoEy20jSQwaTP_N12Dg-JeLSYUVJ4BnLlfaYdH0w2AkYEkw8SZUC"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Onlinefreeebooks.net"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Onlinefreeebooks.net",
+          "url": "http://www.onlinefreeebooks.net/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495706206
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4693",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:41:46 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript; charset=utf-8"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 24 Oct 2014 00:16:08 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"54499a48-1762a\""
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 23:12:49 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=86400"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Server",
+          "value": "NetDNA-cache/2.2"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://code.jquery.com/jquery-latest.min.js",
+      "id": 4916,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706209,
+      "end": 1503495706213,
+      "fromCache": false,
+      "ip": "94.31.29.54"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4696",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:40:20 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 13:40:20 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, max-age=3600"
+        },
+        {
+          "name": "ETag",
+          "value": "\"13697080354871284493\""
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google.com/adsense/domains/caf.js",
+      "id": 4919,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706206,
+      "end": 1503495706215,
+      "fromCache": true,
+      "ip": "216.58.206.36"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4692",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6741"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Expires",
+          "value": "-1"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/8.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "p3p",
+          "value": "CP=\"CAO PSA OUR\""
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "SessionID=a5ae7b5d-5f9a-4102-9138-fc27bf25aad9; path=/"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "VisitorID=088bb06d-be29-43da-9c54-97f96a9f7715&Exp=8/23/2020 6:41:51 AM; expires=Sun, 23-Aug-2020 13:41:51 GMT; path=/"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:41:50 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.onlinefreeebooks.net/",
+      "id": 4915,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706185,
+      "end": 1503495706330,
+      "fromCache": false,
+      "ip": "8.5.1.51"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4697",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.onlinefreeebooks.net/css/style.css?rte=1&tm=2&dn=onlinefreeebooks.net&tid=1020&def=Akamai%3aHostingURL%3dhttp%3a%2f%2fi.nuseek.com",
+      "id": 4920,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706331,
+      "end": 1503495706331,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "SessionID=a5ae7b5d-5f9a-4102-9138-fc27bf25aad9; VisitorID=088bb06d-be29-43da-9c54-97f96a9f7715&Exp=8/23/2020 6:41:51 AM"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4694",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1297"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=utf-8"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/8.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:41:45 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.onlinefreeebooks.net/js/standard.js?rte=1&tm=2&dn=onlinefreeebooks.net&tid=1020",
+      "id": 4917,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706362,
+      "end": 1503495706362,
+      "fromCache": false,
+      "ip": "8.5.1.51"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4695",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Length",
+          "value": "9155"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=utf-8"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/8.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:41:50 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.onlinefreeebooks.net/js/google_caf.js?rte=1&tm=2&dn=onlinefreeebooks.net&tid=1020",
+      "id": 4918,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706479,
+      "end": 1503495706480,
+      "fromCache": false,
+      "ip": "8.5.1.51"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4698",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.google.com/dp/ads?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=on&optimize_terms=on&swp=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=afd_ads&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706505&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F",
+      "id": 4921,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706507,
+      "end": 1503495706507,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.onlinefreeebooks.net"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4698",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:41:46 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "gws"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2145"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ],
+      "statusCode": 404,
+      "statusLine": "HTTP/1.1 404 Not Found",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.google.com/dp/ads?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=on&optimize_terms=on&swp=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=afd_ads&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706505&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F",
+      "id": 4921,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706526,
+      "end": 1503495706527,
+      "fromCache": false,
+      "ip": "216.58.206.36"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4699",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/async_survey?site=kv4ic6olrzkr6",
+      "id": 4922,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706527,
+      "end": 1503495706527,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=22743b04524c0043||t=1503495256|et=730|cs=002213fd48ee616a760a265f2d; IDE=AHWqTUmZwFm759YtS4s6w5Tsj5es_PH7K-kHiZbJxLu-_LZuiNBtmEat_Q; DSID=NO_DATA; PAIDCONTENT=2soem82sm5qw72g9p09w"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4699",
+      "responseHeaders": [
+        {
+          "name": "Content-Disposition",
+          "value": "attachment; filename=\"f.txt\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=utf-8"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "X-Xss-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:38:45 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=300"
+        },
+        {
+          "name": "Content-Length",
+          "value": "16167"
+        },
+        {
+          "name": "Age",
+          "value": "96"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/async_survey?site=kv4ic6olrzkr6",
+      "id": 4922,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706527,
+      "end": 1503495706528,
+      "fromCache": true,
+      "ip": "216.58.206.49"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4700",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.gstatic.com/domainads/tracking/caf.gif?ts=1503495706493&rid=8387081",
+      "id": 4923,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706529,
+      "end": 1503495706529,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 415,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503495706532,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 415,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "4701",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "id": 4924,
+      "contextId": 449,
+      "parentContextId": 448,
+      "windowId": 1,
+      "start": 1503495706532,
+      "end": 1503495706533,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=22743b04524c0043||t=1503495256|et=730|cs=002213fd48ee616a760a265f2d; IDE=AHWqTUmZwFm759YtS4s6w5Tsj5es_PH7K-kHiZbJxLu-_LZuiNBtmEat_Q; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 415,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "4701",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        },
+        {
+          "name": "Content-Length",
+          "value": "637"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:36:12 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 14:36:12 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 01 Jun 2017 13:45:00 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Age",
+          "value": "249"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "id": 4924,
+      "contextId": 449,
+      "parentContextId": 448,
+      "windowId": 1,
+      "start": 1503495706533,
+      "end": 1503495706534,
+      "fromCache": true,
+      "ip": "172.217.23.2"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 416,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503495706538,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 416,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "4702",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "id": 4925,
+      "contextId": 450,
+      "parentContextId": 448,
+      "windowId": 1,
+      "start": 1503495706538,
+      "end": 1503495706539,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=22743b04524c0043||t=1503495256|et=730|cs=002213fd48ee616a760a265f2d; IDE=AHWqTUmZwFm759YtS4s6w5Tsj5es_PH7K-kHiZbJxLu-_LZuiNBtmEat_Q; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4700",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "43"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:41:46 GMT"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache, must-revalidate"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 21 Apr 2016 03:17:22 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.gstatic.com/domainads/tracking/caf.gif?ts=1503495706493&rid=8387081",
+      "id": 4923,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706540,
+      "end": 1503495706541,
+      "fromCache": false,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 415,
+      "processId": 58,
+      "tabId": 2,
+      "timeStamp": 1503495706547,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 415,
+      "processId": 58,
+      "tabId": 2,
+      "timeStamp": 1503495706548,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 415,
+      "processId": 58,
+      "tabId": 2,
+      "timeStamp": 1503495706560,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "timeStamp": 1503495706568,
+      "tabId": 2,
+      "frameId": 415,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "contextId": 449,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503495706568,
+      "tabId": 2,
+      "frameId": 415,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "contextId": 449,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 416,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "4702",
+      "responseHeaders": [
+        {
+          "name": "P3P",
+          "value": "policyref=\"http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\""
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:41:46 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "domainserver"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1644"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "id": 4925,
+      "contextId": 450,
+      "parentContextId": 448,
+      "windowId": 1,
+      "start": 1503495706653,
+      "end": 1503495706655,
+      "fromCache": false,
+      "ip": "216.58.214.2"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4703",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/insights/consumersurveys/static/403574399479939525/prompt_embed_static.js",
+      "id": 4926,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706655,
+      "end": 1503495706656,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=22743b04524c0043||t=1503495256|et=730|cs=002213fd48ee616a760a265f2d; IDE=AHWqTUmZwFm759YtS4s6w5Tsj5es_PH7K-kHiZbJxLu-_LZuiNBtmEat_Q; DSID=NO_DATA; PAIDCONTENT=2soem82sm5qw72g9p09w"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 416,
+      "processId": 58,
+      "tabId": 2,
+      "timeStamp": 1503495706663,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4703",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 22 Aug 2017 21:17:53 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 21 Sep 2017 21:17:53 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"g3qn9Q\""
+        },
+        {
+          "name": "X-Cloud-Trace-Context",
+          "value": "62a14bf4c7f4c985fc78fb38b6457069"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Server",
+          "value": "Google Frontend"
+        },
+        {
+          "name": "Content-Length",
+          "value": "109913"
+        },
+        {
+          "name": "Age",
+          "value": "58948"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/insights/consumersurveys/static/403574399479939525/prompt_embed_static.js",
+      "id": 4926,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706656,
+      "end": 1503495706663,
+      "fromCache": true,
+      "ip": "216.58.206.49"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4697",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Length",
+          "value": "8410"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/8.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:41:44 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.onlinefreeebooks.net/css/style.css?rte=1&tm=2&dn=onlinefreeebooks.net&tid=1020&def=Akamai%3aHostingURL%3dhttp%3a%2f%2fi.nuseek.com",
+      "id": 4920,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706515,
+      "end": 1503495706669,
+      "fromCache": false,
+      "ip": "8.5.1.51"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 415,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "4704",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://afs.googleusercontent.com/dp-demandmedia/t1020/bullet-green-arrow.png",
+      "id": 4927,
+      "contextId": 449,
+      "parentContextId": 448,
+      "windowId": 1,
+      "start": 1503495706714,
+      "end": 1503495706714,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://dp.g.doubleclick.net/static/caf/slave.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 416,
+      "processId": 58,
+      "tabId": 2,
+      "timeStamp": 1503495706715,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 415,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "4704",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1148"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 22 Aug 2017 17:30:55 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 16:30:55 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 26 Sep 2013 23:43:58 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Age",
+          "value": "72651"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=82800"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://afs.googleusercontent.com/dp-demandmedia/t1020/bullet-green-arrow.png",
+      "id": 4927,
+      "contextId": 449,
+      "parentContextId": 448,
+      "windowId": 1,
+      "start": 1503495706721,
+      "end": 1503495706721,
+      "fromCache": false,
+      "ip": "216.58.206.33"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4705",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.onlinefreeebooks.net/googleCallback?rid=0c2f97f3-d7dc-487c-bef0-81ea552f842d&isAfd=1",
+      "id": 4928,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706725,
+      "end": 1503495706725,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "SessionID=a5ae7b5d-5f9a-4102-9138-fc27bf25aad9; VisitorID=088bb06d-be29-43da-9c54-97f96a9f7715&Exp=8/23/2020 6:41:51 AM"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4705",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/8.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:41:45 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.onlinefreeebooks.net/googleCallback?rid=0c2f97f3-d7dc-487c-bef0-81ea552f842d&isAfd=1",
+      "id": 4928,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706882,
+      "end": 1503495706883,
+      "fromCache": false,
+      "ip": "8.5.1.51"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 416,
+      "processId": 58,
+      "tabId": 2,
+      "timeStamp": 1503495706920,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.resize",
+    "details": {
+      "isTrusted": true,
+      "type": "resize",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503495706925,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 415,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "contextId": 449,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/ga.js",
+      "requestId": "4706",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/ga.js"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google-analytics.com/ga.js",
+      "id": 4929,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1503495706967
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4706",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/ga.js",
+      "id": 4930,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706968,
+      "end": 1503495706968,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Intervention",
+          "value": "<https://www.chromestatus.com/feature/5718547946799104>; level=\"warning\""
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "timeStamp": 1503495706964,
+      "tabId": 2,
+      "frameId": 416,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "contextId": 450,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503495706964,
+      "tabId": 2,
+      "frameId": 416,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "contextId": 450,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "ac",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495706964,
+      "tabId": 2,
+      "frameId": 416,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "contextId": 450,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "slt",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495706965,
+      "tabId": 2,
+      "frameId": 416,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "contextId": 450,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "slr",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495706965,
+      "tabId": 2,
+      "frameId": 416,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "contextId": 450,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "lpt",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495706965,
+      "tabId": 2,
+      "frameId": 416,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "contextId": 450,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "query",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503495706965,
+      "tabId": 2,
+      "frameId": 416,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "contextId": 450,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1503495706965,
+      "tabId": 2,
+      "frameId": 416,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "contextId": 450,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "afdToken",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495706965,
+      "tabId": 2,
+      "frameId": 416,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "contextId": 450,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "search",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503495706965,
+      "tabId": 2,
+      "frameId": 416,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404%2C17300002&client=dp-demandmedia02&channel=000001&hl=en&adtest=off&optimize_terms=on&drid=as-drid-oo-1750951074443211&uiopt=true&oe=UTF-8&ie=UTF-8&format=s%7Cr10&adrep=0&num=0&output=caf&domain_name=www.onlinefreeebooks.net&v=3&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1503495706504&u_w=1920&u_h=1080&biw=-1&bih=-1&psw=-1&psh=-1&frm=0&uio=uv3cs1vp1sl1sr1-wi300-ff2fa2st24sa18lt50&jsv=13697&rurl=http%3A%2F%2Fwww.onlinefreeebooks.net%2F#master-1",
+      "contextId": 450,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4706",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:17:36 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 15:17:36 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "16022"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "age",
+          "value": "1022"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/ga.js",
+      "id": 4930,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706970,
+      "end": 1503495706971,
+      "fromCache": true,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".onlinefreeebooks.net",
+        "expirationDate": 1566567706,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "48217465.954610484.1503495707.1503495707.1503495707.1"
+      },
+      "removed": false,
+      "timeStamp": 1503495706978
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "48217465.954610484.1503495707.1503495707.1503495707.1",
+      "timeStamp": 1503495706978
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".onlinefreeebooks.net",
+        "expirationDate": 1503497506,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "48217465.0.10.1503495707"
+      },
+      "removed": false,
+      "timeStamp": 1503495706979
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "48217465.0.10.1503495707",
+      "timeStamp": 1503495706979
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".onlinefreeebooks.net",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "48217465"
+      },
+      "removed": false,
+      "timeStamp": 1503495706979
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "48217465",
+      "timeStamp": 1503495706979
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".onlinefreeebooks.net",
+        "expirationDate": 1519263706,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "48217465.1503495707.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": false,
+      "timeStamp": 1503495706979
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "48217465.1503495707.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1503495706979
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".onlinefreeebooks.net",
+        "expirationDate": 1503496306,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmt",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1503495706981
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmt",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1503495706981
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".onlinefreeebooks.net",
+        "expirationDate": 1566567706,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "48217465.954610484.1503495707.1503495707.1503495707.1"
+      },
+      "removed": true,
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "48217465.954610484.1503495707.1503495707.1503495707.1",
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".onlinefreeebooks.net",
+        "expirationDate": 1566567706,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "48217465.954610484.1503495707.1503495707.1503495707.1"
+      },
+      "removed": false,
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "48217465.954610484.1503495707.1503495707.1503495707.1",
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".onlinefreeebooks.net",
+        "expirationDate": 1503497506,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "48217465.0.10.1503495707"
+      },
+      "removed": true,
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "48217465.0.10.1503495707",
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".onlinefreeebooks.net",
+        "expirationDate": 1503497506,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "48217465.1.10.1503495707"
+      },
+      "removed": false,
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "48217465.1.10.1503495707",
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".onlinefreeebooks.net",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "48217465"
+      },
+      "removed": true,
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "48217465",
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".onlinefreeebooks.net",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "48217465"
+      },
+      "removed": false,
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "48217465",
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".onlinefreeebooks.net",
+        "expirationDate": 1519263706,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "48217465.1503495707.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": true,
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "48217465.1503495707.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".onlinefreeebooks.net",
+        "expirationDate": 1519263706,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "48217465.1503495707.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": false,
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "48217465.1503495707.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1503495706984
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 58,
+      "tabId": 2,
+      "timeStamp": 1503495706986,
+      "url": "http://www.onlinefreeebooks.net/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.resize",
+    "details": {
+      "isTrusted": true,
+      "type": "resize",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1503495706989,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 415,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "contextId": 449,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1104618636&utmhn=www.onlinefreeebooks.net&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x838&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=Onlinefreeebooks.net&utmhid=370026295&utmr=-&utmp=%2F&utmht=1503495706982&utmac=UA-2249740-15&utmcc=__utma%3D48217465.954610484.1503495707.1503495707.1503495707.1%3B%2B__utmz%3D48217465.1503495707.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=884024231&utmredir=1&utmu=HAAAAAAAAAAAAAAAAAAAAAAE~",
+      "requestId": "4707",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1104618636&utmhn=www.onlinefreeebooks.net&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x838&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=Onlinefreeebooks.net&utmhid=370026295&utmr=-&utmp=%2F&utmht=1503495706982&utmac=UA-2249740-15&utmcc=__utma%3D48217465.954610484.1503495707.1503495707.1503495707.1%3B%2B__utmz%3D48217465.1503495707.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=884024231&utmredir=1&utmu=HAAAAAAAAAAAAAAAAAAAAAAE~"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1104618636&utmhn=www.onlinefreeebooks.net&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x838&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=Onlinefreeebooks.net&utmhid=370026295&utmr=-&utmp=%2F&utmht=1503495706982&utmac=UA-2249740-15&utmcc=__utma%3D48217465.954610484.1503495707.1503495707.1503495707.1%3B%2B__utmz%3D48217465.1503495707.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=884024231&utmredir=1&utmu=HAAAAAAAAAAAAAAAAAAAAAAE~",
+      "id": 4931,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1503495706990
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4707",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1104618636&utmhn=www.onlinefreeebooks.net&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x838&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=Onlinefreeebooks.net&utmhid=370026295&utmr=-&utmp=%2F&utmht=1503495706982&utmac=UA-2249740-15&utmcc=__utma%3D48217465.954610484.1503495707.1503495707.1503495707.1%3B%2B__utmz%3D48217465.1503495707.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=884024231&utmredir=1&utmu=HAAAAAAAAAAAAAAAAAAAAAAE~",
+      "id": 4932,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495706990,
+      "end": 1503495706991,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://www.onlinefreeebooks.net/",
+      "timeStamp": 1503495706992,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.onlinefreeebooks.net/",
+      "contextId": 448,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503495706992,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.onlinefreeebooks.net/",
+      "contextId": 448,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Onlinefreeebooks.net",
+      "timeStamp": 1503495706992,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.onlinefreeebooks.net/",
+      "contextId": 448,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4707",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:41:46 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1104618636&utmhn=www.onlinefreeebooks.net&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x838&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=Onlinefreeebooks.net&utmhid=370026295&utmr=-&utmp=%2F&utmht=1503495706982&utmac=UA-2249740-15&utmcc=__utma%3D48217465.954610484.1503495707.1503495707.1503495707.1%3B%2B__utmz%3D48217465.1503495707.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=884024231&utmredir=1&utmu=HAAAAAAAAAAAAAAAAAAAAAAE~",
+      "id": 4932,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495707001,
+      "end": 1503495707001,
+      "fromCache": false,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 58,
+      "tabId": 2,
+      "timeStamp": 1503495707003,
+      "url": "http://www.onlinefreeebooks.net/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Onlinefreeebooks.net",
+          "url": "http://www.onlinefreeebooks.net/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495707003
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4708",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.onlinefreeebooks.net/favicon.ico",
+      "id": 4933,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495707004,
+      "end": 1503495707004,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "SessionID=a5ae7b5d-5f9a-4102-9138-fc27bf25aad9; VisitorID=088bb06d-be29-43da-9c54-97f96a9f7715&Exp=8/23/2020 6:41:51 AM; __utmt=1; __utma=48217465.954610484.1503495707.1503495707.1503495707.1; __utmb=48217465.1.10.1503495707; __utmc=48217465; __utmz=48217465.1503495707.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4709",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/gk/prompt?t=a&site=kv4ic6olrzkr6&random=1503495707066&ref",
+      "id": 4934,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495707067,
+      "end": 1503495707068,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.onlinefreeebooks.net/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "id=22743b04524c0043||t=1503495256|et=730|cs=002213fd48ee616a760a265f2d; IDE=AHWqTUmZwFm759YtS4s6w5Tsj5es_PH7K-kHiZbJxLu-_LZuiNBtmEat_Q; DSID=NO_DATA; PAIDCONTENT=2soem82sm5qw72g9p09w"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4709",
+      "responseHeaders": [
+        {
+          "name": "Content-Disposition",
+          "value": "attachment; filename=\"f.txt\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=utf-8"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "X-Why",
+          "value": "Publisher down sampling."
+        },
+        {
+          "name": "X-Xss-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:41:47 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "23"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/gk/prompt?t=a&site=kv4ic6olrzkr6&random=1503495707066&ref",
+      "id": 4934,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495707090,
+      "end": 1503495707091,
+      "fromCache": false,
+      "ip": "216.58.206.49"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4708",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/x-icon"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 11 Jul 2017 18:10:18 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"0a1c1f370fad21:0\""
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/8.5"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:41:45 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.onlinefreeebooks.net/favicon.ico",
+      "id": 4933,
+      "contextId": 448,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495707163,
+      "end": 1503495707164,
+      "fromCache": false,
+      "ip": "8.5.1.51"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4710",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 4935,
+      "contextId": 451,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495708039,
+      "end": 1503495708039
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4710",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 4935,
+      "contextId": 451,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495708039,
+      "end": 1503495708046
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495708046
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503495708046
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503495708046,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503495708041.1938,
+          "title": "Save",
+          "typedCount": 52,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 52
+        }
+      },
+      "timeStamp": 1503495708047
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4711",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 4936,
+      "contextId": 451,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495708048,
+      "end": 1503495708048
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "4711",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 4936,
+      "contextId": 451,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503495708048,
+      "end": 1503495708048
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503495708052
+    }
+  }
+]

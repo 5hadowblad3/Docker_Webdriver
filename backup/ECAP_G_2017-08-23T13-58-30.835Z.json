@@ -1,0 +1,6895 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496704548
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 249719,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/222b192d-2099-41be-8315-a3e7802c68cf",
+          "id": 134,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T13:58:24.550Z",
+          "state": "in_progress",
+          "totalBytes": 249719,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/222b192d-2099-41be-8315-a3e7802c68cf"
+        }
+      },
+      "timeStamp": 1503496704551
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 249719,
+          "filename": "ECAP_G_2017-08-23T13-58-24.533Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/222b192d-2099-41be-8315-a3e7802c68cf",
+          "id": 134,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-08-23T13:58:24.550Z",
+          "state": "in_progress",
+          "totalBytes": 249719,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/222b192d-2099-41be-8315-a3e7802c68cf"
+        }
+      },
+      "timeStamp": 1503496704554
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-08-23T13-58-24.533Z.json",
+            "previous": ""
+          },
+          "id": 134
+        }
+      },
+      "timeStamp": 1503496704562
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-08-23T13:58:24.564Z"
+          },
+          "id": 134,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1503496704564
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1503496707276,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10436",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "id": 11022,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496707277,
+      "end": 1503496707277,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "igniteyourbook.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "wpfront-notification-bar-landingpage",
+        "path": "/submit-your-book/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1503496708737,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1018
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "wpfront-notification-bar-landingpage",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1503496708737,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 1018
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "igniteyourbook.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "wpfront-notification-bar-landingpage",
+        "path": "/submit-your-book",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1503496708740
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "wpfront-notification-bar-landingpage",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1503496708740
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://igniteyourbook.com/submit-your-book/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "igniteyourbook.com/submit-your-book/",
+          "url": "http://igniteyourbook.com/submit-your-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496708744
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503496708744
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 140,
+      "tabId": 2,
+      "timeStamp": 1503496708745,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "187",
+          "lastVisitTime": 1503496708740.754,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://igniteyourbook.com/submit-your-book/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1503496708750
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10437",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/jetpack/modules/simple-payments/simple-payments.css?ver=4.8.1",
+      "id": 11023,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708750,
+      "end": 1503496708750,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10438",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/themes/ignite20/style.css?ver=2.2.2",
+      "id": 11024,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708750,
+      "end": 1503496708750,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10439",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/wpfront-notification-bar/css/wpfront-notification-bar.css?ver=1.7",
+      "id": 11025,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708750,
+      "end": 1503496708751,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10440",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700&ver=2.2.2",
+      "id": 11026,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708751,
+      "end": 1503496708751,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10441",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-includes/css/dashicons.min.css?ver=4.8.1",
+      "id": 11027,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708751,
+      "end": 1503496708751,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10442",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/css/formreset.min.css?ver=2.2.3",
+      "id": 11028,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708751,
+      "end": 1503496708751,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10443",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/css/datepicker.min.css?ver=2.2.3",
+      "id": 11029,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708752,
+      "end": 1503496708752,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10444",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=2.2.3",
+      "id": 11030,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708752,
+      "end": 1503496708752,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10445",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=2.2.3",
+      "id": 11031,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708752,
+      "end": 1503496708752,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10446",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/css/browsers.min.css?ver=2.2.3",
+      "id": 11032,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708752,
+      "end": 1503496708753,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10447",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityformsmailchimp/css/form_settings.css?ver=4.2",
+      "id": 11033,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708753,
+      "end": 1503496708753,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10448",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&subset=latin%2Clatin-ext&ver=4.8.1",
+      "id": 11034,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708753,
+      "end": 1503496708753,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10449",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/jetpack/css/jetpack.css?ver=5.2.1",
+      "id": 11035,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708753,
+      "end": 1503496708753,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10450",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 11036,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708753,
+      "end": 1503496708754,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10451",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1",
+      "id": 11037,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708754,
+      "end": 1503496708754,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10452",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/wpfront-notification-bar/jquery-plugins/jquery.c.js?ver=1.4.0",
+      "id": 11038,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708754,
+      "end": 1503496708754,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10453",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/wpfront-notification-bar/js/wpfront-notification-bar.js?ver=1.7",
+      "id": 11039,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708754,
+      "end": 1503496708754,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10454",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/themes/ignite20/js/responsive-menu.js?ver=1.0.0",
+      "id": 11040,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708755,
+      "end": 1503496708755,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10455",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.2.3",
+      "id": 11041,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708755,
+      "end": 1503496708755,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10456",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.2.3",
+      "id": 11042,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708755,
+      "end": 1503496708755,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10457",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/js/jquery.textareaCounter.plugin.min.js?ver=2.2.3",
+      "id": 11043,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708755,
+      "end": 1503496708756,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Submit Your Book - Ignite Your Book"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Submit Your Book - Ignite Your Book",
+          "url": "http://igniteyourbook.com/submit-your-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496708756
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10448",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 13:46:06 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:46:06 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 23 Aug 2017 13:46:06 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&subset=latin%2Clatin-ext&ver=4.8.1",
+      "id": 11034,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708756,
+      "end": 1503496708756,
+      "fromCache": true,
+      "ip": "216.58.206.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10440",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Link",
+          "value": "<http://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 13:58:28 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:28 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 23 Aug 2017 13:58:28 GMT"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Server",
+          "value": "ESF"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700&ver=2.2.2",
+      "id": 11026,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708770,
+      "end": 1503496708770,
+      "fromCache": false,
+      "ip": "216.58.206.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10436",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:28 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Pingback",
+          "value": "http://igniteyourbook.com/xmlrpc.php"
+        },
+        {
+          "name": "Link",
+          "value": "<http://igniteyourbook.com/wp-json/>; rel=\"https://api.w.org/\", <http://wp.me/P70s1X-9QK>; rel=shortlink"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "wpfront-notification-bar-landingpage=1"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "id": 11022,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708737,
+      "end": 1503496708832,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10460",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Open+Sans:400,700",
+      "id": 11044,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708833,
+      "end": 1503496708833,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10461",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/bloom/css/style.css?ver=1.2.15",
+      "id": 11045,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708833,
+      "end": 1503496708834,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10460",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Link",
+          "value": "<http://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 23 Aug 2017 13:41:09 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:41:09 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 23 Aug 2017 13:41:09 GMT"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Server",
+          "value": "ESF"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Open+Sans:400,700",
+      "id": 11044,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708835,
+      "end": 1503496708835,
+      "fromCache": true,
+      "ip": "216.58.206.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10437",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:28 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "719"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 03 Aug 2017 23:08:55 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"8cf-555e176f1f24f-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/jetpack/modules/simple-payments/simple-payments.css?ver=4.8.1",
+      "id": 11023,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708855,
+      "end": 1503496708856,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10438",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:28 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7474"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 04 Apr 2016 19:16:08 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"879e-52fad8f904e00-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/themes/ignite20/style.css?ver=2.2.2",
+      "id": 11024,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708941,
+      "end": 1503496708942,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10443",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:28 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1595"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 16 Jun 2017 16:50:30 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"14d0-5521695408ea7-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/css/datepicker.min.css?ver=2.2.3",
+      "id": 11029,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708953,
+      "end": 1503496708953,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10439",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:28 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "795"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 24 Feb 2017 17:40:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"d00-5494a39460d4c-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/wpfront-notification-bar/css/wpfront-notification-bar.css?ver=1.7",
+      "id": 11025,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708954,
+      "end": 1503496708954,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10442",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:28 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "399"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 16 Jun 2017 16:50:30 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"f00-5521695408ea7-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/css/formreset.min.css?ver=2.2.3",
+      "id": 11028,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708955,
+      "end": 1503496708955,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10444",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:28 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "10778"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 16 Jun 2017 16:50:30 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10bdd-552169540928f-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/css/formsmain.min.css?ver=2.2.3",
+      "id": 11030,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708965,
+      "end": 1503496708967,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10441",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:28 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "28612"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 13 Jun 2016 14:18:05 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"b51c-535298e99590b-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-includes/css/dashicons.min.css?ver=4.8.1",
+      "id": 11027,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496708956,
+      "end": 1503496709050,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10445",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3468"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 16 Jun 2017 16:50:30 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"77ab-5521695408abf-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/css/readyclass.min.css?ver=2.2.3",
+      "id": 11031,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709049,
+      "end": 1503496709051,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10446",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1186"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 16 Jun 2017 16:50:30 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1c5e-5521695409677-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/css/browsers.min.css?ver=2.2.3",
+      "id": 11032,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709065,
+      "end": 1503496709066,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10447",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "144"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 20 Apr 2017 19:47:51 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"b7-54d9e6a8e292e-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityformsmailchimp/css/form_settings.css?ver=4.2",
+      "id": 11033,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709066,
+      "end": 1503496709067,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10449",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "11679"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 03 Aug 2017 23:08:55 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"101f9-555e176f2c540-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/jetpack/css/jetpack.css?ver=5.2.1",
+      "id": 11035,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709073,
+      "end": 1503496709074,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10461",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "10061"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 20 Jul 2017 20:34:35 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"15df3-554c5ad452368-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://igniteyourbook.com/wp-content/plugins/bloom/css/style.css?ver=1.2.15",
+      "id": 11045,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709074,
+      "end": 1503496709077,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10451",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4014"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 21 Jun 2016 20:19:07 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2748-535cf8874eb3f-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1",
+      "id": 11037,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709158,
+      "end": 1503496709159,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10450",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "33766"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 21 Jun 2016 20:19:07 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"17ba0-535cf8874e757-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/jquery/jquery.js?ver=1.12.4",
+      "id": 11036,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709161,
+      "end": 1503496709163,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10452",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1352"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 24 Feb 2017 17:40:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"c17-5494a39460964-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/wpfront-notification-bar/jquery-plugins/jquery.c.js?ver=1.4.0",
+      "id": 11038,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709175,
+      "end": 1503496709176,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10454",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "327"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Mar 2016 03:31:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2af-52e729d137200-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/themes/ignite20/js/responsive-menu.js?ver=1.0.0",
+      "id": 11040,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709176,
+      "end": 1503496709176,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10453",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1372"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 24 Feb 2017 17:40:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"14c7-5494a39449e1b-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/wpfront-notification-bar/js/wpfront-notification-bar.js?ver=1.7",
+      "id": 11039,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709176,
+      "end": 1503496709176,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10455",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "935"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 16 Jun 2017 16:50:30 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"738-55216953ef866-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/js/jquery.json.min.js?ver=2.2.3",
+      "id": 11041,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709180,
+      "end": 1503496709181,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10457",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1012"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 16 Jun 2017 16:50:30 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"816-55216953efc4e-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/js/jquery.textareaCounter.plugin.min.js?ver=2.2.3",
+      "id": 11043,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709268,
+      "end": 1503496709269,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10462",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201734",
+      "id": 11046,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709269,
+      "end": 1503496709269,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10462",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:45:01 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"5841a56f-52b6\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 14 Aug 2018 11:53:29 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "x-ac",
+          "value": "4.lhr _dca"
+        },
+        {
+          "name": "x-nc",
+          "value": "HIT lhr 32"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201734",
+      "id": 11046,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709269,
+      "end": 1503496709270,
+      "fromCache": true,
+      "ip": "192.0.77.32"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10463",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://s.gravatar.com/js/gprofiles.js?ver=2017Augaa",
+      "id": 11047,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709270,
+      "end": 1503496709270,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10463",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:07 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 17 Sep 2015 14:13:14 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"55faca7a-50aa\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 30 Aug 2017 13:45:07 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=604800"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://s.gravatar.com/js/gprofiles.js?ver=2017Augaa",
+      "id": 11047,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709270,
+      "end": 1503496709271,
+      "fromCache": true,
+      "ip": "192.0.73.2"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10464",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.8.1",
+      "id": 11048,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709271,
+      "end": 1503496709271,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10456",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "8299"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 16 Jun 2017 16:50:30 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6783-55216953ef866-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/js/gravityforms.min.js?ver=2.2.3",
+      "id": 11042,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709279,
+      "end": 1503496709280,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10465",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/comment-reply.min.js?ver=4.8.1",
+      "id": 11049,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709285,
+      "end": 1503496709285,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10466",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1",
+      "id": 11050,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709285,
+      "end": 1503496709286,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10467",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/themes/genesis/lib/js/menu/superfish.js?ver=1.7.5",
+      "id": 11051,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709286,
+      "end": 1503496709286,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10468",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/themes/genesis/lib/js/menu/superfish.args.js?ver=2.5.2",
+      "id": 11052,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709286,
+      "end": 1503496709287,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10469",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/themes/genesis/lib/js/skip-links.js?ver=2.5.2",
+      "id": 11053,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709287,
+      "end": 1503496709287,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10477",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://stats.wp.com/e-201734.js",
+      "id": 11054,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709287,
+      "end": 1503496709288,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10477",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:45:01 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"572909a0-16a6\""
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 14 Aug 2018 00:25:02 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31536000"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://stats.wp.com/e-201734.js",
+      "id": 11054,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709289,
+      "end": 1503496709289,
+      "fromCache": true,
+      "ip": "192.0.76.3"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10479",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2",
+      "id": 11056,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709316,
+      "end": 1503496709316,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://igniteyourbook.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700&ver=2.2.2"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10479",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "23216"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 07 Aug 2017 10:13:31 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 07 Aug 2018 10:13:31 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 09 Feb 2017 19:14:22 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "Age",
+          "value": "1394530"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2",
+      "id": 11056,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709316,
+      "end": 1503496709317,
+      "fromCache": true,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10480",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lato/v13/H2DMvhDLycM56KNuAtbJYA.woff2",
+      "id": 11057,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709324,
+      "end": 1503496709324,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://igniteyourbook.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700&ver=2.2.2"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10480",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "22656"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 07 Aug 2017 12:33:11 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 07 Aug 2018 12:33:11 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 09 Feb 2017 19:14:25 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "Age",
+          "value": "1386870"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lato/v13/H2DMvhDLycM56KNuAtbJYA.woff2",
+      "id": 11057,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709324,
+      "end": 1503496709325,
+      "fromCache": true,
+      "ip": "216.58.206.35"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10464",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "489"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 03 Aug 2017 23:08:55 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"3f7-555e176f17d1f-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.8.1",
+      "id": 11048,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709382,
+      "end": 1503496709382,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10470",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4",
+      "id": 11058,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709382,
+      "end": 1503496709382,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10466",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "479"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 13 Jun 2016 14:19:18 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"45b-5352992ea674e-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/hoverIntent.min.js?ver=1.8.1",
+      "id": 11050,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709390,
+      "end": 1503496709391,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10471",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4",
+      "id": 11059,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709391,
+      "end": 1503496709391,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10467",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2317"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 16 Jun 2017 17:04:48 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1c2b-55216c869a966-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/themes/genesis/lib/js/menu/superfish.js?ver=1.7.5",
+      "id": 11051,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709392,
+      "end": 1503496709392,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10472",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/js/datepicker.min.js?ver=2.2.3",
+      "id": 11060,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709392,
+      "end": 1503496709392,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10468",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "307"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 16 Jun 2017 17:04:48 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1f9-55216c869a57e-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/themes/genesis/lib/js/menu/superfish.args.js?ver=2.5.2",
+      "id": 11052,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709397,
+      "end": 1503496709397,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10469",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "525"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 16 Jun 2017 17:04:48 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"366-55216c869a966-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/themes/genesis/lib/js/skip-links.js?ver=2.5.2",
+      "id": 11053,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709397,
+      "end": 1503496709397,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10465",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "589"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 13 Jun 2016 14:19:10 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"436-53529926d3034-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/comment-reply.min.js?ver=4.8.1",
+      "id": 11049,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709397,
+      "end": 1503496709398,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10473",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/wp-embed.min.js?ver=4.8.1",
+      "id": 11061,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709398,
+      "end": 1503496709398,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10474",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/bloom/js/jquery.uniform.min.js?ver=1.2.15",
+      "id": 11062,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709398,
+      "end": 1503496709398,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10475",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/bloom/js/custom.js?ver=1.2.15",
+      "id": 11063,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709398,
+      "end": 1503496709398,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/analytics.js",
+      "requestId": "10478",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/analytics.js"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google-analytics.com/analytics.js",
+      "id": 11055,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1503496709400
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10478",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 11064,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709400,
+      "end": 1503496709400,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10478",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 12:22:02 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 23 Aug 2017 14:22:02 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "13472"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "age",
+          "value": "4329"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 11064,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709400,
+      "end": 1503496709401,
+      "fromCache": true,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".igniteyourbook.com",
+        "expirationDate": 1566568709,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.1345553451.1503496709"
+      },
+      "removed": false,
+      "timeStamp": 1503496709433
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_ga",
+      "type": "cookie",
+      "value": "GA1.2.1345553451.1503496709",
+      "timeStamp": 1503496709433
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".igniteyourbook.com",
+        "expirationDate": 1503583109,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.1554096384.1503496709"
+      },
+      "removed": false,
+      "timeStamp": 1503496709433
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gid",
+      "type": "cookie",
+      "value": "GA1.2.1554096384.1503496709",
+      "timeStamp": 1503496709433
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".igniteyourbook.com",
+        "expirationDate": 1503496769,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gat",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1503496709437
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gat",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1503496709437
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10482",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&aip=1&a=1210454938&t=pageview&_s=1&dl=http%3A%2F%2Figniteyourbook.com%2Fsubmit-your-book%2F&ul=en-gb&de=UTF-8&dt=Submit%20Your%20Book%20-%20Ignite%20Your%20Book&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=YEBAAUABK~&jid=1906269440&gjid=186530116&cid=1345553451.1503496709&tid=UA-1399396-6&_gid=1554096384.1503496709&_r=1&z=915700136",
+      "id": 11065,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709438,
+      "end": 1503496709438,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10482",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&aip=1&a=1210454938&t=pageview&_s=1&dl=http%3A%2F%2Figniteyourbook.com%2Fsubmit-your-book%2F&ul=en-gb&de=UTF-8&dt=Submit%20Your%20Book%20-%20Ignite%20Your%20Book&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=YEBAAUABK~&jid=1906269440&gjid=186530116&cid=1345553451.1503496709&tid=UA-1399396-6&_gid=1554096384.1503496709&_r=1&z=915700136",
+      "id": 11065,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709447,
+      "end": 1503496709448,
+      "fromCache": false,
+      "ip": "216.58.206.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10470",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1821"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 14 Sep 2016 22:54:47 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"fa0-53c7f9db39fd5-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4",
+      "id": 11058,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709486,
+      "end": 1503496709486,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10476",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/bloom/js/idle-timer.min.js?ver=1.2.15",
+      "id": 11066,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709487,
+      "end": 1503496709487,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1345553451.1503496709; _gid=GA1.2.1554096384.1503496709; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10472",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "469"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 16 Jun 2017 16:50:30 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"3b0-55216953ef866-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/js/datepicker.min.js?ver=2.2.3",
+      "id": 11060,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709495,
+      "end": 1503496709495,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10458",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/wp-emoji-release.min.js?ver=4.8.1",
+      "id": 11067,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709496,
+      "end": 1503496709497,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1345553451.1503496709; _gid=GA1.2.1554096384.1503496709; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10471",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "11002"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 14 Sep 2016 22:54:47 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"8e9c-53c7f9db39fd5-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4",
+      "id": 11059,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709496,
+      "end": 1503496709498,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10459",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://igniteyourbook.com/wp-content/uploads/2017/02/ignite-your-book-optin-logo.jpg",
+      "id": 11068,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709498,
+      "end": 1503496709498,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1345553451.1503496709; _gid=GA1.2.1554096384.1503496709; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10474",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3035"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 20 Jul 2017 20:34:35 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2074-554c5ad435a5e-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/bloom/js/jquery.uniform.min.js?ver=1.2.15",
+      "id": 11062,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709502,
+      "end": 1503496709503,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10481",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://igniteyourbook.com/wp-content/plugins/wpfront-notification-bar/images/arrow_up.png",
+      "id": 11069,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709503,
+      "end": 1503496709504,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/wp-content/plugins/wpfront-notification-bar/css/wpfront-notification-bar.css?ver=1.7"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1345553451.1503496709; _gid=GA1.2.1554096384.1503496709; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10475",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4304"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 20 Jul 2017 20:34:35 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"4f0f-554c5ad435a5e-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/bloom/js/custom.js?ver=1.2.15",
+      "id": 11063,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709502,
+      "end": 1503496709504,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10473",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "751"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 05 Feb 2017 04:30:00 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"576-547c0f7c9dac5-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/wp-embed.min.js?ver=4.8.1",
+      "id": 11061,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709506,
+      "end": 1503496709507,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10476",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "966"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 20 Jul 2017 20:34:35 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"9d6-554c5ad435a5e-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-content/plugins/bloom/js/idle-timer.min.js?ver=1.2.15",
+      "id": 11066,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709594,
+      "end": 1503496709595,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10458",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4299"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 09 Jun 2017 16:30:18 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2e45-551897c201cc8-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://igniteyourbook.com/wp-includes/js/wp-emoji-release.min.js?ver=4.8.1",
+      "id": 11067,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709608,
+      "end": 1503496709609,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10481",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2183"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 24 Feb 2017 17:40:20 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"887-5494a3944e083\""
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://igniteyourbook.com/wp-content/plugins/wpfront-notification-bar/images/arrow_up.png",
+      "id": 11069,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709610,
+      "end": 1503496709610,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10483",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://s.gravatar.com/css/hovercard.css?ver=2017Augaa",
+      "id": 11070,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709613,
+      "end": 1503496709614,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10484",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://s.gravatar.com/css/services.css?ver=2017Augaa",
+      "id": 11071,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709614,
+      "end": 1503496709614,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10483",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:27 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 28 Jan 2013 22:29:45 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"5106fbd9-2062\""
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 30 Aug 2017 13:45:27 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=604800"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://s.gravatar.com/css/hovercard.css?ver=2017Augaa",
+      "id": 11070,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709614,
+      "end": 1503496709615,
+      "fromCache": true,
+      "ip": "192.0.73.2"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10484",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:45:27 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 19 Mar 2014 21:35:23 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"532a0d9b-bd8\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 30 Aug 2017 13:45:27 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=604800"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://s.gravatar.com/css/services.css?ver=2017Augaa",
+      "id": 11071,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709615,
+      "end": 1503496709616,
+      "fromCache": true,
+      "ip": "192.0.73.2"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10459",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "10515"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 24 Feb 2017 17:35:24 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2913-5494a27a2d2a5\""
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://igniteyourbook.com/wp-content/uploads/2017/02/ignite-your-book-optin-logo.jpg",
+      "id": 11068,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709620,
+      "end": 1503496709621,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10485",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/images/calendar.png",
+      "id": 11072,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709655,
+      "end": 1503496709655,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1345553451.1503496709; _gid=GA1.2.1554096384.1503496709; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 140,
+      "tabId": 2,
+      "timeStamp": 1503496709656,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10486",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://pixel.wp.com/g.gif?v=ext&j=1%3A5.2.1&blog=103542105&post=37866&tz=0&srv=igniteyourbook.com&host=igniteyourbook.com&ref=&rand=0.9108789845901535",
+      "id": 11073,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709673,
+      "end": 1503496709673,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10486",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "50"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://pixel.wp.com/g.gif?v=ext&j=1%3A5.2.1&blog=103542105&post=37866&tz=0&srv=igniteyourbook.com&host=igniteyourbook.com&ref=&rand=0.9108789845901535",
+      "id": 11073,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709679,
+      "end": 1503496709679,
+      "fromCache": false,
+      "ip": "192.0.76.3"
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://igniteyourbook.com/submit-your-book/",
+      "timeStamp": 1503496709691,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1503496709691,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Submit Your Book - Ignite Your Book",
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_1",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_2",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_3",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_4",
+      "type": "input:email",
+      "value": "",
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_5",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_6",
+      "type": "textarea",
+      "value": "",
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_7",
+      "type": "input:file",
+      "value": "",
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_8",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_12",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_13",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": null,
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_14",
+      "type": "select",
+      "value": [
+        "Children"
+      ],
+      "timeStamp": 1503496709692,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_17.1",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496709693,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_17.2",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496709693,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "input_17.3",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496709693,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1503496709693,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "is_submit_18",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496709693,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "gform_submit",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496709693,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "gform_unique_id",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496709693,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "state_18",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496709693,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "gform_target_page_number_18",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496709693,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "gform_source_page_number_18",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496709693,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "gform_field_values",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1503496709693,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:null",
+      "value": "",
+      "timeStamp": 1503496709693,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "contextId": 1018,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10485",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "260"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 16 Jun 2017 16:50:30 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"104-55216953f2f16\""
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://igniteyourbook.com/wp-content/plugins/gravityforms/images/calendar.png",
+      "id": 11072,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709773,
+      "end": 1503496709774,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 140,
+      "tabId": 2,
+      "timeStamp": 1503496709775,
+      "url": "http://igniteyourbook.com/submit-your-book/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Submit Your Book - Ignite Your Book",
+          "url": "http://igniteyourbook.com/submit-your-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496709776
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10487",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://igniteyourbook.com/wp-content/themes/ignite20/images/favicon.ico",
+      "id": 11074,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709777,
+      "end": 1503496709778,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://igniteyourbook.com/submit-your-book/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_ga=GA1.2.1345553451.1503496709; _gid=GA1.2.1554096384.1503496709; _gat=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10487",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Wed, 23 Aug 2017 13:58:29 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/x-icon"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1150"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 13 Nov 2016 19:24:54 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"47e-54133ad955a2d\""
+        },
+        {
+          "name": "Host-Header",
+          "value": "192fc2e7e50945beb8231a492d6a8024"
+        },
+        {
+          "name": "X-Proxy-Cache",
+          "value": "MISS"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://igniteyourbook.com/wp-content/themes/ignite20/images/favicon.ico",
+      "id": 11074,
+      "contextId": 1018,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496709893,
+      "end": 1503496709894,
+      "fromCache": false,
+      "ip": "77.104.146.38"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "http://igniteyourbook.com/wp-content/themes/ignite20/images/favicon.ico"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "http://igniteyourbook.com/wp-content/themes/ignite20/images/favicon.ico",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Submit Your Book - Ignite Your Book",
+          "url": "http://igniteyourbook.com/submit-your-book/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496709894
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10488",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 11075,
+      "contextId": 1019,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496710820,
+      "end": 1503496710821
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10488",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 11075,
+      "contextId": 1019,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496710821,
+      "end": 1503496710828
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496710829
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1503496710829
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1503496710829,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10489",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 11076,
+      "contextId": 1019,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496710830,
+      "end": 1503496710831
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1503496710823.045,
+          "title": "Save",
+          "typedCount": 134,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 134
+        }
+      },
+      "timeStamp": 1503496710831
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "10489",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 11076,
+      "contextId": 1019,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1503496710831,
+      "end": 1503496710831
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1503496710835
+    }
+  }
+]
