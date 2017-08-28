@@ -3,6 +3,8 @@
 &pageReferrer=
 &ref=*&tag=
 &refer=http$script
+adsystem
+googletagservices
 &refererPageDetail=
 &trackingserver=
 -AdTracking.
@@ -231,7 +233,6 @@
 .webmetrics.js
 .webstats.
 /!crd_prm!.
-//feedproxy.*/~r/*$image
 /0.png?ver=
 /0pixel.php?
 /1px.gif?
@@ -19394,7 +19395,10 @@ takeover_banner_
 ||ox-d.*^auid=
 ||serve.*/promoload?
 ! Native advert
+<<<<<<< HEAD
 ! Ad-insertion script (see on: celebrityweightloss.com, myfirstclasslife.com, cultofmac.com)
+=======
+>>>>>>> 10c38585aa55f40d312bd16408fcd3f89964035a
 /ez_aba_load/*
 /ezf-min.$script
 /ezo/*$script,~third-party
@@ -20728,6 +20732,7 @@ britannica.com,cam4.com#@#.withAds
 statejournal.com#@#.wnad
 americannews.com,theuspatriot.com#@#.wpInsertInPostAd
 weather.yahoo.com#@#.yom-ad
+<<<<<<< HEAD
 ! Anti-Adblock
 opensubtitles.org#@##AD_Top
 litecoiner.net#@##ad-bottom
@@ -20737,6 +20742,8 @@ bitcoiner.net,litecoiner.net#@##ad-top
 zeez.tv#@##ad_overlay
 cnet.com#@##adboard
 olweb.tv#@##ads1
+=======
+>>>>>>> 10c38585aa55f40d312bd16408fcd3f89964035a
 gooprize.com,jsnetwork.fr#@##ads_bottom
 adlice.com,androiding.how,appwikia.com,bagas31.com,elchapuzasinformatico.com,noticiasautomotivas.com.br,oklivetv.com,sharefreeall.com,shufflespain.es,simply-debrid.com,unixmen.com,xsportnews.com,xup.in,xup.to#@##adsense
 spoilertv.com#@##adsensewide
@@ -32620,50 +32627,6 @@ a.upnorma.com^$webrtc
 ||xvideoslive.com/landing/$popup,third-party
 ! ----------------------Specific advert blocking filters-----------------------!
 ! *** easylist:easylist/easylist_specific_block.txt ***
-.buzz/?*=$script,~third-party,domain=todayshealth.buzz
-.com/?$script,third-party,domain=streamcloud.eu
-.com/?*=$script,~third-party,domain=100percentfedup.com|allenwestrepublic.com|americannewsx.com|barbwire.com|bestfunnyjokes4u.com|clashdaily.com|conservativebyte.com|conservativeintel.com|conservativevideos.com|coviral.com|dailysurge.com|eaglerising.com|freedomoutpost.com|girlsjustwannahaveguns.com|godfatherpolitics.com|hispolitica.com|janmorganmedia.com|joeforamerica.com|libertyalliance.com|libertyunyielding.com|lidblog.com|minutemennews.com|occupydemocrats.com|patriottribune.com|patriotupdate.com|politichicks.com|politicops.com|redhotchacha.com|religionlo.com|reviveusa.com|shark-tank.com|theblacksphere.net|thefreethoughtproject.com|themattwalshblog.com|theoswatch.com|usherald.com|veteranstoday.com|zionica.com
-.com/b?z=$domain=couchtuner.eu|zzstream.li
-.com/jquery/*.js?_t=$script,third-party
-.com^$image,third-party,domain=streamcloud.eu
-.info/*.js?guid=$script,third-party
-.info^$image,third-party,domain=streamcloud.eu
-.info^$script,domain=allmyvideos.net|mediafire.com|mooshare.biz|muchshare.net|royalvids.eu|tvmuse.com|tvmuse.eu|vidspot.net|vidtomp3.com
-.info^$script,third-party,xmlhttprequest,domain=streamcloud.eu
-.net/?*=$script,domain=theblacksphere.net
-.net/director/?$subdocument,third-party
-.net^$image,third-party,domain=streamcloud.eu
-.org/?*=$script,domain=deadstate.org|gopocalypse.org
-.xyz^$domain=extremetech.com
-/*;sz=*;ord=$domain=webhostingtalk.com
-/3market.php?$domain=adf.ly|j.gs|q.gs|u.bb
-/?placement=$script,domain=sockshare.com
-/af.php?$subdocument
-/amazonproducts.js$domain=gamenguide.com|itechpost.com|parentherald.com
-/apu.php$domain=kat.al
-/assets/_takeover/*$domain=deadspin.com|gawker.com|gizmodo.com|io9.com|jalopnik.com|jezebel.com|kotaku.com|lifehacker.com
-/asynch/null/*$script,third-party,domain=streamcloud.eu
-/btcclicksskyscraper.png$domain=best-bitcoin-faucet.eu|best-free-faucet.eu|bitcoin-best-faucet.eu|bitcoin-cloud.eu|bitcoin-faucet.eu|bitcoin-free-faucet.eu|free-bitcoin-faucet.eu|get-bitcoins-free.eu|get-free-bitcoin.eu|win-free-bitcoins.eu
-/clickpop.js$domain=miliblog.co.uk
-/com.js$domain=kinox.to
-/get/path/.banners.$image,third-party
-/market.php?$domain=adf.ly|u.bb
-/nexp/dok2v=*/cloudflare/rocket.js$script,domain=ubuntugeek.com
-/plugins/layered-popups/*$script,domain=justrunlah.com
-/static/js/adbk/*$domain=gamenguide.com|itechpost.com|parentherald.com
-/worker.php$domain=songspk.live|vodlocker.com|zippyshare.com
-/wp-content/plugins/wbounce/*$script,domain=viralcraze.net
-?random=$script,domain=allmyvideos.net|mediafire.com|mooshare.biz|muchshare.net|tvmuse.com|tvmuse.eu|vidspot.net
-^guid=$script,domain=allmyvideos.net|mediafire.com|mooshare.biz|muchshare.net|tvmuse.com|tvmuse.eu|vidspot.net
-|blob:$domain=1337x.to|1channel.biz|4chan.org|ancient-origins.net|androidcentral.com|anime-joy.tv|auroravid.to|biology-online.org|bitvid.sx|breakingisraelnews.com|britannica.com|btdb.in|champion.gg|closerweekly.com|cloudtime.to|connectedly.com|couch-tuner.at|couch-tuner.me|couchtuner.ac|couchtuner.us|crackberry.com|dailycaller.com|datpiff.com|demonoid.pw|destructoid.com|dreamfilm.se|episodetube.com|episodetube.net|fastpic.ru|filme-streamz.com|filmlinks4u.is|firstforwomen.com|firstrowau.eu|firstrowus1.eu|fmovies.is|fmovies.se|fmovies.to|fullmatchesandshows.com|gamesradar.com|gofirstrow.eu|gorillavid.in|homerun.re|imagefap.com|imgadult.com|imgtaxi.com|imgwallet.com|imore.com|investopedia.com|israelnationalnews.com|jerusalemonline.com|jewsnews.co.il|keepvid.com|kickass.cd|kino-streamz.com|kiplinger.com|letmewatchthis.pl|letmewatchthis.video|livecricketz.org|livescience.com|lolcounter.com|merriam-webster.com|movies4stream.com|mylivecricket.org|mywatchseries.to|newtvworld.com|noslocker.com|nosvideo.com|nowfeed2all.eu|nowvideo.li|nowvideo.sx|nowvideo.to|olympicstreams.me|onwatchseries.to|openload.co|pcgamer.com|pcgames-download.net|phonearena.com|pixxxels.org|pocketnow.com|primewire.ag|primewire.is|primewire.to|primewire.unblockall.xyz|psu.com|rinf.com|roadracerunner.com|sgvideos.net|skidrowcrack.com|snowysmile.com|sockshare.net|stream2watch.cc|streamazone.com|streamgaroo.com|strikeout.co|strikeout.me|strikeout.mobi|teamliquid.net|thefreethoughtproject.com|thevideo.me|tomsguide.com|tomshardware.co.uk|tomshardware.com|torrentz2.eu|torrentz2.me|trifind.com|tv-series.me|veteranstoday.com|vidlox.tv|vidtodo.com|vidup.me|vidwatch3.me|vipbox.bz|vipbox.is|vipbox.nu|vipbox.sx|vipbox.tv|vipboxeu.co|vipboxoc.co|vipboxtv.me|vipleague.ch|vipleague.co|vipleague.is|vipleague.me|vipleague.mobi|vipleague.se|vipleague.sx|vipleague.tv|vipleague.ws|vipstand.is|vivo.sx|vrheads.com|watch-series-tv.to|watch-series.ag|watch-tv-series.to|watchcartoononline.io|watchepisodes-tv.com|watchseries.ag|watchseries.li|watchseries.lt|watchseries.ph|watchseries.vc|watchseriesuk.ag|watchseriesuk.lt|watchtvseries.se|watchtvseries.unblocked.work|watchtvseries.vc|watchvideo.us|watchvideo10.us|watchvideo11.us|watchvideo12.us|watchvideo13.us|watchvideo14.us|watchvideo15.us|webfirstrow.eu|wholecloud.net|windowscentral.com|world4ufree.ws|xda-developers.com
-|http:$subdocument,third-party,domain=2ad.in|ad2links.com|adfoc.us|adv.li|adyou.me|allmyvideos.net|amvtv.net|ay.gy|fuestfka.com|imgmega.com|j.gs|linkbucksmedia.com|mortastica.com|prodsetter-in.com|q.gs|sh.st|shr77.com|sonomerit.com|ssovgoxbvppy.net|streamcloud.eu|thevideo.me|twer.info|u.bb|uploaded.net|vidspot.net
-|http:$third-party,xmlhttprequest,domain=123movies-proxy.ru|123movies.cz|123movies.gs|123movies.is|123movies.live|123movies.net|123movies.net.ru|123movies.ru|123movies.vc|123moviesfree.com|123movieshd.net|9cartoon.me|animehaven.to|auroravid.to|ay8ou8ohth.com|bitvid.sx|btdb.in|clipconverter.cc|cloudtime.to|cmovieshd.com|divxme.com|downloadming.tv|fmovies.se|fmovies.to|full-pcsoftware.com|halacima.net|hdmusic99.in|hdtv-rls.com|kannadamovies.biz|kissanime.ru|kissmanga.com|livetvcafe.net|movdivx.com|nowvideo.li|nowvideo.sx|nowvideo.to|oogh8ot0el.com|otorrents.com|pocketnow.com|putlocker.co|putlockertv.is|suprafiles.co|thepiratebay.cd|vidzi.tv|wholecloud.net
-|http://creative.*/smart.js$script,third-party
-|http://go.$domain=nowvideo.sx
-|http://j.gs/omnigy*.swf
-|http://p.pw^$subdocument
-|https:$subdocument,third-party,domain=2ad.in|adf.ly|adfoc.us|adjet.biz|adv.li|ay.gy|j.gs|linkbucksmedia.com|q.gs|sh.st|thevideo.me|tvbximak.com|u.bb
-|https:$third-party,xmlhttprequest,domain=123movies-proxy.ru|123movies.cz|123movies.gs|123movies.is|123movies.live|123movies.net|123movies.net.ru|123movies.ru|123movies.vc|123movieshd.net|123movieshd.tv|dropapk.com|estream.to|hdmusic99.in|otorrents.com|solarmovie.sc|wholecloud.net
 ||0-60mag.com/js/takeover-2.0/
 ||04stream.com/NEWAD11.php?
 ||04stream.com/podddpo.js

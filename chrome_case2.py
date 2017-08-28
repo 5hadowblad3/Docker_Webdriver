@@ -30,7 +30,7 @@ from sklearn.cluster import KMeans
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import classification_report
 
-driver_path = './chromedriver_mac'
+driver_path = './chromedriver_linux'
 extension_name = 'listener'
 extension_path = 'src.crx'
 extension_list = 'chrome://extensions-frame'
@@ -165,6 +165,7 @@ def analysis_cookie(cookies, domain, label):
 
 # load rule list
 def load_rule(path):
+    e = open('rules.txt', 'w')
     rules = []
     with open(path, 'r') as f:
         for rule in f:
@@ -187,7 +188,7 @@ def load_rule(path):
                 pattern = pattern[:ind]
 
             ind = pattern.find('/')
-            if ind != -1:
+            if ind != -1 and ind >= len(pattern) - 2:
                 pattern = pattern[:ind]
 
             ind = pattern.find('||')
@@ -207,18 +208,20 @@ def load_rule(path):
 
             ind = pattern.find('|')
             if ind == 0:
-                pattern = pattern[1:]
-            elif ind != -1:
+                pattern = '^' + pattern[1:]
+            elif ind == len(pattern) - 1:
+                pattern = pattern[:ind] + '$'
+            else:
                 pattern = pattern[:ind]
 
-            replace_str = [':', '-', '+', '.', '=', '&', '?', '/', '_', '!', '~', ';']
+            replace_str = [':', '-', '+', '.', '=', '&', '?', '/', '_', '!', '~', ';', '[', ']']
             for string in replace_str:
                 pattern = pattern.replace(string, '\\' + string)
 
+            pattern.replace('*', '.*')
+            e.write(pattern + '\n')
 
-            pattern = pattern.replace('*', '.*')
-
-            # print pattern
+            print pattern
             rules.append(re.compile(pattern))
 
     return rules
@@ -226,10 +229,13 @@ def load_rule(path):
 
 # label list with matching rules in all lists
 def label_instance(url, rules):
+    print url
     for rule in rules:
         res = rule.search(url)
         if res:
-            print 'url:' + url
+            #   print 'res: ' + res.group()
+            # print 'url:' + url
+            print 'matched: ' + rule.pattern
             return 1
 
     return 0
@@ -288,7 +294,7 @@ def analyse_json(path, location, rules):
             if pair_request == None:
                 print 'missing pair request, pass:'
                 continue
-            print pair_request
+            # print pair_request
 
             url = tldextract.extract(pair_request['details']['url'])
             # if (url.domain + '.' + url.suffix) not in urls:
@@ -414,11 +420,13 @@ def analyse_json(path, location, rules):
 
                 # expire time
                 if label['expire_time'] != 1 and header['name'].count('Expires') > 0:
-                    print header['value']
-                    expire = datetime.datetime.strptime(header['value'], "%a, %d %b %Y %H:%M:%S %Z")
-                    ttl = expire - datetime.datetime.now()
-                    if ttl.days > 7:
-                        label['expire_time'] = 1
+                    try:
+                        expire = datetime.datetime.strptime(header['value'], "%a, %d %b %Y %H:%M:%S %Z")
+                        ttl = expire - datetime.datetime.now()
+                        if ttl.days > 7:
+                            label['expire_time'] = 1
+                    except ValueError:
+                        print 'expire time pass'
 
             # response length
             if length > 60:
@@ -469,8 +477,10 @@ def ml_performance(path):
     clf2 = DecisionTreeClassifier(max_depth=None, min_samples_split=2, random_state=0)
     clf3 = AdaBoostClassifier(n_estimators=100)
     clf4 = MLPClassifier()
-    clf5 = KMeans(n_clusters=2, random_state=0).fit()
+    # clf5 = KMeans(n_clusters=2, random_state=0).fit()
     # clf5 = svm.SVC()
+    print features
+    print target
     scores = cross_val_score(clf, features, target)
     scores2 = cross_val_score(clf2, features, target)
     scores3 = cross_val_score(clf3, features, target)
@@ -482,7 +492,7 @@ def ml_performance(path):
     print scores2.mean()
     print scores3.mean()
     print scores4.mean()
-    print clf5.score(features, target)
+    # print clf5.score(features, target)
     # print scores5.mean()
 
 
