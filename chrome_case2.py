@@ -30,7 +30,7 @@ from sklearn.cluster import KMeans
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import classification_report
 
-driver_path = './chromedriver_mac'
+driver_path = './chromedriver_linux'
 extension_name = 'listener'
 extension_path = 'src.crx'
 extension_list = 'chrome://extensions-frame'
@@ -38,7 +38,7 @@ extensions = 'chrome-extension://'
 url = 'http://www.baidu.com'
 
 download_path = './json/'
-backup_path = './backup/'
+backup_path = './backup2/'
 prefs = {'profile.default_content_settings.popups': 0, 'download.default_directory': download_path}
 
 start = 'start'
@@ -57,8 +57,10 @@ def prepare_environment():
     browser = webdriver.Chrome(driver_path, chrome_options=listener)
 
     for site in f:
-        browser.get(site)
-        time.sleep(2)
+        try:
+            browser.get(site)
+        except TimeoutException:
+            print 'no worries visit'
 
 
 def load_data(path):
@@ -541,6 +543,7 @@ if __name__ == '__main__':
     fd = open('food_case2.txt')
     rules = load_rule(rules_location)
     # configuration(browser, extension_id)
+    # prepare_environment()
 
     send_cmd(browser, cmd + start)
 
@@ -592,10 +595,10 @@ if __name__ == '__main__':
 
         # json_file = os.listdir(download_path)[0]
         # print  download_path + json_file
-        analyse_json(download_path + json_file, 'data_set4', rules)
+        analyse_json(download_path + json_file, 'data_set6', rules)
         shutil.move(download_path + json_file, backup_path + json_file)
 
     # print browser.title
     # print browser.page_source
-    ml_performance('data_set4')
+    # ml_performance('data_set6')
     # browser.quit()

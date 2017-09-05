@@ -1,0 +1,5139 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504635946706
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 15362,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/5c616b22-8629-40b2-8b8b-892f23d0f95a",
+          "id": 35,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:25:46.709Z",
+          "state": "in_progress",
+          "totalBytes": 15362,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/5c616b22-8629-40b2-8b8b-892f23d0f95a"
+        }
+      },
+      "timeStamp": 1504635946711
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 15362,
+          "filename": "ECAP_G_2017-09-05T18-25-46.703Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/5c616b22-8629-40b2-8b8b-892f23d0f95a",
+          "id": 35,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:25:46.709Z",
+          "state": "in_progress",
+          "totalBytes": 15362,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/5c616b22-8629-40b2-8b8b-892f23d0f95a"
+        }
+      },
+      "timeStamp": 1504635946714
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-09-05T18-25-46.703Z.json",
+            "previous": ""
+          },
+          "id": 35
+        }
+      },
+      "timeStamp": 1504635946720
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-09-05T18:25:46.721Z"
+          },
+          "id": 35,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1504635946721
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504635948759,
+      "url": "http://www.baen.com/library/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3495",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.baen.com/library/",
+      "id": 3637,
+      "contextId": 288,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635948759,
+      "end": 1504635948760,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3495",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:48 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "PHP/5.5.27"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Location",
+          "value": "/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "20"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        }
+      ],
+      "statusCode": 301,
+      "statusLine": "HTTP/1.1 301 Moved Permanently",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.baen.com/library/",
+      "id": 3637,
+      "contextId": 288,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635948933,
+      "end": 1504635948933,
+      "fromCache": false,
+      "ip": "207.97.233.23",
+      "redirectUrl": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3495",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "id": 3638,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635948933,
+      "end": 1504635948933,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.baen.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "LAST_CATEGORY",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "2012"
+      },
+      "removed": false,
+      "timeStamp": 1504635949028,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "LAST_CATEGORY",
+      "type": "cookie",
+      "value": "2012",
+      "timeStamp": 1504635949028,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.baen.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "CATEGORY_INFO",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "[]"
+      },
+      "removed": false,
+      "timeStamp": 1504635949028,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "CATEGORY_INFO",
+      "type": "cookie",
+      "value": "[]",
+      "timeStamp": 1504635949028,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.baen.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "CACHED_FRONT_FORM_KEY",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "jaJeLSBt2B4cWHcA"
+      },
+      "removed": false,
+      "timeStamp": 1504635949028,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "CACHED_FRONT_FORM_KEY",
+      "type": "cookie",
+      "value": "jaJeLSBt2B4cWHcA",
+      "timeStamp": 1504635949028,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.baen.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "LAST_CATEGORY",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "2012"
+      },
+      "removed": false,
+      "timeStamp": 1504635949030
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "LAST_CATEGORY",
+      "type": "cookie",
+      "value": "2012",
+      "timeStamp": 1504635949030
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.baen.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "CATEGORY_INFO",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "%5B%5D"
+      },
+      "removed": false,
+      "timeStamp": 1504635949030
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "CATEGORY_INFO",
+      "type": "cookie",
+      "value": "%5B%5D",
+      "timeStamp": 1504635949030
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.baen.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "CACHED_FRONT_FORM_KEY",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "jaJeLSBt2B4cWHcA"
+      },
+      "removed": false,
+      "timeStamp": 1504635949030
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "CACHED_FRONT_FORM_KEY",
+      "type": "cookie",
+      "value": "jaJeLSBt2B4cWHcA",
+      "timeStamp": 1504635949030
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "www.baen.com/catalog/category/view/s/free-library/id/2012",
+          "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504635949033
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504635949033
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 42,
+      "tabId": 2,
+      "timeStamp": 1504635949033,
+      "transitionQualifiers": [
+        "server_redirect"
+      ],
+      "transitionType": "typed",
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "65",
+          "lastVisitTime": 1504635949030.956,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://www.baen.com/library/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1504635949046
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "66",
+          "lastVisitTime": 1504635949030.956,
+          "title": "",
+          "typedCount": 0,
+          "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1504635949046
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3496",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.baen.com/frontpage2.css",
+      "id": 3639,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949046,
+      "end": 1504635949047,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3497",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/buttons.css",
+      "id": 3640,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949047,
+      "end": 1504635949047,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3498",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/style.css",
+      "id": 3641,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949047,
+      "end": 1504635949047,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3499",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/smoothness/jquery-ui-1.10.4.custom.min.css",
+      "id": 3642,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949047,
+      "end": 1504635949047,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3500",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.baen.com/media/js/54776974db9df06f4051278c95ba2f32.js",
+      "id": 3643,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949047,
+      "end": 1504635949047,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Free Library - Categories"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Free Library - Categories",
+          "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504635949047
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3496",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:50:29 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"f548d1-25d4-5202d35a24f40\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=2592000"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 05 Oct 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1966"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.baen.com/frontpage2.css",
+      "id": 3639,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949113,
+      "end": 1504635949113,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3495",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:48 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "PHP/5.5.27"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "LAST_CATEGORY=2012; path=/"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "CATEGORY_INFO=%5B%5D; path=/"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA; path=/"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "P3p",
+          "value": "CP=\"CAO PSA OUR\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "33662"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "id": 3638,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949028,
+      "end": 1504635949178,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3497",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:50:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1650031-13f-5202d35748880\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=2592000"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 05 Oct 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "169"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/buttons.css",
+      "id": 3640,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949190,
+      "end": 1504635949191,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3498",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 09 May 2016 19:26:18 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"165002c-dcbb-5326dc85e4a80\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=2592000"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 05 Oct 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "9132"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/style.css",
+      "id": 3641,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949191,
+      "end": 1504635949192,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3499",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:50:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1650033-64b2-5202d35748880\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=2592000"
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 05 Oct 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4924"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/smoothness/jquery-ui-1.10.4.custom.min.css",
+      "id": 3642,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949192,
+      "end": 1504635949193,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3501",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/images/baen%20logotransSmall.png",
+      "id": 3644,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949193,
+      "end": 1504635949194,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3501",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:50:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1650021-482a-5202d35748880\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "18474"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/images/baen%20logotransSmall.png",
+      "id": 3644,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949271,
+      "end": 1504635949348,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3502",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/images/banners/Fleet-Renegade-leaderboard-2.jpg",
+      "id": 3645,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949348,
+      "end": 1504635949348,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3502",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 25 Jan 2017 16:54:53 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"16be01f-481f-546ee17711140\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "18463"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/images/banners/Fleet-Renegade-leaderboard-2.jpg",
+      "id": 3645,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949426,
+      "end": 1504635949503,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3503",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/images/button-login.png",
+      "id": 3646,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949503,
+      "end": 1504635949503,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3500",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 25 Aug 2017 16:05:49 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"8b008a-8e2d4-557961e5755a1\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.baen.com/media/js/54776974db9df06f4051278c95ba2f32.js",
+      "id": 3643,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949205,
+      "end": 1504635949514,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3504",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/images/button-signup.png",
+      "id": 3647,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949545,
+      "end": 1504635949546,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3505",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.googletagmanager.com/gtm.js?id=GTM-WM5Z9X",
+      "id": 3648,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949546,
+      "end": 1504635949546,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3506",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/default/images/sort_asc_arrow.gif",
+      "id": 3649,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949546,
+      "end": 1504635949547,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3507",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/default/images/pager_arrow_right.gif",
+      "id": 3650,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949547,
+      "end": 1504635949547,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3508",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/0/6/0671578499-med.jpg",
+      "id": 3651,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949547,
+      "end": 1504635949547,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3509",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skins/skin_1/images/redarrow.gif",
+      "id": 3652,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949547,
+      "end": 1504635949548,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3522",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/images/star-background.jpg",
+      "id": 3653,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949571,
+      "end": 1504635949571,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3503",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:50:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1650029-c1a-5202d35748880\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3098"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/images/button-login.png",
+      "id": 3646,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949581,
+      "end": 1504635949581,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3505",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "application/javascript; charset=UTF-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "http://www.googletagmanager.com"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Cache-Control"
+        },
+        {
+          "name": "Access-Control-Allow-Credentials",
+          "value": "true"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, max-age=900"
+        },
+        {
+          "name": "Server",
+          "value": "Google Tag Manager (scaffolding)"
+        },
+        {
+          "name": "Content-Length",
+          "value": "17071"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.googletagmanager.com/gtm.js?id=GTM-WM5Z9X",
+      "id": 3648,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949597,
+      "end": 1504635949599,
+      "fromCache": false,
+      "ip": "216.58.201.40"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3506",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:50:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"165007d-38-5202d35748880\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "56"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/default/images/sort_asc_arrow.gif",
+      "id": 3649,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949623,
+      "end": 1504635949624,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3507",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:50:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"165005c-6a-5202d35748880\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "106"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/default/images/pager_arrow_right.gif",
+      "id": 3650,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949624,
+      "end": 1504635949625,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3504",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:50:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"165001e-d31-5202d35748880\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3377"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/images/button-signup.png",
+      "id": 3647,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949625,
+      "end": 1504635949625,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3510",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/1/4/1416521453-med.jpg",
+      "id": 3654,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949625,
+      "end": 1504635949626,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3511",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/0/6/0671319418-med.jpg",
+      "id": 3655,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949626,
+      "end": 1504635949626,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3509",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:50:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"14c2075-3e-5202d35748880\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "62"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skins/skin_1/images/redarrow.gif",
+      "id": 3652,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949626,
+      "end": 1504635949626,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3512",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/0/7/0743471709-med.jpg",
+      "id": 3656,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949626,
+      "end": 1504635949627,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3508",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 28 Apr 2017 20:32:51 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10d5a0-185b-54e3ffa3162c0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6235"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/0/6/0671578499-med.jpg",
+      "id": 3651,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949623,
+      "end": 1504635949627,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3513",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/1/5/1587870096-med.jpg",
+      "id": 3657,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949627,
+      "end": 1504635949627,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3514",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/0/6/0671721771-med.jpg",
+      "id": 3658,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949627,
+      "end": 1504635949627,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3524",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/images/leftNavStarHeader-wRed.jpg",
+      "id": 3659,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949629,
+      "end": 1504635949629,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3523",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/images/whtbkgdleft-wide.png",
+      "id": 3660,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949629,
+      "end": 1504635949629,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/style.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3513",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 28 Apr 2017 20:32:51 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10cfbc-131f-54e3ffa3162c0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4895"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/1/5/1587870096-med.jpg",
+      "id": 3657,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949703,
+      "end": 1504635949704,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3514",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 28 Apr 2017 20:32:51 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10cee9-197a-54e3ffa3316fb\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6522"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/0/6/0671721771-med.jpg",
+      "id": 3658,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949703,
+      "end": 1504635949704,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3511",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 28 Apr 2017 20:32:19 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10d335-1c40-54e3ff855d21c\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7232"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/0/6/0671319418-med.jpg",
+      "id": 3655,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949703,
+      "end": 1504635949704,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3515",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/1/4/1416509321-med.jpg",
+      "id": 3661,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949704,
+      "end": 1504635949704,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3510",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 28 Apr 2017 20:32:51 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10cf81-19fc-54e3ffa3162c0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6652"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/1/4/1416521453-med.jpg",
+      "id": 3654,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949705,
+      "end": 1504635949705,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3516",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/1/4/1416555455-med.jpg",
+      "id": 3662,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949705,
+      "end": 1504635949705,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3512",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 28 Apr 2017 20:32:46 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10cf17-16f5-54e3ff9e51780\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5877"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/0/7/0743471709-med.jpg",
+      "id": 3656,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949705,
+      "end": 1504635949706,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3517",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/9/7/9781625794338-med.jpg",
+      "id": 3663,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949706,
+      "end": 1504635949706,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3521",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/images/whtbkdgright.png",
+      "id": 3664,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949740,
+      "end": 1504635949740,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestBody": {
+        "formData": {
+          "ids": [
+            "[\"372\",\"512\",\"211\",\"396\",\"496\",\"24\",\"44\",\"626\",\"2794\",\"105\",\"112\",\"123\"]"
+          ]
+        }
+      },
+      "requestId": "3525",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.baen.com/catalog/product/catColumns",
+      "id": 3665,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949743,
+      "end": 1504635949743,
+      "requestHeaders": [
+        {
+          "name": "Accept",
+          "value": "application/json, text/javascript, */*; q=0.01"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.baen.com"
+        },
+        {
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded; charset=UTF-8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 42,
+      "tabId": 2,
+      "timeStamp": 1504635949743,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "timeStamp": 1504635949774,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504635949775,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Free Library - Categories",
+      "timeStamp": 1504635949775,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "q",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1504635949775,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "dir",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1504635949776,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "order",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1504635949776,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "select",
+      "value": [
+        "http://www.baen.com/catalog/category/view/s/free-library/id/2012/?author=0&category=0&dir=asc&order=name&publisher=0"
+      ],
+      "timeStamp": 1504635949776,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": null,
+      "type": "select",
+      "value": [
+        "http://www.baen.com/catalog/category/view/s/free-library/id/2012/?author=0&category=0&dir=asc&order=name&publisher=0"
+      ],
+      "timeStamp": 1504635949776,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": null,
+      "type": "select",
+      "value": [
+        "http://www.baen.com/catalog/category/view/s/free-library/id/2012/?author=0&category=0&dir=asc&order=name&publisher=0"
+      ],
+      "timeStamp": 1504635949776,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": null,
+      "type": "select",
+      "value": [
+        "http://www.baen.com/catalog/category/view/s/free-library/id/2012/?dir=asc&order=name"
+      ],
+      "timeStamp": 1504635949776,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": null,
+      "type": "select",
+      "value": [
+        "http://www.baen.com/catalog/category/view/s/free-library/id/2012/?limit=12"
+      ],
+      "timeStamp": 1504635949776,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": null,
+      "type": "select",
+      "value": [
+        "http://www.baen.com/catalog/category/view/s/free-library/id/2012/?author=0&category=0&dir=asc&order=name&publisher=0"
+      ],
+      "timeStamp": 1504635949776,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": null,
+      "type": "select",
+      "value": [
+        "http://www.baen.com/catalog/category/view/s/free-library/id/2012/?author=0&category=0&dir=asc&order=name&publisher=0"
+      ],
+      "timeStamp": 1504635949776,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": null,
+      "type": "select",
+      "value": [
+        "http://www.baen.com/catalog/category/view/s/free-library/id/2012/?author=0&category=0&dir=asc&order=name&publisher=0"
+      ],
+      "timeStamp": 1504635949776,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": null,
+      "type": "select",
+      "value": [
+        "http://www.baen.com/catalog/category/view/s/free-library/id/2012/?dir=asc&order=name"
+      ],
+      "timeStamp": 1504635949776,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": null,
+      "type": "select",
+      "value": [
+        "http://www.baen.com/catalog/category/view/s/free-library/id/2012/?limit=12"
+      ],
+      "timeStamp": 1504635949776,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3524",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:50:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1650019-bcb-5202d35748880\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3019"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=96"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/images/leftNavStarHeader-wRed.jpg",
+      "id": 3659,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949780,
+      "end": 1504635949780,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3523",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:50:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1650025-8f4-5202d35748880\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2292"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=96"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/images/whtbkgdleft-wide.png",
+      "id": 3660,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949780,
+      "end": 1504635949781,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3515",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 28 Apr 2017 20:32:51 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10cf6e-1ba0-54e3ffa3162c0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "7072"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/1/4/1416509321-med.jpg",
+      "id": 3661,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949781,
+      "end": 1504635949781,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3518",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/0/7/074347161X-med.jpg",
+      "id": 3666,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949782,
+      "end": 1504635949782,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3516",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 28 Apr 2017 20:32:51 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10d5ed-1712-54e3ffa3162c0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5906"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/1/4/1416555455-med.jpg",
+      "id": 3662,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949783,
+      "end": 1504635949784,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3519",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/1/4/1416520929-med.jpg",
+      "id": 3667,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949784,
+      "end": 1504635949784,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3517",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 28 Apr 2017 20:32:23 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10d692-1588-54e3ff88623c0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5512"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/9/7/9781625794338-med.jpg",
+      "id": 3663,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949785,
+      "end": 1504635949785,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3520",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/0/7/0743488334-med.jpg",
+      "id": 3668,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949786,
+      "end": 1504635949786,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3521",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:50:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"165002b-3f3-5202d35748880\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1011"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=95"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/skin/frontend/enterprise/baen/css/skins/Skin_1/images/whtbkdgright.png",
+      "id": 3664,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949857,
+      "end": 1504635949858,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3518",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 28 Apr 2017 20:32:51 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10d5b3-17ec-54e3ffa3162c0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6124"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=96"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/0/7/074347161X-med.jpg",
+      "id": 3666,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949859,
+      "end": 1504635949859,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3519",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 28 Apr 2017 20:32:51 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10d5e3-150d-54e3ffa3162c0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5389"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=96"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/1/4/1416520929-med.jpg",
+      "id": 3667,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949862,
+      "end": 1504635949863,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3520",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 28 Apr 2017 20:32:51 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10d5b5-18e9-54e3ffa3162c0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6377"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/catalog/product/cache/1/small_image/80x120/9df78eab33525d08d6e5fb8d27136e95/0/7/0743488334-med.jpg",
+      "id": 3668,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949864,
+      "end": 1504635949865,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.baen.com",
+        "expirationDate": "15046359502592000",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "frontend",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "1lb7q2ugcgjgmu6oqecuo33sv7"
+      },
+      "removed": false,
+      "timeStamp": 1504635950042,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "frontend",
+      "type": "cookie",
+      "value": "1lb7q2ugcgjgmu6oqecuo33sv7",
+      "timeStamp": 1504635950042,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.baen.com",
+        "expirationDate": "15046359500",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "CUSTOMER",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "deleted"
+      },
+      "removed": false,
+      "timeStamp": 1504635950042,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "CUSTOMER",
+      "type": "cookie",
+      "value": "deleted",
+      "timeStamp": 1504635950042,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.baen.com",
+        "expirationDate": "15046359500",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "CUSTOMER_INFO",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "deleted"
+      },
+      "removed": false,
+      "timeStamp": 1504635950042,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "CUSTOMER_INFO",
+      "type": "cookie",
+      "value": "deleted",
+      "timeStamp": 1504635950042,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.baen.com",
+        "expirationDate": "15046359500",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "CUSTOMER_AUTH",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "deleted"
+      },
+      "removed": false,
+      "timeStamp": 1504635950042,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "CUSTOMER_AUTH",
+      "type": "cookie",
+      "value": "deleted",
+      "timeStamp": 1504635950042,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.baen.com",
+        "expirationDate": "15046359500",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "CUSTOMER_RATES",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "deleted"
+      },
+      "removed": false,
+      "timeStamp": 1504635950042,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "CUSTOMER_RATES",
+      "type": "cookie",
+      "value": "deleted",
+      "timeStamp": 1504635950042,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 289
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "3525",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "PHP/5.5.27"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "frontend=1lb7q2ugcgjgmu6oqecuo33sv7; expires=Thu, 05-Oct-2017 18:25:49 GMT; Max-Age=2592000; path=/; domain=www.baen.com; HttpOnly"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "CUSTOMER=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=www.baen.com; httponly"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "CUSTOMER_INFO=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=www.baen.com; httponly"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "CUSTOMER_AUTH=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=www.baen.com; httponly"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "CUSTOMER_RATES=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=www.baen.com; httponly"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "P3p",
+          "value": "CP=\"CAO PSA OUR\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "97"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=95"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.baen.com/catalog/product/catColumns",
+      "id": 3665,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635950042,
+      "end": 1504635950042,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".www.baen.com",
+        "expirationDate": 1507227950.04184,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "frontend",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1lb7q2ugcgjgmu6oqecuo33sv7"
+      },
+      "removed": false,
+      "timeStamp": 1504635950043
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "frontend",
+      "type": "cookie",
+      "value": "1lb7q2ugcgjgmu6oqecuo33sv7",
+      "timeStamp": 1504635950043
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3522",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:47:19 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"157693e-5a156-5202d2a4f23c0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "368982"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:25:49 GMT"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=96"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/images/star-background.jpg",
+      "id": 3653,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635949659,
+      "end": 1504635950274,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 42,
+      "tabId": 2,
+      "timeStamp": 1504635950275,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Free Library - Categories",
+          "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504635950276
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3526",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/favicon/default/favicon.ico",
+      "id": 3669,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635950277,
+      "end": 1504635950277,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA; frontend=1lb7q2ugcgjgmu6oqecuo33sv7"
+        }
+      ]
+    }
+  },
+  {
+    "type": "dom.scroll",
+    "details": {
+      "isTrusted": true,
+      "type": "scroll",
+      "target": "#window>#document",
+      "currentTarget": "#window",
+      "eventPhase": 1,
+      "bubbles": true,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1504635950289,
+      "srcElement": "#window>#document",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window>#document",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+      "contextId": 289,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3526",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:50 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:29:16 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"f981f4-423e-5202ce9c1df00\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "10052"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=15, max=95"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/vnd.microsoft.icon"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/favicon/default/favicon.ico",
+      "id": 3669,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635950356,
+      "end": 1504635950356,
+      "fromCache": false,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3527",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/favicon/default/favicon.ico",
+      "id": 3670,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635950357,
+      "end": 1504635950357,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.baen.com/catalog/category/view/s/free-library/id/2012"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "LAST_CATEGORY=2012; CATEGORY_INFO=%5B%5D; CACHED_FRONT_FORM_KEY=jaJeLSBt2B4cWHcA; frontend=1lb7q2ugcgjgmu6oqecuo33sv7"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3527",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:25:50 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.2.15 (CentOS)"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sun, 20 Sep 2015 12:29:16 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"f981f4-423e-5202ce9c1df00\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "10052"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/vnd.microsoft.icon"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.baen.com/media/favicon/default/favicon.ico",
+      "id": 3670,
+      "contextId": 289,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635950357,
+      "end": 1504635950357,
+      "fromCache": true,
+      "ip": "207.97.233.23"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "http://www.baen.com/media/favicon/default/favicon.ico"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "http://www.baen.com/media/favicon/default/favicon.ico",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Free Library - Categories",
+          "url": "http://www.baen.com/catalog/category/view/s/free-library/id/2012",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504635950358
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3528",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 3671,
+      "contextId": 290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635951302,
+      "end": 1504635951302
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3528",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 3671,
+      "contextId": 290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635951302,
+      "end": 1504635951307
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504635951308
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504635951308
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1504635951308,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1504635951303.609,
+          "title": "Save",
+          "typedCount": 36,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 36
+        }
+      },
+      "timeStamp": 1504635951308
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504635951314
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3529",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 3672,
+      "contextId": 290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635951308,
+      "end": 1504635951315
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "3529",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 3672,
+      "contextId": 290,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504635951315,
+      "end": 1504635951315
+    }
+  }
+]

@@ -1,0 +1,6754 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636846895
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 92530,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/6ddefcf9-2cd0-4288-85ed-246336f926bb",
+          "id": 120,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:40:46.898Z",
+          "state": "in_progress",
+          "totalBytes": 92530,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/6ddefcf9-2cd0-4288-85ed-246336f926bb"
+        }
+      },
+      "timeStamp": 1504636846900
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 92530,
+          "filename": "ECAP_G_2017-09-05T18-40-46.888Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/6ddefcf9-2cd0-4288-85ed-246336f926bb",
+          "id": 120,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:40:46.898Z",
+          "state": "in_progress",
+          "totalBytes": 92530,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/6ddefcf9-2cd0-4288-85ed-246336f926bb"
+        }
+      },
+      "timeStamp": 1504636846904
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-09-05T18-40-46.888Z.json",
+            "previous": ""
+          },
+          "id": 120
+        }
+      },
+      "timeStamp": 1504636846908
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-09-05T18:40:46.910Z"
+          },
+          "id": 120,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1504636846911
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636849132,
+      "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9279",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+      "id": 9823,
+      "contextId": 895,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636849132,
+      "end": 1504636849133,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9279",
+      "responseHeaders": [
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        },
+        {
+          "name": "Location",
+          "value": "/WoPRZ/p/promote-your-free-book.html"
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302 Found",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+      "id": 9823,
+      "contextId": 895,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636849403,
+      "end": 1504636849404,
+      "fromCache": false,
+      "ip": "50.63.202.39",
+      "redirectUrl": "http://www.freeebooksdaily.com/WoPRZ/p/promote-your-free-book.html"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9279",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.freeebooksdaily.com/WoPRZ/p/promote-your-free-book.html",
+      "id": 9824,
+      "contextId": 896,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636849404,
+      "end": 1504636849404,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9279",
+      "responseHeaders": [
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        },
+        {
+          "name": "Location",
+          "value": "/p/promote-your-free-book.html"
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302 Found",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.freeebooksdaily.com/WoPRZ/p/promote-your-free-book.html",
+      "id": 9824,
+      "contextId": 896,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636849536,
+      "end": 1504636849536,
+      "fromCache": false,
+      "ip": "50.63.202.39",
+      "redirectUrl": "http://www.freeebooksdaily.com/p/promote-your-free-book.html"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9279",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+      "id": 9825,
+      "contextId": 897,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636849536,
+      "end": 1504636849537,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9279",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Expires",
+          "value": "-1"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:48 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "340"
+        },
+        {
+          "name": "Age",
+          "value": "1"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+      "id": 9825,
+      "contextId": 897,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636849826,
+      "end": 1504636849827,
+      "fromCache": false,
+      "ip": "50.63.202.39"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "www.freeebooksdaily.com/p/promote-your-free-book.html",
+          "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636849830
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636849830
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636849831,
+      "transitionQualifiers": [
+        "server_redirect"
+      ],
+      "transitionType": "typed",
+      "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "172",
+          "lastVisitTime": 1504636849829.005,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1504636849845
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "173",
+          "lastVisitTime": 1504636849829.005,
+          "title": "",
+          "typedCount": 0,
+          "url": "http://www.freeebooksdaily.com/WoPRZ/p/promote-your-free-book.html",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1504636849845
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "172",
+          "lastVisitTime": 1504636849829.005,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+          "visitCount": 2
+        }
+      },
+      "timeStamp": 1504636849845
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 812,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636849845,
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636849846,
+      "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 812,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9280",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==",
+      "id": 9826,
+      "contextId": 898,
+      "parentContextId": 897,
+      "windowId": 1,
+      "start": 1504636849845,
+      "end": 1504636849846,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.freeebooksdaily.com/p/promote-your-free-book.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+      "timeStamp": 1504636849865,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+      "contextId": 897,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636849865,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+      "contextId": 897,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "godaddy.com",
+        "expirationDate": 1536172849,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "market",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "en-US"
+      },
+      "removed": false,
+      "timeStamp": 1504636850176,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 812,
+      "contextId": 898
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "market",
+      "type": "cookie",
+      "value": "en-US",
+      "timeStamp": 1504636850176,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 812,
+      "contextId": 898
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".godaddy.com",
+        "expirationDate": 1536172851.176439,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "market",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "en-US"
+      },
+      "removed": false,
+      "timeStamp": 1504636850177
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "market",
+      "type": "cookie",
+      "value": "en-US",
+      "timeStamp": 1504636850177
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 812,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9280",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Expires",
+          "value": "-1"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/8.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "market=en-US; domain=godaddy.com; expires=Wed, 05-Sep-2018 18:40:49 GMT; path=/"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:48 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Length",
+          "value": "202"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==",
+      "id": 9826,
+      "contextId": 898,
+      "parentContextId": 897,
+      "windowId": 1,
+      "start": 1504636850176,
+      "end": 1504636850178,
+      "fromCache": false,
+      "ip": "184.168.131.213"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 812,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636850178,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 812,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636850180,
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 812,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636850184,
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636850184,
+      "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "www.freeebooksdaily.com/p/promote-your-free-book.html",
+          "url": "http://www.freeebooksdaily.com/p/promote-your-free-book.html",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636850184
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636850185,
+      "url": "http://freeebooksdaily.com/?reqp=1&reqr=",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9281",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://freeebooksdaily.com/?reqp=1&reqr=",
+      "id": 9827,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850185,
+      "end": 1504636850185,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt=="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9282",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.freeebooksdaily.com/favicon.ico",
+      "id": 9828,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850186,
+      "end": 1504636850186,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.freeebooksdaily.com/p/promote-your-free-book.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==",
+      "timeStamp": 1504636850187,
+      "tabId": 2,
+      "frameId": 812,
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==",
+      "contextId": 898,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636850187,
+      "tabId": 2,
+      "frameId": 812,
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==",
+      "contextId": 898,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9282",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Expires",
+          "value": "-1"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:58 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "136"
+        },
+        {
+          "name": "Age",
+          "value": "352"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.freeebooksdaily.com/favicon.ico",
+      "id": 9828,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850322,
+      "end": 1504636850322,
+      "fromCache": false,
+      "ip": "50.63.202.39"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9283",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google.com/adsense/domains/caf.js",
+      "id": 9829,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850643,
+      "end": 1504636850643,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "NID=111=MSFGnIWSm8LyiAkHNeOfTS_s5QpQnF_tflTO7VVJeI1WD_V5Wp7CwmZtkyC3qO_Bkx5okz4JHjfBA6OMOMGohjeIdIePzbHBJJljzxhBCWqm1oJLcv4vW9Qu5eqV3jvC"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9284",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js",
+      "id": 9830,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850643,
+      "end": 1504636850644,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "freeebooksdaily.com/?reqp=1&reqr=",
+          "url": "http://freeebooksdaily.com/?reqp=1&reqr=",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636850644
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636850644
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636850645,
+      "transitionQualifiers": [
+        "client_redirect"
+      ],
+      "transitionType": "link",
+      "url": "http://freeebooksdaily.com/?reqp=1&reqr=",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "174",
+          "lastVisitTime": 1504636850642.637,
+          "title": "",
+          "typedCount": 0,
+          "url": "http://freeebooksdaily.com/?reqp=1&reqr=",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1504636850647
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9284",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "33396"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 30 Aug 2017 11:10:36 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 30 Aug 2018 11:10:36 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 20 Dec 2016 18:17:03 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000, stale-while-revalidate=2592000"
+        },
+        {
+          "name": "age",
+          "value": "545414"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js",
+      "id": 9830,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850646,
+      "end": 1504636850647,
+      "fromCache": false,
+      "ip": "216.58.208.170"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9283",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:26:00 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 18:26:00 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, max-age=3600"
+        },
+        {
+          "name": "ETag",
+          "value": "\"10768424112163317150\""
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google.com/adsense/domains/caf.js",
+      "id": 9829,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850644,
+      "end": 1504636850648,
+      "fromCache": true,
+      "ip": "216.58.201.36"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "freeebooksdaily.com"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "freeebooksdaily.com",
+          "url": "http://freeebooksdaily.com/?reqp=1&reqr=",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636850664
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9285",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ak2.imgaft.com/script/jquery-1.3.1.min.js",
+      "id": 9831,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850784,
+      "end": 1504636850785,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9281",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Expires",
+          "value": "-1"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "29117"
+        },
+        {
+          "name": "Age",
+          "value": "0"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://freeebooksdaily.com/?reqp=1&reqr=",
+      "id": 9827,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850639,
+      "end": 1504636850786,
+      "fromCache": false,
+      "ip": "50.63.202.39"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9286",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak2.imgaft.com/images/new_logo_gd3.jpg",
+      "id": 9832,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850786,
+      "end": 1504636850787,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9286",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 24 Oct 2013 20:42:28 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"012848df9d0ce1:0\""
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5787"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3888000"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak2.imgaft.com/images/new_logo_gd3.jpg",
+      "id": 9832,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850802,
+      "end": 1504636850803,
+      "fromCache": false,
+      "ip": "96.7.51.25"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9287",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak2.imgaft.com/images/soc_1.jpg",
+      "id": 9833,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850803,
+      "end": 1504636850803,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9285",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 05 Jan 2012 22:46:08 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1f269ad0fbcbcc1:0\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Content-Length",
+          "value": "24336"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3888000"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ak2.imgaft.com/script/jquery-1.3.1.min.js",
+      "id": 9831,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850802,
+      "end": 1504636850804,
+      "fromCache": false,
+      "ip": "96.7.51.25"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9287",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 06 Nov 2012 22:10:16 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"01415806bbccd1:0\""
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3278"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3888000"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak2.imgaft.com/images/soc_1.jpg",
+      "id": 9833,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850805,
+      "end": 1504636850806,
+      "fromCache": false,
+      "ip": "96.7.51.25"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9288",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak2.imgaft.com/images/bul_blacksquare.png",
+      "id": 9834,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850806,
+      "end": 1504636850807,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9288",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 25 Jul 2008 21:49:00 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"02ec3fa0eec81:0\""
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Content-Length",
+          "value": "126"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3888000"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak2.imgaft.com/images/bul_blacksquare.png",
+      "id": 9834,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850815,
+      "end": 1504636850816,
+      "fromCache": false,
+      "ip": "96.7.51.25"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9289",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.google.com/dp/ads?r=m&fexp=21404&domain_name=freeebooksdaily.com&client=dp-godaddy2_xml&channel=gd-split1&hl=en-US&type=0&swp=as-drid-oo-1885714186540894&uiopt=false&oe=UTF-8&ie=UTF-8&format=p10%7Cs&ad=a10&adrep=3&num=0&output=afd_ads&v=3&preload=true&adtest=on&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1504636850817&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=0&frm=0&uio=uv3cs1sa14fa2st16sd12sv12sl1sr1-af2-&jsv=10768&rurl=http%3A%2F%2Ffreeebooksdaily.com%2F%3Freqp%3D1%26reqr%3D&ref=http%3A%2F%2Fmcc.godaddy.com%2Fpark%2Fp2IlpaWiLzW4MaShqayfYaOvrt%3D%3D",
+      "id": 9835,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850819,
+      "end": 1504636850819,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://freeebooksdaily.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 813,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636850822,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404&domain_name=freeebooksdaily.com&client=dp-godaddy2_xml&channel=gd-split1&hl=en-US&type=0&drid=as-drid-oo-1885714186540894&uiopt=false&oe=UTF-8&ie=UTF-8&format=p10%7Cs&ad=a10&adrep=3&num=0&output=caf&v=3&preload=true&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1504636850817&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=0&frm=0&uio=uv3cs1sa14fa2st16sd12sv12sl1sr1-af2-&jsv=10768&rurl=http%3A%2F%2Ffreeebooksdaily.com%2F%3Freqp%3D1%26reqr%3D&ref=http%3A%2F%2Fmcc.godaddy.com%2Fpark%2Fp2IlpaWiLzW4MaShqayfYaOvrt%3D%3D#master-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 813,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9290",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404&domain_name=freeebooksdaily.com&client=dp-godaddy2_xml&channel=gd-split1&hl=en-US&type=0&drid=as-drid-oo-1885714186540894&uiopt=false&oe=UTF-8&ie=UTF-8&format=p10%7Cs&ad=a10&adrep=3&num=0&output=caf&v=3&preload=true&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1504636850817&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=0&frm=0&uio=uv3cs1sa14fa2st16sd12sv12sl1sr1-af2-&jsv=10768&rurl=http%3A%2F%2Ffreeebooksdaily.com%2F%3Freqp%3D1%26reqr%3D&ref=http%3A%2F%2Fmcc.godaddy.com%2Fpark%2Fp2IlpaWiLzW4MaShqayfYaOvrt%3D%3D#master-1",
+      "id": 9836,
+      "contextId": 900,
+      "parentContextId": 899,
+      "windowId": 1,
+      "start": 1504636850822,
+      "end": 1504636850822,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "IDE=AHWqTUmV9z7mhY_FcmB_4ja9IyPC7GzR_Dk4mY33Mik6JMVcno4qD9D7GITMvCaw; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9291",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/async_survey?site=kv4ic6olrzkr6",
+      "id": 9837,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850824,
+      "end": 1504636850825,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "IDE=AHWqTUmV9z7mhY_FcmB_4ja9IyPC7GzR_Dk4mY33Mik6JMVcno4qD9D7GITMvCaw; DSID=NO_DATA; PAIDCONTENT=o156uazpv6kowzo5zw8v"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9292",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.gstatic.com/domainads/tracking/caf.gif?ts=1504636850812&rid=6940170",
+      "id": 9838,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850825,
+      "end": 1504636850826,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9293",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak2.imgaft.com/images/GDPPC_CAF_Search3.png",
+      "id": 9839,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850831,
+      "end": 1504636850831,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9294",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak2.imgaft.com/images/v4Slice.png",
+      "id": 9840,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850833,
+      "end": 1504636850833,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9295",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak2.imgaft.com/images/99_prk_pg_background.jpg",
+      "id": 9841,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850833,
+      "end": 1504636850833,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9296",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://img1.wsimg.com/ux/fonts/1.0/woff/w8.woff",
+      "id": 9842,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850833,
+      "end": 1504636850834,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://freeebooksdaily.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9297",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://img1.wsimg.com/ux/fonts/1.0/woff/w4.woff",
+      "id": 9843,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850834,
+      "end": 1504636850834,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://freeebooksdaily.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9293",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 26 Sep 2013 15:28:45 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1b67ff16cdbace1:0\""
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2296"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3888000"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak2.imgaft.com/images/GDPPC_CAF_Search3.png",
+      "id": 9839,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850834,
+      "end": 1504636850836,
+      "fromCache": false,
+      "ip": "96.7.51.25"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9294",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 08 Feb 2013 21:42:04 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"0de6622456ce1:0\""
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Content-Length",
+          "value": "26030"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3888000"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak2.imgaft.com/images/v4Slice.png",
+      "id": 9840,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850836,
+      "end": 1504636850838,
+      "fromCache": false,
+      "ip": "96.7.51.25"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9295",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 28 Jan 2015 02:31:10 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"0eb47aa23ad01:0\""
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Content-Length",
+          "value": "10017"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3888000"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak2.imgaft.com/images/99_prk_pg_background.jpg",
+      "id": 9841,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850838,
+      "end": 1504636850838,
+      "fromCache": false,
+      "ip": "96.7.51.25"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9292",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "43"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache, must-revalidate"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 21 Apr 2016 03:17:22 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.gstatic.com/domainads/tracking/caf.gif?ts=1504636850812&rid=6940170",
+      "id": 9838,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850843,
+      "end": 1504636850843,
+      "fromCache": false,
+      "ip": "216.58.201.35"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9291",
+      "responseHeaders": [
+        {
+          "name": "Content-Disposition",
+          "value": "attachment; filename=\"f.txt\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=utf-8"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "X-Xss-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=300"
+        },
+        {
+          "name": "Content-Length",
+          "value": "17198"
+        },
+        {
+          "name": "Age",
+          "value": "133"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/async_survey?site=kv4ic6olrzkr6",
+      "id": 9837,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850844,
+      "end": 1504636850919,
+      "fromCache": false,
+      "ip": "216.58.201.49"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9297",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-font-woff"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 12 Sep 2014 18:21:22 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03dd05ab6cecf1:0\""
+        },
+        {
+          "name": "Content-Length",
+          "value": "118156"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:40:50 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://img1.wsimg.com/ux/fonts/1.0/woff/w4.woff",
+      "id": 9843,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850919,
+      "end": 1504636850919,
+      "fromCache": false,
+      "ip": "2.22.135.201"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9296",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-font-woff"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 12 Sep 2014 18:21:22 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03dd05ab6cecf1:0\""
+        },
+        {
+          "name": "Content-Length",
+          "value": "112392"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=31536000"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:40:50 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://img1.wsimg.com/ux/fonts/1.0/woff/w8.woff",
+      "id": 9842,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850844,
+      "end": 1504636850919,
+      "fromCache": false,
+      "ip": "2.22.135.201"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9289",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "gws"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1730"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 500,
+      "statusLine": "HTTP/1.1 500 Internal Server Error",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.google.com/dp/ads?r=m&fexp=21404&domain_name=freeebooksdaily.com&client=dp-godaddy2_xml&channel=gd-split1&hl=en-US&type=0&swp=as-drid-oo-1885714186540894&uiopt=false&oe=UTF-8&ie=UTF-8&format=p10%7Cs&ad=a10&adrep=3&num=0&output=afd_ads&v=3&preload=true&adtest=on&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1504636850817&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=0&frm=0&uio=uv3cs1sa14fa2st16sd12sv12sl1sr1-af2-&jsv=10768&rurl=http%3A%2F%2Ffreeebooksdaily.com%2F%3Freqp%3D1%26reqr%3D&ref=http%3A%2F%2Fmcc.godaddy.com%2Fpark%2Fp2IlpaWiLzW4MaShqayfYaOvrt%3D%3D",
+      "id": 9835,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850919,
+      "end": 1504636850920,
+      "fromCache": false,
+      "ip": "216.58.201.36"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 813,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9290",
+      "responseHeaders": [
+        {
+          "name": "P3P",
+          "value": "policyref=\"http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\""
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "domainserver"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Length",
+          "value": "553"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404&domain_name=freeebooksdaily.com&client=dp-godaddy2_xml&channel=gd-split1&hl=en-US&type=0&drid=as-drid-oo-1885714186540894&uiopt=false&oe=UTF-8&ie=UTF-8&format=p10%7Cs&ad=a10&adrep=3&num=0&output=caf&v=3&preload=true&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1504636850817&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=0&frm=0&uio=uv3cs1sa14fa2st16sd12sv12sl1sr1-af2-&jsv=10768&rurl=http%3A%2F%2Ffreeebooksdaily.com%2F%3Freqp%3D1%26reqr%3D&ref=http%3A%2F%2Fmcc.godaddy.com%2Fpark%2Fp2IlpaWiLzW4MaShqayfYaOvrt%3D%3D#master-1",
+      "id": 9836,
+      "contextId": 900,
+      "parentContextId": 899,
+      "windowId": 1,
+      "start": 1504636850920,
+      "end": 1504636850920,
+      "fromCache": false,
+      "ip": "216.58.204.34"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9298",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://freeebooksdaily.com/img.aspx?q=L3MkWGAkYGD1AmVkAwN1ZGL2ZGpkAQVlAmVyZwMaWGAkAGNjZFHlAzHyZ3RyZwMhWGAkZPHlAzZyZ3RjWGV2MJLyZ3RjWGV2MvHmpFHlAzIaWGAkZwNkAmN5ZQHkZGDjAGNyZwMwrFHmpGRyZwM0MlHmpGVyZwM4WGAkWGV2nT5aWGAkZFHlAaEzWGAkAvHlAaOjWGAknTLyZwMkMFHmpJ5zYKSyqaRgLzVgZGt4AGpkAQR4AwH0ZQt5APHlAzMapPHmpGN=-1",
+      "id": 9844,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850931,
+      "end": 1504636850931,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9299",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://asset.pagefair.com/measure.min.js",
+      "id": 9845,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850931,
+      "end": 1504636850931,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9300",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://asset.pagefair.net/ads.min.js",
+      "id": 9846,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850932,
+      "end": 1504636850932,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636850932,
+      "url": "http://freeebooksdaily.com/?reqp=1&reqr=",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9300",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "31"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "x-amz-id-2",
+          "value": "nv4YgF2+EAj8gvmPhh4Zc19xW4hluXQL6DGztCsKLcf9DttqT7wQsalp038C0ReGgWv/ZxAwGHI="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "B2425E61ECD87CB9"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 14 Apr 2017 09:32:52 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"8d6bcedcf571298a6e15eac1b15a542a\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=7200"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Server",
+          "value": "NetDNA-cache/2.2"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://asset.pagefair.net/ads.min.js",
+      "id": 9846,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850939,
+      "end": 1504636850939,
+      "fromCache": false,
+      "ip": "23.111.11.222"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9299",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "x-amz-id-2",
+          "value": "/NhtM48cLESXakLEE3YHba0K0p9eC/ab2iG/XXRUWIhzlpaR/RPae5OsPMLXfTdSq4ER4eUO7MY="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "8D05F73B4E74B748"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 15 Aug 2017 10:15:59 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"fc415c485002c7f58c1ad16ce5422bfe\""
+        },
+        {
+          "name": "Server",
+          "value": "NetDNA-cache/2.2"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://asset.pagefair.com/measure.min.js",
+      "id": 9845,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636850940,
+      "end": 1504636850940,
+      "fromCache": false,
+      "ip": "23.111.9.30"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 814,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636851020,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 814,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9301",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "id": 9847,
+      "contextId": 901,
+      "parentContextId": 899,
+      "windowId": 1,
+      "start": 1504636851020,
+      "end": 1504636851021,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "IDE=AHWqTUmV9z7mhY_FcmB_4ja9IyPC7GzR_Dk4mY33Mik6JMVcno4qD9D7GITMvCaw; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 814,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9301",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:01:34 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 19:01:34 GMT"
+        },
+        {
+          "name": "Age",
+          "value": "2357"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        },
+        {
+          "name": "Content-Length",
+          "value": "637"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 01 Jun 2017 13:45:00 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "id": 9847,
+      "contextId": 901,
+      "parentContextId": 899,
+      "windowId": 1,
+      "start": 1504636851024,
+      "end": 1504636851024,
+      "fromCache": true,
+      "ip": "216.58.201.2"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 815,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636851027,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-0-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 815,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9302",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-0-1",
+      "id": 9848,
+      "contextId": 902,
+      "parentContextId": 899,
+      "windowId": 1,
+      "start": 1504636851027,
+      "end": 1504636851027,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "IDE=AHWqTUmV9z7mhY_FcmB_4ja9IyPC7GzR_Dk4mY33Mik6JMVcno4qD9D7GITMvCaw; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 815,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9302",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:01:34 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 19:01:34 GMT"
+        },
+        {
+          "name": "Age",
+          "value": "2357"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        },
+        {
+          "name": "Content-Length",
+          "value": "637"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 01 Jun 2017 13:45:00 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-0-1",
+      "id": 9848,
+      "contextId": 902,
+      "parentContextId": 899,
+      "windowId": 1,
+      "start": 1504636851028,
+      "end": 1504636851028,
+      "fromCache": true,
+      "ip": "216.58.201.2"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 813,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851039,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404&domain_name=freeebooksdaily.com&client=dp-godaddy2_xml&channel=gd-split1&hl=en-US&type=0&drid=as-drid-oo-1885714186540894&uiopt=false&oe=UTF-8&ie=UTF-8&format=p10%7Cs&ad=a10&adrep=3&num=0&output=caf&v=3&preload=true&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1504636850817&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=0&frm=0&uio=uv3cs1sa14fa2st16sd12sv12sl1sr1-af2-&jsv=10768&rurl=http%3A%2F%2Ffreeebooksdaily.com%2F%3Freqp%3D1%26reqr%3D&ref=http%3A%2F%2Fmcc.godaddy.com%2Fpark%2Fp2IlpaWiLzW4MaShqayfYaOvrt%3D%3D#master-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9298",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Expires",
+          "value": "-1"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:58 GMT"
+        },
+        {
+          "name": "Age",
+          "value": "352"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://freeebooksdaily.com/img.aspx?q=L3MkWGAkYGD1AmVkAwN1ZGL2ZGpkAQVlAmVyZwMaWGAkAGNjZFHlAzHyZ3RyZwMhWGAkZPHlAzZyZ3RjWGV2MJLyZ3RjWGV2MvHmpFHlAzIaWGAkZwNkAmN5ZQHkZGDjAGNyZwMwrFHmpGRyZwM0MlHmpGVyZwM4WGAkWGV2nT5aWGAkZFHlAaEzWGAkAvHlAaOjWGAknTLyZwMkMFHmpJ5zYKSyqaRgLzVgZGt4AGpkAQR4AwH0ZQt5APHlAzMapPHmpGN=-1",
+      "id": 9844,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851080,
+      "end": 1504636851081,
+      "fromCache": false,
+      "ip": "50.63.202.39"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 814,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851091,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 815,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851091,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-0-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://freeebooksdaily.com/?reqp=1&reqr=",
+      "timeStamp": 1504636851092,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://freeebooksdaily.com/?reqp=1&reqr=",
+      "contextId": 899,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636851092,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://freeebooksdaily.com/?reqp=1&reqr=",
+      "contextId": 899,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "freeebooksdaily.com",
+      "timeStamp": 1504636851094,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://freeebooksdaily.com/?reqp=1&reqr=",
+      "contextId": 899,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9303",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://asset.pagefair.com/adimages/adsense.js",
+      "id": 9849,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851102,
+      "end": 1504636851102,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9304",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://asset.pagefair.net/adimages/textlink-ads.jpg",
+      "id": 9850,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851102,
+      "end": 1504636851102,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9305",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://asset.pagefair.com/adimages/textlink-ads.jpg",
+      "id": 9851,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851103,
+      "end": 1504636851103,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9303",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:51 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "31"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "x-amz-id-2",
+          "value": "An5e+Hdc0O3wiSkFvERx4l+THg1Ss+C5IL6+vqyR8SV7mnydU0qwcy8+IgvKy8SQ1HxpmUJiazs="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "3715D33C1D5D9623"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 14 Apr 2017 09:32:51 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"fad38c838e15141e61b1a05e027e6923\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=2592000"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Server",
+          "value": "NetDNA-cache/2.2"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://asset.pagefair.com/adimages/adsense.js",
+      "id": 9849,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851104,
+      "end": 1504636851104,
+      "fromCache": false,
+      "ip": "23.111.9.30"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9306",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/insights/consumersurveys/static/403810289421632132/prompt_embed_static.js",
+      "id": 9852,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851114,
+      "end": 1504636851115,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "IDE=AHWqTUmV9z7mhY_FcmB_4ja9IyPC7GzR_Dk4mY33Mik6JMVcno4qD9D7GITMvCaw; DSID=NO_DATA; PAIDCONTENT=o156uazpv6kowzo5zw8v"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9305",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:51 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "229"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "x-amz-id-2",
+          "value": "p/FzLt3TA3Y8ZDP0RnkiFM4k3hkiJ5rDKP7+GoEv8FEWXlAIrokMnIwaHZOjcVAYMollCi1VAbY="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "813F3EE18D44A402"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 14 Apr 2017 09:32:51 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"eb7e55f5218440a225c580fdcd7ccbde\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=2592000"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Server",
+          "value": "NetDNA-cache/2.2"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://asset.pagefair.com/adimages/textlink-ads.jpg",
+      "id": 9851,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851115,
+      "end": 1504636851115,
+      "fromCache": false,
+      "ip": "23.111.9.30"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9304",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:51 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "229"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "x-amz-id-2",
+          "value": "08qWp2Ei2mpj9qhnme3hyS7J0QyjiA3ffVVCtODNMX9P2ki0+/NuJbNIX2bOL7YIDfiBBVDQDVk="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "3D0AB1F12EAC4B51"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 14 Apr 2017 09:32:52 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"eb7e55f5218440a225c580fdcd7ccbde\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=2592000"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Server",
+          "value": "NetDNA-cache/2.2"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://asset.pagefair.net/adimages/textlink-ads.jpg",
+      "id": 9850,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851116,
+      "end": 1504636851116,
+      "fromCache": false,
+      "ip": "23.111.11.222"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9307",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/gk/prompt?t=a&site=kv4ic6olrzkr6&random=1504636851106&ref=http%3A%2F%2Fmcc.godaddy.com%2Fpark%2Fp2IlpaWiLzW4MaShqayfYaOvrt%3D%3D",
+      "id": 9853,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851116,
+      "end": 1504636851116,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "IDE=AHWqTUmV9z7mhY_FcmB_4ja9IyPC7GzR_Dk4mY33Mik6JMVcno4qD9D7GITMvCaw; DSID=NO_DATA; PAIDCONTENT=o156uazpv6kowzo5zw8v"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9306",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Sat, 02 Sep 2017 00:06:38 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Mon, 02 Oct 2017 00:06:38 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"hqCwSw\""
+        },
+        {
+          "name": "X-Cloud-Trace-Context",
+          "value": "0727ebdc43fed838cdf12b8de0387b63"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Server",
+          "value": "Google Frontend"
+        },
+        {
+          "name": "Content-Length",
+          "value": "109730"
+        },
+        {
+          "name": "Age",
+          "value": "325162"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=2592000"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/insights/consumersurveys/static/403810289421632132/prompt_embed_static.js",
+      "id": 9852,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851115,
+      "end": 1504636851117,
+      "fromCache": true,
+      "ip": "216.58.201.49"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 813,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851118,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404&domain_name=freeebooksdaily.com&client=dp-godaddy2_xml&channel=gd-split1&hl=en-US&type=0&drid=as-drid-oo-1885714186540894&uiopt=false&oe=UTF-8&ie=UTF-8&format=p10%7Cs&ad=a10&adrep=3&num=0&output=caf&v=3&preload=true&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1504636850817&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=0&frm=0&uio=uv3cs1sa14fa2st16sd12sv12sl1sr1-af2-&jsv=10768&rurl=http%3A%2F%2Ffreeebooksdaily.com%2F%3Freqp%3D1%26reqr%3D&ref=http%3A%2F%2Fmcc.godaddy.com%2Fpark%2Fp2IlpaWiLzW4MaShqayfYaOvrt%3D%3D#master-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 813,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851119,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404&domain_name=freeebooksdaily.com&client=dp-godaddy2_xml&channel=gd-split1&hl=en-US&type=0&drid=as-drid-oo-1885714186540894&uiopt=false&oe=UTF-8&ie=UTF-8&format=p10%7Cs&ad=a10&adrep=3&num=0&output=caf&v=3&preload=true&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1504636850817&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=0&frm=0&uio=uv3cs1sa14fa2st16sd12sv12sl1sr1-af2-&jsv=10768&rurl=http%3A%2F%2Ffreeebooksdaily.com%2F%3Freqp%3D1%26reqr%3D&ref=http%3A%2F%2Fmcc.godaddy.com%2Fpark%2Fp2IlpaWiLzW4MaShqayfYaOvrt%3D%3D#master-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 814,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851121,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 814,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851126,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 815,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851126,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-0-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 815,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851131,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-0-1",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.message",
+    "details": {
+      "isTrusted": true,
+      "data": "FSXDC,slave-0-1.hA:0:f,slave-1-1.hA:0:f,master-1.hA:0:f,s.fL:0:t,s.b:0:t,r.1:0:f",
+      "origin": "http://dp.g.doubleclick.net",
+      "lastEventId": "",
+      "source": "@cross-origin",
+      "ports": [],
+      "type": "message",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1504636851132,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://freeebooksdaily.com/?reqp=1&reqr=",
+      "contextId": 899,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9307",
+      "responseHeaders": [
+        {
+          "name": "Content-Disposition",
+          "value": "attachment; filename=\"f.txt\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=utf-8"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "X-Why",
+          "value": "Publisher down sampling."
+        },
+        {
+          "name": "X-Xss-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:51 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "23"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://survey.g.doubleclick.net/gk/prompt?t=a&site=kv4ic6olrzkr6&random=1504636851106&ref=http%3A%2F%2Fmcc.godaddy.com%2Fpark%2Fp2IlpaWiLzW4MaShqayfYaOvrt%3D%3D",
+      "id": 9853,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851133,
+      "end": 1504636851134,
+      "fromCache": false,
+      "ip": "216.58.201.49"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "freeebooksdaily.com",
+        "expirationDate": 1924905600,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "bm_last_load_status",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "NOT_BLOCKING"
+      },
+      "removed": false,
+      "timeStamp": 1504636851137
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "bm_last_load_status",
+      "type": "cookie",
+      "value": "NOT_BLOCKING",
+      "timeStamp": 1504636851137
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "freeebooksdaily.com",
+        "expirationDate": 1506812399,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "bm_monthly_unique",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "true"
+      },
+      "removed": false,
+      "timeStamp": 1504636851138
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "bm_monthly_unique",
+      "type": "cookie",
+      "value": "true",
+      "timeStamp": 1504636851138
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "freeebooksdaily.com",
+        "expirationDate": 1505241651,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "bm_weekly_unique",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "true"
+      },
+      "removed": false,
+      "timeStamp": 1504636851139
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "bm_weekly_unique",
+      "type": "cookie",
+      "value": "true",
+      "timeStamp": 1504636851139
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "freeebooksdaily.com",
+        "expirationDate": 1924905600,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "pl_uuid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "6c49f86c"
+      },
+      "removed": false,
+      "timeStamp": 1504636851139
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "pl_uuid",
+      "type": "cookie",
+      "value": "6c49f86c",
+      "timeStamp": 1504636851139
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "freeebooksdaily.com",
+        "expirationDate": 1504652399,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "bm_daily_unique",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "true"
+      },
+      "removed": false,
+      "timeStamp": 1504636851140
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "bm_daily_unique",
+      "type": "cookie",
+      "value": "true",
+      "timeStamp": 1504636851140
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9308",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://stats.pagefair.com/stats/page_view_event/3D63FAAA879C4AFA/a.js?wl_div_hid_t0=0&div_hid_t0=0&s_blk=0&i_blk=0&wl_i_blk=0&is_ab=0&is_wl=1&new_monthly=1&new_daily=1&cbfnc=r05529738140697051&_=0.28179516375843816",
+      "id": 9854,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851140,
+      "end": 1504636851140,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9309",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://pixel.onaudience.com/?partner=133&mapped=6c49f86c",
+      "id": 9855,
+      "contextId": 899,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851140,
+      "end": 1504636851141,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636851142,
+      "url": "http://freeebooksdaily.com/?hg=0&nr=0",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9310",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://freeebooksdaily.com/?hg=0&nr=0",
+      "id": 9856,
+      "contextId": 903,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851143,
+      "end": 1504636851143,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bm_last_load_status=NOT_BLOCKING; bm_monthly_unique=true; bm_weekly_unique=true; pl_uuid=6c49f86c; bm_daily_unique=true"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404&domain_name=freeebooksdaily.com&client=dp-godaddy2_xml&channel=gd-split1&hl=en-US&type=0&drid=as-drid-oo-1885714186540894&uiopt=false&oe=UTF-8&ie=UTF-8&format=p10%7Cs&ad=a10&adrep=3&num=0&output=caf&v=3&preload=true&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1504636850817&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=0&frm=0&uio=uv3cs1sa14fa2st16sd12sv12sl1sr1-af2-&jsv=10768&rurl=http%3A%2F%2Ffreeebooksdaily.com%2F%3Freqp%3D1%26reqr%3D&ref=http%3A%2F%2Fmcc.godaddy.com%2Fpark%2Fp2IlpaWiLzW4MaShqayfYaOvrt%3D%3D#master-1",
+      "timeStamp": 1504636851143,
+      "tabId": 2,
+      "frameId": 813,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404&domain_name=freeebooksdaily.com&client=dp-godaddy2_xml&channel=gd-split1&hl=en-US&type=0&drid=as-drid-oo-1885714186540894&uiopt=false&oe=UTF-8&ie=UTF-8&format=p10%7Cs&ad=a10&adrep=3&num=0&output=caf&v=3&preload=true&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1504636850817&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=0&frm=0&uio=uv3cs1sa14fa2st16sd12sv12sl1sr1-af2-&jsv=10768&rurl=http%3A%2F%2Ffreeebooksdaily.com%2F%3Freqp%3D1%26reqr%3D&ref=http%3A%2F%2Fmcc.godaddy.com%2Fpark%2Fp2IlpaWiLzW4MaShqayfYaOvrt%3D%3D#master-1",
+      "contextId": 900,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636851143,
+      "tabId": 2,
+      "frameId": 813,
+      "url": "http://dp.g.doubleclick.net/apps/domainpark/domainpark.cgi?r=m&fexp=21404&domain_name=freeebooksdaily.com&client=dp-godaddy2_xml&channel=gd-split1&hl=en-US&type=0&drid=as-drid-oo-1885714186540894&uiopt=false&oe=UTF-8&ie=UTF-8&format=p10%7Cs&ad=a10&adrep=3&num=0&output=caf&v=3&preload=true&adext=as1%2Csr1&bsl=8&u_his=50&u_tz=60&dt=1504636850817&u_w=1920&u_h=1080&biw=935&bih=838&psw=935&psh=0&frm=0&uio=uv3cs1sa14fa2st16sd12sv12sl1sr1-af2-&jsv=10768&rurl=http%3A%2F%2Ffreeebooksdaily.com%2F%3Freqp%3D1%26reqr%3D&ref=http%3A%2F%2Fmcc.godaddy.com%2Fpark%2Fp2IlpaWiLzW4MaShqayfYaOvrt%3D%3D#master-1",
+      "contextId": 900,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "timeStamp": 1504636851145,
+      "tabId": 2,
+      "frameId": 814,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "contextId": 901,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636851145,
+      "tabId": 2,
+      "frameId": 814,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-1-1",
+      "contextId": 901,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-0-1",
+      "timeStamp": 1504636851147,
+      "tabId": 2,
+      "frameId": 815,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-0-1",
+      "contextId": 902,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636851147,
+      "tabId": 2,
+      "frameId": 815,
+      "url": "http://dp.g.doubleclick.net/static/caf/slave.html#slave-0-1",
+      "contextId": 902,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".onaudience.com",
+        "expirationDate": "1504636851315360000",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "cookie",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "ae1b8db901f21dd2"
+      },
+      "removed": false,
+      "timeStamp": 1504636851205,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 903
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "cookie",
+      "type": "cookie",
+      "value": "ae1b8db901f21dd2",
+      "timeStamp": 1504636851205,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 903
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".onaudience.com",
+        "expirationDate": "15046368511209600",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "done_redirects104",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1504636851205,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 903
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "done_redirects104",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1504636851205,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 903
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".onaudience.com",
+        "expirationDate": 1819996851.205775,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "cookie",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "ae1b8db901f21dd2"
+      },
+      "removed": false,
+      "timeStamp": 1504636851207
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "cookie",
+      "type": "cookie",
+      "value": "ae1b8db901f21dd2",
+      "timeStamp": 1504636851207
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".onaudience.com",
+        "expirationDate": 1505846451.205815,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "done_redirects104",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1504636851207
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "done_redirects104",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1504636851207
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9309",
+      "responseHeaders": [
+        {
+          "name": "set-cookie",
+          "value": "cookie=ae1b8db901f21dd2; Max-Age=315360000; Expires=Fri, 3 Sep 2027 18:40:51 GMT; Path=/; Domain=.onaudience.com"
+        },
+        {
+          "name": "set-cookie",
+          "value": "done_redirects104=1; Max-Age=1209600; Expires=Tue, 19 Sep 2017 18:40:51 GMT; Path=/; Domain=.onaudience.com"
+        },
+        {
+          "name": "location",
+          "value": "http://bcp.crwdcntrl.net/5/c=8587/pe=y?https://pixel.onaudience.com/?partner=104&mapped=${profile_id}"
+        },
+        {
+          "name": "connection",
+          "value": "close"
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302 Found",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://pixel.onaudience.com/?partner=133&mapped=6c49f86c",
+      "id": 9855,
+      "contextId": 903,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851205,
+      "end": 1504636851208,
+      "fromCache": false,
+      "ip": "31.186.87.67",
+      "redirectUrl": "http://bcp.crwdcntrl.net/5/c=8587/pe=y?https://pixel.onaudience.com/?partner=104&mapped=${profile_id}"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9309",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://bcp.crwdcntrl.net/5/c=8587/pe=y?https://pixel.onaudience.com/?partner=104&mapped=${profile_id}",
+      "id": 9857,
+      "contextId": 903,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851208,
+      "end": 1504636851208,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "_cc_aud=ABR4nGNgYGCIXPd6CgMcAAAfJgKH; _cc_cc=\"ACZ4nGOQN0pKSU40NzJKMUiytDA3t0xJNkgyMUxMNjVPSrIwTGMAgsh1r6cwIAAAX5wLjA%3D%3D\"; _cc_id=2bdca722d0b98779dc0b41ac57bb81f; _cc_dc=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9309",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:51 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "0"
+        },
+        {
+          "name": "Location",
+          "value": "https://pixel.onaudience.com/?partner=104&mapped=2bdca722d0b98779dc0b41ac57bb81f"
+        },
+        {
+          "name": "P3P",
+          "value": "CP=NOI DSP COR NID PSAa PSDa OUR UNI COM NAV"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "X-Server",
+          "value": "172.25.10.245"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302 Found",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://bcp.crwdcntrl.net/5/c=8587/pe=y?https://pixel.onaudience.com/?partner=104&mapped=${profile_id}",
+      "id": 9857,
+      "contextId": 903,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851244,
+      "end": 1504636851244,
+      "fromCache": false,
+      "ip": "54.77.251.202",
+      "redirectUrl": "https://pixel.onaudience.com/?partner=104&mapped=2bdca722d0b98779dc0b41ac57bb81f"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9309",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://pixel.onaudience.com/?partner=104&mapped=2bdca722d0b98779dc0b41ac57bb81f",
+      "id": 9858,
+      "contextId": 903,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851244,
+      "end": 1504636851244,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?reqp=1&reqr="
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "cookie=ae1b8db901f21dd2; done_redirects104=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".pagefair.com",
+        "expirationDate": "15046368512179147",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "m_uniq",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "True"
+      },
+      "removed": false,
+      "timeStamp": 1504636851300,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 903
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "m_uniq",
+      "type": "cookie",
+      "value": "True",
+      "timeStamp": 1504636851300,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 903
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".pagefair.com",
+        "expirationDate": "150463685119147",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "d_uniq",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "True"
+      },
+      "removed": false,
+      "timeStamp": 1504636851300,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 903
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "d_uniq",
+      "type": "cookie",
+      "value": "True",
+      "timeStamp": 1504636851300,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 903
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9308",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Credentials",
+          "value": "true"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Authorization,Content-Type,Accept,Origin,User-Agent,Cache-Control,Keep-Alive,X-Requested-With,If-Modified-Since,X-CSRF-TOKEN"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET, POST, OPTIONS"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:51 GMT"
+        },
+        {
+          "name": "P3P",
+          "value": "CP=\"NID DSP ALL COR\""
+        },
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "m_uniq=True; Domain=.pagefair.com; expires=Sat, 30-Sep-2017 23:59:58 GMT; Max-Age=2179147; Path=/"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "d_uniq=True; Domain=.pagefair.com; expires=Tue, 05-Sep-2017 23:59:58 GMT; Max-Age=19147; Path=/"
+        },
+        {
+          "name": "Content-Length",
+          "value": "48"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://stats.pagefair.com/stats/page_view_event/3D63FAAA879C4AFA/a.js?wl_div_hid_t0=0&div_hid_t0=0&s_blk=0&i_blk=0&wl_i_blk=0&is_ab=0&is_wl=1&new_monthly=1&new_daily=1&cbfnc=r05529738140697051&_=0.28179516375843816",
+      "id": 9854,
+      "contextId": 903,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851300,
+      "end": 1504636851302,
+      "fromCache": false,
+      "ip": "34.226.113.143"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".pagefair.com",
+        "expirationDate": 1506815998.300094,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "m_uniq",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "True"
+      },
+      "removed": false,
+      "timeStamp": 1504636851302
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "m_uniq",
+      "type": "cookie",
+      "value": "True",
+      "timeStamp": 1504636851302
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".pagefair.com",
+        "expirationDate": 1504655998.300121,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "d_uniq",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "True"
+      },
+      "removed": false,
+      "timeStamp": 1504636851303
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "d_uniq",
+      "type": "cookie",
+      "value": "True",
+      "timeStamp": 1504636851303
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "freeebooksdaily.com",
+        "expirationDate": 1504652399,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "bm_sample_frequency",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "100"
+      },
+      "removed": false,
+      "timeStamp": 1504636851303
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "bm_sample_frequency",
+      "type": "cookie",
+      "value": "100",
+      "timeStamp": 1504636851303
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9310",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Expires",
+          "value": "-1"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "355"
+        },
+        {
+          "name": "Age",
+          "value": "1"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://freeebooksdaily.com/?hg=0&nr=0",
+      "id": 9856,
+      "contextId": 903,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851312,
+      "end": 1504636851313,
+      "fromCache": false,
+      "ip": "50.63.202.39"
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9309",
+      "tabId": 2,
+      "timeStamp": 1504636851315,
+      "type": "image",
+      "url": "https://pixel.onaudience.com/?partner=104&mapped=2bdca722d0b98779dc0b41ac57bb81f",
+      "id": 9858,
+      "contextId": 903,
+      "parentContextId": -1,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851315,
+      "url": "http://freeebooksdaily.com/?reqp=1&reqr=",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://freeebooksdaily.com/?hg=0&nr=0"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "freeebooksdaily.com/?hg=0&nr=0",
+          "url": "http://freeebooksdaily.com/?hg=0&nr=0",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636851319
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636851319
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851319,
+      "transitionQualifiers": [
+        "client_redirect"
+      ],
+      "transitionType": "link",
+      "url": "http://freeebooksdaily.com/?hg=0&nr=0",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "175",
+          "lastVisitTime": 1504636851318.035,
+          "title": "",
+          "typedCount": 0,
+          "url": "http://freeebooksdaily.com/?hg=0&nr=0",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1504636851323
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 816,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636851323,
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851323,
+      "url": "http://freeebooksdaily.com/?hg=0&nr=0",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 816,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9311",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0",
+      "id": 9859,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1,
+      "start": 1504636851323,
+      "end": 1504636851323,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?hg=0&nr=0"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "market=en-US"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://freeebooksdaily.com/?hg=0&nr=0",
+      "timeStamp": 1504636851327,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://freeebooksdaily.com/?hg=0&nr=0",
+      "contextId": 903,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636851327,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://freeebooksdaily.com/?hg=0&nr=0",
+      "contextId": 903,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.resize",
+    "details": {
+      "isTrusted": true,
+      "type": "resize",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1504636851383,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://freeebooksdaily.com/?hg=0&nr=0",
+      "contextId": 903,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "dom.resize",
+    "details": {
+      "isTrusted": true,
+      "type": "resize",
+      "target": "#window",
+      "currentTarget": "#window",
+      "eventPhase": 2,
+      "bubbles": false,
+      "cancelable": false,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1504636851389,
+      "srcElement": "#window",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://freeebooksdaily.com/?hg=0&nr=0",
+      "contextId": 903,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "mcc.godaddy.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "mobile.redirect.browser",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "0"
+      },
+      "removed": false,
+      "timeStamp": 1504636851537,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 816,
+      "contextId": 904
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "mobile.redirect.browser",
+      "type": "cookie",
+      "value": "0",
+      "timeStamp": 1504636851537,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 816,
+      "contextId": 904
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "godaddy.com",
+        "expirationDate": 1536172851,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "currency",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "GBP"
+      },
+      "removed": false,
+      "timeStamp": 1504636851537,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 816,
+      "contextId": 904
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "currency",
+      "type": "cookie",
+      "value": "GBP",
+      "timeStamp": 1504636851537,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 816,
+      "contextId": 904
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "mcc.godaddy.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "mobile.redirect.browser",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "0"
+      },
+      "removed": false,
+      "timeStamp": 1504636851538
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "mobile.redirect.browser",
+      "type": "cookie",
+      "value": "0",
+      "timeStamp": 1504636851538
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".godaddy.com",
+        "expirationDate": 1536172852.537045,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "currency",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GBP"
+      },
+      "removed": false,
+      "timeStamp": 1504636851539
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "currency",
+      "type": "cookie",
+      "value": "GBP",
+      "timeStamp": 1504636851539
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 816,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851539,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 816,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9311",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Expires",
+          "value": "-1"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/8.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "mobile.redirect.browser=0; path=/"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "currency=GBP; domain=godaddy.com; expires=Wed, 05-Sep-2018 18:40:51 GMT; path=/"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3074"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0",
+      "id": 9859,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1,
+      "start": 1504636851537,
+      "end": 1504636851539,
+      "fromCache": false,
+      "ip": "184.168.131.213"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 816,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9312",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://ak3.imgaft.com/css/modalstyles20130117.css",
+      "id": 9860,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1,
+      "start": 1504636851541,
+      "end": 1504636851541,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 816,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9313",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ak3.imgaft.com/script/jquery-1.3.1.min.js",
+      "id": 9861,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1,
+      "start": 1504636851541,
+      "end": 1504636851541,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 816,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9314",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak3.imgaft.com/images/new_logo_GDTrans.png",
+      "id": 9862,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1,
+      "start": 1504636851541,
+      "end": 1504636851542,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 816,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9315",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak3.imgaft.com/images/247Support.jpg",
+      "id": 9863,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1,
+      "start": 1504636851542,
+      "end": 1504636851542,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 816,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9312",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 17 Jan 2013 17:31:19 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"e6fdea75d8f4cd1:0\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3446"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3888000"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:51 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://ak3.imgaft.com/css/modalstyles20130117.css",
+      "id": 9860,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1,
+      "start": 1504636851556,
+      "end": 1504636851557,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 816,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9314",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 20 Mar 2017 18:01:40 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"a6e3766a4a1d21:0\""
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3805"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3888000"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:51 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak3.imgaft.com/images/new_logo_GDTrans.png",
+      "id": 9862,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1,
+      "start": 1504636851556,
+      "end": 1504636851558,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 816,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9315",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 26 Jul 2013 15:11:14 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"9620d45e128ace1:0\""
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Content-Length",
+          "value": "21548"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3888000"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:51 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ak3.imgaft.com/images/247Support.jpg",
+      "id": 9863,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1,
+      "start": 1504636851557,
+      "end": 1504636851560,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 816,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9313",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 05 Jan 2012 22:46:08 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1f269ad0fbcbcc1:0\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Content-Length",
+          "value": "24336"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3888000"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:51 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ak3.imgaft.com/script/jquery-1.3.1.min.js",
+      "id": 9861,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1,
+      "start": 1504636851557,
+      "end": 1504636851560,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 816,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9316",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0",
+      "id": 9864,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1,
+      "start": 1504636851566,
+      "end": 1504636851566,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "market=en-US; mobile.redirect.browser=0; currency=GBP"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 816,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9317",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://freeebooksdaily.com/img.aspx?q=L3MkWGAkYGH4ZwD5ZwR4ZmHkAGHjAQL0WGV2MlHmpGH1ZQRyZwMyWGAkp2IlpaWiLzW4MaShqayfYaOvrvHlAz4yZ3RjWGV2LlHmpGNyZwMyMvHmpGNyZwMzWGAkWGV2MJpyZ3RlZQR3ZQxjAGRkAQN1ZFHlAzA5WGAkZFHlAaEaWGAkZvHlAatyZ3RyZwMbozpyZ3RkWGV2pUNyZ3SbrPHlAzMapPHmpGN=-1",
+      "id": 9865,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1,
+      "start": 1504636851671,
+      "end": 1504636851671,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bm_last_load_status=NOT_BLOCKING; bm_monthly_unique=true; bm_weekly_unique=true; pl_uuid=6c49f86c; bm_daily_unique=true; bm_sample_frequency=100"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 816,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851672,
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0",
+      "timeStamp": 1504636851680,
+      "tabId": 2,
+      "frameId": 816,
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0",
+      "contextId": 904,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636851680,
+      "tabId": 2,
+      "frameId": 816,
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0",
+      "contextId": 904,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "freeebooksdaily.com",
+      "timeStamp": 1504636851681,
+      "tabId": 2,
+      "frameId": 816,
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0",
+      "contextId": 904,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:null",
+      "value": "",
+      "timeStamp": 1504636851682,
+      "tabId": 2,
+      "frameId": 816,
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0",
+      "contextId": 904,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": 816,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9316",
+      "tabId": 2,
+      "timeStamp": 1504636851807,
+      "type": "image",
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0",
+      "id": 9864,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 816,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "9317",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Expires",
+          "value": "-1"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:59 GMT"
+        },
+        {
+          "name": "Age",
+          "value": "352"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://freeebooksdaily.com/img.aspx?q=L3MkWGAkYGH4ZwD5ZwR4ZmHkAGHjAQL0WGV2MlHmpGH1ZQRyZwMyWGAkp2IlpaWiLzW4MaShqayfYaOvrvHlAz4yZ3RjWGV2LlHmpGNyZwMyMvHmpGNyZwMzWGAkWGV2MJpyZ3RlZQR3ZQxjAGRkAQN1ZFHlAzA5WGAkZFHlAaEaWGAkZvHlAatyZ3RyZwMbozpyZ3RkWGV2pUNyZ3SbrPHlAzMapPHmpGN=-1",
+      "id": 9865,
+      "contextId": 904,
+      "parentContextId": 903,
+      "windowId": 1,
+      "start": 1504636851819,
+      "end": 1504636851820,
+      "fromCache": false,
+      "ip": "50.63.202.39"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 816,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851820,
+      "url": "http://mcc.godaddy.com/park/p2IlpaWiLzW4MaShqayfYaOvrt==/fe/p2IlpaWiLzW4MaShqayfYaOvrt==?hg=0",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 127,
+      "tabId": 2,
+      "timeStamp": 1504636851821,
+      "url": "http://freeebooksdaily.com/?hg=0&nr=0",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "freeebooksdaily.com/?hg=0&nr=0",
+          "url": "http://freeebooksdaily.com/?hg=0&nr=0",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636851821
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9318",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://freeebooksdaily.com/favicon.ico",
+      "id": 9866,
+      "contextId": 903,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851822,
+      "end": 1504636851822,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://freeebooksdaily.com/?hg=0&nr=0"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "bm_last_load_status=NOT_BLOCKING; bm_monthly_unique=true; bm_weekly_unique=true; pl_uuid=6c49f86c; bm_daily_unique=true; bm_sample_frequency=100"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9318",
+      "responseHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Expires",
+          "value": "-1"
+        },
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/7.5"
+        },
+        {
+          "name": "X-AspNet-Version",
+          "value": "4.0.30319"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:40:50 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "26"
+        },
+        {
+          "name": "Age",
+          "value": "1"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://freeebooksdaily.com/favicon.ico",
+      "id": 9866,
+      "contextId": 903,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636851970,
+      "end": 1504636851971,
+      "fromCache": false,
+      "ip": "50.63.202.39"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9319",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 9867,
+      "contextId": 905,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636852334,
+      "end": 1504636852334
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9319",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 9867,
+      "contextId": 905,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636852334,
+      "end": 1504636852339
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636852340
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636852340
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1504636852340,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1504636852335.713,
+          "title": "Save",
+          "typedCount": 121,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 121
+        }
+      },
+      "timeStamp": 1504636852340
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636852341
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9320",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 9868,
+      "contextId": 905,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636852341,
+      "end": 1504636852341
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "9320",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 9868,
+      "contextId": 905,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636852341,
+      "end": 1504636852342
+    }
+  }
+]

@@ -1,0 +1,2300 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636302254
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 321172,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/b2edf6a4-4f26-4b88-9d2d-7c2e0f1a53be",
+          "id": 68,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:31:42.255Z",
+          "state": "in_progress",
+          "totalBytes": 321172,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/b2edf6a4-4f26-4b88-9d2d-7c2e0f1a53be"
+        }
+      },
+      "timeStamp": 1504636302256
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 321172,
+          "filename": "ECAP_G_2017-09-05T18-31-42.248Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/b2edf6a4-4f26-4b88-9d2d-7c2e0f1a53be",
+          "id": 68,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:31:42.255Z",
+          "state": "in_progress",
+          "totalBytes": 321172,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/b2edf6a4-4f26-4b88-9d2d-7c2e0f1a53be"
+        }
+      },
+      "timeStamp": 1504636302258
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-09-05T18-31-42.248Z.json",
+            "previous": ""
+          },
+          "id": 68
+        }
+      },
+      "timeStamp": 1504636302261
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-09-05T18:31:42.269Z"
+          },
+          "id": 68,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1504636302269
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636304672,
+      "url": "https://bookeel.com/promotions/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5921",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://bookeel.com/promotions/",
+      "id": 6242,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636304672,
+      "end": 1504636304672,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5921",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "server",
+          "value": "nginx"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:31:46 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "vary",
+          "value": "Cookie"
+        },
+        {
+          "name": "link",
+          "value": "<https://bookeel.com/wp-json/>; rel=\"https://api.w.org/\""
+        },
+        {
+          "name": "link",
+          "value": "<https://bookeel.com/?p=98>; rel=shortlink"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 05 Sep 2017 18:31:46 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=300, must-revalidate"
+        },
+        {
+          "name": "x-nananana",
+          "value": "Batcache"
+        },
+        {
+          "name": "p-lb",
+          "value": "lb2.q2.sat"
+        },
+        {
+          "name": "p-ws",
+          "value": "web1.q1.sat"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://bookeel.com/promotions/",
+      "id": 6242,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306271,
+      "end": 1504636306272,
+      "fromCache": false,
+      "ip": "209.15.20.232"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "https://bookeel.com/promotions/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "https://bookeel.com/promotions/",
+          "url": "https://bookeel.com/promotions/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636306273
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636306273
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 75,
+      "tabId": 2,
+      "timeStamp": 1504636306274,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "https://bookeel.com/promotions/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "114",
+          "lastVisitTime": 1504636306272.63,
+          "title": "",
+          "typedCount": 1,
+          "url": "https://bookeel.com/promotions/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1504636306277
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5922",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600",
+      "id": 6243,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306278,
+      "end": 1504636306279,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookeel.com/promotions/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5923",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css",
+      "id": 6244,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306279,
+      "end": 1504636306279,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookeel.com/promotions/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5924",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css",
+      "id": 6245,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306279,
+      "end": 1504636306279,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookeel.com/promotions/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5925",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://ffo9yl9wfita8j4e-zippykid.netdna-ssl.com/bookeeltokommanul/wp-content/themes/point/ad-page.css",
+      "id": 6246,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306279,
+      "end": 1504636306279,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookeel.com/promotions/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Promote Your Book"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Promote Your Book",
+          "url": "https://bookeel.com/promotions/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636306279
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5924",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:31:46 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 03 Oct 2016 13:17:07 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 26 Aug 2018 18:31:46 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=30672000"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "399b44723cfb3572-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css",
+      "id": 6245,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306283,
+      "end": 1504636306284,
+      "fromCache": false,
+      "ip": "104.19.194.102"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5923",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:31:46 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 22 Jan 2015 19:53:38 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"04425bbdc6243fc6e54bf8984fe50330\""
+        },
+        {
+          "name": "server",
+          "value": "NetDNA-cache/2.2"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 31 Aug 2018 18:31:46 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31104000"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "x-hello-human",
+          "value": "Say hello back! @getBootstrapCDN on Twitter"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css",
+      "id": 6244,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306288,
+      "end": 1504636306288,
+      "fromCache": false,
+      "ip": "198.232.125.123"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5922",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 05 Sep 2017 18:31:46 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:31:46 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 05 Sep 2017 18:31:46 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600",
+      "id": 6243,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306291,
+      "end": 1504636306292,
+      "fromCache": false,
+      "ip": "216.58.201.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5925",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:31:46 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 10 Jan 2017 15:54:42 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"587503c2-13dc\""
+        },
+        {
+          "name": "p-lb",
+          "value": "lb2.q2.sat"
+        },
+        {
+          "name": "p-ws",
+          "value": "web1.q1.sat"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "NetDNA-cache/2.2"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 05 Oct 2017 18:31:46 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=2592000"
+        },
+        {
+          "name": "x-cache",
+          "value": "MISS"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://ffo9yl9wfita8j4e-zippykid.netdna-ssl.com/bookeeltokommanul/wp-content/themes/point/ad-page.css",
+      "id": 6246,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306894,
+      "end": 1504636306894,
+      "fromCache": false,
+      "ip": "94.31.29.3"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5926",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 6247,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306896,
+      "end": 1504636306896,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookeel.com/promotions/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5926",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:14:25 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 05 Sep 2017 20:14:25 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "13472"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "age",
+          "value": "298"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 6247,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306896,
+      "end": 1504636306897,
+      "fromCache": true,
+      "ip": "216.58.201.46"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5927",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 6248,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306902,
+      "end": 1504636306902,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://bookeel.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5927",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "14488"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 30 Aug 2017 22:20:11 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 30 Aug 2018 22:20:11 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 14 Jun 2017 16:45:42 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "504037"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 6248,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306902,
+      "end": 1504636306904,
+      "fromCache": true,
+      "ip": "216.58.201.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5928",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 6249,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306907,
+      "end": 1504636306907,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://bookeel.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5928",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "13964"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 04 Sep 2017 15:17:13 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 04 Sep 2018 15:17:13 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 14 Jun 2017 16:46:31 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "97364"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 6249,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306908,
+      "end": 1504636306908,
+      "fromCache": true,
+      "ip": "216.58.201.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5929",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 6250,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306913,
+      "end": 1504636306913,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://bookeel.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,600"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5930",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0",
+      "id": 6251,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306913,
+      "end": 1504636306913,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "https://bookeel.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 75,
+      "tabId": 2,
+      "timeStamp": 1504636306914,
+      "url": "https://bookeel.com/promotions/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5929",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "14468"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 04 Sep 2017 11:25:27 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 04 Sep 2018 11:25:27 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 14 Jun 2017 16:46:36 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "111270"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 6250,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306914,
+      "end": 1504636306916,
+      "fromCache": true,
+      "ip": "216.58.201.35"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5930",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:31:46 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/font-woff2"
+        },
+        {
+          "name": "content-length",
+          "value": "56780"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 27 Feb 2015 19:45:39 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"97493d3f11c0a3bd5cbd959f5d19b699\""
+        },
+        {
+          "name": "server",
+          "value": "NetDNA-cache/2.2"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 31 Aug 2018 18:31:46 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=31104000"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "x-hello-human",
+          "value": "Say hello back! @getBootstrapCDN on Twitter"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/fonts/fontawesome-webfont.woff2?v=4.3.0",
+      "id": 6251,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636306923,
+      "end": 1504636306924,
+      "fromCache": false,
+      "ip": "198.232.125.123"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookeel.com",
+        "expirationDate": 1567708307,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.1227147768.1504636307"
+      },
+      "removed": false,
+      "timeStamp": 1504636307058
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_ga",
+      "type": "cookie",
+      "value": "GA1.2.1227147768.1504636307",
+      "timeStamp": 1504636307058
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookeel.com",
+        "expirationDate": 1504722707,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.477734495.1504636307"
+      },
+      "removed": false,
+      "timeStamp": 1504636307059
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gid",
+      "type": "cookie",
+      "value": "GA1.2.477734495.1504636307",
+      "timeStamp": 1504636307059
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookeel.com",
+        "expirationDate": 1504636367,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gat",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1504636307066
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gat",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1504636307066
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5931",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=1704044841&t=pageview&_s=1&dl=https%3A%2F%2Fbookeel.com%2Fpromotions%2F&ul=en-gb&de=UTF-8&dt=Promote%20Your%20Book&sd=24-bit&sr=1920x1080&vp=935x823&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1265123612&gjid=896307869&cid=1227147768.1504636307&tid=UA-85514135-1&_gid=477734495.1504636307&_r=1&z=928756678",
+      "id": 6252,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636307067,
+      "end": 1504636307068,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookeel.com/promotions/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://bookeel.com/promotions/",
+      "timeStamp": 1504636307070,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookeel.com/promotions/",
+      "contextId": 567,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636307070,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookeel.com/promotions/",
+      "contextId": 567,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Promote Your Book",
+      "timeStamp": 1504636307071,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://bookeel.com/promotions/",
+      "contextId": 567,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5931",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:31:47 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=1704044841&t=pageview&_s=1&dl=https%3A%2F%2Fbookeel.com%2Fpromotions%2F&ul=en-gb&de=UTF-8&dt=Promote%20Your%20Book&sd=24-bit&sr=1920x1080&vp=935x823&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1265123612&gjid=896307869&cid=1227147768.1504636307&tid=UA-85514135-1&_gid=477734495.1504636307&_r=1&z=928756678",
+      "id": 6252,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636307077,
+      "end": 1504636307077,
+      "fromCache": false,
+      "ip": "216.58.201.46"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 75,
+      "tabId": 2,
+      "timeStamp": 1504636307078,
+      "url": "https://bookeel.com/promotions/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Promote Your Book",
+          "url": "https://bookeel.com/promotions/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636307078
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5932",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://ffo9yl9wfita8j4e-zippykid.netdna-ssl.com/wp-content/uploads/2016/12/cropped-favicon-ny-32x32.png",
+      "id": 6253,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636307079,
+      "end": 1504636307079,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookeel.com/promotions/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5932",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:31:47 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "content-length",
+          "value": "838"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 16 Dec 2016 10:00:14 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"5853bb2e-346\""
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "access-control-allow-methods",
+          "value": "GET, HEAD"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "p-lb",
+          "value": "lb2.q2.sat"
+        },
+        {
+          "name": "p-ws",
+          "value": "web1.q1.sat"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "NetDNA-cache/2.2"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 05 Oct 2017 18:31:47 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=2592000"
+        },
+        {
+          "name": "x-cache",
+          "value": "MISS"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://ffo9yl9wfita8j4e-zippykid.netdna-ssl.com/wp-content/uploads/2016/12/cropped-favicon-ny-32x32.png",
+      "id": 6253,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636307588,
+      "end": 1504636307588,
+      "fromCache": false,
+      "ip": "94.31.29.3"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5933",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://ffo9yl9wfita8j4e-zippykid.netdna-ssl.com/wp-content/uploads/2016/12/cropped-favicon-ny-192x192.png",
+      "id": 6254,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636307589,
+      "end": 1504636307589,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookeel.com/promotions/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5933",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:31:48 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "content-length",
+          "value": "7263"
+        },
+        {
+          "name": "last-modified",
+          "value": "Fri, 16 Dec 2016 10:00:14 GMT"
+        },
+        {
+          "name": "etag",
+          "value": "\"5853bb2e-1c5f\""
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "access-control-allow-methods",
+          "value": "GET, HEAD"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "p-lb",
+          "value": "lb2.q2.sat"
+        },
+        {
+          "name": "p-ws",
+          "value": "web1.q1.sat"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "NetDNA-cache/2.2"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 05 Oct 2017 18:31:48 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=2592000"
+        },
+        {
+          "name": "x-cache",
+          "value": "MISS"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://ffo9yl9wfita8j4e-zippykid.netdna-ssl.com/wp-content/uploads/2016/12/cropped-favicon-ny-192x192.png",
+      "id": 6254,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636308084,
+      "end": 1504636308084,
+      "fromCache": false,
+      "ip": "94.31.29.3"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5934",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://ffo9yl9wfita8j4e-zippykid.netdna-ssl.com/wp-content/uploads/2016/12/favicon-ny.png",
+      "id": 6255,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636308086,
+      "end": 1504636308086,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://bookeel.com/promotions/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5934",
+      "tabId": 2,
+      "timeStamp": 1504636308102,
+      "type": "image",
+      "url": "https://ffo9yl9wfita8j4e-zippykid.netdna-ssl.com/wp-content/uploads/2016/12/favicon-ny.png",
+      "id": 6255,
+      "contextId": 567,
+      "parentContextId": -1,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5935",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 6256,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636308103,
+      "end": 1504636308103
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5935",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 6256,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636308103,
+      "end": 1504636308109
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636308109
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636308109
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1504636308109,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1504636308104.7822,
+          "title": "Save",
+          "typedCount": 69,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 69
+        }
+      },
+      "timeStamp": 1504636308110
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5936",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 6257,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636308110,
+      "end": 1504636308111
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5936",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 6257,
+      "contextId": 568,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636308111,
+      "end": 1504636308112
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636308115
+    }
+  }
+]

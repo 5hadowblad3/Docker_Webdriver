@@ -1,0 +1,1330 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636212847
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 795581,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/6aebb25b-2def-47e7-a95b-00179e35bb32",
+          "id": 59,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:30:12.851Z",
+          "state": "in_progress",
+          "totalBytes": 795581,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/6aebb25b-2def-47e7-a95b-00179e35bb32"
+        }
+      },
+      "timeStamp": 1504636212851
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 795581,
+          "filename": "ECAP_G_2017-09-05T18-30-12.839Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/6aebb25b-2def-47e7-a95b-00179e35bb32",
+          "id": 59,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:30:12.851Z",
+          "state": "in_progress",
+          "totalBytes": 795581,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/6aebb25b-2def-47e7-a95b-00179e35bb32"
+        }
+      },
+      "timeStamp": 1504636212857
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-09-05T18-30-12.839Z.json",
+            "previous": ""
+          },
+          "id": 59
+        }
+      },
+      "timeStamp": 1504636212868
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-09-05T18:30:12.870Z"
+          },
+          "id": 59,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1504636212870
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636216153,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5321",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "id": 5594,
+      "contextId": 499,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636216153,
+      "end": 1504636216154,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.authorsden.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "ASPSESSIONIDASTRCBRR",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "BFCGILOCOAALBOFPGLGPODPH"
+      },
+      "removed": false,
+      "timeStamp": 1504636216939,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 499
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "ASPSESSIONIDASTRCBRR",
+      "type": "cookie",
+      "value": "BFCGILOCOAALBOFPGLGPODPH",
+      "timeStamp": 1504636216939,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 499
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.authorsden.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "ASPSESSIONIDASTRCBRR",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "BFCGILOCOAALBOFPGLGPODPH"
+      },
+      "removed": false,
+      "timeStamp": 1504636216941
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "ASPSESSIONIDASTRCBRR",
+      "type": "cookie",
+      "value": "BFCGILOCOAALBOFPGLGPODPH",
+      "timeStamp": 1504636216941
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5321",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/5.0"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 17:25:03 GMT"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Content-Length",
+          "value": "8514"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 00:45:04 GMT"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "ASPSESSIONIDASTRCBRR=BFCGILOCOAALBOFPGLGPODPH; path=/"
+        },
+        {
+          "name": "Cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "id": 5594,
+      "contextId": 499,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636216939,
+      "end": 1504636217071,
+      "fromCache": false,
+      "ip": "66.220.11.194"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "https://www.authorsden.com/join/Default.asp"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "https://www.authorsden.com/join/Default.asp",
+          "url": "https://www.authorsden.com/join/Default.asp",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636217073
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636217073
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 66,
+      "tabId": 2,
+      "timeStamp": 1504636217074,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5322",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.authorsden.com/contact/images/logo.jpg",
+      "id": 5595,
+      "contextId": 499,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636217076,
+      "end": 1504636217076,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.authorsden.com/join/Default.asp"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "ASPSESSIONIDASTRCBRR=BFCGILOCOAALBOFPGLGPODPH"
+        }
+      ]
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "100",
+          "lastVisitTime": 1504636217072.5989,
+          "title": "",
+          "typedCount": 1,
+          "url": "https://www.authorsden.com/join/Default.asp",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1504636217076
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5323",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.authorsden.com/includes/global_functions.js",
+      "id": 5596,
+      "contextId": 499,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636217080,
+      "end": 1504636217081,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.authorsden.com/join/Default.asp"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "ASPSESSIONIDASTRCBRR=BFCGILOCOAALBOFPGLGPODPH"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5324",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.authorsden.com/includes/aspcaptcha.asp",
+      "id": 5597,
+      "contextId": 499,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636217081,
+      "end": 1504636217081,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.authorsden.com/join/Default.asp"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "ASPSESSIONIDASTRCBRR=BFCGILOCOAALBOFPGLGPODPH"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Join AuthorsDen"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Join AuthorsDen",
+          "url": "https://www.authorsden.com/join/Default.asp",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636217081
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5323",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/5.0"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 17:25:03 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 14 Dec 2002 01:01:58 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"845eed66ca3c21:d77\""
+        },
+        {
+          "name": "Content-Length",
+          "value": "1959"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.authorsden.com/includes/global_functions.js",
+      "id": 5596,
+      "contextId": 499,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636217209,
+      "end": 1504636217210,
+      "fromCache": false,
+      "ip": "66.220.11.194"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 66,
+      "tabId": 2,
+      "timeStamp": 1504636217252,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "https://www.authorsden.com/join/Default.asp",
+      "timeStamp": 1504636217276,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636217277,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Join AuthorsDen",
+      "timeStamp": 1504636217277,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "FirstName",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1504636217277,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "MiddleName",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1504636217277,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "LastName",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1504636217277,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "Password",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1504636217277,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "Email",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1504636217277,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "FirstName",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1504636217277,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "MiddleName",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1504636217277,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "LastName",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1504636217277,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "email",
+      "type": "input:email",
+      "value": "",
+      "timeStamp": 1504636217277,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "password",
+      "type": "input:password",
+      "value": "",
+      "timeStamp": 1504636217278,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "strCAPTCHA",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1504636217278,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "Submit",
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1504636217278,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "contextId": 499,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5322",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/5.0"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 17:25:03 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 11 Mar 2003 22:30:08 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"387450c51de8c21:d77\""
+        },
+        {
+          "name": "Content-Length",
+          "value": "16913"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.authorsden.com/contact/images/logo.jpg",
+      "id": 5595,
+      "contextId": 499,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636217207,
+      "end": 1504636217339,
+      "fromCache": false,
+      "ip": "66.220.11.194"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5324",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/5.0"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 17:25:04 GMT"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/bmp"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 17:24:04 GMT"
+        },
+        {
+          "name": "Cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.authorsden.com/includes/aspcaptcha.asp",
+      "id": 5597,
+      "contextId": 499,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636217458,
+      "end": 1504636217460,
+      "fromCache": false,
+      "ip": "66.220.11.194"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 66,
+      "tabId": 2,
+      "timeStamp": 1504636217461,
+      "url": "https://www.authorsden.com/join/Default.asp",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Join AuthorsDen",
+          "url": "https://www.authorsden.com/join/Default.asp",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636217462
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5325",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.authorsden.com/favicon.ico",
+      "id": 5598,
+      "contextId": 499,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636217462,
+      "end": 1504636217463,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "https://www.authorsden.com/join/Default.asp"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "ASPSESSIONIDASTRCBRR=BFCGILOCOAALBOFPGLGPODPH"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5325",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "Microsoft-IIS/5.0"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "ASP.NET"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 17:25:04 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/x-icon"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 15 Apr 2004 16:19:07 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"ac3bb060523c41:d77\""
+        },
+        {
+          "name": "Content-Length",
+          "value": "1758"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.authorsden.com/favicon.ico",
+      "id": 5598,
+      "contextId": 499,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636217593,
+      "end": 1504636217594,
+      "fromCache": false,
+      "ip": "66.220.11.194"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "https://www.authorsden.com/favicon.ico"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "https://www.authorsden.com/favicon.ico",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Join AuthorsDen",
+          "url": "https://www.authorsden.com/join/Default.asp",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636217594
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5326",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 5599,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636218486,
+      "end": 1504636218486
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5326",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 5599,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636218486,
+      "end": 1504636218491
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636218495
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636218495
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1504636218495,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5327",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 5600,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636218495,
+      "end": 1504636218495
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "5327",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 5600,
+      "contextId": 500,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636218495,
+      "end": 1504636218496
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1504636218492.441,
+          "title": "Save",
+          "typedCount": 60,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 60
+        }
+      },
+      "timeStamp": 1504636218500
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636218500
+    }
+  }
+]

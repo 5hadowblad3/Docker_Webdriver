@@ -1,0 +1,5128 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636481639
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 265751,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/7d892ef2-0d80-468b-aadc-ececd8e367da",
+          "id": 80,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:34:41.642Z",
+          "state": "in_progress",
+          "totalBytes": 265751,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/7d892ef2-0d80-468b-aadc-ececd8e367da"
+        }
+      },
+      "timeStamp": 1504636481644
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 265751,
+          "filename": "ECAP_G_2017-09-05T18-34-41.622Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/7d892ef2-0d80-468b-aadc-ececd8e367da",
+          "id": 80,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:34:41.642Z",
+          "state": "in_progress",
+          "totalBytes": 265751,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/7d892ef2-0d80-468b-aadc-ececd8e367da"
+        }
+      },
+      "timeStamp": 1504636481650
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-09-05T18-34-41.622Z.json",
+            "previous": ""
+          },
+          "id": 80
+        }
+      },
+      "timeStamp": 1504636481657
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-09-05T18:34:41.658Z"
+          },
+          "id": 80,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1504636481658
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636484119,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6626",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.bookdaily.com/authorsignup",
+      "id": 7027,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484120,
+      "end": 1504636484120,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.bookdaily.com",
+        "expirationDate": 1512412484,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "sid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "1293007246-693587"
+      },
+      "removed": false,
+      "timeStamp": 1504636484294,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 626
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "sid",
+      "type": "cookie",
+      "value": "1293007246-693587",
+      "timeStamp": 1504636484294,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 626
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.bookdaily.com",
+        "expirationDate": 1512412484.294702,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "sid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1293007246-693587"
+      },
+      "removed": false,
+      "timeStamp": 1504636484295
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "sid",
+      "type": "cookie",
+      "value": "1293007246-693587",
+      "timeStamp": 1504636484295
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6626",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "X-AMXFCGI",
+          "value": "10389"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "sid=1293007246-693587; path=/; expires=Mon, 04 Dec 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.bookdaily.com/authorsignup",
+      "id": 7027,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484294,
+      "end": 1504636484296,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://www.bookdaily.com/authorsignup"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "www.bookdaily.com/authorsignup",
+          "url": "http://www.bookdaily.com/authorsignup",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636484298
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636484298
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 87,
+      "tabId": 2,
+      "timeStamp": 1504636484299,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://www.bookdaily.com/authorsignup",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6627",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.bookdaily.com/booksite/css/base.css",
+      "id": 7028,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484301,
+      "end": 1504636484301,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6628",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js",
+      "id": 7029,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484301,
+      "end": 1504636484301,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6629",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://code.jquery.com/ui/1.11.4/jquery-ui.js",
+      "id": 7030,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484301,
+      "end": 1504636484301,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6630",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.bookdaily.com/booksite/js/jquery.cookie.js",
+      "id": 7031,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484302,
+      "end": 1504636484302,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6631",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.bookdaily.com/booksite/js/jquery.plugins.js",
+      "id": 7032,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484302,
+      "end": 1504636484302,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6632",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.bookdaily.com/booksite/js/bootstrap.min.js",
+      "id": 7033,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484302,
+      "end": 1504636484302,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6633",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.bookdaily.com/booksite/js/base.js",
+      "id": 7034,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484302,
+      "end": 1504636484303,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6634",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.bookdaily.com/booksite/js/authreg.js",
+      "id": 7035,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484303,
+      "end": 1504636484303,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "126",
+          "lastVisitTime": 1504636484296.726,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://www.bookdaily.com/authorsignup",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1504636484303
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "BookDaily.com - Generate Immediate Exposure for Your Book with a Free BookDaily Author Account"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "BookDaily.com - Generate Immediate Exposure for Your Book with a Free BookDaily Author Account",
+          "url": "http://www.bookdaily.com/authorsignup",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636484305
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6628",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "33507"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 04 Sep 2017 11:24:26 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 04 Sep 2018 11:24:26 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 20 Dec 2016 18:17:03 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000, stale-while-revalidate=2592000"
+        },
+        {
+          "name": "Age",
+          "value": "112218"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js",
+      "id": 7029,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484306,
+      "end": 1504636484307,
+      "fromCache": false,
+      "ip": "216.58.212.106"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6629",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript; charset=utf-8"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 11 Mar 2015 13:03:17 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"55003d15-72e44\""
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=315360000"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Server",
+          "value": "NetDNA-cache/2.2"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://code.jquery.com/ui/1.11.4/jquery-ui.js",
+      "id": 7030,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484309,
+      "end": 1504636484316,
+      "fromCache": false,
+      "ip": "94.31.29.54"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6630",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 27 May 2015 18:05:52 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"2a2-5171417f0e000-gzip\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "401"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.bookdaily.com/booksite/js/jquery.cookie.js",
+      "id": 7031,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484385,
+      "end": 1504636484385,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6634",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 13 Jul 2015 20:18:02 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"8f8-51ac76b25b280-gzip\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "693"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.bookdaily.com/booksite/js/authreg.js",
+      "id": 7035,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484467,
+      "end": 1504636484467,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6633",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 28 Aug 2017 17:10:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"21e4-557d35ef94724-gzip\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2731"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.bookdaily.com/booksite/js/base.js",
+      "id": 7034,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484467,
+      "end": 1504636484468,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6631",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 13 Jul 2015 20:18:02 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"4484-51ac76b25b280-gzip\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5812"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.bookdaily.com/booksite/js/jquery.plugins.js",
+      "id": 7032,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484468,
+      "end": 1504636484468,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6632",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 25 Sep 2015 11:46:33 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"8fd0-52090e6327840-gzip\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "9745"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=100"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.bookdaily.com/booksite/js/bootstrap.min.js",
+      "id": 7033,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484469,
+      "end": 1504636484470,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6638",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://edge.quantserve.com/quant.js",
+      "id": 7036,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484470,
+      "end": 1504636484470,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "mc=59aeeabe-03807-99ea2-5fe37; d=EAYBDwHhGIEOmvUA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6638",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 25 May 2017 20:26:55 GMT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5458"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, max-age=86400"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 06 Sep 2017 18:21:10 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:21:10 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://edge.quantserve.com/quant.js",
+      "id": 7036,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484470,
+      "end": 1504636484471,
+      "fromCache": true,
+      "ip": "23.55.59.177"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6635",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/authorsignup_btn.png",
+      "id": 7037,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484471,
+      "end": 1504636484471,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6635",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 27 May 2015 18:05:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"c63-5171417d25b80\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3171"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/authorsignup_btn.png",
+      "id": 7037,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484553,
+      "end": 1504636484554,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6636",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/landing/lndpgv1/lndpgv1-book.jpg",
+      "id": 7038,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484554,
+      "end": 1504636484554,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6627",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 10 Jan 2017 15:59:52 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"42f14-545bf9311ff24-gzip\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "45517"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.bookdaily.com/booksite/css/base.css",
+      "id": 7028,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484398,
+      "end": 1504636484559,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6637",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/bd_pf_logo.png",
+      "id": 7039,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484628,
+      "end": 1504636484628,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6640",
+      "tabId": 2,
+      "type": "media",
+      "url": "http://www.bookdaily.com/booksite/media/Expadv.mp4",
+      "id": 7041,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484632,
+      "end": 1504636484632,
+      "requestHeaders": [
+        {
+          "name": "Accept-Encoding",
+          "value": "identity;q=1, *;q=0"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Range",
+          "value": "bytes=0-"
+        },
+        {
+          "name": "chrome-proxy",
+          "value": "frfr"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6641",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/site_bg.png",
+      "id": 7042,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484632,
+      "end": 1504636484633,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/booksite/css/base.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6642",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/site_logo.png",
+      "id": 7043,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484633,
+      "end": 1504636484633,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/booksite/css/base.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6643",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/hd_home_icon.gif",
+      "id": 7044,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484633,
+      "end": 1504636484634,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/booksite/css/base.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6636",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 27 May 2015 18:05:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"1607-5171417d25b80\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5639"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/landing/lndpgv1/lndpgv1-book.jpg",
+      "id": 7038,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484635,
+      "end": 1504636484636,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6644",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/searchfilter-dropbg.png",
+      "id": 7045,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484636,
+      "end": 1504636484636,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/booksite/css/base.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6646",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://www.bookdaily.com/booksite/css/fonts/Gudea/Gudea-Bold-webfont.woff",
+      "id": 7046,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484637,
+      "end": 1504636484637,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.bookdaily.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/booksite/css/base.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6645",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/hd_search_btn.png",
+      "id": 7047,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484660,
+      "end": 1504636484660,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/booksite/css/base.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/ga.js",
+      "requestId": "6639",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/ga.js"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google-analytics.com/ga.js",
+      "id": 7040,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1504636484661
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6639",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/ga.js",
+      "id": 7048,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484661,
+      "end": 1504636484661,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6639",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 17:37:01 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 05 Sep 2017 19:37:01 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "16022"
+        },
+        {
+          "name": "age",
+          "value": "2583"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/ga.js",
+      "id": 7048,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484662,
+      "end": 1504636484662,
+      "fromCache": true,
+      "ip": "216.58.201.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6637",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 27 May 2015 18:05:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"cd4-5171417d25b80\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3284"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/bd_pf_logo.png",
+      "id": 7039,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484709,
+      "end": 1504636484709,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6641",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 27 May 2015 18:05:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"103-5171417d25b80\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "259"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/site_bg.png",
+      "id": 7042,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484715,
+      "end": 1504636484715,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6643",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 27 May 2015 18:05:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"d9-5171417d25b80\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "217"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/hd_home_icon.gif",
+      "id": 7044,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484715,
+      "end": 1504636484715,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6642",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 27 May 2015 18:05:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"36de-5171417d25b80\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "14046"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=99"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/site_logo.png",
+      "id": 7043,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484714,
+      "end": 1504636484716,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6644",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 27 May 2015 18:05:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"12d-5171417d25b80\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "301"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/searchfilter-dropbg.png",
+      "id": 7045,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484717,
+      "end": 1504636484717,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6647",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://rules.quantcount.com/rules-p-eb7iraQgaGfgg.js",
+      "id": 7049,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484746,
+      "end": 1504636484747,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6648",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://www.bookdaily.com/booksite/css/fonts/Gudea/Gudea-Regular-webfont.woff",
+      "id": 7050,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484747,
+      "end": 1504636484747,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.bookdaily.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/booksite/css/base.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6649",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/blog_statsicons.png",
+      "id": 7051,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484747,
+      "end": 1504636484747,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/booksite/css/base.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6650",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://www.bookdaily.com/booksite/fonts/fontawesome-webfont.woff2?v=4.4.0",
+      "id": 7052,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484747,
+      "end": 1504636484747,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.bookdaily.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/booksite/css/base.css"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6646",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 27 May 2015 18:05:52 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"3500-5171417f0e000\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "13568"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/font-woff"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://www.bookdaily.com/booksite/css/fonts/Gudea/Gudea-Bold-webfont.woff",
+      "id": 7046,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484790,
+      "end": 1504636484791,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6645",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 27 May 2015 18:05:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"7df-5171417d25b80\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2015"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/hd_search_btn.png",
+      "id": 7047,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484796,
+      "end": 1504636484798,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 87,
+      "tabId": 2,
+      "timeStamp": 1504636484800,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1567708484,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.1508606562.1504636485.1504636485.1504636485.1"
+      },
+      "removed": false,
+      "timeStamp": 1504636484827
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "115591701.1508606562.1504636485.1504636485.1504636485.1",
+      "timeStamp": 1504636484827
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1504638284,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.0.10.1504636485"
+      },
+      "removed": false,
+      "timeStamp": 1504636484827
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "115591701.0.10.1504636485",
+      "timeStamp": 1504636484827
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "115591701"
+      },
+      "removed": false,
+      "timeStamp": 1504636484827
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "115591701",
+      "timeStamp": 1504636484827
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1520404484,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.1504636485.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": false,
+      "timeStamp": 1504636484827
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "115591701.1504636485.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1504636484827
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1504637084,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmt",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1504636484829
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmt",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1504636484829
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6649",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 27 May 2015 18:05:50 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"8b7-5171417d25b80\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2231"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/booksite/images/shared/blog_statsicons.png",
+      "id": 7051,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484831,
+      "end": 1504636484831,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6648",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 27 May 2015 18:05:52 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"3448-5171417f0e000\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "13384"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=96"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/font-woff"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://www.bookdaily.com/booksite/css/fonts/Gudea/Gudea-Regular-webfont.woff",
+      "id": 7050,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484829,
+      "end": 1504636484831,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1567708484,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.1508606562.1504636485.1504636485.1504636485.1"
+      },
+      "removed": true,
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "115591701.1508606562.1504636485.1504636485.1504636485.1",
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1567708484,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.1508606562.1504636485.1504636485.1504636485.1"
+      },
+      "removed": false,
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "115591701.1508606562.1504636485.1504636485.1504636485.1",
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1504638284,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.0.10.1504636485"
+      },
+      "removed": true,
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "115591701.0.10.1504636485",
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1504638284,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.1.10.1504636485"
+      },
+      "removed": false,
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "115591701.1.10.1504636485",
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "115591701"
+      },
+      "removed": true,
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "115591701",
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "115591701"
+      },
+      "removed": false,
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "115591701",
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1520404484,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.1504636485.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": true,
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "115591701.1504636485.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1520404484,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.1504636485.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": false,
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "115591701.1504636485.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1504636484831
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1567708484,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.1508606562.1504636485.1504636485.1504636485.1"
+      },
+      "removed": true,
+      "timeStamp": 1504636484832
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "115591701.1508606562.1504636485.1504636485.1504636485.1",
+      "timeStamp": 1504636484832
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1567708484,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.1508606562.1504636485.1504636485.1504636485.1"
+      },
+      "removed": false,
+      "timeStamp": 1504636484832
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "115591701.1508606562.1504636485.1504636485.1504636485.1",
+      "timeStamp": 1504636484832
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1504638284,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.1.10.1504636485"
+      },
+      "removed": true,
+      "timeStamp": 1504636484832
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "115591701.1.10.1504636485",
+      "timeStamp": 1504636484832
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1504638284,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.2.10.1504636485"
+      },
+      "removed": false,
+      "timeStamp": 1504636484832
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "115591701.2.10.1504636485",
+      "timeStamp": 1504636484832
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "115591701"
+      },
+      "removed": true,
+      "timeStamp": 1504636484832
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "115591701",
+      "timeStamp": 1504636484832
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "115591701"
+      },
+      "removed": false,
+      "timeStamp": 1504636484832
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "115591701",
+      "timeStamp": 1504636484832
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1520404484,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.1504636485.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": true,
+      "timeStamp": 1504636484833
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "115591701.1504636485.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1504636484833
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1520404484,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "115591701.1504636485.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": false,
+      "timeStamp": 1504636484833
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "115591701.1504636485.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1504636484833
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1454257947&utmhn=www.bookdaily.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookDaily.com%20-%20Generate%20Immediate%20Exposure%20for%20Your%20Book%20with%20a%20Free%20BookDaily%20Author%20Account&utmhid=981699900&utmr=-&utmp=%2Fauthorsignup&utmht=1504636484829&utmac=UA-84442-3&utmcc=__utma%3D115591701.1508606562.1504636485.1504636485.1504636485.1%3B%2B__utmz%3D115591701.1504636485.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=531760752&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~",
+      "requestId": "6651",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1454257947&utmhn=www.bookdaily.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookDaily.com%20-%20Generate%20Immediate%20Exposure%20for%20Your%20Book%20with%20a%20Free%20BookDaily%20Author%20Account&utmhid=981699900&utmr=-&utmp=%2Fauthorsignup&utmht=1504636484829&utmac=UA-84442-3&utmcc=__utma%3D115591701.1508606562.1504636485.1504636485.1504636485.1%3B%2B__utmz%3D115591701.1504636485.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=531760752&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1454257947&utmhn=www.bookdaily.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookDaily.com%20-%20Generate%20Immediate%20Exposure%20for%20Your%20Book%20with%20a%20Free%20BookDaily%20Author%20Account&utmhid=981699900&utmr=-&utmp=%2Fauthorsignup&utmht=1504636484829&utmac=UA-84442-3&utmcc=__utma%3D115591701.1508606562.1504636485.1504636485.1504636485.1%3B%2B__utmz%3D115591701.1504636485.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=531760752&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~",
+      "id": 7053,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1504636484839
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6651",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1454257947&utmhn=www.bookdaily.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookDaily.com%20-%20Generate%20Immediate%20Exposure%20for%20Your%20Book%20with%20a%20Free%20BookDaily%20Author%20Account&utmhid=981699900&utmr=-&utmp=%2Fauthorsignup&utmht=1504636484829&utmac=UA-84442-3&utmcc=__utma%3D115591701.1508606562.1504636485.1504636485.1504636485.1%3B%2B__utmz%3D115591701.1504636485.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=531760752&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~",
+      "id": 7055,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484839,
+      "end": 1504636484839,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/__utm.gif?utmwv=5.6.7&utms=2&utmn=839395885&utmhn=www.bookdaily.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookDaily.com%20-%20Generate%20Immediate%20Exposure%20for%20Your%20Book%20with%20a%20Free%20BookDaily%20Author%20Account&utmhid=981699900&utmr=-&utmp=%2FFN1%2Fauthorsignup&utmht=1504636484831&utmac=UA-84442-3&utmcc=__utma%3D115591701.1508606562.1504636485.1504636485.1504636485.1%3B%2B__utmz%3D115591701.1504636485.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qACAAAAAAAAAAAAAAAAAAAAE~",
+      "requestId": "6652",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/__utm.gif?utmwv=5.6.7&utms=2&utmn=839395885&utmhn=www.bookdaily.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookDaily.com%20-%20Generate%20Immediate%20Exposure%20for%20Your%20Book%20with%20a%20Free%20BookDaily%20Author%20Account&utmhid=981699900&utmr=-&utmp=%2FFN1%2Fauthorsignup&utmht=1504636484831&utmac=UA-84442-3&utmcc=__utma%3D115591701.1508606562.1504636485.1504636485.1504636485.1%3B%2B__utmz%3D115591701.1504636485.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qACAAAAAAAAAAAAAAAAAAAAE~"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.google-analytics.com/__utm.gif?utmwv=5.6.7&utms=2&utmn=839395885&utmhn=www.bookdaily.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookDaily.com%20-%20Generate%20Immediate%20Exposure%20for%20Your%20Book%20with%20a%20Free%20BookDaily%20Author%20Account&utmhid=981699900&utmr=-&utmp=%2FFN1%2Fauthorsignup&utmht=1504636484831&utmac=UA-84442-3&utmcc=__utma%3D115591701.1508606562.1504636485.1504636485.1504636485.1%3B%2B__utmz%3D115591701.1504636485.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qACAAAAAAAAAAAAAAAAAAAAE~",
+      "id": 7054,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1504636484839
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6652",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/__utm.gif?utmwv=5.6.7&utms=2&utmn=839395885&utmhn=www.bookdaily.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookDaily.com%20-%20Generate%20Immediate%20Exposure%20for%20Your%20Book%20with%20a%20Free%20BookDaily%20Author%20Account&utmhid=981699900&utmr=-&utmp=%2FFN1%2Fauthorsignup&utmht=1504636484831&utmac=UA-84442-3&utmcc=__utma%3D115591701.1508606562.1504636485.1504636485.1504636485.1%3B%2B__utmz%3D115591701.1504636485.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qACAAAAAAAAAAAAAAAAAAAAE~",
+      "id": 7056,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484839,
+      "end": 1504636484839,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6652",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 04 Sep 2017 09:51:30 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "age",
+          "value": "117794"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/__utm.gif?utmwv=5.6.7&utms=2&utmn=839395885&utmhn=www.bookdaily.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookDaily.com%20-%20Generate%20Immediate%20Exposure%20for%20Your%20Book%20with%20a%20Free%20BookDaily%20Author%20Account&utmhid=981699900&utmr=-&utmp=%2FFN1%2Fauthorsignup&utmht=1504636484831&utmac=UA-84442-3&utmcc=__utma%3D115591701.1508606562.1504636485.1504636485.1504636485.1%3B%2B__utmz%3D115591701.1504636485.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=&utmu=qACAAAAAAAAAAAAAAAAAAAAE~",
+      "id": 7056,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484843,
+      "end": 1504636484843,
+      "fromCache": false,
+      "ip": "216.58.201.46"
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://www.bookdaily.com/authorsignup",
+      "timeStamp": 1504636484842,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636484842,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "BookDaily.com - Generate Immediate Exposure for Your Book with a Free BookDaily Author Account",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "sq",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "sf",
+      "type": "input:radio",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "sf",
+      "type": "input:radio",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "sf",
+      "type": "input:radio",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "sf",
+      "type": "input:radio",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "sf",
+      "type": "input:radio",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "sort",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "c_accounttype",
+      "type": "input:radio",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "c_accounttype",
+      "type": "input:radio",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "c_email",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "c_password",
+      "type": "input:password",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "sc",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "submit",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:image",
+      "value": "",
+      "timeStamp": 1504636484843,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6651",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "302"
+        },
+        {
+          "name": "location",
+          "value": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-84442-3&cid=1508606562.1504636485&jid=531760752&_v=5.6.7&z=1454257947"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "367"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=1454257947&utmhn=www.bookdaily.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x823&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=BookDaily.com%20-%20Generate%20Immediate%20Exposure%20for%20Your%20Book%20with%20a%20Free%20BookDaily%20Author%20Account&utmhid=981699900&utmr=-&utmp=%2Fauthorsignup&utmht=1504636484829&utmac=UA-84442-3&utmcc=__utma%3D115591701.1508606562.1504636485.1504636485.1504636485.1%3B%2B__utmz%3D115591701.1504636485.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=531760752&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~",
+      "id": 7055,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484850,
+      "end": 1504636484859,
+      "fromCache": false,
+      "ip": "216.58.201.46",
+      "redirectUrl": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-84442-3&cid=1508606562.1504636485&jid=531760752&_v=5.6.7&z=1454257947"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6651",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-84442-3&cid=1508606562.1504636485&jid=531760752&_v=5.6.7&z=1454257947",
+      "id": 7057,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484859,
+      "end": 1504636484859,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "IDE=AHWqTUmV9z7mhY_FcmB_4ja9IyPC7GzR_Dk4mY33Mik6JMVcno4qD9D7GITMvCaw; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6651",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "302"
+        },
+        {
+          "name": "location",
+          "value": "https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-84442-3&cid=1508606562.1504636485&jid=531760752&_v=5.6.7&z=1454257947"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=10886400; includeSubDomains; preload"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "365"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"40,39,38,37,35\""
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-84442-3&cid=1508606562.1504636485&jid=531760752&_v=5.6.7&z=1454257947",
+      "id": 7057,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484869,
+      "end": 1504636484870,
+      "fromCache": false,
+      "ip": "74.125.206.157",
+      "redirectUrl": "https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-84442-3&cid=1508606562.1504636485&jid=531760752&_v=5.6.7&z=1454257947"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6651",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-84442-3&cid=1508606562.1504636485&jid=531760752&_v=5.6.7&z=1454257947",
+      "id": 7058,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484870,
+      "end": 1504636484870,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "NID=111=MSFGnIWSm8LyiAkHNeOfTS_s5QpQnF_tflTO7VVJeI1WD_V5Wp7CwmZtkyC3qO_Bkx5okz4JHjfBA6OMOMGohjeIdIePzbHBJJljzxhBCWqm1oJLcv4vW9Qu5eqV3jvC"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6651",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "302"
+        },
+        {
+          "name": "p3p",
+          "value": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate"
+        },
+        {
+          "name": "location",
+          "value": "https://www.google.co.uk/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-84442-3&cid=1508606562.1504636485&jid=531760752&_v=5.6.7&z=1454257947&slf_rd=1&random=3822811206"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "cafe"
+        },
+        {
+          "name": "content-length",
+          "value": "0"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google.com/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-84442-3&cid=1508606562.1504636485&jid=531760752&_v=5.6.7&z=1454257947",
+      "id": 7058,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484892,
+      "end": 1504636484893,
+      "fromCache": false,
+      "ip": "216.58.201.36",
+      "redirectUrl": "https://www.google.co.uk/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-84442-3&cid=1508606562.1504636485&jid=531760752&_v=5.6.7&z=1454257947&slf_rd=1&random=3822811206"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6651",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google.co.uk/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-84442-3&cid=1508606562.1504636485&jid=531760752&_v=5.6.7&z=1454257947&slf_rd=1&random=3822811206",
+      "id": 7059,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484893,
+      "end": 1504636484893,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6651",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "p3p",
+          "value": "policyref=\"https://www.googleadservices.com/pagead/p3p.xml\", CP=\"NOI DEV PSA PSD IVA IVD OTP OUR OTR IND OTC\""
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, must-revalidate"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "cafe"
+        },
+        {
+          "name": "content-length",
+          "value": "42"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google.co.uk/ads/ga-audiences?v=1&aip=1&t=sr&_r=4&tid=UA-84442-3&cid=1508606562.1504636485&jid=531760752&_v=5.6.7&z=1454257947&slf_rd=1&random=3822811206",
+      "id": 7059,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484905,
+      "end": 1504636484906,
+      "fromCache": false,
+      "ip": "216.58.201.35"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6647",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:45 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 04 Mar 2017 21:03:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"8a80554c91d9fca8acb82f023de02f11\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=86400"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "AmazonS3"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Miss from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 b2d76329a9a54a81e84d11756ef82045.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "6nmj0NfniE5eb4Jr7mINyxEjcs66xfvuCuGxsU4Ie-r6lENIgZGltA=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://rules.quantcount.com/rules-p-eb7iraQgaGfgg.js",
+      "id": 7049,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484946,
+      "end": 1504636484947,
+      "fromCache": false,
+      "ip": "52.85.224.234"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bookdaily.com",
+        "expirationDate": 1538505284,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__qca",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "P0-234367085-1504636484948"
+      },
+      "removed": false,
+      "timeStamp": 1504636484948
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__qca",
+      "type": "cookie",
+      "value": "P0-234367085-1504636484948",
+      "timeStamp": 1504636484948
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6653",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://pixel.quantserve.com/pixel;r=141692632;rf=0;a=p-eb7iraQgaGfgg;url=http%3A%2F%2Fwww.bookdaily.com%2Fauthorsignup;fpan=1;fpa=P0-234367085-1504636484948;ns=0;ce=1;cm=;ref=;je=0;sr=1920x1080x24;enc=n;dst=1;et=1504636484947;tzo=-60;ogl=",
+      "id": 7060,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484949,
+      "end": 1504636484949,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "mc=59aeeabe-03807-99ea2-5fe37; d=EAYBDwHhGIEOmvUA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6653",
+      "responseHeaders": [
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, no-cache, no-store, proxy-revalidate"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Expires",
+          "value": "Fri, 04 Aug 1978 12:00:00 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "35"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "QS"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://pixel.quantserve.com/pixel;r=141692632;rf=0;a=p-eb7iraQgaGfgg;url=http%3A%2F%2Fwww.bookdaily.com%2Fauthorsignup;fpan=1;fpa=P0-234367085-1504636484948;ns=0;ce=1;cm=;ref=;je=0;sr=1920x1080x24;enc=n;dst=1;et=1504636484947;tzo=-60;ogl=",
+      "id": 7060,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484953,
+      "end": 1504636484954,
+      "fromCache": false,
+      "ip": "95.172.94.59"
+    }
+  },
+  {
+    "type": "dom.resize",
+    "details": {
+      "isTrusted": true,
+      "type": "resize",
+      "target": "#window>#document>html[0]>body[0]>div[0]>div[0]>div[0]>section[0]>article[0]>div[0]>video[0]",
+      "currentTarget": "#window",
+      "eventPhase": 1,
+      "bubbles": false,
+      "cancelable": true,
+      "defaultPrevented": false,
+      "composed": false,
+      "timeStamp": 1504636484971,
+      "srcElement": "#window>#document>html[0]>body[0]>div[0]>div[0]>div[0]>section[0]>article[0]>div[0]>video[0]",
+      "returnValue": true,
+      "cancelBubble": false,
+      "path": "#window>#document>html[0]>body[0]>div[0]>div[0]>div[0]>section[0]>article[0]>div[0]>video[0]",
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "contextId": 626,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6650",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:44 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 24 Sep 2015 00:26:08 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"fbd0-5207346ff0800\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "64464"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=98"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://www.bookdaily.com/booksite/fonts/fontawesome-webfont.woff2?v=4.4.0",
+      "id": 7052,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636484829,
+      "end": 1504636484990,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 87,
+      "tabId": 2,
+      "timeStamp": 1504636485069,
+      "url": "http://www.bookdaily.com/authorsignup",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "BookDaily.com - Generate Immediate Exposure for Your Book with a Free BookDaily Author Account",
+          "url": "http://www.bookdaily.com/authorsignup",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636485070
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6654",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/favicon.ico",
+      "id": 7061,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636485070,
+      "end": 1504636485070,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.bookdaily.com/authorsignup"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "sid=1293007246-693587; __utmt=1; __utma=115591701.1508606562.1504636485.1504636485.1504636485.1; __utmb=115591701.2.10.1504636485; __utmc=115591701; __utmz=115591701.1504636485.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __qca=P0-234367085-1504636484948"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6654",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:34:45 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.18 (Ubuntu) mod_fastcgi/mod_fastcgi-SNAP-0910052141 OpenSSL/1.0.2g"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 27 May 2015 18:05:53 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"57e-5171418002240\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1406"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=97"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/vnd.microsoft.icon"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.bookdaily.com/favicon.ico",
+      "id": 7061,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636485151,
+      "end": 1504636485152,
+      "fromCache": false,
+      "ip": "216.174.43.134"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "http://www.bookdaily.com/favicon.ico"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "http://www.bookdaily.com/favicon.ico",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "BookDaily.com - Generate Immediate Exposure for Your Book with a Free BookDaily Author Account",
+          "url": "http://www.bookdaily.com/authorsignup",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636485152
+    }
+  },
+  {
+    "type": "request.errorOccurred",
+    "details": {
+      "error": "net::ERR_ABORTED",
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6640",
+      "tabId": 2,
+      "timeStamp": 1504636486093,
+      "type": "media",
+      "url": "http://www.bookdaily.com/booksite/media/Expadv.mp4",
+      "id": 7041,
+      "contextId": 626,
+      "parentContextId": -1,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6655",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 7062,
+      "contextId": 627,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636486094,
+      "end": 1504636486094
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6655",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 7062,
+      "contextId": 627,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636486094,
+      "end": 1504636486100
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636486101
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636486101
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6656",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 7063,
+      "contextId": 627,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636486101,
+      "end": 1504636486101
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "6656",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 7063,
+      "contextId": 627,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636486101,
+      "end": 1504636486101
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1504636486104,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636486106
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1504636486095.948,
+          "title": "Save",
+          "typedCount": 81,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 81
+        }
+      },
+      "timeStamp": 1504636486106
+    }
+  }
+]

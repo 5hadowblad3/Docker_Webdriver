@@ -1,0 +1,3663 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636749356
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 879847,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/3a3a2840-f5d0-4f7f-beb9-2da999dbd495",
+          "id": 105,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:39:09.359Z",
+          "state": "in_progress",
+          "totalBytes": 879847,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/3a3a2840-f5d0-4f7f-beb9-2da999dbd495"
+        }
+      },
+      "timeStamp": 1504636749359
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 879847,
+          "filename": "ECAP_G_2017-09-05T18-39-09.349Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/3a3a2840-f5d0-4f7f-beb9-2da999dbd495",
+          "id": 105,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:39:09.359Z",
+          "state": "in_progress",
+          "totalBytes": 879847,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/3a3a2840-f5d0-4f7f-beb9-2da999dbd495"
+        }
+      },
+      "timeStamp": 1504636749363
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-09-05T18-39-09.349Z.json",
+            "previous": ""
+          },
+          "id": 105
+        }
+      },
+      "timeStamp": 1504636749373
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-09-05T18:39:09.380Z"
+          },
+          "id": 105,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1504636749381
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636751965,
+      "url": "http://ebookasaurus.com/authors/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8042",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://ebookasaurus.com/authors/",
+      "id": 8527,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636751969,
+      "end": 1504636751969,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8042",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "PHP/5.4.45"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,Cookie"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3, must-revalidate"
+        },
+        {
+          "name": "WP-Super-Cache",
+          "value": "Served supercache file from PHP"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5453"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://ebookasaurus.com/authors/",
+      "id": 8527,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752473,
+      "end": 1504636752474,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://ebookasaurus.com/authors/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "ebookasaurus.com/authors/",
+          "url": "http://ebookasaurus.com/authors/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636752476
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636752476
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 112,
+      "tabId": 2,
+      "timeStamp": 1504636752477,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://ebookasaurus.com/authors/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8043",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://ebookasaurus.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70",
+      "id": 8528,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752479,
+      "end": 1504636752479,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8044",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/css/style.css?ver=2015-10-05",
+      "id": 8529,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752479,
+      "end": 1504636752479,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8045",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C700&ver=2015-10-05",
+      "id": 8530,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752480,
+      "end": 1504636752480,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8046",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C700%2C100&ver=2015-10-05",
+      "id": 8531,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752480,
+      "end": 1504636752480,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8047",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://ebookasaurus.com/wp-content/plugins/ultimate-posts-widget/css/upw-theme-standard.min.css?ver=4.4.10",
+      "id": 8532,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752480,
+      "end": 1504636752480,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8048",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js?ver=2015-10-05",
+      "id": 8533,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752480,
+      "end": 1504636752480,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8049",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-content/plugins/thrive-visual-editor/editor/js/compat.min.js?ver=1.500.16",
+      "id": 8534,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752480,
+      "end": 1504636752481,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "156",
+          "lastVisitTime": 1504636752475.252,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://ebookasaurus.com/authors/",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1504636752481
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Authors | ebookasaurus.com"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Authors | ebookasaurus.com",
+          "url": "http://ebookasaurus.com/authors/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636752481
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8048",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "30094"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:39:12 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 05 Sep 2018 18:39:12 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000, stale-while-revalidate=2592000"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 20 Dec 2016 18:17:03 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js?ver=2015-10-05",
+      "id": 8533,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752493,
+      "end": 1504636752494,
+      "fromCache": false,
+      "ip": "216.58.208.170"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8046",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 05 Sep 2017 18:39:12 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:39:12 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 05 Sep 2017 18:39:12 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C700%2C100&ver=2015-10-05",
+      "id": 8531,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752494,
+      "end": 1504636752495,
+      "fromCache": false,
+      "ip": "216.58.201.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8045",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "content-type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "link",
+          "value": "<https://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 05 Sep 2017 18:39:12 GMT"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:39:12 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 05 Sep 2017 18:39:12 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "br"
+        },
+        {
+          "name": "server",
+          "value": "ESF"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C700&ver=2015-10-05",
+      "id": 8530,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752497,
+      "end": 1504636752497,
+      "fromCache": false,
+      "ip": "216.58.201.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8043",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Sat, 02 Jul 2016 14:43:13 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"5c80ae6-176-536a81f6ce29f\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "374"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://ebookasaurus.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70",
+      "id": 8528,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752597,
+      "end": 1504636752598,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8047",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 04 Jan 2017 12:40:10 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"62c122c-3fa-5454415e51687\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1018"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://ebookasaurus.com/wp-content/plugins/ultimate-posts-widget/css/upw-theme-standard.min.css?ver=4.4.10",
+      "id": 8532,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752727,
+      "end": 1504636752727,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8049",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 09 May 2017 20:07:01 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"a9c68e0-6b-54f1ce61169a9\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "107"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-content/plugins/thrive-visual-editor/editor/js/compat.min.js?ver=1.500.16",
+      "id": 8534,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752728,
+      "end": 1504636752728,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8054",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/js/functions.js?ver=2015-10-05",
+      "id": 8535,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752729,
+      "end": 1504636752729,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8054",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 18 Jan 2016 07:13:38 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"7747762-7f6-529967dfb0e3a\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2038"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/js/functions.js?ver=2015-10-05",
+      "id": 8535,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752960,
+      "end": 1504636752960,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8055",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/js/owl.carousel.min.js?ver=2015-10-05",
+      "id": 8536,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752960,
+      "end": 1504636752961,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8044",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:12 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 29 Jan 2016 07:23:38 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"73036b0-14ca5-52a73e9f4f1f6\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "85157"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/css/style.css?ver=2015-10-05",
+      "id": 8529,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636752729,
+      "end": 1504636753069,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8056",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://code.jquery.com/ui/1.11.4/jquery-ui.js?ver=2015-10-05",
+      "id": 8537,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753084,
+      "end": 1504636753085,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8057",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/js/script.js?ver=2015-10-05",
+      "id": 8538,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753085,
+      "end": 1504636753085,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8058",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-content/plugins/thrive-visual-editor/thrive-dashboard/js/dist/frontend.min.js?ver=1.0.43",
+      "id": 8539,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753085,
+      "end": 1504636753085,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8059",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-includes/js/wp-embed.min.js?ver=4.4.10",
+      "id": 8540,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753085,
+      "end": 1504636753086,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8050",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/images/logo.png",
+      "id": 8541,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753086,
+      "end": 1504636753086,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8051",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/uploads/2017/09/unnamed-file.jpg-248x361.jpg",
+      "id": 8542,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753086,
+      "end": 1504636753087,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8062",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 8543,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753095,
+      "end": 1504636753096,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://ebookasaurus.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C700&ver=2015-10-05"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8062",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "13964"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 04 Sep 2017 15:17:13 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 04 Sep 2018 15:17:13 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 14 Jun 2017 16:46:31 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "97364"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 8543,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753096,
+      "end": 1504636753097,
+      "fromCache": true,
+      "ip": "216.58.201.35"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8056",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "application/javascript; charset=utf-8"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 11 Mar 2015 13:03:17 GMT"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "etag",
+          "value": "W/\"55003d15-72e44\""
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 31 Dec 2037 23:55:55 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=315360000"
+        },
+        {
+          "name": "cache-control",
+          "value": "public"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "server",
+          "value": "NetDNA-cache/2.2"
+        },
+        {
+          "name": "x-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://code.jquery.com/ui/1.11.4/jquery-ui.js?ver=2015-10-05",
+      "id": 8537,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753090,
+      "end": 1504636753098,
+      "fromCache": false,
+      "ip": "198.232.125.113"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8065",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/roboto/v16/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 8544,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753102,
+      "end": 1504636753102,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://ebookasaurus.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C700%2C100&ver=2015-10-05"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8065",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "14696"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 04 Sep 2017 09:51:37 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 04 Sep 2018 09:51:37 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 17 Apr 2017 21:21:35 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "117096"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/roboto/v16/Hgo13k-tfSpn0qi1SFdUfVtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 8544,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753103,
+      "end": 1504636753103,
+      "fromCache": true,
+      "ip": "216.58.201.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8066",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 8545,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753114,
+      "end": 1504636753114,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://ebookasaurus.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C700&ver=2015-10-05"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8066",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "14636"
+        },
+        {
+          "name": "date",
+          "value": "Thu, 31 Aug 2017 02:15:09 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 31 Aug 2018 02:15:09 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 14 Jun 2017 16:46:23 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "489888"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/opensans/v14/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2",
+      "id": 8545,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753114,
+      "end": 1504636753114,
+      "fromCache": true,
+      "ip": "216.58.201.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8067",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/roboto/v16/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 8546,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753120,
+      "end": 1504636753120,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://ebookasaurus.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C700%2C100&ver=2015-10-05"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8067",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "14680"
+        },
+        {
+          "name": "date",
+          "value": "Thu, 31 Aug 2017 21:02:08 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 31 Aug 2018 21:02:08 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 17 Apr 2017 21:22:29 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "422302"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/roboto/v16/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2",
+      "id": 8546,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753120,
+      "end": 1504636753120,
+      "fromCache": true,
+      "ip": "216.58.201.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8068",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/roboto/v16/2tsd397wLxj96qwHyNIkxPesZW2xOQ-xsNqO47m55DA.woff2",
+      "id": 8547,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753126,
+      "end": 1504636753126,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://ebookasaurus.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "https://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C700%2C100&ver=2015-10-05"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8068",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "content-type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "14660"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 04 Sep 2017 10:35:30 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 04 Sep 2018 10:35:30 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 17 Apr 2017 21:21:35 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "age",
+          "value": "115423"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "font",
+      "url": "https://fonts.gstatic.com/s/roboto/v16/2tsd397wLxj96qwHyNIkxPesZW2xOQ-xsNqO47m55DA.woff2",
+      "id": 8547,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753129,
+      "end": 1504636753130,
+      "fromCache": false,
+      "ip": "216.58.201.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8064",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/images/deal-bg.png",
+      "id": 8548,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753192,
+      "end": 1504636753193,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/css/style.css?ver=2015-10-05"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8061",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/images/sprite-img.png",
+      "id": 8549,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753193,
+      "end": 1504636753193,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/css/style.css?ver=2015-10-05"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8063",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/images/srch.png",
+      "id": 8550,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753193,
+      "end": 1504636753193,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/css/style.css?ver=2015-10-05"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8052",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/uploads/2017/09/51tGXv4wFIL._SY346.jpg",
+      "id": 8551,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753193,
+      "end": 1504636753194,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8055",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 18 Jan 2016 07:13:38 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"7747708-5d52-529967decfcab\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "23890"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/js/owl.carousel.min.js?ver=2015-10-05",
+      "id": 8536,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753203,
+      "end": 1504636753321,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8063",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 18 Jan 2016 07:13:10 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"774715a-eff-529967c4284f5\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3839"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/images/srch.png",
+      "id": 8550,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753343,
+      "end": 1504636753345,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8057",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 07 Apr 2016 13:59:55 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"774776e-508-52fe57e42973f\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1288"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/js/script.js?ver=2015-10-05",
+      "id": 8538,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753352,
+      "end": 1504636753352,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8061",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 18 Jan 2016 07:13:32 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"77476dc-3e15-529967d92a7ae\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "15893"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/images/sprite-img.png",
+      "id": 8549,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753336,
+      "end": 1504636753448,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8052",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 04 Sep 2017 11:23:29 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6e06194-642e-5585b570f831a\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "25646"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/uploads/2017/09/51tGXv4wFIL._SY346.jpg",
+      "id": 8551,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753345,
+      "end": 1504636753462,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8053",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/uploads/2017/09/fat-to-skinny-248x361.jpg",
+      "id": 8552,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753462,
+      "end": 1504636753462,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8058",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 09 May 2017 20:07:01 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"b442138-605-54f1ce6134639\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1541"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-content/plugins/thrive-visual-editor/thrive-dashboard/js/dist/frontend.min.js?ver=1.0.43",
+      "id": 8539,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753554,
+      "end": 1504636753554,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8060",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-includes/js/wp-emoji-release.min.js?ver=4.4.10",
+      "id": 8553,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753555,
+      "end": 1504636753555,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8064",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 18 Jan 2016 07:13:10 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"77470dc-d8ed-529967c48747c\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "55533"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/images/deal-bg.png",
+      "id": 8548,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753338,
+      "end": 1504636753559,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8069",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/images/bg-2.jpg",
+      "id": 8554,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753560,
+      "end": 1504636753560,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/css/style.css?ver=2015-10-05"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8059",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 09 May 2016 11:50:54 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"4742578-57b-532676bbd0851\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1403"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-includes/js/wp-embed.min.js?ver=4.4.10",
+      "id": 8540,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753570,
+      "end": 1504636753570,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 112,
+      "tabId": 2,
+      "timeStamp": 1504636753573,
+      "url": "http://ebookasaurus.com/authors/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8050",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 18 Jan 2016 07:13:22 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"7747440-37a9-529967cfa827d\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "14249"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/images/logo.png",
+      "id": 8541,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753583,
+      "end": 1504636753585,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://ebookasaurus.com/authors/",
+      "timeStamp": 1504636753592,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ebookasaurus.com/authors/",
+      "contextId": 773,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636753592,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ebookasaurus.com/authors/",
+      "contextId": 773,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Authors | ebookasaurus.com",
+      "timeStamp": 1504636753593,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ebookasaurus.com/authors/",
+      "contextId": 773,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "s",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1504636753593,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ebookasaurus.com/authors/",
+      "contextId": 773,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": null,
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1504636753593,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ebookasaurus.com/authors/",
+      "contextId": 773,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "email",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1504636753593,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ebookasaurus.com/authors/",
+      "contextId": 773,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "submit",
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1504636753593,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://ebookasaurus.com/authors/",
+      "contextId": 773,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8051",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 05 Sep 2017 03:13:11 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6e06388-8590-558689b717649\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "34192"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/uploads/2017/09/unnamed-file.jpg-248x361.jpg",
+      "id": 8542,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753696,
+      "end": 1504636753821,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8060",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 09 May 2016 11:50:54 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"4746d68-848c-532676bbd1409\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "33932"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://ebookasaurus.com/wp-includes/js/wp-emoji-release.min.js?ver=4.4.10",
+      "id": 8553,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753786,
+      "end": 1504636753903,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8053",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 04 Sep 2017 05:12:40 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6e060d0-b0bf-5585628edf0ab\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "45247"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/uploads/2017/09/fat-to-skinny-248x361.jpg",
+      "id": 8552,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753694,
+      "end": 1504636753917,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8069",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:13 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 18 Jan 2016 07:13:03 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"7746bdc-1ada2-529967bdba121\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "109986"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/wp-content/themes/ebooksauraus/images/bg-2.jpg",
+      "id": 8554,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636753794,
+      "end": 1504636754140,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 112,
+      "tabId": 2,
+      "timeStamp": 1504636754141,
+      "url": "http://ebookasaurus.com/authors/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Authors | ebookasaurus.com",
+          "url": "http://ebookasaurus.com/authors/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636754141
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8070",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/favicon.ico",
+      "id": 8555,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636754142,
+      "end": 1504636754142,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://ebookasaurus.com/authors/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8070",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:14 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache/2.4.16 (Unix) OpenSSL/1.0.1e-fips mod_bwlimited/1.4"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "PHP/5.4.45"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/vnd.microsoft.icon"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://ebookasaurus.com/favicon.ico",
+      "id": 8555,
+      "contextId": 773,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636755036,
+      "end": 1504636755036,
+      "fromCache": false,
+      "ip": "108.179.225.243"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8071",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 8556,
+      "contextId": 774,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636755163,
+      "end": 1504636755163
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8071",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 8556,
+      "contextId": 774,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636755163,
+      "end": 1504636755168
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636755168
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636755168
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1504636755168,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1504636755164.582,
+          "title": "Save",
+          "typedCount": 106,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 106
+        }
+      },
+      "timeStamp": 1504636755169
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8072",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 8557,
+      "contextId": 774,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636755169,
+      "end": 1504636755169
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8072",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 8557,
+      "contextId": 774,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636755169,
+      "end": 1504636755169
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636755173
+    }
+  }
+]

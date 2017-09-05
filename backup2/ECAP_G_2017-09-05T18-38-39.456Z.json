@@ -1,0 +1,6033 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636713708
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 261428,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/be3cf386-9695-4eba-832d-3a17c324c6b1",
+          "id": 99,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:38:33.710Z",
+          "state": "in_progress",
+          "totalBytes": 261428,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/be3cf386-9695-4eba-832d-3a17c324c6b1"
+        }
+      },
+      "timeStamp": 1504636713711
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 261428,
+          "filename": "ECAP_G_2017-09-05T18-38-33.702Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/be3cf386-9695-4eba-832d-3a17c324c6b1",
+          "id": 99,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:38:33.710Z",
+          "state": "in_progress",
+          "totalBytes": 261428,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/be3cf386-9695-4eba-832d-3a17c324c6b1"
+        }
+      },
+      "timeStamp": 1504636713714
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-09-05T18-38-33.702Z.json",
+            "previous": ""
+          },
+          "id": 99
+        }
+      },
+      "timeStamp": 1504636713721
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-09-05T18:38:33.724Z"
+          },
+          "id": 99,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1504636713724
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636716403,
+      "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7697",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+      "id": 8164,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636716404,
+      "end": 1504636716404,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "is_mobile",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": -1,
+        "value": "0"
+      },
+      "removed": false,
+      "timeStamp": 1504636717109,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 747
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "is_mobile",
+      "type": "cookie",
+      "value": "0",
+      "timeStamp": 1504636717109,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 747
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "expirationDate": "15046367171209600",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "language",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "en"
+      },
+      "removed": false,
+      "timeStamp": 1504636717109,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 747
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "language",
+      "type": "cookie",
+      "value": "en",
+      "timeStamp": 1504636717109,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 747
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".www.ebookchristian.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "is_mobile",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "0"
+      },
+      "removed": false,
+      "timeStamp": 1504636717110
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "is_mobile",
+      "type": "cookie",
+      "value": "0",
+      "timeStamp": 1504636717110
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "expirationDate": 1505846317.108898,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "language",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "en"
+      },
+      "removed": false,
+      "timeStamp": 1504636717111
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "language",
+      "type": "cookie",
+      "value": "en",
+      "timeStamp": 1504636717111
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7697",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:36 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "is_mobile=0; path=/; domain=www.ebookchristian.com"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "language=en; expires=Tue, 19-Sep-2017 18:38:36 GMT; Max-Age=1209600; path=/"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"eda5ec2b920bbd375fa7468c65f61a01-gzip\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding,User-Agent"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "X-Host",
+          "value": "pages22.sf2p.intern.weebly.net"
+        },
+        {
+          "name": "X-UA-Compatible",
+          "value": "IE=edge,chrome=1"
+        },
+        {
+          "name": "Content-Length",
+          "value": "12532"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=10, max=60"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+      "id": 8164,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717109,
+      "end": 1504636717111,
+      "fromCache": false,
+      "ip": "199.34.228.57"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "www.ebookchristian.com/submit-your-ebook.html",
+          "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636717112
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636717112
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 106,
+      "tabId": 2,
+      "timeStamp": 1504636717112,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "149",
+          "lastVisitTime": 1504636717110.57,
+          "title": "",
+          "typedCount": 1,
+          "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+          "visitCount": 1
+        }
+      },
+      "timeStamp": 1504636717114
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7698",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cdn2.editmysite.com/css/sites.css?buildTime=1504217335",
+      "id": 8165,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717116,
+      "end": 1504636717116,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7699",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cdn2.editmysite.com/css/old/fancybox.css?1504217335",
+      "id": 8166,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717116,
+      "end": 1504636717116,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7700",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cdn2.editmysite.com/css/social-icons.css?buildtime=1504217335",
+      "id": 8167,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717116,
+      "end": 1504636717117,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7701",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.ebookchristian.com/files/main_style.css?1504632952",
+      "id": 8168,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717117,
+      "end": 1504636717117,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "is_mobile=0; language=en"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7702",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext",
+      "id": 8169,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717117,
+      "end": 1504636717117,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7703",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Fjalla+One&subset=latin,latin-ext",
+      "id": 8170,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717117,
+      "end": 1504636717117,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7704",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
+      "id": 8171,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717117,
+      "end": 1504636717117,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7705",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1504217335&",
+      "id": 8172,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717117,
+      "end": 1504636717117,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7706",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1504217335",
+      "id": 8173,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717117,
+      "end": 1504636717118,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7707",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn2.editmysite.com/js/site/commerce-core.js?buildTime=1504217335",
+      "id": 8174,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717118,
+      "end": 1504636717118,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7708",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn2.editmysite.com/js/site/main-commerce-browse.js?buildTime=1504217335",
+      "id": 8175,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717118,
+      "end": 1504636717118,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Front page eBook Christian advertising if your book is free, a countdown deal, discounted, a new release, or always priced at $0.99 - eBook Christian"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Front page eBook Christian advertising if your book is free, a countdown deal, discounted, a new release, or always priced at $0.99 - eBook Christian",
+          "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636717118
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7704",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "content-length",
+          "value": "33593"
+        },
+        {
+          "name": "date",
+          "value": "Wed, 30 Aug 2017 09:23:25 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 30 Aug 2018 09:23:25 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Tue, 20 Dec 2016 18:17:03 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000, stale-while-revalidate=2592000"
+        },
+        {
+          "name": "age",
+          "value": "551030"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js",
+      "id": 8171,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717118,
+      "end": 1504636717119,
+      "fromCache": true,
+      "ip": "216.58.204.10"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7699",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 31 Aug 2017 21:39:05 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"59a881f9-f47\""
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 14 Sep 2017 22:09:00 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=1209600"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Fastly-Debug-Digest",
+          "value": "0a58e9707c11f039a3a2e4e6db8f4c0e91c3fd133497b9db9de60be7a5674274"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1218"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Age",
+          "value": "419377"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Served-By",
+          "value": "cache-sjc3124-SJC, cache-lcy1148-LCY"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT, HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "22, 8573"
+        },
+        {
+          "name": "X-Timer",
+          "value": "S1504636717.122336,VS0,VE0"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cdn2.editmysite.com/css/old/fancybox.css?1504217335",
+      "id": 8166,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717121,
+      "end": 1504636717122,
+      "fromCache": false,
+      "ip": "151.101.17.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7700",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 31 Aug 2017 21:39:05 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"59a881f9-3319\""
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 14 Sep 2017 22:09:00 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=1209600"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Fastly-Debug-Digest",
+          "value": "3c02251616a1f96c0b1b5f0f254a4c8c0c68a346f08c11d1c53cb29c8e69713b"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1639"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Age",
+          "value": "419376"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Served-By",
+          "value": "cache-sjc3136-SJC, cache-lcy1140-LCY"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT, HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "2, 5788"
+        },
+        {
+          "name": "X-Timer",
+          "value": "S1504636717.122349,VS0,VE0"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cdn2.editmysite.com/css/social-icons.css?buildtime=1504217335",
+      "id": 8167,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717122,
+      "end": 1504636717123,
+      "fromCache": false,
+      "ip": "151.101.17.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7707",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 31 Aug 2017 21:39:05 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"59a881f9-edd7\""
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 14 Sep 2017 22:08:58 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=1209600"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Fastly-Debug-Digest",
+          "value": "7971feb31ed3ce5839b43eff73bc0f3bfdcd0aec188085681b2c9144107f73d3"
+        },
+        {
+          "name": "Content-Length",
+          "value": "17287"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Age",
+          "value": "419378"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Served-By",
+          "value": "cache-sjc3144-SJC, cache-lcy1142-LCY"
+        },
+        {
+          "name": "X-Cache",
+          "value": "MISS, HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "0, 5051"
+        },
+        {
+          "name": "X-Timer",
+          "value": "S1504636717.121252,VS0,VE0"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn2.editmysite.com/js/site/commerce-core.js?buildTime=1504217335",
+      "id": 8174,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717123,
+      "end": 1504636717126,
+      "fromCache": false,
+      "ip": "151.101.17.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7705",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 31 Aug 2017 21:39:05 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"59a881f9-1beb3\""
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 14 Sep 2017 22:08:58 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=1209600"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Fastly-Debug-Digest",
+          "value": "d8fc760c23a18f5c2ca2f311c05b90f0137254b0b60c7be1d3da72d80d97aec8"
+        },
+        {
+          "name": "Content-Length",
+          "value": "18833"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Age",
+          "value": "419378"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Served-By",
+          "value": "cache-sjc3144-SJC, cache-lcy1148-LCY"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT, HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "1, 12065"
+        },
+        {
+          "name": "X-Timer",
+          "value": "S1504636717.122401,VS0,VE0"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1504217335&",
+      "id": 8172,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717123,
+      "end": 1504636717127,
+      "fromCache": false,
+      "ip": "151.101.17.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7698",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 31 Aug 2017 21:39:05 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"59a881f9-36c14\""
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 14 Sep 2017 22:08:58 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=1209600"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Fastly-Debug-Digest",
+          "value": "75b1b38f346af4675c7f151cca6b21a18771c2ea7770853cbd2c40cdc493dc61"
+        },
+        {
+          "name": "Content-Length",
+          "value": "31750"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Age",
+          "value": "419379"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Served-By",
+          "value": "cache-sjc3133-SJC, cache-lcy1136-LCY"
+        },
+        {
+          "name": "X-Cache",
+          "value": "MISS, HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "0, 13472"
+        },
+        {
+          "name": "X-Timer",
+          "value": "S1504636717.120903,VS0,VE0"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cdn2.editmysite.com/css/sites.css?buildTime=1504217335",
+      "id": 8165,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717122,
+      "end": 1504636717129,
+      "fromCache": false,
+      "ip": "151.101.17.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7708",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 31 Aug 2017 21:39:05 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"59a881f9-bb2f\""
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 14 Sep 2017 22:08:58 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=1209600"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Fastly-Debug-Digest",
+          "value": "2edbbda586de7a8ff5c367080cea7b1a8f3c33e6ec14b9b5018310f455fddcd7"
+        },
+        {
+          "name": "Content-Length",
+          "value": "13600"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Age",
+          "value": "419378"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Served-By",
+          "value": "cache-sjc3145-SJC, cache-lcy1148-LCY"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT, HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "1, 3763"
+        },
+        {
+          "name": "X-Timer",
+          "value": "S1504636717.126496,VS0,VE0"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn2.editmysite.com/js/site/main-commerce-browse.js?buildTime=1504217335",
+      "id": 8175,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717126,
+      "end": 1504636717129,
+      "fromCache": false,
+      "ip": "151.101.17.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7706",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 31 Aug 2017 21:39:05 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"59a881f9-72b73\""
+        },
+        {
+          "name": "Expires",
+          "value": "Thu, 14 Sep 2017 22:08:58 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=1209600"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Fastly-Debug-Digest",
+          "value": "5cf849c1a5dbf88fd712886e89ab23898cdd6c4d6203f55d36e99e064b582c9b"
+        },
+        {
+          "name": "Content-Length",
+          "value": "147412"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Age",
+          "value": "419378"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Served-By",
+          "value": "cache-sjc3129-SJC, cache-lcy1138-LCY"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT, HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "1, 11354"
+        },
+        {
+          "name": "X-Timer",
+          "value": "S1504636717.122383,VS0,VE0"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn2.editmysite.com/js/site/main.js?buildTime=1504217335",
+      "id": 8173,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717124,
+      "end": 1504636717131,
+      "fromCache": false,
+      "ip": "151.101.17.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7703",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Link",
+          "value": "<http://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Server",
+          "value": "ESF"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Fjalla+One&subset=latin,latin-ext",
+      "id": 8170,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717131,
+      "end": 1504636717131,
+      "fromCache": false,
+      "ip": "216.58.201.42"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7702",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/css; charset=utf-8"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Link",
+          "value": "<http://fonts.gstatic.com>; rel=preconnect; crossorigin"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, max-age=86400, stale-while-revalidate=604800"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Server",
+          "value": "ESF"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext",
+      "id": 8169,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717133,
+      "end": 1504636717134,
+      "fromCache": false,
+      "ip": "216.58.201.42"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7711",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.ebookchristian.com/files/theme/plugins.js?1485295826",
+      "id": 8176,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717134,
+      "end": 1504636717134,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "is_mobile=0; language=en"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7701",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "40830"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, Authorization, Content-Type"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET, POST, DELETE, OPTIONS"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 06 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=86400"
+        },
+        {
+          "name": "X-Host",
+          "value": "pages40.sf2p.intern.weebly.net"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://www.ebookchristian.com/files/main_style.css?1504632952",
+      "id": 8168,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717269,
+      "end": 1504636717418,
+      "fromCache": false,
+      "ip": "199.34.228.57"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7712",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.ebookchristian.com/files/theme/custom.js?1485295826",
+      "id": 8177,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717514,
+      "end": 1504636717514,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "is_mobile=0; language=en"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7709",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.ebookchristian.com/uploads/6/8/4/9/68494929/1452017132.png",
+      "id": 8178,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717515,
+      "end": 1504636717515,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "is_mobile=0; language=en"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7710",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.ebookchristian.com/uploads/6/8/4/9/68494929/published/ebook-christian-website-logo_3.jpg?1504232322",
+      "id": 8179,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717515,
+      "end": 1504636717515,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "is_mobile=0; language=en"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7713",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn2.editmysite.com/js/wsnbn/snowday261.js",
+      "id": 8180,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717516,
+      "end": 1504636717516,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7715",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.ebookchristian.com/uploads/6/8/4/9/68494929/background-images/1131666354.jpg",
+      "id": 8182,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717516,
+      "end": 1504636717516,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "is_mobile=0; language=en"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7713",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 22 Aug 2017 22:19:25 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"599caded-12441\""
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 06 Sep 2017 04:51:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=1209600"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Fastly-Debug-Digest",
+          "value": "c4456eac47d4ff434cc2f37f2f6d44d1a88b16ecec75afbeef850d1e010b2880"
+        },
+        {
+          "name": "Content-Length",
+          "value": "25690"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Age",
+          "value": "1172831"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Served-By",
+          "value": "cache-sjc3125-SJC, cache-lcy1138-LCY"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT, HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3, 79500"
+        },
+        {
+          "name": "X-Timer",
+          "value": "S1504636718.517670,VS0,VE0"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn2.editmysite.com/js/wsnbn/snowday261.js",
+      "id": 8180,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717517,
+      "end": 1504636717517,
+      "fromCache": false,
+      "ip": "151.101.17.46"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7716",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/fjallaone/v4/rxxXUYj4oZ6Q5oDJFtEd6vk_vArhqVIZ0nv9q090hN8.woff2",
+      "id": 8183,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717522,
+      "end": 1504636717522,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.ebookchristian.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://fonts.googleapis.com/css?family=Fjalla+One&subset=latin,latin-ext"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7716",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "16356"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 04 Sep 2017 19:13:26 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 04 Sep 2018 19:13:26 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 28 Aug 2014 18:23:59 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "Age",
+          "value": "84311"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/fjallaone/v4/rxxXUYj4oZ6Q5oDJFtEd6vk_vArhqVIZ0nv9q090hN8.woff2",
+      "id": 8183,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717526,
+      "end": 1504636717526,
+      "fromCache": false,
+      "ip": "216.58.201.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7717",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lato/v13/H2DMvhDLycM56KNuAtbJYA.woff2",
+      "id": 8184,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717528,
+      "end": 1504636717528,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.ebookchristian.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7717",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "22656"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 04 Sep 2017 10:01:27 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 04 Sep 2018 10:01:27 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 09 Feb 2017 19:14:25 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "Age",
+          "value": "117250"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lato/v13/H2DMvhDLycM56KNuAtbJYA.woff2",
+      "id": 8184,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717529,
+      "end": 1504636717529,
+      "fromCache": true,
+      "ip": "216.58.201.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7718",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2",
+      "id": 8185,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717534,
+      "end": 1504636717535,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.ebookchristian.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7718",
+      "responseHeaders": [
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Type",
+          "value": "font/woff2"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Timing-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Length",
+          "value": "23216"
+        },
+        {
+          "name": "Date",
+          "value": "Mon, 04 Sep 2017 14:46:56 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 04 Sep 2018 14:46:56 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 09 Feb 2017 19:14:22 GMT"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Server",
+          "value": "sffe"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "Age",
+          "value": "99254"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "font",
+      "url": "http://fonts.gstatic.com/s/lato/v13/1YwB1sO8YE1Lyjf12WNiUA.woff2",
+      "id": 8185,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717535,
+      "end": 1504636717535,
+      "fromCache": true,
+      "ip": "216.58.201.35"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7719",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.ebookchristian.com/uploads/6/8/4/9/68494929/background-images/1974885645.jpg",
+      "id": 8186,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717535,
+      "end": 1504636717536,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "is_mobile=0; language=en"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/__utm.gif?utmwv=5.4.2&utmac=UA-16505296-2&utmn=1&utmhn=www.ebookchristian.com&utmsr=1920x1032&utmul=en-gb&utmr=http%3A%2F%2Fwww.ebookchristian.com%2Fsubmit-your-ebook.html&utmp=www.ebookchristian.com%2Fsubmit-your-ebook.html&utmcc=__utma%3D1.2226241525.1.1.1.1%3B&utme=8(vjsv)9(v4.2.2)",
+      "requestId": "7714",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/__utm.gif?utmwv=5.4.2&utmac=UA-16505296-2&utmn=1&utmhn=www.ebookchristian.com&utmsr=1920x1032&utmul=en-gb&utmr=http%3A%2F%2Fwww.ebookchristian.com%2Fsubmit-your-ebook.html&utmp=www.ebookchristian.com%2Fsubmit-your-ebook.html&utmcc=__utma%3D1.2226241525.1.1.1.1%3B&utme=8(vjsv)9(v4.2.2)"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.google-analytics.com/__utm.gif?utmwv=5.4.2&utmac=UA-16505296-2&utmn=1&utmhn=www.ebookchristian.com&utmsr=1920x1032&utmul=en-gb&utmr=http%3A%2F%2Fwww.ebookchristian.com%2Fsubmit-your-ebook.html&utmp=www.ebookchristian.com%2Fsubmit-your-ebook.html&utmcc=__utma%3D1.2226241525.1.1.1.1%3B&utme=8(vjsv)9(v4.2.2)",
+      "id": 8181,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1504636717578
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7714",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/__utm.gif?utmwv=5.4.2&utmac=UA-16505296-2&utmn=1&utmhn=www.ebookchristian.com&utmsr=1920x1032&utmul=en-gb&utmr=http%3A%2F%2Fwww.ebookchristian.com%2Fsubmit-your-ebook.html&utmp=www.ebookchristian.com%2Fsubmit-your-ebook.html&utmcc=__utma%3D1.2226241525.1.1.1.1%3B&utme=8(vjsv)9(v4.2.2)",
+      "id": 8187,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717578,
+      "end": 1504636717578,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7714",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Mon, 04 Sep 2017 09:51:30 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Mon, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "age",
+          "value": "118027"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/__utm.gif?utmwv=5.4.2&utmac=UA-16505296-2&utmn=1&utmhn=www.ebookchristian.com&utmsr=1920x1032&utmul=en-gb&utmr=http%3A%2F%2Fwww.ebookchristian.com%2Fsubmit-your-ebook.html&utmp=www.ebookchristian.com%2Fsubmit-your-ebook.html&utmcc=__utma%3D1.2226241525.1.1.1.1%3B&utme=8(vjsv)9(v4.2.2)",
+      "id": 8187,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717581,
+      "end": 1504636717581,
+      "fromCache": false,
+      "ip": "216.58.201.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7711",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "87318"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 24 Jan 2017 22:10:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"820d12379-15516-546de62185880\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "X-Host",
+          "value": "pages26.sf2p.intern.weebly.net"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.ebookchristian.com/files/theme/plugins.js?1485295826",
+      "id": 8176,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717284,
+      "end": 1504636717582,
+      "fromCache": false,
+      "ip": "199.34.228.57"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".www.ebookchristian.com",
+        "expirationDate": 1504638517,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_sp_ses.d50d",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "*"
+      },
+      "removed": false,
+      "timeStamp": 1504636717648
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "_sp_ses.d50d",
+      "type": "cookie",
+      "value": "*",
+      "timeStamp": 1504636717648
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".www.ebookchristian.com",
+        "expirationDate": 1567708717,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_sp_id.d50d",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "6ebfe4bd-dd39-4329-8167-8ceea96ba04a.1504636718.1.1504636718.1504636718.b065465c-b80a-4228-96a0-6cdfe6eebbcc"
+      },
+      "removed": false,
+      "timeStamp": 1504636717649
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "_sp_id.d50d",
+      "type": "cookie",
+      "value": "6ebfe4bd-dd39-4329-8167-8ceea96ba04a.1504636718.1.1504636718.1504636718.b065465c-b80a-4228-96a0-6cdfe6eebbcc",
+      "timeStamp": 1504636717649
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7712",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5415"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 24 Jan 2017 22:10:26 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"81fa47c1a-1527-546de62185880\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "X-Host",
+          "value": "pages32.sf2p.intern.weebly.net"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.ebookchristian.com/files/theme/custom.js?1485295826",
+      "id": 8177,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717665,
+      "end": 1504636717666,
+      "fromCache": false,
+      "ip": "199.34.228.57"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7722",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn2.editmysite.com/js/wsnbn/snowday262.js",
+      "id": 8190,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717666,
+      "end": 1504636717667,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7723",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://secure.quantserve.com/quant.js",
+      "id": 8191,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717667,
+      "end": 1504636717668,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "mc=59aeeabe-03807-99ea2-5fe37; d=EAYBDwHhGIEOmvUA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7723",
+      "responseHeaders": [
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 05-Sep-2017 18:20:49 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "M0-89ff4ba8"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, no-transform, max-age=604800"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 12 Sep 2017 18:20:49 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "4773"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:20:49 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "QS"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://secure.quantserve.com/quant.js",
+      "id": 8191,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717668,
+      "end": 1504636717670,
+      "fromCache": true,
+      "ip": "95.172.94.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7709",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "5318"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 05 Jan 2016 18:04:38 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6b7d906a3-14c6-5289a12245980\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "X-Host",
+          "value": "pages29.sf2p.intern.weebly.net"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.ebookchristian.com/uploads/6/8/4/9/68494929/1452017132.png",
+      "id": 8178,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717669,
+      "end": 1504636717670,
+      "fromCache": false,
+      "ip": "199.34.228.57"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7722",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 22 Aug 2017 22:19:25 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"599caded-124fe\""
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 06 Sep 2017 04:51:26 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=1209600"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Fastly-Debug-Digest",
+          "value": "47f2ef05c1ff33effcfd4045f1a740f69764800635ebab1e192b9927df9286bc"
+        },
+        {
+          "name": "Content-Length",
+          "value": "25723"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 varnish"
+        },
+        {
+          "name": "Age",
+          "value": "1172831"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Served-By",
+          "value": "cache-sjc3145-SJC, cache-lcy1138-LCY"
+        },
+        {
+          "name": "X-Cache",
+          "value": "HIT, HIT"
+        },
+        {
+          "name": "X-Cache-Hits",
+          "value": "3, 91698"
+        },
+        {
+          "name": "X-Timer",
+          "value": "S1504636718.669316,VS0,VE0"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn2.editmysite.com/js/wsnbn/snowday262.js",
+      "id": 8190,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717669,
+      "end": 1504636717670,
+      "fromCache": false,
+      "ip": "151.101.17.46"
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 106,
+      "tabId": 2,
+      "timeStamp": 1504636717695,
+      "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/analytics.js",
+      "requestId": "7720",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/analytics.js"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google-analytics.com/analytics.js",
+      "id": 8188,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1504636717709
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7720",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 8192,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717709,
+      "end": 1504636717709,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/ga.js",
+      "requestId": "7721",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/ga.js"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.google-analytics.com/ga.js",
+      "id": 8189,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1504636717711
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7721",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/ga.js",
+      "id": 8193,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717711,
+      "end": 1504636717711,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7720",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:14:25 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 05 Sep 2017 20:14:25 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "13472"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "age",
+          "value": "298"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "id": 8192,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717710,
+      "end": 1504636717711,
+      "fromCache": true,
+      "ip": "216.58.201.46"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "7724",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.ebookchristian.com/ajax/api/JsonRPC/Commerce/?Commerce[Checkout::getMiniCart]",
+      "id": 8194,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717713,
+      "end": 1504636717713,
+      "requestHeaders": [
+        {
+          "name": "Accept",
+          "value": "application/json, text/javascript, */*; q=0.01"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.ebookchristian.com"
+        },
+        {
+          "name": "X-Requested-With",
+          "value": "XMLHttpRequest"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json; charset=UTF-8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "is_mobile=0; language=en; _sp_ses.d50d=*; _sp_id.d50d=6ebfe4bd-dd39-4329-8167-8ceea96ba04a.1504636718.1.1504636718.1504636718.b065465c-b80a-4228-96a0-6cdfe6eebbcc"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7721",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "timing-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 17:37:01 GMT"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 05 Sep 2017 19:37:01 GMT"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 17 Aug 2017 01:11:09 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "16022"
+        },
+        {
+          "name": "age",
+          "value": "2583"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=7200"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://www.google-analytics.com/ga.js",
+      "id": 8193,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717712,
+      "end": 1504636717713,
+      "fromCache": true,
+      "ip": "216.58.201.46"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7725",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://rules.quantcount.com/rules-p-0dYLvhSGGqUWo.js",
+      "id": 8195,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717718,
+      "end": 1504636717718,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://www.ebookchristian.com/submit-your-ebook.html",
+      "timeStamp": 1504636717724,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+      "contextId": 747,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636717724,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+      "contextId": 747,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Front page eBook Christian advertising if your book is free, a countdown deal, discounted, a new release, or always priced at $0.99 - eBook Christian",
+      "timeStamp": 1504636717724,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+      "contextId": 747,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ebookchristian.com",
+        "expirationDate": 1567708717,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_ga",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.2015943787.1504636718"
+      },
+      "removed": false,
+      "timeStamp": 1504636717729
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_ga",
+      "type": "cookie",
+      "value": "GA1.2.2015943787.1504636718",
+      "timeStamp": 1504636717729
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ebookchristian.com",
+        "expirationDate": 1504723117,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "GA1.2.395927781.1504636718"
+      },
+      "removed": false,
+      "timeStamp": 1504636717730
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gid",
+      "type": "cookie",
+      "value": "GA1.2.395927781.1504636718",
+      "timeStamp": 1504636717730
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ebookchristian.com",
+        "expirationDate": 1504636777,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_gat",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1504636717732
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_gat",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1504636717732
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7725",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "677"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Date",
+          "value": "Sat, 19 Aug 2017 07:44:52 GMT"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 18 Aug 2017 16:35:19 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"cb2f303ced51c4889952913d0626c082\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=3600"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "AmazonS3"
+        },
+        {
+          "name": "Age",
+          "value": "2397"
+        },
+        {
+          "name": "X-Cache",
+          "value": "Hit from cloudfront"
+        },
+        {
+          "name": "Via",
+          "value": "1.1 7d6b3813f81c0a2b16fe143c3b419156.cloudfront.net (CloudFront)"
+        },
+        {
+          "name": "X-Amz-Cf-Id",
+          "value": "R1-FmlJ-rLY8Y8I6gcJXIglxDza_V5NGhPuG4_NDut55l4IYhwTvxw=="
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://rules.quantcount.com/rules-p-0dYLvhSGGqUWo.js",
+      "id": 8195,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717735,
+      "end": 1504636717736,
+      "fromCache": false,
+      "ip": "52.85.255.56"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "expirationDate": 1567708717,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1.2015943787.1504636718.1504636718.1504636718.1"
+      },
+      "removed": false,
+      "timeStamp": 1504636717739
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "1.2015943787.1504636718.1504636718.1504636718.1",
+      "timeStamp": 1504636717739
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "expirationDate": 1504638517,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1.0.10.1504636718"
+      },
+      "removed": false,
+      "timeStamp": 1504636717739
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "1.0.10.1504636718",
+      "timeStamp": 1504636717739
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1504636717739
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1504636717739
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "expirationDate": 1520404717,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1.1504636718.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": false,
+      "timeStamp": 1504636717739
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "1.1504636718.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1504636717739
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "expirationDate": 1504637317,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "__utmt",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1504636717741
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmt",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1504636717741
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "expirationDate": 1567708717,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1.2015943787.1504636718.1504636718.1504636718.1"
+      },
+      "removed": true,
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "1.2015943787.1504636718.1504636718.1504636718.1",
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "expirationDate": 1567708717,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "__utma",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1.2015943787.1504636718.1504636718.1504636718.1"
+      },
+      "removed": false,
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utma",
+      "type": "cookie",
+      "value": "1.2015943787.1504636718.1504636718.1504636718.1",
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "expirationDate": 1504638517,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1.0.10.1504636718"
+      },
+      "removed": true,
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "1.0.10.1504636718",
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "expirationDate": 1504638517,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "__utmb",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1.1.10.1504636718"
+      },
+      "removed": false,
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmb",
+      "type": "cookie",
+      "value": "1.1.10.1504636718",
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": true,
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "__utmc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmc",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "expirationDate": 1520404717,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1.1504636718.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": true,
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "1.1504636718.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.ebookchristian.com",
+        "expirationDate": 1520404717,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "__utmz",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1.1504636718.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)"
+      },
+      "removed": false,
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__utmz",
+      "type": "cookie",
+      "value": "1.1504636718.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "timeStamp": 1504636717743
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ebookchristian.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_sp_root_domain_test_1504636717755",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "_test_value_1504636717755"
+      },
+      "removed": false,
+      "timeStamp": 1504636717755
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "_sp_root_domain_test_1504636717755",
+      "type": "cookie",
+      "value": "_test_value_1504636717755",
+      "timeStamp": 1504636717755
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "expired_overwrite",
+      "cookie": {
+        "domain": ".ebookchristian.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_sp_root_domain_test_1504636717755",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "_test_value_1504636717755"
+      },
+      "removed": true,
+      "timeStamp": 1504636717756
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_sp_root_domain_test_1504636717755",
+      "type": "cookie",
+      "value": "_test_value_1504636717755",
+      "timeStamp": 1504636717756
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ebookchristian.com",
+        "expirationDate": 1504638517,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_snow_ses.8ced",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "*"
+      },
+      "removed": false,
+      "timeStamp": 1504636717757
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "_snow_ses.8ced",
+      "type": "cookie",
+      "value": "*",
+      "timeStamp": 1504636717757
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ebookchristian.com",
+        "expirationDate": 1567708717,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_snow_id.8ced",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "ca8f37ae-57da-4c37-b8ed-283d190e6245.1504636718.1.1504636718.1504636718.a49f0e9c-2fc4-4875-b28c-7f8cc782372d"
+      },
+      "removed": false,
+      "timeStamp": 1504636717758
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "_snow_id.8ced",
+      "type": "cookie",
+      "value": "ca8f37ae-57da-4c37-b8ed-283d190e6245.1504636718.1.1504636718.1504636718.a49f0e9c-2fc4-4875-b28c-7f8cc782372d",
+      "timeStamp": 1504636717758
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".ebookchristian.com",
+        "expirationDate": 1567708717,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_snow_id.8ced",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "ca8f37ae-57da-4c37-b8ed-283d190e6245.1504636718.1.1504636718.1504636718.a49f0e9c-2fc4-4875-b28c-7f8cc782372d"
+      },
+      "removed": true,
+      "timeStamp": 1504636717762
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_snow_id.8ced",
+      "type": "cookie",
+      "value": "ca8f37ae-57da-4c37-b8ed-283d190e6245.1504636718.1.1504636718.1504636718.a49f0e9c-2fc4-4875-b28c-7f8cc782372d",
+      "timeStamp": 1504636717762
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ebookchristian.com",
+        "expirationDate": 1567708717,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_snow_id.8ced",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "ca8f37ae-57da-4c37-b8ed-283d190e6245.1504636718.1.1504636718.1504636718.a49f0e9c-2fc4-4875-b28c-7f8cc782372d"
+      },
+      "removed": false,
+      "timeStamp": 1504636717763
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_snow_id.8ced",
+      "type": "cookie",
+      "value": "ca8f37ae-57da-4c37-b8ed-283d190e6245.1504636718.1.1504636718.1504636718.a49f0e9c-2fc4-4875-b28c-7f8cc782372d",
+      "timeStamp": 1504636717763
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".ebookchristian.com",
+        "expirationDate": 1504638517,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_snow_ses.8ced",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "*"
+      },
+      "removed": true,
+      "timeStamp": 1504636717763
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_snow_ses.8ced",
+      "type": "cookie",
+      "value": "*",
+      "timeStamp": 1504636717763
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ebookchristian.com",
+        "expirationDate": 1504638517,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_snow_ses.8ced",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "*"
+      },
+      "removed": false,
+      "timeStamp": 1504636717764
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "_snow_ses.8ced",
+      "type": "cookie",
+      "value": "*",
+      "timeStamp": 1504636717764
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "OPTIONS",
+      "parentFrameId": -1,
+      "requestId": "7728",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://ec.editmysite.com/com.snowplowanalytics.snowplow/tp2",
+      "id": 8198,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717765,
+      "end": 1504636717765,
+      "requestHeaders": [
+        {
+          "name": "Access-Control-Request-Method",
+          "value": "POST"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.ebookchristian.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Access-Control-Request-Headers",
+          "value": "content-type"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=1705267087&t=pageview&_s=1&dl=http%3A%2F%2Fwww.ebookchristian.com%2Fsubmit-your-ebook.html&ul=en-gb&de=UTF-8&dt=Front%20page%20eBook%20Christian%20advertising%20if%20your%20book%20is%20free%2C%20a%20countdown%20deal%2C%20discounted%2C%20a%20new%20release%2C%20or%20always%20priced%20at%20%240.99%20-%20eBook%20Christian&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1108767668&gjid=1940641002&cid=2015943787.1504636718&tid=UA-72251833-1&_gid=395927781.1504636718&_r=1&z=1496664268",
+      "requestId": "7726",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=1705267087&t=pageview&_s=1&dl=http%3A%2F%2Fwww.ebookchristian.com%2Fsubmit-your-ebook.html&ul=en-gb&de=UTF-8&dt=Front%20page%20eBook%20Christian%20advertising%20if%20your%20book%20is%20free%2C%20a%20countdown%20deal%2C%20discounted%2C%20a%20new%20release%2C%20or%20always%20priced%20at%20%240.99%20-%20eBook%20Christian&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1108767668&gjid=1940641002&cid=2015943787.1504636718&tid=UA-72251833-1&_gid=395927781.1504636718&_r=1&z=1496664268"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.google-analytics.com/r/collect?v=1&_v=j60&a=1705267087&t=pageview&_s=1&dl=http%3A%2F%2Fwww.ebookchristian.com%2Fsubmit-your-ebook.html&ul=en-gb&de=UTF-8&dt=Front%20page%20eBook%20Christian%20advertising%20if%20your%20book%20is%20free%2C%20a%20countdown%20deal%2C%20discounted%2C%20a%20new%20release%2C%20or%20always%20priced%20at%20%240.99%20-%20eBook%20Christian&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1108767668&gjid=1940641002&cid=2015943787.1504636718&tid=UA-72251833-1&_gid=395927781.1504636718&_r=1&z=1496664268",
+      "id": 8196,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1504636717765
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7726",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=1705267087&t=pageview&_s=1&dl=http%3A%2F%2Fwww.ebookchristian.com%2Fsubmit-your-ebook.html&ul=en-gb&de=UTF-8&dt=Front%20page%20eBook%20Christian%20advertising%20if%20your%20book%20is%20free%2C%20a%20countdown%20deal%2C%20discounted%2C%20a%20new%20release%2C%20or%20always%20priced%20at%20%240.99%20-%20eBook%20Christian&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1108767668&gjid=1940641002&cid=2015943787.1504636718&tid=UA-72251833-1&_gid=395927781.1504636718&_r=1&z=1496664268",
+      "id": 8199,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717765,
+      "end": 1504636717765,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "redirectUrl": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=404845550&utmhn=www.ebookchristian.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x838&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=Front%20page%20eBook%20Christian%20advertising%20if%20your%20book%20is%20free%2C%20a%20countdown%20deal%2C%20discounted%2C%20a%20new%20release%2C%20or%20always%20priced%20at%20%240.99%20-%20eBook%20Christian&utmhid=1705267087&utmr=-&utmp=%2Fsubmit-your-ebook.html&utmht=1504636717742&utmac=UA-7870337-1&utmcc=__utma%3D1.2015943787.1504636718.1504636718.1504636718.1%3B%2B__utmz%3D1.1504636718.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1469677655&utmredir=1&utmu=qhAAAAAAAAAAAAAAAAABAAAE~",
+      "requestId": "7727",
+      "responseHeaders": [
+        {
+          "name": "Location",
+          "value": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=404845550&utmhn=www.ebookchristian.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x838&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=Front%20page%20eBook%20Christian%20advertising%20if%20your%20book%20is%20free%2C%20a%20countdown%20deal%2C%20discounted%2C%20a%20new%20release%2C%20or%20always%20priced%20at%20%240.99%20-%20eBook%20Christian&utmhid=1705267087&utmr=-&utmp=%2Fsubmit-your-ebook.html&utmht=1504636717742&utmac=UA-7870337-1&utmcc=__utma%3D1.2015943787.1504636718.1504636718.1504636718.1%3B%2B__utmz%3D1.1504636718.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1469677655&utmredir=1&utmu=qhAAAAAAAAAAAAAAAAABAAAE~"
+        },
+        {
+          "name": "Non-Authoritative-Reason",
+          "value": "HSTS"
+        }
+      ],
+      "statusCode": 307,
+      "statusLine": "HTTP/1.1 307 Internal Redirect",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=404845550&utmhn=www.ebookchristian.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x838&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=Front%20page%20eBook%20Christian%20advertising%20if%20your%20book%20is%20free%2C%20a%20countdown%20deal%2C%20discounted%2C%20a%20new%20release%2C%20or%20always%20priced%20at%20%240.99%20-%20eBook%20Christian&utmhid=1705267087&utmr=-&utmp=%2Fsubmit-your-ebook.html&utmht=1504636717742&utmac=UA-7870337-1&utmcc=__utma%3D1.2015943787.1504636718.1504636718.1504636718.1%3B%2B__utmz%3D1.1504636718.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1469677655&utmredir=1&utmu=qhAAAAAAAAAAAAAAAAABAAAE~",
+      "id": 8197,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "end": 1504636717765
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7727",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=404845550&utmhn=www.ebookchristian.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x838&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=Front%20page%20eBook%20Christian%20advertising%20if%20your%20book%20is%20free%2C%20a%20countdown%20deal%2C%20discounted%2C%20a%20new%20release%2C%20or%20always%20priced%20at%20%240.99%20-%20eBook%20Christian&utmhid=1705267087&utmr=-&utmp=%2Fsubmit-your-ebook.html&utmht=1504636717742&utmac=UA-7870337-1&utmcc=__utma%3D1.2015943787.1504636718.1504636718.1504636718.1%3B%2B__utmz%3D1.1504636718.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1469677655&utmredir=1&utmu=qhAAAAAAAAAAAAAAAAABAAAE~",
+      "id": 8200,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717765,
+      "end": 1504636717765,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7710",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "6691"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 01 Sep 2017 02:18:42 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"87aab283f-1a23-5581761366480\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "X-Host",
+          "value": "pages19.sf2p.intern.weebly.net"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.ebookchristian.com/uploads/6/8/4/9/68494929/published/ebook-christian-website-logo_3.jpg?1504232322",
+      "id": 8179,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717761,
+      "end": 1504636717766,
+      "fromCache": false,
+      "ip": "199.34.228.57"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".ebookchristian.com",
+        "expirationDate": 1538505517,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "__qca",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "P0-293418493-1504636717766"
+      },
+      "removed": false,
+      "timeStamp": 1504636717767
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__qca",
+      "type": "cookie",
+      "value": "P0-293418493-1504636717766",
+      "timeStamp": 1504636717767
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7729",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://pixel.quantserve.com/pixel;r=706247376;labels=l5%2Cu68494929.u68494929s363461643582077651;rf=0;a=p-0dYLvhSGGqUWo;url=http%3A%2F%2Fwww.ebookchristian.com%2Fsubmit-your-ebook.html;fpan=1;fpa=P0-293418493-1504636717766;ns=0;ce=1;cm=;ref=;je=0;sr=1920x1080x24;enc=n;dst=1;et=1504636717766;tzo=-60;ogl=site_name.eBook%20Christian%2Ctitle.Front%20page%20eBook%20Christian%20advertising%20if%20your%20book%20is%20free%252C%20a%20countdown%20deal%252C%20d%2Cdescription.An%20eBook%20advertising%20website%20dedicated%20to%20helping%20author's%20get%20the%20word%20out%20abou%2Cimage.http%3A%2F%2Fwww%252Eebookchristian%252Ecom%2Fuploads%2F6%2F8%2F4%2F9%2F68494929%2Fpublished%2Febook-christian%2Cimage.http%3A%2F%2Fwww%252Eebookchristian%252Ecom%2Fuploads%2F6%2F8%2F4%2F9%2F68494929%2F1452017132%252Epng%2Curl.http%3A%2F%2Fwww%252Eebookchristian%252Ecom%2Fsubmit-your-ebook%252Ehtml",
+      "id": 8201,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717768,
+      "end": 1504636717768,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "mc=59aeeabe-03807-99ea2-5fe37; d=EAYBDwHhGIEOmvUA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7729",
+      "responseHeaders": [
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private, no-cache, no-store, proxy-revalidate"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Expires",
+          "value": "Fri, 04 Aug 1978 12:00:00 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "35"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "QS"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://pixel.quantserve.com/pixel;r=706247376;labels=l5%2Cu68494929.u68494929s363461643582077651;rf=0;a=p-0dYLvhSGGqUWo;url=http%3A%2F%2Fwww.ebookchristian.com%2Fsubmit-your-ebook.html;fpan=1;fpa=P0-293418493-1504636717766;ns=0;ce=1;cm=;ref=;je=0;sr=1920x1080x24;enc=n;dst=1;et=1504636717766;tzo=-60;ogl=site_name.eBook%20Christian%2Ctitle.Front%20page%20eBook%20Christian%20advertising%20if%20your%20book%20is%20free%252C%20a%20countdown%20deal%252C%20d%2Cdescription.An%20eBook%20advertising%20website%20dedicated%20to%20helping%20author's%20get%20the%20word%20out%20abou%2Cimage.http%3A%2F%2Fwww%252Eebookchristian%252Ecom%2Fuploads%2F6%2F8%2F4%2F9%2F68494929%2Fpublished%2Febook-christian%2Cimage.http%3A%2F%2Fwww%252Eebookchristian%252Ecom%2Fuploads%2F6%2F8%2F4%2F9%2F68494929%2F1452017132%252Epng%2Curl.http%3A%2F%2Fwww%252Eebookchristian%252Ecom%2Fsubmit-your-ebook%252Ehtml",
+      "id": 8201,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717775,
+      "end": 1504636717775,
+      "fromCache": false,
+      "ip": "95.172.94.32"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7726",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/collect?v=1&_v=j60&a=1705267087&t=pageview&_s=1&dl=http%3A%2F%2Fwww.ebookchristian.com%2Fsubmit-your-ebook.html&ul=en-gb&de=UTF-8&dt=Front%20page%20eBook%20Christian%20advertising%20if%20your%20book%20is%20free%2C%20a%20countdown%20deal%2C%20discounted%2C%20a%20new%20release%2C%20or%20always%20priced%20at%20%240.99%20-%20eBook%20Christian&sd=24-bit&sr=1920x1080&vp=920x838&je=0&fl=24.0%20r0&_u=IEBAAEABI~&jid=1108767668&gjid=1940641002&cid=2015943787.1504636718&tid=UA-72251833-1&_gid=395927781.1504636718&_r=1&z=1496664268",
+      "id": 8199,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717776,
+      "end": 1504636717777,
+      "fromCache": false,
+      "ip": "216.58.201.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7727",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "access-control-allow-origin",
+          "value": "*"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Jan 1990 00:00:00 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "name": "last-modified",
+          "value": "Sun, 17 May 1998 03:00:00 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "content-type",
+          "value": "image/gif"
+        },
+        {
+          "name": "server",
+          "value": "Golfe2"
+        },
+        {
+          "name": "content-length",
+          "value": "35"
+        },
+        {
+          "name": "alt-svc",
+          "value": "quic=\":443\"; ma=2592000; v=\"39,38,37,35\""
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "image",
+      "url": "https://www.google-analytics.com/r/__utm.gif?utmwv=5.6.7&utms=1&utmn=404845550&utmhn=www.ebookchristian.com&utmcs=UTF-8&utmsr=1920x1080&utmvp=920x838&utmsc=24-bit&utmul=en-gb&utmje=0&utmfl=24.0%20r0&utmdt=Front%20page%20eBook%20Christian%20advertising%20if%20your%20book%20is%20free%2C%20a%20countdown%20deal%2C%20discounted%2C%20a%20new%20release%2C%20or%20always%20priced%20at%20%240.99%20-%20eBook%20Christian&utmhid=1705267087&utmr=-&utmp=%2Fsubmit-your-ebook.html&utmht=1504636717742&utmac=UA-7870337-1&utmcc=__utma%3D1.2015943787.1504636718.1504636718.1504636718.1%3B%2B__utmz%3D1.1504636718.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1469677655&utmredir=1&utmu=qhAAAAAAAAAAAAAAAAABAAAE~",
+      "id": 8200,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717777,
+      "end": 1504636717777,
+      "fromCache": false,
+      "ip": "216.58.201.46"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7715",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "12464"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Fri, 18 Nov 2016 01:51:49 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"7e084012d-30b0-541898c9d5740\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "X-Host",
+          "value": "pages25.sf2p.intern.weebly.net"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.ebookchristian.com/uploads/6/8/4/9/68494929/background-images/1131666354.jpg",
+      "id": 8182,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717816,
+      "end": 1504636717816,
+      "fromCache": false,
+      "ip": "199.34.228.57"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "7724",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "X-Host",
+          "value": "pages16.sf2p.intern.weebly.net"
+        },
+        {
+          "name": "Vary",
+          "value": "User-Agent"
+        },
+        {
+          "name": "X-UA-Compatible",
+          "value": "IE=edge,chrome=1"
+        },
+        {
+          "name": "Content-Length",
+          "value": "2073"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=10, max=63"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://www.ebookchristian.com/ajax/api/JsonRPC/Commerce/?Commerce[Checkout::getMiniCart]",
+      "id": 8194,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717913,
+      "end": 1504636717913,
+      "fromCache": false,
+      "ip": "199.34.228.57"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "OPTIONS",
+      "parentFrameId": -1,
+      "requestId": "7728",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Credentials",
+          "value": "true"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "origin,x-requested-with,access-control-request-headers,content-type,access-control-request-method,accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "POST"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "http://www.ebookchristian.com"
+        },
+        {
+          "name": "Access-Control-Max-Age",
+          "value": "1800"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache-Coyote/1.1"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://ec.editmysite.com/com.snowplowanalytics.snowplow/tp2",
+      "id": 8198,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636718057,
+      "end": 1504636718057,
+      "fromCache": false,
+      "ip": "54.191.45.148"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestBody": {
+        "raw": [
+          {
+            "bytes": {}
+          }
+        ]
+      },
+      "requestId": "7730",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://ec.editmysite.com/com.snowplowanalytics.snowplow/tp2",
+      "id": 8202,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636718057,
+      "end": 1504636718057,
+      "requestHeaders": [
+        {
+          "name": "Origin",
+          "value": "http://www.ebookchristian.com"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/json; charset=UTF-8"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "ec.editmysite.com",
+        "expirationDate": 1536172718,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "sp",
+        "path": "/com.snowplowanalytics.snowplow/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "ffeebf65-11b9-4662-bc19-53fcef729d52"
+      },
+      "removed": false,
+      "timeStamp": 1504636718348,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 747
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "sp",
+      "type": "cookie",
+      "value": "ffeebf65-11b9-4662-bc19-53fcef729d52",
+      "timeStamp": 1504636718348,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 747
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "POST",
+      "parentFrameId": -1,
+      "requestId": "7730",
+      "responseHeaders": [
+        {
+          "name": "Access-Control-Allow-Credentials",
+          "value": "true"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "http://www.ebookchristian.com"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/plain"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "P3P",
+          "value": "policyref=\"/w3c/p3p.xml\", CP=\"NOI DSP COR NID PSA OUR IND COM NAV STA\""
+        },
+        {
+          "name": "Server",
+          "value": "Apache-Coyote/1.1"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "sp=ffeebf65-11b9-4662-bc19-53fcef729d52;Expires=Wed, 05 Sep 2018 18:38:38 +0000"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://ec.editmysite.com/com.snowplowanalytics.snowplow/tp2",
+      "id": 8202,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636718348,
+      "end": 1504636718349,
+      "fromCache": false,
+      "ip": "54.191.45.148"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "ec.editmysite.com",
+        "expirationDate": 1536172719.348327,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "sp",
+        "path": "/com.snowplowanalytics.snowplow",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "ffeebf65-11b9-4662-bc19-53fcef729d52"
+      },
+      "removed": false,
+      "timeStamp": 1504636718349
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "sp",
+      "type": "cookie",
+      "value": "ffeebf65-11b9-4662-bc19-53fcef729d52",
+      "timeStamp": 1504636718349
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7719",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:37 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "295853"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 13 Sep 2016 17:50:12 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"79e3a4db5-483ad-53c673e88bd00\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "X-Host",
+          "value": "pages23.sf2p.intern.weebly.net"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.ebookchristian.com/uploads/6/8/4/9/68494929/background-images/1974885645.jpg",
+      "id": 8186,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636717827,
+      "end": 1504636718408,
+      "fromCache": false,
+      "ip": "199.34.228.57"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 106,
+      "tabId": 2,
+      "timeStamp": 1504636718413,
+      "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Front page eBook Christian advertising if your book is free, a countdown deal, discounted, a new release, or always priced at $0.99 - eBook Christian",
+          "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636718414
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7731",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.ebookchristian.com/favicon.ico",
+      "id": 8203,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636718414,
+      "end": 1504636718414,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.ebookchristian.com/submit-your-ebook.html"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "is_mobile=0; language=en; _sp_ses.d50d=*; _sp_id.d50d=6ebfe4bd-dd39-4329-8167-8ceea96ba04a.1504636718.1.1504636718.1504636718.b065465c-b80a-4228-96a0-6cdfe6eebbcc; _ga=GA1.2.2015943787.1504636718; _gid=GA1.2.395927781.1504636718; _gat=1; __utmt=1; __utma=1.2015943787.1504636718.1504636718.1504636718.1; __utmb=1.1.10.1504636718; __utmc=1; __utmz=1.1504636718.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _snow_id.8ced=ca8f37ae-57da-4c37-b8ed-283d190e6245.1504636718.1.1504636718.1504636718.a49f0e9c-2fc4-4875-b28c-7f8cc782372d; _snow_ses.8ced=*; __qca=P0-293418493-1504636717766"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7731",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:38 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/x-icon"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1150"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 11 Jan 2016 07:29:31 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"6bca78cd1-47e-52909e5d5ecc0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "X-Host",
+          "value": "pages3.sf2p.intern.weebly.net"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.ebookchristian.com/favicon.ico",
+      "id": 8203,
+      "contextId": 747,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636718566,
+      "end": 1504636718566,
+      "fromCache": false,
+      "ip": "199.34.228.57"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "http://www.ebookchristian.com/favicon.ico"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "http://www.ebookchristian.com/favicon.ico",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Front page eBook Christian advertising if your book is free, a countdown deal, discounted, a new release, or always priced at $0.99 - eBook Christian",
+          "url": "http://www.ebookchristian.com/submit-your-ebook.html",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636718566
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7732",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 8204,
+      "contextId": 748,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636719436,
+      "end": 1504636719436
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7732",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 8204,
+      "contextId": 748,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636719436,
+      "end": 1504636719450
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636719450
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636719451
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1504636719451,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1504636719437.775,
+          "title": "Save",
+          "typedCount": 100,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 100
+        }
+      },
+      "timeStamp": 1504636719451
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636719452
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7733",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 8205,
+      "contextId": 748,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636719452,
+      "end": 1504636719452
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "7733",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 8205,
+      "contextId": 748,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636719452,
+      "end": 1504636719453
+    }
+  }
+]

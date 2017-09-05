@@ -1,0 +1,5871 @@
+[
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636777841
+    }
+  },
+  {
+    "type": "download.created",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 67422,
+          "filename": "",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/4214aa14-1f50-40bd-b48e-7a6633f45c3a",
+          "id": 110,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:39:37.844Z",
+          "state": "in_progress",
+          "totalBytes": 67422,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/4214aa14-1f50-40bd-b48e-7a6633f45c3a"
+        }
+      },
+      "timeStamp": 1504636777848
+    }
+  },
+  {
+    "type": "download.determiningFilename",
+    "details": {
+      "params": {
+        "0": {
+          "bytesReceived": 0,
+          "canResume": false,
+          "danger": "safe",
+          "exists": true,
+          "fileSize": 67422,
+          "filename": "ECAP_G_2017-09-05T18-39-37.835Z.json",
+          "finalUrl": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/4214aa14-1f50-40bd-b48e-7a6633f45c3a",
+          "id": 110,
+          "incognito": false,
+          "mime": "text/json",
+          "paused": false,
+          "referrer": "",
+          "startTime": "2017-09-05T18:39:37.844Z",
+          "state": "in_progress",
+          "totalBytes": 67422,
+          "url": "blob:chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/4214aa14-1f50-40bd-b48e-7a6633f45c3a"
+        }
+      },
+      "timeStamp": 1504636777850
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "filename": {
+            "current": "./json/ECAP_G_2017-09-05T18-39-37.835Z.json",
+            "previous": ""
+          },
+          "id": 110
+        }
+      },
+      "timeStamp": 1504636777861
+    }
+  },
+  {
+    "type": "download.changed",
+    "details": {
+      "params": {
+        "0": {
+          "endTime": {
+            "current": "2017-09-05T18:39:37.857Z"
+          },
+          "id": 110,
+          "state": {
+            "current": "complete",
+            "previous": "in_progress"
+          }
+        }
+      },
+      "timeStamp": 1504636777861
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 0,
+      "parentFrameId": -1,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636780040,
+      "url": "http://www.epublishabook.com/2011/09/25/advertize/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8299",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.epublishabook.com/2011/09/25/advertize/",
+      "id": 8794,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780040,
+      "end": 1504636780040,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".epublishabook.com",
+        "expirationDate": 1536172780,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "d12914f867a5d529dfb6a6c88c81b60d71504636780"
+      },
+      "removed": false,
+      "timeStamp": 1504636780738,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 793
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "d12914f867a5d529dfb6a6c88c81b60d71504636780",
+      "timeStamp": 1504636780738,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 793
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".epublishabook.com",
+        "expirationDate": 1536172780.738452,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "d12914f867a5d529dfb6a6c88c81b60d71504636780"
+      },
+      "removed": false,
+      "timeStamp": 1504636780739
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "d12914f867a5d529dfb6a6c88c81b60d71504636780",
+      "timeStamp": 1504636780739
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8299",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:40 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "__cfduid=d12914f867a5d529dfb6a6c88c81b60d71504636780; expires=Wed, 05-Sep-18 18:39:40 GMT; path=/; domain=.epublishabook.com; HttpOnly"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "399b500341fe0cb9-LHR"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 404,
+      "statusLine": "HTTP/1.1 404 Not Found",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "http://www.epublishabook.com/2011/09/25/advertize/",
+      "id": 8794,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780738,
+      "end": 1504636780739,
+      "fromCache": false,
+      "ip": "104.28.29.75"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "http://www.epublishabook.com/2011/09/25/advertize/"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "www.epublishabook.com/2011/09/25/advertize/",
+          "url": "http://www.epublishabook.com/2011/09/25/advertize/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636780744
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636780744
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8300",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.epublishabook.com/cdn-cgi/apps/head/uFK3fNFZpLwVvckrE-FbFCyr9PU.js",
+      "id": 8795,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780744,
+      "end": 1504636780744,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.epublishabook.com/2011/09/25/advertize/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d12914f867a5d529dfb6a6c88c81b60d71504636780"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8301",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn.dsultra.com/js/registrar.js",
+      "id": 8796,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780745,
+      "end": 1504636780745,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.epublishabook.com/2011/09/25/advertize/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8302",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cf.bluehost-cdn.com/media/shared/general/homelayout.css",
+      "id": 8797,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780745,
+      "end": 1504636780745,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.epublishabook.com/2011/09/25/advertize/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8303",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cf.bluehost-cdn.com/media/shared/general/_bh/homestyle.css",
+      "id": 8798,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780745,
+      "end": 1504636780745,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/css,*/*;q=0.1"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.epublishabook.com/2011/09/25/advertize/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 117,
+      "tabId": 2,
+      "timeStamp": 1504636780746,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "http://www.epublishabook.com/2011/09/25/advertize/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "404 Not Found"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "404 Not Found",
+          "url": "http://www.epublishabook.com/2011/09/25/advertize/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636780749
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8300",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:40 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript; charset=utf-8"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1636"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "x-amz-id-2",
+          "value": "XcaWsoQjZSwOv/kbLBBgWPqDtJEXdemryeSz8bFPhzeVqh2w809qtqehccxMi8+ll0VeHxKIKZw="
+        },
+        {
+          "name": "x-amz-request-id",
+          "value": "AEDB2B0FAB491BBB"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 24 Jul 2017 22:02:09 GMT"
+        },
+        {
+          "name": "x-amz-version-id",
+          "value": "w9I7SSm07nHT6TqWa8PcsXwUqnSduh5P"
+        },
+        {
+          "name": "ETag",
+          "value": "\"94a90e245cfa3ad2dbcc3ff4a668d2cb\""
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "HIT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 05 Sep 2018 18:39:40 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "399b5007a4140cb9-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.epublishabook.com/cdn-cgi/apps/head/uFK3fNFZpLwVvckrE-FbFCyr9PU.js",
+      "id": 8795,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780752,
+      "end": 1504636780752,
+      "fromCache": false,
+      "ip": "104.28.29.75"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".bluehost-cdn.com",
+        "expirationDate": 1536172780,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "d21fde3bf2535fc08daafb14bd6b8632d1504636780"
+      },
+      "removed": false,
+      "timeStamp": 1504636780774,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 793
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "d21fde3bf2535fc08daafb14bd6b8632d1504636780",
+      "timeStamp": 1504636780774,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 793
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8303",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:40 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1250"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "__cfduid=d21fde3bf2535fc08daafb14bd6b8632d1504636780; expires=Wed, 05-Sep-18 18:39:40 GMT; path=/; domain=.bluehost-cdn.com; HttpOnly"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 20 Mar 2012 20:59:48 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"103f-4bbb2f4887900\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 22:39:40 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "X-Cache",
+          "value": "cached"
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "399b5007c4fa6a19-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cf.bluehost-cdn.com/media/shared/general/_bh/homestyle.css",
+      "id": 8798,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780774,
+      "end": 1504636780775,
+      "fromCache": false,
+      "ip": "104.16.42.197"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bluehost-cdn.com",
+        "expirationDate": 1536172780.774473,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "d21fde3bf2535fc08daafb14bd6b8632d1504636780"
+      },
+      "removed": false,
+      "timeStamp": 1504636780775
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "d21fde3bf2535fc08daafb14bd6b8632d1504636780",
+      "timeStamp": 1504636780775
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": ".bluehost-cdn.com",
+        "expirationDate": 1536172780,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "df06c0a50a778937fac3323126911f8891504636780"
+      },
+      "removed": false,
+      "timeStamp": 1504636780776,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 793
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "df06c0a50a778937fac3323126911f8891504636780",
+      "timeStamp": 1504636780776,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 793
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8302",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:40 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/css"
+        },
+        {
+          "name": "Content-Length",
+          "value": "786"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "__cfduid=df06c0a50a778937fac3323126911f8891504636780; expires=Wed, 05-Sep-18 18:39:40 GMT; path=/; domain=.bluehost-cdn.com; HttpOnly"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 17 Jun 2013 17:07:19 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"99b-4df5ca10fdfc0\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=14400"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 22:39:40 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "X-Cache",
+          "value": "cached"
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "399b5007c3a669d1-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "stylesheet",
+      "url": "http://cf.bluehost-cdn.com/media/shared/general/homelayout.css",
+      "id": 8797,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780776,
+      "end": 1504636780777,
+      "fromCache": false,
+      "ip": "104.16.42.197"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".bluehost-cdn.com",
+        "expirationDate": 1536172780.774473,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "d21fde3bf2535fc08daafb14bd6b8632d1504636780"
+      },
+      "removed": true,
+      "timeStamp": 1504636780777
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "d21fde3bf2535fc08daafb14bd6b8632d1504636780",
+      "timeStamp": 1504636780777
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".bluehost-cdn.com",
+        "expirationDate": 1536172780.776358,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "__cfduid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "df06c0a50a778937fac3323126911f8891504636780"
+      },
+      "removed": false,
+      "timeStamp": 1504636780777
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "__cfduid",
+      "type": "cookie",
+      "value": "df06c0a50a778937fac3323126911f8891504636780",
+      "timeStamp": 1504636780777
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8304",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://cf.bluehost-cdn.com/media/shared/general/_bh/logo.gif",
+      "id": 8799,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780777,
+      "end": 1504636780777,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.epublishabook.com/2011/09/25/advertize/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=df06c0a50a778937fac3323126911f8891504636780"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8304",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:40 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1664"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 25 Aug 2003 18:18:48 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"674-3c5bbd974d200\""
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=604800"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 12 Sep 2017 18:39:40 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "X-Cache",
+          "value": "uncached"
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "HIT"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "399b5007d3ae69d1-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://cf.bluehost-cdn.com/media/shared/general/_bh/logo.gif",
+      "id": 8799,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780786,
+      "end": 1504636780786,
+      "fromCache": false,
+      "ip": "104.16.42.197"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8305",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://static.getclicky.com/js",
+      "id": 8800,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780786,
+      "end": 1504636780787,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.epublishabook.com/2011/09/25/advertize/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8305",
+      "responseHeaders": [
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "date",
+          "value": "Tue, 05 Sep 2017 18:39:40 GMT"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript; charset=utf-8"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "p3p",
+          "value": "CP='NOI DSP COR CUR OUR NID NOR'"
+        },
+        {
+          "name": "x-proxy-cache",
+          "value": "HIT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "cf-cache-status",
+          "value": "HIT"
+        },
+        {
+          "name": "expires",
+          "value": "Sun, 10 Sep 2017 18:39:40 GMT"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=432000"
+        },
+        {
+          "name": "server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "cf-ray",
+          "value": "399b500839cc3458-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200",
+      "tabId": 2,
+      "type": "script",
+      "url": "https://static.getclicky.com/js",
+      "id": 8800,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780843,
+      "end": 1504636780843,
+      "fromCache": false,
+      "ip": "104.16.90.193"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8301",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1770"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 31 May 2016 17:57:54 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"574dd0a2-6ea\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=8184"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 20:56:04 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:40 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://cdn.dsultra.com/js/registrar.js",
+      "id": 8796,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780890,
+      "end": 1504636780891,
+      "fromCache": false,
+      "ip": "96.7.51.51"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 702,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636780902,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 702,
+      "processId": 117,
+      "tabId": 2,
+      "timeStamp": 1504636780903,
+      "transitionQualifiers": [],
+      "transitionType": "auto_subframe",
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 702,
+      "processId": 117,
+      "tabId": 2,
+      "timeStamp": 1504636780903,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 702,
+      "processId": 117,
+      "tabId": 2,
+      "timeStamp": 1504636780908,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8306",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://pagead2.googlesyndication.com/apps/domainpark/show_afd_ads.js",
+      "id": 8801,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780909,
+      "end": 1504636780909,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Intervention",
+          "value": "<https://www.chromestatus.com/feature/5718547946799104>; level=\"warning\""
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.epublishabook.com/2011/09/25/advertize/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8306",
+      "responseHeaders": [
+        {
+          "name": "Last-Modified",
+          "value": "Wed, 30 Aug 2017 13:25:49 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:40 GMT"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 06 Sep 2017 18:39:40 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=86400"
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Content-Disposition",
+          "value": "attachment; filename=\"f.txt\""
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Server",
+          "value": "domainserver"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://pagead2.googlesyndication.com/apps/domainpark/show_afd_ads.js",
+      "id": 8801,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780926,
+      "end": 1504636780927,
+      "fromCache": false,
+      "ip": "172.217.23.2"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8307",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://googleads.g.doubleclick.net/apps/domainpark/domainpark.cgi?callback=_google_json_callback&output=js&client=ca-dp-oversee_ncd&domain_name=www.epublishabook.com&st=create&drid=as-drid-2578124767373827&s=www.epublishabook.com&dt=1504636780936&u_tz=60&u_his=50&u_h=1080&u_w=1920&frm=0",
+      "id": 8802,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780991,
+      "end": 1504636780992,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Intervention",
+          "value": "<https://www.chromestatus.com/feature/5718547946799104>; level=\"warning\""
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.epublishabook.com/2011/09/25/advertize/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "IDE=AHWqTUmV9z7mhY_FcmB_4ja9IyPC7GzR_Dk4mY33Mik6JMVcno4qD9D7GITMvCaw; DSID=NO_DATA"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".epublishabook.com",
+        "expirationDate": 1504637380,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_first_pageview",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1504636780994
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "_first_pageview",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1504636780994
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".epublishabook.com",
+        "expirationDate": 2135356780,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "_jsuid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "3235875366"
+      },
+      "removed": false,
+      "timeStamp": 1504636780995
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "_jsuid",
+      "type": "cookie",
+      "value": "3235875366",
+      "timeStamp": 1504636780995
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8308",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://in.getclicky.com/in.php?site_id=66536174&res=1920x1080&lang=en&type=pageview&href=%2F2011%2F09%2F25%2Fadvertize%2F&title=404%20Not%20Found&jsuid=3235875366&mime=js&x=0.5646753868376999",
+      "id": 8803,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636780996,
+      "end": 1504636780997,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.epublishabook.com/2011/09/25/advertize/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "about:blank",
+      "timeStamp": 1504636780999,
+      "tabId": 2,
+      "frameId": 702,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636780999,
+      "tabId": 2,
+      "frameId": 702,
+      "url": "about:blank",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8307",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "application/javascript; charset=UTF-8"
+        },
+        {
+          "name": "Content-Disposition",
+          "value": "inline"
+        },
+        {
+          "name": "P3P",
+          "value": "policyref=\"http://googleads.g.doubleclick.net/pagead/gcn_p3p_.xml\", CP=\"CURa ADMa DEVa TAIo PSAo PSDo OUR IND UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\""
+        },
+        {
+          "name": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:41 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "domainserver"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Length",
+          "value": "83"
+        },
+        {
+          "name": "X-XSS-Protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://googleads.g.doubleclick.net/apps/domainpark/domainpark.cgi?callback=_google_json_callback&output=js&client=ca-dp-oversee_ncd&domain_name=www.epublishabook.com&st=create&drid=as-drid-2578124767373827&s=www.epublishabook.com&dt=1504636780936&u_tz=60&u_his=50&u_h=1080&u_w=1920&frm=0",
+      "id": 8802,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636781059,
+      "end": 1504636781059,
+      "fromCache": false,
+      "ip": "172.217.23.2"
+    }
+  },
+  {
+    "type": "navigation.beforeNavigate",
+    "details": {
+      "frameId": 702,
+      "parentFrameId": 0,
+      "processId": -1,
+      "tabId": 2,
+      "timeStamp": 1504636781060,
+      "url": "http://dsregredir.com/?domainname=www.epublishabook.com&drid=as-drid-2578124767373827&a_id=143209&session_token=undefined",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 0,
+      "processId": 117,
+      "tabId": 2,
+      "timeStamp": 1504636781061,
+      "url": "http://www.epublishabook.com/2011/09/25/advertize/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8309",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dsregredir.com/?domainname=www.epublishabook.com&drid=as-drid-2578124767373827&a_id=143209&session_token=undefined",
+      "id": 8804,
+      "contextId": 794,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636781061,
+      "end": 1504636781061,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.epublishabook.com/2011/09/25/advertize/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://www.epublishabook.com/2011/09/25/advertize/",
+      "timeStamp": 1504636781068,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.epublishabook.com/2011/09/25/advertize/",
+      "contextId": 793,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636781068,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.epublishabook.com/2011/09/25/advertize/",
+      "contextId": 793,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "404 Not Found",
+      "timeStamp": 1504636781069,
+      "tabId": 2,
+      "frameId": 0,
+      "url": "http://www.epublishabook.com/2011/09/25/advertize/",
+      "contextId": 793,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "in.getclicky.com",
+        "expirationDate": "1504636781631152000",
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "cluid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "3235875366"
+      },
+      "removed": false,
+      "timeStamp": 1504636781266,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 793
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "cluid",
+      "type": "cookie",
+      "value": "3235875366",
+      "timeStamp": 1504636781266,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 0,
+      "contextId": 793
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8308",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:41 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/javascript;charset=UTF-8"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "close"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache, must-revalidate, post-check=0, pre-check=0"
+        },
+        {
+          "name": "Expires",
+          "value": "Mon, 26 Jul 1997 05:00:00 GMT"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "cluid=3235875366; expires=Sat, 05-Sep-2037 18:39:41 GMT; Max-Age=631152000; path=/"
+        },
+        {
+          "name": "P3P",
+          "value": "CP='NOI DSP COR CUR OUR NID NOR'"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://in.getclicky.com/in.php?site_id=66536174&res=1920x1080&lang=en&type=pageview&href=%2F2011%2F09%2F25%2Fadvertize%2F&title=404%20Not%20Found&jsuid=3235875366&mime=js&x=0.5646753868376999",
+      "id": 8803,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636781266,
+      "end": 1504636781267,
+      "fromCache": false,
+      "ip": "198.145.13.11"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "in.getclicky.com",
+        "expirationDate": 2135788781.266541,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "cluid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "3235875366"
+      },
+      "removed": false,
+      "timeStamp": 1504636781267
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "cluid",
+      "type": "cookie",
+      "value": "3235875366",
+      "timeStamp": 1504636781267
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": "www.epublishabook.com",
+        "expirationDate": 1504640381,
+        "hostOnly": true,
+        "httpOnly": false,
+        "name": "no_trackyy_66536174",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1"
+      },
+      "removed": false,
+      "timeStamp": 1504636781268
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "no_trackyy_66536174",
+      "type": "cookie",
+      "value": "1",
+      "timeStamp": 1504636781268
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "dsregredir.com",
+        "expirationDate": "1504636782157680000",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "gvc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "925vr2521823813945348"
+      },
+      "removed": false,
+      "timeStamp": 1504636781711,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 702,
+      "contextId": 794
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "gvc",
+      "type": "cookie",
+      "value": "925vr2521823813945348",
+      "timeStamp": 1504636781711,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 702,
+      "contextId": 794
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".dsregredir.com",
+        "expirationDate": 1662316781.711387,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "gvc",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "925vr2521823813945348"
+      },
+      "removed": false,
+      "timeStamp": 1504636781712
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "gvc",
+      "type": "cookie",
+      "value": "925vr2521823813945348",
+      "timeStamp": 1504636781712
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8309",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:41 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "gvc=925vr2521823813945348; expires=Sun, 04-Sep-2022 18:39:41 GMT; Max-Age=157680000; path=/; domain=dsregredir.com; HttpOnly"
+        },
+        {
+          "name": "Location",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=127"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        }
+      ],
+      "statusCode": 302,
+      "statusLine": "HTTP/1.1 302 Found",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://dsregredir.com/?domainname=www.epublishabook.com&drid=as-drid-2578124767373827&a_id=143209&session_token=undefined",
+      "id": 8804,
+      "contextId": 794,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636781711,
+      "end": 1504636781712,
+      "fromCache": false,
+      "ip": "141.8.225.89",
+      "redirectUrl": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8309",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478",
+      "id": 8805,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636781713,
+      "end": 1504636781713,
+      "requestHeaders": [
+        {
+          "name": "Upgrade-Insecure-Requests",
+          "value": "1"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.epublishabook.com/2011/09/25/advertize/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "set_cookie",
+      "cookie": {
+        "domain": "www.searchesinteractive.com",
+        "expirationDate": "1504636783157680000",
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "vsid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": -1,
+        "value": "911vr2521823820427869"
+      },
+      "removed": false,
+      "timeStamp": 1504636782733,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 702,
+      "contextId": 795
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "vsid",
+      "type": "cookie",
+      "value": "911vr2521823820427869",
+      "timeStamp": 1504636782733,
+      "tabId": 2,
+      "windowId": 1,
+      "frameId": 702,
+      "contextId": 795
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".www.searchesinteractive.com",
+        "expirationDate": 1662316782.733638,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "vsid",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "911vr2521823820427869"
+      },
+      "removed": false,
+      "timeStamp": 1504636782734
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "vsid",
+      "type": "cookie",
+      "value": "911vr2521823820427869",
+      "timeStamp": 1504636782734
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8309",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:42 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Set-Cookie",
+          "value": "vsid=911vr2521823820427869; expires=Sun, 04-Sep-2022 18:39:42 GMT; Max-Age=157680000; path=/; domain=www.searchesinteractive.com; HttpOnly"
+        },
+        {
+          "name": "X-Adblock-Key",
+          "value": "MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAKX74ixpzVyXbJprcLfbH4psP4+L2entqri0lzh6pkAaXLPIcclv6DQBeJJjGFWrBIF6QMyFwXT5CCRyjS2penECAwEAAQ==_LT0j92YYsVAUls9tPRAExCMl5U0aQJAjXz8miOjr2H6HpoLsGytKaKSgWeODkdXM4/FM7A6d0joJzWj8ideSYg=="
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=85"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "private"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "sub_frame",
+      "url": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478",
+      "id": 8805,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782733,
+      "end": 1504636782735,
+      "fromCache": false,
+      "ip": "208.91.196.4"
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 702,
+      "processId": 117,
+      "tabId": 2,
+      "timeStamp": 1504636782737,
+      "transitionQualifiers": [
+        "server_redirect"
+      ],
+      "transitionType": "auto_subframe",
+      "url": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8310",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.searchesinteractive.com/px.js?ch=1",
+      "id": 8806,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782738,
+      "end": 1504636782738,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "vsid=911vr2521823820427869"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8311",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.searchesinteractive.com/px.js?ch=2",
+      "id": 8807,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782739,
+      "end": 1504636782739,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "vsid=911vr2521823820427869"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8312",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://i4.cdn-image.com/__media__/js/min.js?v1.9",
+      "id": 8808,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782739,
+      "end": 1504636782739,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8313",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i4.cdn-image.com/__media__/pics/7975/logo.png",
+      "id": 8809,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782739,
+      "end": 1504636782739,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8312",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        },
+        {
+          "name": "Content-Length",
+          "value": "8637"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 16 May 2017 10:15:56 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"591ad15c-21bd\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=13082"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 22:16:50 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:38:48 GMT"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://i4.cdn-image.com/__media__/js/min.js?v1.9",
+      "id": 8808,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782740,
+      "end": 1504636782740,
+      "fromCache": true,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8313",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/png"
+        },
+        {
+          "name": "Content-Length",
+          "value": "3298"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 22 Oct 2013 13:52:57 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"52668339-ce2\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=9566"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 21:19:08 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:42 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i4.cdn-image.com/__media__/pics/7975/logo.png",
+      "id": 8809,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782741,
+      "end": 1504636782742,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8310",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:42 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 11 Jun 2015 06:47:35 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"15a-518385dd48fc0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "346"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=118"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.searchesinteractive.com/px.js?ch=1",
+      "id": 8806,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782859,
+      "end": 1504636782860,
+      "fromCache": false,
+      "ip": "208.91.196.4"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8311",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:42 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 11 Jun 2015 06:47:35 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"15a-518385dd48fc0\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Content-Length",
+          "value": "346"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=2"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/javascript"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://www.searchesinteractive.com/px.js?ch=2",
+      "id": 8807,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782860,
+      "end": 1504636782860,
+      "fromCache": false,
+      "ip": "208.91.196.4"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8314",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.searchesinteractive.com/sk-logabpstatus.php?a=Nyt3YlFFUjRjbVFNRGIwVVkzKzUrdTJwWlVFejJqZ0VzV2R4akZKY3NzNlQyYW9NbEFyT0ZwaEkwVE1BbmY4eHRxeVh5Y0pZVmxnS2xYcjA5QnVvWndaZXZobUIvQmRFeDhQVjJLb1h1V009&b=false",
+      "id": 8810,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782860,
+      "end": 1504636782861,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "vsid=911vr2521823820427869"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8315",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i3.cdn-image.com/__media__/pics/7975/body-bg.gif",
+      "id": 8811,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782862,
+      "end": 1504636782862,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8316",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i3.cdn-image.com/__media__/pics/7975/header-bg.jpg",
+      "id": 8812,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782862,
+      "end": 1504636782863,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8317",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i2.cdn-image.com/__media__/pics/7867/srch-bg.gif",
+      "id": 8813,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782863,
+      "end": 1504636782863,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8318",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i4.cdn-image.com/__media__/pics/7867/arrows.jpg",
+      "id": 8814,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782863,
+      "end": 1504636782863,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8318",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "12402"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 11 Jul 2013 12:19:01 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"51dea2b5-3072\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=10996"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 21:42:58 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:42 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i4.cdn-image.com/__media__/pics/7867/arrows.jpg",
+      "id": 8814,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782867,
+      "end": 1504636782867,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8315",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "45230"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 22 Oct 2013 13:52:48 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"52668330-b0ae\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=84555"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 06 Sep 2017 18:08:57 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:42 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i3.cdn-image.com/__media__/pics/7975/body-bg.gif",
+      "id": 8811,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782866,
+      "end": 1504636782869,
+      "fromCache": false,
+      "ip": "23.55.59.176"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8316",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/jpeg"
+        },
+        {
+          "name": "Content-Length",
+          "value": "19350"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Tue, 22 Oct 2013 13:52:52 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"52668334-4b96\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=84555"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 06 Sep 2017 18:08:57 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:42 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i3.cdn-image.com/__media__/pics/7975/header-bg.jpg",
+      "id": 8812,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782869,
+      "end": 1504636782870,
+      "fromCache": false,
+      "ip": "23.55.59.176"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8317",
+      "responseHeaders": [
+        {
+          "name": "Server",
+          "value": "nginx"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Content-Length",
+          "value": "1654"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Thu, 11 Jul 2013 12:19:19 GMT"
+        },
+        {
+          "name": "ETag",
+          "value": "\"51dea2c7-676\""
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=45070"
+        },
+        {
+          "name": "Expires",
+          "value": "Wed, 06 Sep 2017 07:10:52 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:42 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://i2.cdn-image.com/__media__/pics/7867/srch-bg.gif",
+      "id": 8813,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782877,
+      "end": 1504636782878,
+      "fromCache": false,
+      "ip": "96.7.51.16"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8319",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://pxlspamanalyst-a.akamaihd.net/javascripts/browserfp.min.js?templateId=10",
+      "id": 8815,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782884,
+      "end": 1504636782885,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "navigation.dOMContentLoaded",
+    "details": {
+      "frameId": 702,
+      "processId": 117,
+      "tabId": 2,
+      "timeStamp": 1504636782886,
+      "url": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8319",
+      "responseHeaders": [
+        {
+          "name": "Content-Type",
+          "value": "text/javascript; charset=utf-8"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "max-age=7200"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 05 Sep 2017 20:26:10 GMT"
+        },
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:26:10 GMT"
+        },
+        {
+          "name": "Content-Length",
+          "value": "21980"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "http://pxlspamanalyst-a.akamaihd.net/javascripts/browserfp.min.js?templateId=10",
+      "id": 8815,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782885,
+      "end": 1504636782886,
+      "fromCache": true,
+      "ip": "23.192.163.88"
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "location",
+      "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478",
+      "timeStamp": 1504636782894,
+      "tabId": 2,
+      "frameId": 702,
+      "url": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478",
+      "contextId": 795,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "user-agent",
+      "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36",
+      "timeStamp": 1504636782894,
+      "tabId": 2,
+      "frameId": 702,
+      "url": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478",
+      "contextId": 795,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "",
+      "type": "title",
+      "value": "Epublishabook.com",
+      "timeStamp": 1504636782894,
+      "tabId": 2,
+      "frameId": 702,
+      "url": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478",
+      "contextId": 795,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "params",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1504636782894,
+      "tabId": 2,
+      "frameId": 702,
+      "url": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478",
+      "contextId": 795,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "s",
+      "type": "input:text",
+      "value": "",
+      "timeStamp": 1504636782894,
+      "tabId": 2,
+      "frameId": 702,
+      "url": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478",
+      "contextId": 795,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "go",
+      "type": "input:submit",
+      "value": "",
+      "timeStamp": 1504636782894,
+      "tabId": 2,
+      "frameId": 702,
+      "url": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478",
+      "contextId": 795,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "variable.new",
+    "details": {
+      "name": "gsp",
+      "type": "input:hidden",
+      "value": "",
+      "timeStamp": 1504636782894,
+      "tabId": 2,
+      "frameId": 702,
+      "url": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478",
+      "contextId": 795,
+      "windowId": 1
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8314",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:42 GMT"
+        },
+        {
+          "name": "Server",
+          "value": "Apache"
+        },
+        {
+          "name": "Content-Length",
+          "value": "0"
+        },
+        {
+          "name": "Keep-Alive",
+          "value": "timeout=5, max=112"
+        },
+        {
+          "name": "Connection",
+          "value": "Keep-Alive"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=UTF-8"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.searchesinteractive.com/sk-logabpstatus.php?a=Nyt3YlFFUjRjbVFNRGIwVVkzKzUrdTJwWlVFejJqZ0VzV2R4akZKY3NzNlQyYW9NbEFyT0ZwaEkwVE1BbmY4eHRxeVh5Y0pZVmxnS2xYcjA5QnVvWndaZXZobUIvQmRFeDhQVjJLb1h1V009&b=false",
+      "id": 8810,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636782981,
+      "end": 1504636782981,
+      "fromCache": false,
+      "ip": "208.91.196.4"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".www.searchesinteractive.com",
+        "expirationDate": 1504640382,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bfp_sn",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "1504636782902"
+      },
+      "removed": false,
+      "timeStamp": 1504636784281
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bfp_sn",
+      "type": "cookie",
+      "value": "1504636782902",
+      "timeStamp": 1504636784281
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8320",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 8816,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784282,
+      "end": 1504636784282,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.searchesinteractive.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8321",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 8817,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784283,
+      "end": 1504636784283,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.searchesinteractive.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8322",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cenw.js?identifier=bafp",
+      "id": 8818,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784283,
+      "end": 1504636784283,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.searchesinteractive.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8323",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/beacon_img?ti=10&x=1504636782901",
+      "id": 8819,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784284,
+      "end": 1504636784284,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8324",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A13%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22my%22%3A%5B%5B1%2C319%2C707%2C159%2C195%5D%2C%5B2%2C319%2C707%2C195%2C231%5D%2C%5B3%2C319%2C707%2C231%2C267%5D%2C%5B4%2C319%2C707%2C267%2C303%5D%2C%5B5%2C319%2C707%2C303%2C339%5D%2C%5B6%2C319%2C707%2C339%2C375%5D%2C%5B7%2C319%2C707%2C375%2C411%5D%2C%5B8%2C319%2C707%2C411%2C447%5D%5D%2C%22gc%22%3A1504636784279%2C%22es%22%3A13%7D",
+      "id": 8820,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784284,
+      "end": 1504636784285,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8325",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A8%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22ga%22%3A%22http%3A%2F%2Fwww.searchesinteractive.com%22%2C%22gap%22%3Anull%2C%22gd%22%3A%22http%3A%2F%2Fwww.epublishabook.com%2F2011%2F09%2F25%2Fadvertize%2F%22%2C%22gdp%22%3Anull%2C%22cchk%22%3A%5B%5D%2C%22kw_id%22%3A%22%22%2C%22kw_pos%22%3A%220%22%2C%22page_id%22%3A%22landing_page%22%2C%22vi_id%22%3A%221112521823824527869%22%2C%22vs_id%22%3A%22911vr2521823820427869%22%2C%22hvs_id%22%3A%22911vt2521823820427869%22%2C%22req_dom%22%3A%22epublishabook.com%22%2C%22refUrl%22%3A%22http%3A%2F%2Fwww.epublishabook.com%2F2011%2F09%2F25%2Fadvertize%2F%22%2C%22srcUrl%22%3A%22http%3A%2F%2Fwww.searchesinteractive.com%2F%3Fdn%3Depublishabook.com%26pid%3D9PO2GG478%22%2C%22pid%22%3A%229PO2GG478%22%2C%22gc%22%3A1504636784280%2C%22es%22%3A8%7D",
+      "id": 8821,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784285,
+      "end": 1504636784285,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8320",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 8816,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784360,
+      "end": 1504636784360,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8321",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 8817,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784360,
+      "end": 1504636784360,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8326",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A1%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22ba%22%3A1032%2C%22bb%22%3A1920%2C%22bc%22%3A24%2C%22bd%22%3A1080%2C%22be%22%3A24%2C%22bf%22%3A1920%2C%22ca%22%3A50%2C%22da%22%3A700%2C%22db%22%3A1025%2C%22dc%22%3A0%2C%22dd%22%3A0%2C%22de%22%3A10%2C%22df%22%3A34%2C%22dg%22%3A1012%2C%22dh%22%3A945%2C%22dj%22%3A1%2C%22eal%22%3A%5B%5D%2C%22eap%22%3A%5B%5D%2C%22fn%22%3A%22bfp%22%2C%22gb%22%3A%220%22%2C%22gc%22%3A1504636784280%2C%22gf%22%3A-60%2C%22gg%22%3A%2219.39%22%2C%22ja%22%3A%221%3A1504636782902%202%3A1504636784279%22%2C%22mj%22%3A0%2C%22ma%22%3A%5B%5D%2C%22mb%22%3Anull%2C%22mc%22%3Anull%2C%22mr%22%3A0%2C%22oa%22%3A%5B1504636782910%5D%2C%22mx%22%3A0%2C%22it%22%3A%5B0%5D%2C%22cb%22%3A0%2C%22cridClt%22%3A%5B%5D%2C%22unf%22%3A%221%22%2C%22xw%22%3A0%2C%22es%22%3A1%7D",
+      "id": 8822,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784360,
+      "end": 1504636784361,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8327",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A2%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22ab%22%3A%221%22%2C%22ac%22%3A%22Gecko%22%2C%22ad%22%3A%22Linux%20x86_64%22%2C%22ae%22%3A%225.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22af%22%3A%22Mozilla%22%2C%22ag%22%3A8%2C%22ah%22%3A%22Google%20Inc.%22%2C%22ai%22%3A%2220030107%22%2C%22ajm%22%3A%5B0%2C0%2C0%2C0%2C0%2C0%5D%2C%22ajs%22%3A26%2C%22akm%22%3A%5B0%2C0%5D%2C%22aks%22%3A29%2C%22dca%22%3A%5B%5D%2C%22dda%22%3A%5B%5D%2C%22fa%22%3A%5B274432%2C8388608%2C67257344%2C8192%2C805568768%2C0%2C4587520%2C403472384%2C0%2C4096%2C0%2C1%2C0%2C940048416%2C16845824%5D%2C%22fas%22%3A27%2C%22iam%22%3A%5B0%5D%2C%22ias%22%3A8%2C%22na%22%3A%5B4294967264%2C134087039%2C328758238%5D%2C%22nas%22%3A29%2C%22h1%22%3Anull%2C%22h2%22%3Anull%2C%22la%22%3A0%2C%22lb%22%3A0%2C%22lc%22%3A0%2C%22ld%22%3A0%2C%22le%22%3A0%2C%22xa%22%3A%22en-GB%22%2C%22oe%22%3Anull%2C%22xn%22%3A%22en-GB%3Ben-US%3Ben%22%2C%22xr%22%3A0%2C%22xf%22%3A%2254062d94277ae55fb1612db80c259baa%22%2C%22xi%22%3A%22441002102exp%22%2C%22xs%22%3A%22NVIDIA%20Corporation%20NVS%20310%2FPCIe%2FSSE2%22%2C%22xg%22%3A%227abf61cca9ed82c6960c6b254cc5d51f%22%2C%22xm%22%3A0%2C%22xp%22%3A0%2C%22xq%22%3A33%2C%22xc%22%3A%221%22%2C%22xd%22%3A%221%22%2C%22xe%22%3A%221%22%2C%22yi%22%3A0%2C%22gc%22%3A1504636784280%2C%22es%22%3A2%7D",
+      "id": 8823,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784361,
+      "end": 1504636784361,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8322",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "text/html; charset=utf-8"
+        },
+        {
+          "name": "Content-Length",
+          "value": "36"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"24-oreB1dd1rseZDZCWbEyfGg\""
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cenw.js?identifier=bafp",
+      "id": 8818,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784361,
+      "end": 1504636784361,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8328",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A22%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22lUrl%22%3A%22http%3A%2F%2Fwww.searchesinteractive.com%2F%3Fdn%3Depublishabook.com%26pid%3D9PO2GG478%22%2C%22gc%22%3A1504636784280%2C%22es%22%3A22%7D",
+      "id": 8824,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784361,
+      "end": 1504636784362,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".www.searchesinteractive.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "undefined"
+      },
+      "removed": false,
+      "timeStamp": 1504636784362
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "undefined",
+      "timeStamp": 1504636784362
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".www.searchesinteractive.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "undefined"
+      },
+      "removed": false,
+      "timeStamp": 1504636784362
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "undefined",
+      "timeStamp": 1504636784362
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8329",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 8825,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784363,
+      "end": 1504636784363,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.searchesinteractive.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8330",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 8826,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784363,
+      "end": 1504636784363,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.searchesinteractive.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".www.searchesinteractive.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "undefined"
+      },
+      "removed": true,
+      "timeStamp": 1504636784363
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "undefined",
+      "timeStamp": 1504636784363
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".www.searchesinteractive.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "95f59310-9269-11e7-b286-8b5fcd1f674a"
+      },
+      "removed": false,
+      "timeStamp": 1504636784364
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "95f59310-9269-11e7-b286-8b5fcd1f674a",
+      "timeStamp": 1504636784364
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "overwrite",
+      "cookie": {
+        "domain": ".www.searchesinteractive.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "undefined"
+      },
+      "removed": true,
+      "timeStamp": 1504636784364
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "undefined",
+      "timeStamp": 1504636784364
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".www.searchesinteractive.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "95f59310-9269-11e7-b286-8b5fcd1f674a"
+      },
+      "removed": false,
+      "timeStamp": 1504636784364
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "95f59310-9269-11e7-b286-8b5fcd1f674a",
+      "timeStamp": 1504636784364
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8324",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A13%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22my%22%3A%5B%5B1%2C319%2C707%2C159%2C195%5D%2C%5B2%2C319%2C707%2C195%2C231%5D%2C%5B3%2C319%2C707%2C231%2C267%5D%2C%5B4%2C319%2C707%2C267%2C303%5D%2C%5B5%2C319%2C707%2C303%2C339%5D%2C%5B6%2C319%2C707%2C339%2C375%5D%2C%5B7%2C319%2C707%2C375%2C411%5D%2C%5B8%2C319%2C707%2C411%2C447%5D%5D%2C%22gc%22%3A1504636784279%2C%22es%22%3A13%7D",
+      "id": 8820,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784365,
+      "end": 1504636784365,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8323",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/beacon_img?ti=10&x=1504636782901",
+      "id": 8819,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784365,
+      "end": 1504636784365,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8325",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A8%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22ga%22%3A%22http%3A%2F%2Fwww.searchesinteractive.com%22%2C%22gap%22%3Anull%2C%22gd%22%3A%22http%3A%2F%2Fwww.epublishabook.com%2F2011%2F09%2F25%2Fadvertize%2F%22%2C%22gdp%22%3Anull%2C%22cchk%22%3A%5B%5D%2C%22kw_id%22%3A%22%22%2C%22kw_pos%22%3A%220%22%2C%22page_id%22%3A%22landing_page%22%2C%22vi_id%22%3A%221112521823824527869%22%2C%22vs_id%22%3A%22911vr2521823820427869%22%2C%22hvs_id%22%3A%22911vt2521823820427869%22%2C%22req_dom%22%3A%22epublishabook.com%22%2C%22refUrl%22%3A%22http%3A%2F%2Fwww.epublishabook.com%2F2011%2F09%2F25%2Fadvertize%2F%22%2C%22srcUrl%22%3A%22http%3A%2F%2Fwww.searchesinteractive.com%2F%3Fdn%3Depublishabook.com%26pid%3D9PO2GG478%22%2C%22pid%22%3A%229PO2GG478%22%2C%22gc%22%3A1504636784280%2C%22es%22%3A8%7D",
+      "id": 8821,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784366,
+      "end": 1504636784366,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8326",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A1%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22ba%22%3A1032%2C%22bb%22%3A1920%2C%22bc%22%3A24%2C%22bd%22%3A1080%2C%22be%22%3A24%2C%22bf%22%3A1920%2C%22ca%22%3A50%2C%22da%22%3A700%2C%22db%22%3A1025%2C%22dc%22%3A0%2C%22dd%22%3A0%2C%22de%22%3A10%2C%22df%22%3A34%2C%22dg%22%3A1012%2C%22dh%22%3A945%2C%22dj%22%3A1%2C%22eal%22%3A%5B%5D%2C%22eap%22%3A%5B%5D%2C%22fn%22%3A%22bfp%22%2C%22gb%22%3A%220%22%2C%22gc%22%3A1504636784280%2C%22gf%22%3A-60%2C%22gg%22%3A%2219.39%22%2C%22ja%22%3A%221%3A1504636782902%202%3A1504636784279%22%2C%22mj%22%3A0%2C%22ma%22%3A%5B%5D%2C%22mb%22%3Anull%2C%22mc%22%3Anull%2C%22mr%22%3A0%2C%22oa%22%3A%5B1504636782910%5D%2C%22mx%22%3A0%2C%22it%22%3A%5B0%5D%2C%22cb%22%3A0%2C%22cridClt%22%3A%5B%5D%2C%22unf%22%3A%221%22%2C%22xw%22%3A0%2C%22es%22%3A1%7D",
+      "id": 8822,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784439,
+      "end": 1504636784439,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8330",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 8826,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784439,
+      "end": 1504636784440,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8329",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 8825,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784440,
+      "end": 1504636784440,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8327",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A2%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22ab%22%3A%221%22%2C%22ac%22%3A%22Gecko%22%2C%22ad%22%3A%22Linux%20x86_64%22%2C%22ae%22%3A%225.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22af%22%3A%22Mozilla%22%2C%22ag%22%3A8%2C%22ah%22%3A%22Google%20Inc.%22%2C%22ai%22%3A%2220030107%22%2C%22ajm%22%3A%5B0%2C0%2C0%2C0%2C0%2C0%5D%2C%22ajs%22%3A26%2C%22akm%22%3A%5B0%2C0%5D%2C%22aks%22%3A29%2C%22dca%22%3A%5B%5D%2C%22dda%22%3A%5B%5D%2C%22fa%22%3A%5B274432%2C8388608%2C67257344%2C8192%2C805568768%2C0%2C4587520%2C403472384%2C0%2C4096%2C0%2C1%2C0%2C940048416%2C16845824%5D%2C%22fas%22%3A27%2C%22iam%22%3A%5B0%5D%2C%22ias%22%3A8%2C%22na%22%3A%5B4294967264%2C134087039%2C328758238%5D%2C%22nas%22%3A29%2C%22h1%22%3Anull%2C%22h2%22%3Anull%2C%22la%22%3A0%2C%22lb%22%3A0%2C%22lc%22%3A0%2C%22ld%22%3A0%2C%22le%22%3A0%2C%22xa%22%3A%22en-GB%22%2C%22oe%22%3Anull%2C%22xn%22%3A%22en-GB%3Ben-US%3Ben%22%2C%22xr%22%3A0%2C%22xf%22%3A%2254062d94277ae55fb1612db80c259baa%22%2C%22xi%22%3A%22441002102exp%22%2C%22xs%22%3A%22NVIDIA%20Corporation%20NVS%20310%2FPCIe%2FSSE2%22%2C%22xg%22%3A%227abf61cca9ed82c6960c6b254cc5d51f%22%2C%22xm%22%3A0%2C%22xp%22%3A0%2C%22xq%22%3A33%2C%22xc%22%3A%221%22%2C%22xd%22%3A%221%22%2C%22xe%22%3A%221%22%2C%22yi%22%3A0%2C%22gc%22%3A1504636784280%2C%22es%22%3A2%7D",
+      "id": 8823,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784443,
+      "end": 1504636784443,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8328",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A22%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22lUrl%22%3A%22http%3A%2F%2Fwww.searchesinteractive.com%2F%3Fdn%3Depublishabook.com%26pid%3D9PO2GG478%22%2C%22gc%22%3A1504636784280%2C%22es%22%3A22%7D",
+      "id": 8824,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784446,
+      "end": 1504636784447,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 702,
+      "processId": 117,
+      "tabId": 2,
+      "timeStamp": 1504636784447,
+      "url": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "navigation.completed",
+    "details": {
+      "frameId": 0,
+      "processId": 117,
+      "tabId": 2,
+      "timeStamp": 1504636784447,
+      "url": "http://www.epublishabook.com/2011/09/25/advertize/",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "complete"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "404 Not Found",
+          "url": "http://www.epublishabook.com/2011/09/25/advertize/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636784448
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8332",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.epublishabook.com/favicon.ico",
+      "id": 8827,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636784448,
+      "end": 1504636784449,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.epublishabook.com/2011/09/25/advertize/"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        },
+        {
+          "name": "Cookie",
+          "value": "__cfduid=d12914f867a5d529dfb6a6c88c81b60d71504636780; _first_pageview=1; _jsuid=3235875366; no_trackyy_66536174=1"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "expired_overwrite",
+      "cookie": {
+        "domain": ".www.searchesinteractive.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "95f59310-9269-11e7-b286-8b5fcd1f674a"
+      },
+      "removed": true,
+      "timeStamp": 1504636784564
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "95f59310-9269-11e7-b286-8b5fcd1f674a",
+      "timeStamp": 1504636784564
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8333",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 8828,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784564,
+      "end": 1504636784564,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.searchesinteractive.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "expired_overwrite",
+      "cookie": {
+        "domain": ".www.searchesinteractive.com",
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": true,
+        "storeId": "0",
+        "value": "95f59310-9269-11e7-b286-8b5fcd1f674a"
+      },
+      "removed": true,
+      "timeStamp": 1504636784565
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "95f59310-9269-11e7-b286-8b5fcd1f674a",
+      "timeStamp": 1504636784565
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8334",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 8829,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784565,
+      "end": 1504636784565,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Origin",
+          "value": "http://www.searchesinteractive.com"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8335",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A21%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22ka%22%3A%2295f59310-9269-11e7-b286-8b5fcd1f674a%22%2C%22kb%22%3A1%2C%22sco%22%3A1504636782902%2C%22gc%22%3A1504636784565%2C%22es%22%3A21%7D",
+      "id": 8830,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784565,
+      "end": 1504636784565,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8333",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cet.js?identifier=bafp&cookie=bafp_eg",
+      "id": 8828,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784641,
+      "end": 1504636784641,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8334",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        },
+        {
+          "name": "ETag",
+          "value": "W/\"c-NgywnRjcA6SW4muCUZi9bg\""
+        }
+      ],
+      "statusCode": 304,
+      "statusLine": "HTTP/1.1 304 Not Modified",
+      "tabId": 2,
+      "type": "xmlhttprequest",
+      "url": "http://dt.spamanalyst.com/cec.js?identifier=bafp&cookie=bafp_ce",
+      "id": 8829,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784641,
+      "end": 1504636784641,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".www.searchesinteractive.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_eg",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "95f59310-9269-11e7-b286-8b5fcd1f674a"
+      },
+      "removed": false,
+      "timeStamp": 1504636784641
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_eg",
+      "type": "cookie",
+      "value": "95f59310-9269-11e7-b286-8b5fcd1f674a",
+      "timeStamp": 1504636784641
+    }
+  },
+  {
+    "type": "cookie.changed",
+    "details": {
+      "cause": "explicit",
+      "cookie": {
+        "domain": ".www.searchesinteractive.com",
+        "expirationDate": 1924905600,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "bafp_ce",
+        "path": "/",
+        "sameSite": "no_restriction",
+        "secure": false,
+        "session": false,
+        "storeId": "0",
+        "value": "95f59310-9269-11e7-b286-8b5fcd1f674a"
+      },
+      "removed": false,
+      "timeStamp": 1504636784642
+    }
+  },
+  {
+    "type": "variable.change",
+    "details": {
+      "name": "bafp_ce",
+      "type": "cookie",
+      "value": "95f59310-9269-11e7-b286-8b5fcd1f674a",
+      "timeStamp": 1504636784642
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8335",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A21%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22ka%22%3A%2295f59310-9269-11e7-b286-8b5fcd1f674a%22%2C%22kb%22%3A1%2C%22sco%22%3A1504636782902%2C%22gc%22%3A1504636784565%2C%22es%22%3A21%7D",
+      "id": 8830,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784646,
+      "end": 1504636784646,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8337",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A200%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22iv%22%3A0.5%2C%22gc%22%3A1504636784780%2C%22es%22%3A200%7D",
+      "id": 8831,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784781,
+      "end": 1504636784781,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8332",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/vnd.microsoft.icon"
+        },
+        {
+          "name": "Content-Length",
+          "value": "141"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Last-Modified",
+          "value": "Mon, 03 Apr 2017 19:24:08 GMT"
+        },
+        {
+          "name": "Vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "CF-Cache-Status",
+          "value": "REVALIDATED"
+        },
+        {
+          "name": "Expires",
+          "value": "Tue, 12 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "public, max-age=604800"
+        },
+        {
+          "name": "Accept-Ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "Server",
+          "value": "cloudflare-nginx"
+        },
+        {
+          "name": "CF-RAY",
+          "value": "399b501f17b50cb9-LHR"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://www.epublishabook.com/favicon.ico",
+      "id": 8827,
+      "contextId": 793,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636784885,
+      "end": 1504636784886,
+      "fromCache": false,
+      "ip": "104.28.29.75"
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "favIconUrl": "http://www.epublishabook.com/favicon.ico"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "favIconUrl": "http://www.epublishabook.com/favicon.ico",
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "complete",
+          "title": "404 Not Found",
+          "url": "http://www.epublishabook.com/2011/09/25/advertize/",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636784886
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8337",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:44 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A200%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22iv%22%3A0.5%2C%22gc%22%3A1504636784780%2C%22es%22%3A200%7D",
+      "id": 8831,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636784923,
+      "end": 1504636784923,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8338",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A5%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22eal%22%3A%5B%5D%2C%22eap%22%3A%5B%22146.169.26.19%22%5D%2C%22gc%22%3A1504636785280%2C%22es%22%3A5%7D",
+      "id": 8832,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636785281,
+      "end": 1504636785281,
+      "requestHeaders": [
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8338",
+      "responseHeaders": [
+        {
+          "name": "Date",
+          "value": "Tue, 05 Sep 2017 18:39:45 GMT"
+        },
+        {
+          "name": "Content-Type",
+          "value": "image/gif"
+        },
+        {
+          "name": "Transfer-Encoding",
+          "value": "chunked"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "X-Powered-By",
+          "value": "Express"
+        },
+        {
+          "name": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "name": "Access-Control-Allow-Methods",
+          "value": "GET,PUT,POST,DELETE"
+        },
+        {
+          "name": "Access-Control-Allow-Headers",
+          "value": "Origin, X-Requested-With, Content-Type, Accept"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "image",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A5%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22eal%22%3A%5B%5D%2C%22eap%22%3A%5B%22146.169.26.19%22%5D%2C%22gc%22%3A1504636785280%2C%22es%22%3A5%7D",
+      "id": 8832,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636785361,
+      "end": 1504636785361,
+      "fromCache": false,
+      "ip": "54.88.100.184"
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8339",
+      "tabId": 2,
+      "type": "ping",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22pet%22%3A2645%2C%22exInd%22%3A23%2C%22status%22%3A23%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22gc%22%3A1504636785547%2C%22es%22%3A23%7D",
+      "id": 8833,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636785548,
+      "end": 1504636785548,
+      "requestHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "max-age=0"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8340",
+      "tabId": 2,
+      "type": "ping",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22status%22%3A31%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22gc%22%3A1504636785548%2C%22es%22%3A31%2C%22rb%22%3A%5B%7B%22ele%22%3A%22BODY%22%2C%22ti%22%3A2645%7D%5D%2C%22xk%22%3A%22230%22%2C%22xt%22%3A%221%22%2C%22xlb%22%3A1%2C%22xlc%22%3A1%2C%22fpgt%22%3A-1%2C%22pac%22%3A1%2C%22red%22%3A0%7D",
+      "id": 8834,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636785549,
+      "end": 1504636785549,
+      "requestHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "max-age=0"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 702,
+      "method": "GET",
+      "parentFrameId": 0,
+      "requestId": "8341",
+      "tabId": 2,
+      "type": "ping",
+      "url": "http://dt.spamanalyst.com/ptmd?t=%7B%22pet%22%3A2645%2C%22exInd%22%3A22%2C%22status%22%3A22%2C%22za%22%3A1%2C%22aa%22%3A%22Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.90%20Safari%2F537.36%22%2C%22env%22%3A%22p%22%2C%22gh%22%3A%2215046367829102083429842%22%2C%22ts%22%3A%221429807462558%22%2C%22vs%22%3A%226.0.94%22%2C%22al%22%3A10%2C%22fc%22%3A-1%2C%22ea%22%3A%22888c21a0-9230-11e7-95cc-918dee02a991%22%2C%22eti%22%3A1504635970%2C%22slst%22%3A%221504636782902%22%2C%22lf%22%3A1%2C%22part_id%22%3A%225PAMARTA%22%2C%22cust_id%22%3A%229CU2D0687%22%2C%22gc%22%3A1504636785548%2C%22es%22%3A22%2C%22lUrl%22%3A%22http%3A%2F%2Fwww.searchesinteractive.com%2F%3Fdn%3Depublishabook.com%26pid%3D9PO2GG478%22%7D",
+      "id": 8835,
+      "contextId": 795,
+      "parentContextId": 793,
+      "windowId": 1,
+      "start": 1504636785549,
+      "end": 1504636785549,
+      "requestHeaders": [
+        {
+          "name": "Cache-Control",
+          "value": "max-age=0"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36"
+        },
+        {
+          "name": "Accept",
+          "value": "*/*"
+        },
+        {
+          "name": "Referer",
+          "value": "http://www.searchesinteractive.com/?dn=epublishabook.com&pid=9PO2GG478"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en-US;q=0.8,en;q=0.6"
+        }
+      ]
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8342",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 8836,
+      "contextId": 796,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636785551,
+      "end": 1504636785551
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8342",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"03Ernejg3qv7y3J6F/ZJ7VWrBX4=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "main_frame",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "id": 8836,
+      "contextId": 796,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636785551,
+      "end": 1504636785557
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "status": "loading",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636785557
+    }
+  },
+  {
+    "type": "tab.zoomChange",
+    "details": {
+      "params": {
+        "0": {
+          "newZoomFactor": 1,
+          "oldZoomFactor": 1,
+          "tabId": 2,
+          "zoomSettings": {
+            "mode": "automatic",
+            "scope": "per-origin"
+          }
+        }
+      },
+      "timeStamp": 1504636785557
+    }
+  },
+  {
+    "type": "navigation.committed",
+    "details": {
+      "frameId": 0,
+      "processId": 4,
+      "tabId": 2,
+      "timeStamp": 1504636785557,
+      "transitionQualifiers": [],
+      "transitionType": "typed",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+      "windowId": 1
+    }
+  },
+  {
+    "type": "download.visited",
+    "details": {
+      "params": {
+        "0": {
+          "id": "5",
+          "lastVisitTime": 1504636785552.205,
+          "title": "Save",
+          "typedCount": 111,
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "visitCount": 111
+        }
+      },
+      "timeStamp": 1504636785558
+    }
+  },
+  {
+    "type": "request",
+    "details": {
+      "frameId": 0,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8343",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 8837,
+      "contextId": 796,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636785558,
+      "end": 1504636785559
+    }
+  },
+  {
+    "type": "response",
+    "details": {
+      "frameId": 0,
+      "fromCache": false,
+      "method": "GET",
+      "parentFrameId": -1,
+      "requestId": "8343",
+      "responseHeaders": [
+        {
+          "name": "Content-Security-Policy",
+          "value": "script-src 'self' blob: filesystem: chrome-extension-resource:; object-src 'self' blob: filesystem:;"
+        },
+        {
+          "name": "ETag",
+          "value": "\"jz1CzBTntdxSx6wasmgnFiA6bUw=\""
+        },
+        {
+          "name": "cache-control",
+          "value": "no-cache"
+        }
+      ],
+      "statusCode": 200,
+      "statusLine": "HTTP/1.1 200 OK",
+      "tabId": 2,
+      "type": "script",
+      "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.js",
+      "id": 8837,
+      "contextId": 796,
+      "parentContextId": -1,
+      "windowId": 1,
+      "start": 1504636785559,
+      "end": 1504636785559
+    }
+  },
+  {
+    "type": "tab.updated",
+    "details": {
+      "params": {
+        "0": 2,
+        "1": {
+          "title": "Save"
+        },
+        "2": {
+          "active": true,
+          "audible": false,
+          "autoDiscardable": true,
+          "discarded": false,
+          "height": 838,
+          "highlighted": true,
+          "id": 2,
+          "incognito": false,
+          "index": 0,
+          "mutedInfo": {
+            "muted": false
+          },
+          "pinned": false,
+          "selected": true,
+          "status": "loading",
+          "title": "Save",
+          "url": "chrome-extension://ikfgdchohmenjhbbpbnknidjagelhjma/command.html?save",
+          "width": 935,
+          "windowId": 1
+        }
+      },
+      "timeStamp": 1504636785562
+    }
+  }
+]
