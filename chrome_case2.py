@@ -30,7 +30,7 @@ from sklearn.cluster import KMeans
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import classification_report
 
-driver_path = './chromedriver_linux'
+driver_path = './chromedriver_mac'
 extension_name = 'listener'
 extension_path = 'src.crx'
 extension_list = 'chrome://extensions-frame'
@@ -49,6 +49,16 @@ clear = 'clear'
 
 data_set = 'dataset1'
 cookies_set = {}
+
+
+# pre-visit multi website
+def prepare_environment():
+    f = open('top1m.txt', 'r')
+    browser = webdriver.Chrome(driver_path, chrome_options=listener)
+
+    for site in f:
+        browser.get(site)
+        time.sleep(2)
 
 
 def load_data(path):
@@ -221,7 +231,7 @@ def load_rule(path):
             pattern.replace('*', '.*')
             e.write(pattern + '\n')
 
-            print pattern
+            # print pattern
             rules.append(re.compile(pattern))
 
     return rules
@@ -229,13 +239,13 @@ def load_rule(path):
 
 # label list with matching rules in all lists
 def label_instance(url, rules):
-    print url
+    # print url
     for rule in rules:
         res = rule.search(url)
         if res:
             #   print 'res: ' + res.group()
             # print 'url:' + url
-            print 'matched: ' + rule.pattern
+            # print 'matched: ' + rule.pattern
             return 1
 
     return 0
@@ -337,7 +347,7 @@ def analyse_json(path, location, rules):
                     # request with cookies
                     if label['cookies'] != 1 and header['name'].count('Cookie') > 0:
                         label['cookies'] = 1
-                        label['cookies_number'] = header['value'].count('=')
+                        label['cookies_number'] = header['value'].count('=') / 3
 
                     # check for referer header
                     if label['Refer'] != 1 and header['name'].count('Referer') > 0:

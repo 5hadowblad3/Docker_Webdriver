@@ -117,8 +117,8 @@ def init_label():
         'request_number': 0,
         'ip_cnt': 0,
         'new_window': 0,
-        'new_frame': 0,
-        'frame_changed': 0,
+        # 'new_frame': 0,
+        # 'frame_changed': 0,
 
 
         # header info
@@ -198,7 +198,7 @@ def analyse_json(path, location):
                 label['new_window'] = 1
 
         # parameter number
-        if package['details']['url'].count('=') > 0:
+        if 'url' in package['details'] and package['details']['url'].count('=') > 0:
             label['parameter_number'] = 1
 
         # upload (hidden) text 1
